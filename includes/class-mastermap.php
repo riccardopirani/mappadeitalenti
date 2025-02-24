@@ -209,6 +209,7 @@ public function handle_map_registration() {
             'post_type'     => 'mappa',  // Specifica il custom post type
             'post_status'   => 'publish',
             'post_author'   => get_current_user_id(),
+            'post_content'  => 'prova',
         );
         
         // Inserisci il post
@@ -506,6 +507,7 @@ public function handle_map_registration_old() {
             'post_type'     => 'mappa',  // Specifica il custom post type
             'post_status'   => 'publish',
             'post_author'   => get_current_user_id(),
+            'post_content'  => 'prova',
         );
         
         // Inserisci il post
