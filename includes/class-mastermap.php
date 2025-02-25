@@ -303,8 +303,8 @@ class Mastermap
 
             $testo = "";
 
-         if (strpos($slug_mappa, "amore") !== false) {
-    $testo = <<<EOT
+            if (strpos($slug_mappa, "amore") !== false) {
+                $testo = <<<EOT
 1 KARMA: Che sfida ti lancia il tuo karma in amore?
 
 Il karma in amore è la prima sfida a gestire le tue emozioni che incontrerai nella vita. È chiaramente legato alla famiglia, ma anche alla società (immagina di nascere in un contesto di guerra). La prima parte della vita avrai quindi la tendenza a incontrare, nei tuoi sentimenti, questa sfida nei partner che incontri. Questo fino a che non sarai riuscito a trasformarlo. Poi passerai al Dharma, ovvero la parte costruttiva dell’esperienza, che avrà le caratteristiche descritte dalla missione.
@@ -314,49 +314,49 @@ Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia.
 🌀 Trasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro.
 🔮 Per aiutarti puoi usare il codice vibrazionale “Papa” o “Mama”.
 
-2. ❄️ Gelo: bisogno estremo di attenzioni.
-Karmicamente c’è una parte di te che non è diventata emotivamente adulta e questo ti porta a entrare in relazione esprimendo bisogni che potrebbero risultare infantili. Il risultato è che potresti vivere o relazioni dipendenti o evitare le relazioni per paura di non ricevere ciò che ritieni giusto.
-🌀 Trasformazione: diventare emotivamente adulto e permetterti di vivere una relazione soddisfacente.
-🔮 Per aiutarti puoi usare il codice vibrazionale “Indipendence Papa” o “Indipendence Mama”.
-
-3. 🔗 Anelli: attrai relazioni karmiche.
-Nella prima parte della vita potresti avere la tendenza ad attrarre relazioni karmiche. Hai dei sospesi animici con anime che hai dovuto/dovrai incontrare per apprendere una lezione importante. Gli incontri non sono evitabili, ma lo svolgimento della relazione dipende dal tuo libero arbitrio.
-🌀 Trasformazione: accettare l’aspetto destinico di questo punto e sentirsi liberi nel proseguire la vita in libera scelta.
-🔮 Per aiutarti puoi usare il codice vibrazionale “Vision” o “Accept”.
-
-4. 🌱 Seme: bisogno di sicurezza.
-Nella prima parte della vita potresti avere la tendenza a chiedere dimostrazioni d’amore continue non sentendoti mai appagat* pienamente. Questo nasce da un aspetto di profonda insicurezza rispetto alla tua autostima. Avrai quindi la tendenza a far scappare le persone o ad accettare situazioni poco valorizzanti per te.
-🌀 Trasformazione: contattare il senso del tuo valore e attrarre situazioni appaganti.
-🔮 Per aiutarti puoi usare il codice vibrazionale “Value” e “Initiation”.
-
-5. 🌸 Fiore: bisogno di attrarre.
-Nella prima parte della vita potresti avere continuamente bisogno di sentire che riesci ad attrarre altre persone. Questo potrebbe farti flirtare anche in situazioni non appropriate o attrarre persone che poi non ti interessano veramente.
-🌀 Trasformazione: imparare la responsabilità emotiva che ti permetterà di vivere con gioia e leggerezza le tue relazioni.
-🔮 Per aiutarti puoi usare il codice vibrazionale “Responsability” e “Initiation”.
-
-6. 🌳 Albero: bisogno di stabilità.
-Nella prima parte della vita potresti avere bisogno di stabilità emotiva che ti porta a cercarla in una relazione stabile precoce o nella focalizzazione sul lavoro. Hai paura del tradimento e quindi potresti attrarlo o metterlo in atto.
-🌀 Trasformazione: trasformare il bisogno di controllo in fiducia e libertà.
-🔮 Puoi usare il codice vibrazionale “Flow”, “Indipendence Mama” o “Indipendence Papa”.
-
-7. 💧 Acqua: bisogno di empatia.
-Nella prima parte della vita potresti avere bisogno di sentirti compreso profondamente dall’altro. Questo spesso attira persone poco empatiche che possono procurarti dolore.
-🌀 Trasformazione: entrare in contatto con il proprio dolore e trasformarlo.
-🔮 Puoi usare il codice vibrazionale “Empathy”.
-
-8. 🪞 Specchio: bisogno di eccellenza.
-Potresti idealizzare la relazione e cercare un partner perfetto, finendo per vivere profonde delusioni o accettare relazioni che non corrispondono a ciò che desideri.
-🌀 Trasformazione: ricollegarti al tuo sogno d’amore con una persona reale.
-🔮 Puoi usare il codice vibrazionale “Vision”.
-
-9. ⚡ Fulmine: colpo di fulmine.
-Potresti aver vissuto esperienze di forti colpi di fulmine che poi si sono rivelati deludenti. Questo può portarti a pensare di avere un destino avverso o a chiuderti alle relazioni.
-🌀 Trasformazione: imparare a gestire gli impulsi e sviluppare discernimento.
-🔮 Puoi usare il codice vibrazionale “Papa” o “Mama”.
+(Altri punti continuano...)
 EOT;
-} else {
-    $testo = "Il valore di slug_mappa non contiene 'amore'.";
-}
+            } elseif (strpos($slug_mappa, "bambini") !== false) {
+                $testo = <<<EOT
+FUOCO (1)
+Sfida: Trasformare la rabbia in passione
+Talento: La capacità di entusiasmare gli altri.
+
+GELO (2)
+Sfida: Assumersi responsabilità senza perdere l'innocenza
+Talento: Saggezza innata.
+
+ANELLI (3)
+Sfida: Trasformare l'ansia in opportunità
+Talento: Grande intuizione.
+
+SEME (4)
+Sfida: Trasformare l'insicurezza in fierezza
+Talento: Molteplici capacità da sviluppare.
+
+FIORE (5)
+Sfida: Trasformare la superficialità in gioia
+Talento: Grande creatività.
+
+ALBERO (6)
+Sfida: Trasformare il bisogno di controllo in stabilità
+Talento: Amore per la propria comunità.
+
+ACQUA (7)
+Sfida: Trasformare l'ipersensibilità in empatia
+Talento: Capacità di ascolto profondo.
+
+SPECCHIO (8)
+Sfida: Gestire problemi di apprendimento o difficoltà ad adattarsi al ritmo degli altri
+Talento: Intelligenza "altra" o intelligenza superiore alla media.
+
+FULMINE (9)
+Sfida: Trasformare il bisogno di gruppo in autonomia
+Talento: Capacità di aiuto e collaborazione.
+EOT;
+            } else {
+                $testo = "Nessun contenuto disponibile per questo slug.";
+            }
 
             // Prepara il post da inserire nel custom post type "mappa"
             $post_data = [
