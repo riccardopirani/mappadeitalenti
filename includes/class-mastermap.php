@@ -354,7 +354,7 @@ FULMINE (9)
 Sfida: Trasformare il bisogno di gruppo in autonomia
 Talento: Capacità di aiuto e collaborazione.
 EOT;
-            } else {
+            } else  if (strpos($slug_mappa, "bambini") !== false) {
                 $testo = "Nessun contenuto disponibile per questo slug.";
             }
 
