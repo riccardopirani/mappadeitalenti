@@ -303,83 +303,60 @@ class Mastermap
 
             $testo = "";
 
-            if (strpos($slug_mappa, "amore") !== false) {
-                $testo =
-                    "1 KARMA: Che sfida ti lancia il tuo karma in amore?\n\n";
-                $testo .=
-                    "Il karma in amore è la prima sfida a gestire le tue emozioni che incontrerai nella vita. È chiaramente legato alla famiglia, ma anche alla società (immagina di nascere in un contesto di guerra). La prima parte della vita avrai quindi la tendenza a incontrare, nei tuoi sentimenti, questa sfida nei partner che incontri. Questo fino a che non sarai riuscito a trasformarlo. Poi passerai al Dharma, ovvero la parte costruttiva dell’esperienza, che avrà le caratteristiche descritte dalla missione.\n\n";
+         if (strpos($slug_mappa, "amore") !== false) {
+    $testo = <<<EOT
+1 KARMA: Che sfida ti lancia il tuo karma in amore?
 
-                $testo .=
-                    "1. 🔥 Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.\n";
-                $testo .=
-                    "Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia. Dovrebbe essere un mezzo con il quale entriamo in comunicazione profonda con l’altro, ma in questo caso la difficoltà è proprio questa. Sia chi cerca compulsivamente il sesso, che chi lo rifiuta ha la difficoltà ad entrare in comunicazione profonda con l’altro in quanto in profondità c’è la rabbia.\n";
-                $testo .=
-                    "🌀 Trasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro.\n";
-                $testo .=
-                    "🔮 Per aiutarti puoi usare il codice vibrazionale “Papa” o “Mama”.\n\n";
+Il karma in amore è la prima sfida a gestire le tue emozioni che incontrerai nella vita. È chiaramente legato alla famiglia, ma anche alla società (immagina di nascere in un contesto di guerra). La prima parte della vita avrai quindi la tendenza a incontrare, nei tuoi sentimenti, questa sfida nei partner che incontri. Questo fino a che non sarai riuscito a trasformarlo. Poi passerai al Dharma, ovvero la parte costruttiva dell’esperienza, che avrà le caratteristiche descritte dalla missione.
 
-                $testo .= "2. ❄️ Gelo: bisogno estremo di attenzioni.\n";
-                $testo .=
-                    "Karmicamente c’è una parte di te che non è diventata emotivamente adulta e questo ti porta a entrare in relazione esprimendo bisogni che potrebbero risultare infantili. Il risultato è che potresti vivere o relazioni dipendenti o evitare le relazioni per paura di non ricevere ciò che ritieni giusto.\n";
-                $testo .=
-                    "🌀 Trasformazione: diventare emotivamente adulto e permetterti di vivere una relazione soddisfacente.\n";
-                $testo .=
-                    "🔮 Per aiutarti puoi usare il codice vibrazionale “Indipendence Papa” o “Indipendence Mama”.\n\n";
+1. 🔥 Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.
+Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia. Dovrebbe essere un mezzo con il quale entriamo in comunicazione profonda con l’altro, ma in questo caso la difficoltà è proprio questa. Sia chi cerca compulsivamente il sesso, che chi lo rifiuta ha la difficoltà ad entrare in comunicazione profonda con l’altro in quanto in profondità c’è la rabbia.
+🌀 Trasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro.
+🔮 Per aiutarti puoi usare il codice vibrazionale “Papa” o “Mama”.
 
-                $testo .= "3. 🔗 Anelli: attrai relazioni karmiche.\n";
-                $testo .=
-                    "Nella prima parte della vita potresti avere la tendenza ad attrarre relazioni karmiche. Hai dei sospesi animici con anime che hai dovuto/dovrai incontrare per apprendere una lezione importante. Gli incontri non sono evitabili, ma lo svolgimento della relazione dipende dal tuo libero arbitrio.\n";
-                $testo .=
-                    "🌀 Trasformazione: accettare l’aspetto destinico di questo punto e sentirsi liberi nel proseguire la vita in libera scelta.\n";
-                $testo .=
-                    "🔮 Per aiutarti puoi usare il codice vibrazionale “Vision” o “Accept”.\n\n";
+2. ❄️ Gelo: bisogno estremo di attenzioni.
+Karmicamente c’è una parte di te che non è diventata emotivamente adulta e questo ti porta a entrare in relazione esprimendo bisogni che potrebbero risultare infantili. Il risultato è che potresti vivere o relazioni dipendenti o evitare le relazioni per paura di non ricevere ciò che ritieni giusto.
+🌀 Trasformazione: diventare emotivamente adulto e permetterti di vivere una relazione soddisfacente.
+🔮 Per aiutarti puoi usare il codice vibrazionale “Indipendence Papa” o “Indipendence Mama”.
 
-                $testo .= "4. 🌱 Seme: bisogno di sicurezza.\n";
-                $testo .=
-                    "Nella prima parte della vita potresti avere la tendenza a chiedere dimostrazioni d’amore continue non sentendoti mai appagat* pienamente. Questo nasce da un aspetto di profonda insicurezza rispetto alla tua autostima. Avrai quindi la tendenza a far scappare le persone o ad accettare situazioni poco valorizzanti per te.\n";
-                $testo .=
-                    "🌀 Trasformazione: contattare il senso del tuo valore e attrarre situazioni appaganti.\n";
-                $testo .=
-                    "🔮 Per aiutarti puoi usare il codice vibrazionale “Value” e “Initiation”.\n\n";
+3. 🔗 Anelli: attrai relazioni karmiche.
+Nella prima parte della vita potresti avere la tendenza ad attrarre relazioni karmiche. Hai dei sospesi animici con anime che hai dovuto/dovrai incontrare per apprendere una lezione importante. Gli incontri non sono evitabili, ma lo svolgimento della relazione dipende dal tuo libero arbitrio.
+🌀 Trasformazione: accettare l’aspetto destinico di questo punto e sentirsi liberi nel proseguire la vita in libera scelta.
+🔮 Per aiutarti puoi usare il codice vibrazionale “Vision” o “Accept”.
 
-                $testo .= "5. 🌸 Fiore: bisogno di attrarre.\n";
-                $testo .=
-                    "Nella prima parte della vita potresti avere continuamente bisogno di sentire che riesci ad attrarre altre persone. Questo potrebbe farti flirtare anche in situazioni non appropriate o attrarre persone che poi non ti interessano veramente.\n";
-                $testo .=
-                    "🌀 Trasformazione: imparare la responsabilità emotiva che ti permetterà di vivere con gioia e leggerezza le tue relazioni.\n";
-                $testo .=
-                    "🔮 Per aiutarti puoi usare il codice vibrazionale “Responsability” e “Initiation”.\n\n";
+4. 🌱 Seme: bisogno di sicurezza.
+Nella prima parte della vita potresti avere la tendenza a chiedere dimostrazioni d’amore continue non sentendoti mai appagat* pienamente. Questo nasce da un aspetto di profonda insicurezza rispetto alla tua autostima. Avrai quindi la tendenza a far scappare le persone o ad accettare situazioni poco valorizzanti per te.
+🌀 Trasformazione: contattare il senso del tuo valore e attrarre situazioni appaganti.
+🔮 Per aiutarti puoi usare il codice vibrazionale “Value” e “Initiation”.
 
-                $testo .= "6. 🌳 Albero: bisogno di stabilità.\n";
-                $testo .=
-                    "Nella prima parte della vita potresti avere bisogno di stabilità emotiva che ti porta a cercarla in una relazione stabile precoce o nella focalizzazione sul lavoro. Hai paura del tradimento e quindi potresti attrarlo o metterlo in atto.\n";
-                $testo .=
-                    "🌀 Trasformazione: trasformare il bisogno di controllo in fiducia e libertà.\n";
-                $testo .=
-                    "🔮 Puoi usare il codice vibrazionale “Flow”, “Indipendence Mama” o “Indipendence Papa”.\n\n";
+5. 🌸 Fiore: bisogno di attrarre.
+Nella prima parte della vita potresti avere continuamente bisogno di sentire che riesci ad attrarre altre persone. Questo potrebbe farti flirtare anche in situazioni non appropriate o attrarre persone che poi non ti interessano veramente.
+🌀 Trasformazione: imparare la responsabilità emotiva che ti permetterà di vivere con gioia e leggerezza le tue relazioni.
+🔮 Per aiutarti puoi usare il codice vibrazionale “Responsability” e “Initiation”.
 
-                $testo .= "7. 💧 Acqua: bisogno di empatia.\n";
-                $testo .=
-                    "Nella prima parte della vita potresti avere bisogno di sentirti compreso profondamente dall’altro. Questo spesso attira persone poco empatiche che possono procurarti dolore.\n";
-                $testo .=
-                    "🌀 Trasformazione: entrare in contatto con il proprio dolore e trasformarlo.\n";
-                $testo .= "🔮 Puoi usare il codice vibrazionale “Empathy”.\n\n";
+6. 🌳 Albero: bisogno di stabilità.
+Nella prima parte della vita potresti avere bisogno di stabilità emotiva che ti porta a cercarla in una relazione stabile precoce o nella focalizzazione sul lavoro. Hai paura del tradimento e quindi potresti attrarlo o metterlo in atto.
+🌀 Trasformazione: trasformare il bisogno di controllo in fiducia e libertà.
+🔮 Puoi usare il codice vibrazionale “Flow”, “Indipendence Mama” o “Indipendence Papa”.
 
-                $testo .= "8. 🪞 Specchio: bisogno di eccellenza.\n";
-                $testo .=
-                    "Potresti idealizzare la relazione e cercare un partner perfetto, finendo per vivere profonde delusioni o accettare relazioni che non corrispondono a ciò che desideri.\n";
-                $testo .=
-                    "🌀 Trasformazione: ricollegarti al tuo sogno d’amore con una persona reale.\n";
-                $testo .= "🔮 Puoi usare il codice vibrazionale “Vision”.\n\n";
+7. 💧 Acqua: bisogno di empatia.
+Nella prima parte della vita potresti avere bisogno di sentirti compreso profondamente dall’altro. Questo spesso attira persone poco empatiche che possono procurarti dolore.
+🌀 Trasformazione: entrare in contatto con il proprio dolore e trasformarlo.
+🔮 Puoi usare il codice vibrazionale “Empathy”.
 
-                $testo .= "9. ⚡ Fulmine: colpo di fulmine.\n";
-                $testo .=
-                    "Potresti aver vissuto esperienze di forti colpi di fulmine che poi si sono rivelati deludenti. Questo può portarti a pensare di avere un destino avverso o a chiuderti alle relazioni.\n";
-                $testo .=
-                    "🌀 Trasformazione: imparare a gestire gli impulsi e sviluppare discernimento.\n";
-                $testo .=
-                    "🔮 Puoi usare il codice vibrazionale “Papa” o “Mama”.\n";
-            }
+8. 🪞 Specchio: bisogno di eccellenza.
+Potresti idealizzare la relazione e cercare un partner perfetto, finendo per vivere profonde delusioni o accettare relazioni che non corrispondono a ciò che desideri.
+🌀 Trasformazione: ricollegarti al tuo sogno d’amore con una persona reale.
+🔮 Puoi usare il codice vibrazionale “Vision”.
+
+9. ⚡ Fulmine: colpo di fulmine.
+Potresti aver vissuto esperienze di forti colpi di fulmine che poi si sono rivelati deludenti. Questo può portarti a pensare di avere un destino avverso o a chiuderti alle relazioni.
+🌀 Trasformazione: imparare a gestire gli impulsi e sviluppare discernimento.
+🔮 Puoi usare il codice vibrazionale “Papa” o “Mama”.
+EOT;
+} else {
+    $testo = "Il valore di slug_mappa non contiene 'amore'.";
+}
 
             // Prepara il post da inserire nel custom post type "mappa"
             $post_data = [
