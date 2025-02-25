@@ -316,7 +316,7 @@ Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia.
 
 (Altri punti continuano...)
 EOT;
-            } else if (strpos($slug_mappa, "bambini") !== false) {
+            } elseif (strpos($slug_mappa, "bambini") !== false) {
                 $testo = <<<EOT
 FUOCO (1)
 Sfida: Trasformare la rabbia in passione
@@ -354,10 +354,90 @@ FULMINE (9)
 Sfida: Trasformare il bisogno di gruppo in autonomia
 Talento: Capacità di aiuto e collaborazione.
 EOT;
-            } else  if (strpos($slug_mappa, "bambini") !== false) {
-                $testo = "Nessun contenuto disponibile per questo slug.";
-            }
+            } elseif (strpos($slug_mappa, "lavoro") !== false) {
+                $testo = "1. Fuoco (1)
+- Tendenza a bruciare troppo velocemente le energie e le risorse
+- Impulsività che porta a decisioni affrettate e poco ponderate
+- Dominanza eccessiva che può intimidire colleghi e collaboratori
+- Insofferenza verso le regole e la routine
 
+2. Gelo (2) 
+- Eccessivo distacco emotivo che compromette le relazioni lavorative
+- Rigidità mentale che ostacola il cambiamento
+- Tendenza a congelare le situazioni senza risolverle
+- Difficoltà nel mostrare empatia e comprensione
+
+3. Anelli (3)
+- Dispersione delle energie in troppi progetti simultanei
+- Difficoltà nel portare a termine gli impegni presi
+- Tendenza a creare dipendenze e legami malsani
+- Manipolazione nelle relazioni professionali
+
+4. Seme (4)
+- Perfezionismo paralizzante che rallenta i processi
+- Eccessiva programmazione che limita la spontaneità
+- Attaccamento ossessivo ai dettagli perdendo la visione d'insieme
+- Resistenza al nuovo per paura del fallimento
+
+5. Fiore (5)
+- Superficialità nelle relazioni professionali
+- Tendenza a privilegiare l'apparenza alla sostanza
+- Difficoltà nel gestire situazioni di stress e conflitto
+- Eccessiva sensibilità alle critiche
+
+6. Albero (6)
+- Rigidità eccessiva nel mantenere le proprie posizioni
+- Tendenza al controllo ossessivo
+- Difficoltà nel delegare responsabilità
+- Resistenza al cambiamento organizzativo
+
+7. Acqua (7)
+- Tendenza ad assorbire troppo le emozioni altrui
+- Mancanza di confini professionali chiari
+- Difficoltà nel prendere posizioni ferme
+- Eccessiva adattabilità che porta a perdere la propria identità
+
+8. Specchio (8)
+- Tendenza a riflettere e analizzare troppo senza agire
+- Perfezionismo che porta all'isolamento
+- Difficoltà nel mostrare il vero sé in ambito professionale
+- Eccessiva sensibilità al giudizio altrui
+
+9. Fulmine (9)
+- Impazienza che porta a saltare passaggi importanti
+- Tendenza a destabilizzare l'ambiente lavorativo
+- Difficoltà nel mantenere impegni a lungo termine
+- Resistenza alle strutture e all'autorità
+";
+            } else {
+                $testo = "1. Karma del Fuoco
+Lo studente si trova a confrontarsi con la paura di brillare e mostrarsi. Tende a nascondere le proprie capacità per timore del giudizio o dell'esclusione. La sfida è imparare a gestire la propria energia senza spegnerla, trovando il coraggio di emergere e guidare. Spesso si manifesta come difficoltà a parlare in pubblico o a mostrarsi durante le interrogazioni, nonostante la preparazione.
+
+2. Karma del Gelo
+La sfida principale è superare il perfezionismo paralizzante. Lo studente può essere così concentrato sul fare tutto perfettamente da bloccarsi e non riuscire a iniziare. Tende a procrastinare finché non è sicuro di poter fare le cose in modo impeccabile. Deve imparare che l'apprendimento è un processo che include anche gli errori.
+3. Karma degli Anelli
+Il karma si manifesta nella difficoltà di mantenere la concentrazione e l'attenzione. Lo studente tende a disperdere le energie in troppe direzioni, faticando a focalizzarsi su un obiettivo specifico. La sfida è imparare a gestire la propria creatività e versatilità senza perdersi in mille rivoli.
+
+4. Karma del Seme
+La sfida karmika si presenta come una profonda insicurezza sulle proprie capacità, nonostante i talenti evidenti. Lo studente tende a sminuire i propri risultati e a dubitare costantemente delle proprie competenze. Deve imparare a riconoscere e valorizzare le proprie capacità pratiche e concrete.
+
+5. Karma del Fiore
+Il karma si manifesta nella tendenza a prendere lo studio troppo alla leggera, cercando sempre la via più divertente e meno impegnativa. Lo studente deve imparare che l'apprendimento richiede anche momenti di serietà e impegno, senza perdere la propria naturale leggerezza.
+
+6. Karma dell'Albero
+La sfida principale è legata al controllo eccessivo sul processo di apprendimento. Lo studente tende a essere troppo rigido nei suoi metodi di studio, faticando ad adattarsi a nuove situazioni o approcci. Deve imparare a essere più flessibile pur mantenendo la sua naturale stabilità.
+
+7. Karma dell'Acqua
+Il karma si manifesta nella tendenza a farsi travolgere dalle emozioni durante lo studio. Lo studente può essere così sensibile da assorbire anche l'ansia e lo stress degli altri, compromettendo il proprio rendimento. La sfida è imparare a gestire la propria sensibilità emotiva senza esserne sopraffatto.
+
+8. Karma dello Specchio
+La sfida karmika è legata alla tendenza a teorizzare troppo senza passare all'azione pratica. Lo studente può perdersi in ragionamenti complessi e analisi infinite, faticando a concretizzare lo studio in risultati tangibili. Deve imparare a bilanciare la sua capacità analitica con l'applicazione pratica.
+
+9. Karma del Fulmine
+Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo studente può sentirsi costantemente in conflitto con le regole e le strutture dell'apprendimento formale. La sfida è imparare a navigare nel sistema educativo mantenendo la propria indipendenza e spirito innovativo senza entrare in aperto conflitto.
+
+";
+            }
             // Prepara il post da inserire nel custom post type "mappa"
             $post_data = [
                 "post_title" => $post_title,
