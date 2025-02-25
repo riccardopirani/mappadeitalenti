@@ -316,7 +316,7 @@ Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia.
 
 (Altri punti continuano...)
 EOT;
-            } elseif (strpos($slug_mappa, "bambini") !== false) {
+            } else if (strpos($slug_mappa, "bambini") !== false) {
                 $testo = <<<EOT
 FUOCO (1)
 Sfida: Trasformare la rabbia in passione
