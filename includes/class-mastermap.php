@@ -73,14 +73,12 @@ class Mastermap
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
                 '<label for="data_di_nascita_madre">Your mother\'s date of birth</label>';
-            //$form .= '<input class="form-control" type="date" name="data_di_nascita_madre" required>';
             $form .=
                 '<input class="form-control" type="text"  id="data_di_nascita_madre" name="data_di_nascita_madre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
                 '<label for="data_di_nascita_padre">Your father\'s date of birth</label>';
-            //$form .= '<input class="form-control" type="date" name="data_di_nascita_padre" required>';
             $form .=
                 '<input class="form-control" type="text" id="data_di_nascita_padre" name="data_di_nascita_padre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
             $form .= "</div>";
