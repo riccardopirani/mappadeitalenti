@@ -301,13 +301,15 @@ class Mastermap
             // Formatta il titolo del nuovo post
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
 
+           $testo = "";
+
             // Prepara il post da inserire nel custom post type "mappa"
             $post_data = [
                 "post_title" => $post_title,
                 "post_type" => "mappa", // Specifica il custom post type
                 "post_status" => "publish",
                 "post_author" => get_current_user_id(),
-                "post_content" => "prova",
+                "post_content" => $testo,
             ];
 
             // Inserisci il post
@@ -737,6 +739,7 @@ class Mastermap
 
             // Formatta il titolo del nuovo post
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
+            $testo = "";
 
             // Prepara il post da inserire nel custom post type "mappa"
             $post_data = [
@@ -744,7 +747,7 @@ class Mastermap
                 "post_type" => "mappa", // Specifica il custom post type
                 "post_status" => "publish",
                 "post_author" => get_current_user_id(),
-                "post_content" => "prova",
+                "post_content" => $testo,
             ];
 
             // Inserisci il post
