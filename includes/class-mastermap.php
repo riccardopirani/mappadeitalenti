@@ -1145,6 +1145,8 @@ Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo stu
                 // Gestisci l'errore nella creazione del post
                 echo "<p>Errore nella creazione della mappa dei talenti.</p>";
             }
+
+            wp_redirect("/grazie-per-lacquisto");
         }
     }
 }
