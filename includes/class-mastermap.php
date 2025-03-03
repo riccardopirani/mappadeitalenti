@@ -800,7 +800,8 @@ Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo stu
                 endif;
 
                 // Redirigi alla pagina con ID 99
-                wp_redirect($pagina_conferma);
+               // wp_redirect($pagina_conferma);
+                wp_redirect("/grazie-per-lacquisto");
                 exit(); // Assicurati che il redirect avvenga subito
             } else {
                 // Gestisci l'errore nella creazione del post
@@ -1139,14 +1140,15 @@ Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo stu
                 wp_mail($admin_email, $subject_admin, $message_admin);
 
                 // Redirigi alla pagina con ID 99
-                wp_redirect("/grazie-per-lacquisto");
+               wp_redirect(site_url("/grazie-per-lacquisto"));
                 exit(); // Assicurati che il redirect avvenga subito
             } else {
+                wp_redirect(site_url("/grazie-per-lacquisto"));
                 // Gestisci l'errore nella creazione del post
                 echo "<p>Errore nella creazione della mappa dei talenti.</p>";
             }
 
-            wp_redirect("/grazie-per-lacquisto");
+     wp_redirect(site_url("/grazie-per-lacquisto"));
         }
     }
 }
