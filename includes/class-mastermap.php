@@ -1139,7 +1139,7 @@ Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo stu
                 wp_mail($admin_email, $subject_admin, $message_admin);
 
                 // Redirigi alla pagina con ID 99
-                wp_redirect(get_permalink(99));
+                wp_redirect("/grazie-per-lacquisto");
                 exit(); // Assicurati che il redirect avvenga subito
             } else {
                 // Gestisci l'errore nella creazione del post
