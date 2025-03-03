@@ -11,6 +11,17 @@ class Mastermap
 
     function __construct()
     {
+       
+    // Controlla se l'URL contiene "mappa"
+    if (strpos($_SERVER['REQUEST_URI'], 'mappa') !== false) {
+        // Se "valid=1" non è presente, reindirizza alla home
+        if (!isset($_GET["valid"]) || $_GET["valid"] != 1) {
+             wp_redirect("/contatti-2");
+        }
+     
+        
+    }
+   
         add_action("init", [$this, "handle_map_registration"]); //aggiungo registrazione
     }
     //lo chiamo nello shortcode in functions
@@ -23,7 +34,6 @@ class Mastermap
                 '" method="post" onsubmit="return handleSubmit();">';
             $form .= "<p><b>*</b> Fill in the required fields</p>";
 
-            // campi che indicano la mappa di riferimento e la lingua
             $form .=
                 '<input type="hidden" name="slug_mappa" value="' .
                 esc_attr($slug_mappa) .
@@ -49,7 +59,7 @@ class Mastermap
                 '<input class="form-control" type="email" name="email" required placeholder="E-mail*">';
             $form .= "</div>";
             $form .= '<div class="col-md-3 mb-2">';
-            $form .= '<label for="sesso">Gender*</label><br>';
+            $form .= '<label for="sesso">Gender*</label>';
             $form .= '<div class="form-check form-check-inline">';
             $form .=
                 '<input class="form-check-input" type="radio" name="sesso" id="uomo" value="uomo" required>';
@@ -65,7 +75,7 @@ class Mastermap
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
                 '<label for="data_nascita_utente">Your date of birth*</label>';
-            //$form .= '<input class="form-control" type="date" name="data_di_nascita_utente" required>';
+
             $form .=
                 '<input class="form-control" type="text" id="data_di_nascita_utente" name="data_di_nascita_utente" required placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
 
@@ -94,11 +104,6 @@ class Mastermap
             $form .= "</div>";
             $form .= "</div>";
             $form .= "</form>";
-
-            // campi che indicano la mappa di riferimento e la lingua
-            //$form .= '<input class="form-control" type="date" name="data_di_nascita_utente" required>';
-            //$form .= '<input class="form-control" type="date" name="data_di_nascita_madre" required>';
-            //$form .= '<input class="form-control" type="date" name="data_di_nascita_padre" required>';
         else:
             $form =
                 '<form id="f_mappa_talenti" action="' .
@@ -139,7 +144,7 @@ class Mastermap
             $form .=
                 '<label for="sesso">' .
                 __("Sesso", "ek_mappa") .
-                "*</label><br>";
+                "*</label>";
             $form .= '<div class="form-check form-check-inline">';
             $form .=
                 '<input class="form-check-input" type="radio" name="sesso" id="uomo" value="uomo" required>';
@@ -216,7 +221,7 @@ class Mastermap
 
         $form .= "        if (value.length > 2 && value.length <= 4) {";
         $form .=
-            '            value = value.slice(0, 2) + "/" + value.slice(2);';
+            '            value = value.slice(0, 2) + "/" + value.slice;';
         $form .= "        } else if (value.length > 4) {";
         $form .=
             '            value = value.slice(0, 2) + "/" + value.slice(2, 4) + "/" + value.slice(4, 8);';
@@ -301,141 +306,99 @@ class Mastermap
 
             $testo = "";
 
+            // Formattazione migliorata con Heredoc e spaziatura adeguata
             if (strpos($slug_mappa, "amore") !== false) {
                 $testo = <<<EOT
-1 KARMA: Che sfida ti lancia il tuo karma in amore?
+<h3>1 KARMA: Che sfida ti lancia il tuo karma in amore?</h3>
 
 Il karma in amore è la prima sfida a gestire le tue emozioni che incontrerai nella vita. È chiaramente legato alla famiglia, ma anche alla società (immagina di nascere in un contesto di guerra). La prima parte della vita avrai quindi la tendenza a incontrare, nei tuoi sentimenti, questa sfida nei partner che incontri. Questo fino a che non sarai riuscito a trasformarlo. Poi passerai al Dharma, ovvero la parte costruttiva dell’esperienza, che avrà le caratteristiche descritte dalla missione.
 
-1. 🔥 Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.
+1. Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.
 Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia. Dovrebbe essere un mezzo con il quale entriamo in comunicazione profonda con l’altro, ma in questo caso la difficoltà è proprio questa. Sia chi cerca compulsivamente il sesso, che chi lo rifiuta ha la difficoltà ad entrare in comunicazione profonda con l’altro in quanto in profondità c’è la rabbia.
-🌀 Trasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro.
-🔮 Per aiutarti puoi usare il codice vibrazionale “Papa” o “Mama”.
-
-(Altri punti continuano...)
+Trasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro.
+Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.
 EOT;
             } elseif (strpos($slug_mappa, "bambini") !== false) {
                 $testo = <<<EOT
-FUOCO (1)
-Sfida: Trasformare la rabbia in passione
-Talento: La capacità di entusiasmare gli altri.
+<h3>Talenti e Sfide per i Bambini</h3>
 
-GELO (2)
-Sfida: Assumersi responsabilità senza perdere l'innocenza
-Talento: Saggezza innata.
+Fuoco 
+- Sfida: Trasformare la rabbia in passione.
+- Talento: La capacità di entusiasmare gli altri.
 
-ANELLI (3)
-Sfida: Trasformare l'ansia in opportunità
-Talento: Grande intuizione.
+Gelo 
+- Sfida: Assumersi responsabilità senza perdere l'innocenza.
+- Talento: Saggezza innata.
 
-SEME (4)
-Sfida: Trasformare l'insicurezza in fierezza
-Talento: Molteplici capacità da sviluppare.
+Anelli 
+- Sfida: Trasformare l'ansia in opportunità.
+- Talento: Grande intuizione.
 
-FIORE (5)
-Sfida: Trasformare la superficialità in gioia
-Talento: Grande creatività.
+Seme 
+- Sfida: Trasformare l'insicurezza in fierezza.
+- Talento: Molteplici capacità da sviluppare.
 
-ALBERO (6)
-Sfida: Trasformare il bisogno di controllo in stabilità
-Talento: Amore per la propria comunità.
+Fiore 
+- Sfida: Trasformare la superficialità in gioia.
+- Talento: Grande creatività.
 
-ACQUA (7)
-Sfida: Trasformare l'ipersensibilità in empatia
-Talento: Capacità di ascolto profondo.
+Albero 
+- Sfida: Trasformare il bisogno di controllo in stabilità.
+- Talento: Amore per la propria comunità.
 
-SPECCHIO (8)
-Sfida: Gestire problemi di apprendimento o difficoltà ad adattarsi al ritmo degli altri
-Talento: Intelligenza "altra" o intelligenza superiore alla media.
+Acqua 
+- Sfida: Trasformare l'ipersensibilità in empatia.
+- Talento: Capacità di ascolto profondo.
 
-FULMINE (9)
-Sfida: Trasformare il bisogno di gruppo in autonomia
-Talento: Capacità di aiuto e collaborazione.
+Specchio 
+- Sfida: Gestire problemi di apprendimento o difficoltà ad adattarsi al ritmo degli altri.
+- Talento: Intelligenza "altra" o intelligenza superiore alla media.
+
+Fulmine 
+- Sfida: Trasformare il bisogno di gruppo in autonomia.
+- Talento: Capacità di aiuto e collaborazione.
 EOT;
             } elseif (strpos($slug_mappa, "lavoro") !== false) {
-                $testo = "1. Fuoco (1)
-- Tendenza a bruciare troppo velocemente le energie e le risorse
-- Impulsività che porta a decisioni affrettate e poco ponderate
-- Dominanza eccessiva che può intimidire colleghi e collaboratori
-- Insofferenza verso le regole e la routine
+                $testo = <<<EOT
+<h3>Talenti e Sfide nel Mondo del Lavoro</h3>
 
-2. Gelo (2) 
-- Eccessivo distacco emotivo che compromette le relazioni lavorative
-- Rigidità mentale che ostacola il cambiamento
-- Tendenza a congelare le situazioni senza risolverle
-- Difficoltà nel mostrare empatia e comprensione
+Fuoco 
 
-3. Anelli (3)
-- Dispersione delle energie in troppi progetti simultanei
-- Difficoltà nel portare a termine gli impegni presi
-- Tendenza a creare dipendenze e legami malsani
-- Manipolazione nelle relazioni professionali
+- Tendenza a bruciare troppo velocemente le energie e le risorse.
+- Impulsività che porta a decisioni affrettate e poco ponderate.
+- Dominanza eccessiva che può intimidire colleghi e collaboratori.
 
-4. Seme (4)
-- Perfezionismo paralizzante che rallenta i processi
-- Eccessiva programmazione che limita la spontaneità
-- Attaccamento ossessivo ai dettagli perdendo la visione d'insieme
-- Resistenza al nuovo per paura del fallimento
+Gelo 
 
-5. Fiore (5)
-- Superficialità nelle relazioni professionali
-- Tendenza a privilegiare l'apparenza alla sostanza
-- Difficoltà nel gestire situazioni di stress e conflitto
-- Eccessiva sensibilità alle critiche
+- Eccessivo distacco emotivo che compromette le relazioni lavorative.
+- Rigidità mentale che ostacola il cambiamento.
 
-6. Albero (6)
-- Rigidità eccessiva nel mantenere le proprie posizioni
-- Tendenza al controllo ossessivo
-- Difficoltà nel delegare responsabilità
-- Resistenza al cambiamento organizzativo
+Anelli 
 
-7. Acqua (7)
-- Tendenza ad assorbire troppo le emozioni altrui
-- Mancanza di confini professionali chiari
-- Difficoltà nel prendere posizioni ferme
-- Eccessiva adattabilità che porta a perdere la propria identità
+- Dispersione delle energie in troppi progetti simultanei.
+- Difficoltà nel portare a termine gli impegni presi.
 
-8. Specchio (8)
-- Tendenza a riflettere e analizzare troppo senza agire
-- Perfezionismo che porta all'isolamento
-- Difficoltà nel mostrare il vero sé in ambito professionale
-- Eccessiva sensibilità al giudizio altrui
+Seme 
 
-9. Fulmine (9)
-- Impazienza che porta a saltare passaggi importanti
-- Tendenza a destabilizzare l'ambiente lavorativo
-- Difficoltà nel mantenere impegni a lungo termine
-- Resistenza alle strutture e all'autorità
-";
+- Perfezionismo paralizzante che rallenta i processi.
+- Attaccamento ossessivo ai dettagli perdendo la visione d'insieme.
+EOT;
             } else {
-                $testo = "1. Karma del Fuoco
-Lo studente si trova a confrontarsi con la paura di brillare e mostrarsi. Tende a nascondere le proprie capacità per timore del giudizio o dell'esclusione. La sfida è imparare a gestire la propria energia senza spegnerla, trovando il coraggio di emergere e guidare. Spesso si manifesta come difficoltà a parlare in pubblico o a mostrarsi durante le interrogazioni, nonostante la preparazione.
+                $testo = <<<EOT
+<h3>Il tuo Percorso Karmico</h3>
 
-2. Karma del Gelo
-La sfida principale è superare il perfezionismo paralizzante. Lo studente può essere così concentrato sul fare tutto perfettamente da bloccarsi e non riuscire a iniziare. Tende a procrastinare finché non è sicuro di poter fare le cose in modo impeccabile. Deve imparare che l'apprendimento è un processo che include anche gli errori.
-3. Karma degli Anelli
-Il karma si manifesta nella difficoltà di mantenere la concentrazione e l'attenzione. Lo studente tende a disperdere le energie in troppe direzioni, faticando a focalizzarsi su un obiettivo specifico. La sfida è imparare a gestire la propria creatività e versatilità senza perdersi in mille rivoli.
+1. Karma del Fuoco: lo studente si confronta con la paura di brillare e mostrarsi. La sfida è imparare a gestire la propria energia senza spegnerla.
 
-4. Karma del Seme
-La sfida karmika si presenta come una profonda insicurezza sulle proprie capacità, nonostante i talenti evidenti. Lo studente tende a sminuire i propri risultati e a dubitare costantemente delle proprie competenze. Deve imparare a riconoscere e valorizzare le proprie capacità pratiche e concrete.
+2. Karma del Gelo: la sfida principale è superare il perfezionismo paralizzante. Tende a procrastinare per paura di non essere perfetto.
 
-5. Karma del Fiore
-Il karma si manifesta nella tendenza a prendere lo studio troppo alla leggera, cercando sempre la via più divertente e meno impegnativa. Lo studente deve imparare che l'apprendimento richiede anche momenti di serietà e impegno, senza perdere la propria naturale leggerezza.
+3. Karma degli Anelli: difficoltà nel mantenere la concentrazione e l’attenzione, tende a disperdere le energie in troppe direzioni.
 
-6. Karma dell'Albero
-La sfida principale è legata al controllo eccessivo sul processo di apprendimento. Lo studente tende a essere troppo rigido nei suoi metodi di studio, faticando ad adattarsi a nuove situazioni o approcci. Deve imparare a essere più flessibile pur mantenendo la sua naturale stabilità.
+4. Karma del Seme: insicurezza sulle proprie capacità, si sminuisce nonostante le evidenti competenze.
 
-7. Karma dell'Acqua
-Il karma si manifesta nella tendenza a farsi travolgere dalle emozioni durante lo studio. Lo studente può essere così sensibile da assorbire anche l'ansia e lo stress degli altri, compromettendo il proprio rendimento. La sfida è imparare a gestire la propria sensibilità emotiva senza esserne sopraffatto.
-
-8. Karma dello Specchio
-La sfida karmika è legata alla tendenza a teorizzare troppo senza passare all'azione pratica. Lo studente può perdersi in ragionamenti complessi e analisi infinite, faticando a concretizzare lo studio in risultati tangibili. Deve imparare a bilanciare la sua capacità analitica con l'applicazione pratica.
-
-9. Karma del Fulmine
-Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo studente può sentirsi costantemente in conflitto con le regole e le strutture dell'apprendimento formale. La sfida è imparare a navigare nel sistema educativo mantenendo la propria indipendenza e spirito innovativo senza entrare in aperto conflitto.
-
-";
+5. Karma del Fiore: prende lo studio troppo alla leggera, deve imparare l’equilibrio tra leggerezza e impegno.
+EOT;
             }
+
             // Prepara il post da inserire nel custom post type "mappa"
             $post_data = [
                 "post_title" => $post_title,
@@ -630,20 +593,20 @@ Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo stu
                             esc_html($nome_entita) .
                             "</h3>";
                         $solution_content .=
-                            '<p style="padding:3px 6px; border:1px solid #eee; margin-bottom:0"><strong>' .
+                            '<p style="padding:3px 6px; border:1px solid #eee; margin-bottom:0">' .
                             esc_html($item["domanda"]) .
-                            "</strong><br>";
+                            "";
                     }
                     if (isset($item["risposta"])) {
                         // Aggiungi il punteggio e la risposta
                         $solution_content .=
-                            "<strong>" .
+                            "" .
                             $label_punteggio .
                             ": " .
                             esc_html($item["punteggio"]) .
-                            "</strong><br>";
+                            "";
                         $solution_content .=
-                            esc_html($item["risposta"]) . "</p><br>";
+                            esc_html($item["risposta"]) . "</p>";
                     }
                 }
 
@@ -734,7 +697,7 @@ Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo stu
                     ' <!-- Aggiungi qui il contenuto della soluzione -->
             <p style="padding:3px 6px; border:1px solid #eee; margin-bottom:0; margin-top:10px"><b>' .
                     $label_download .
-                    '</b><br>
+                    '</b>
             <span class="dwnButton">' .
                     $download_link .
                     '</span></p>
@@ -800,7 +763,7 @@ Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo stu
                 endif;
 
                 // Redirigi alla pagina con ID 99
-               // wp_redirect($pagina_conferma);
+                // wp_redirect($pagina_conferma);
                 wp_redirect("/grazie-per-lacquisto");
                 exit(); // Assicurati che il redirect avvenga subito
             } else {
@@ -1140,7 +1103,7 @@ Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo stu
                 wp_mail($admin_email, $subject_admin, $message_admin);
 
                 // Redirigi alla pagina con ID 99
-               wp_redirect(site_url("/grazie-per-lacquisto"));
+                wp_redirect(site_url("/grazie-per-lacquisto"));
                 exit(); // Assicurati che il redirect avvenga subito
             } else {
                 wp_redirect(site_url("/grazie-per-lacquisto"));
@@ -1148,7 +1111,7 @@ Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo stu
                 echo "<p>Errore nella creazione della mappa dei talenti.</p>";
             }
 
-     wp_redirect(site_url("/grazie-per-lacquisto"));
+            wp_redirect(site_url("/grazie-per-lacquisto"));
         }
     }
 }
