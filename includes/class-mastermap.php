@@ -11,18 +11,8 @@ class Mastermap
 
     function __construct()
     {
-       
-    // Controlla se l'URL contiene "mappa"
-    if (strpos($_SERVER['REQUEST_URI'], 'mappa') !== false) {
-        // Se "valid=1" non è presente, reindirizza alla home
-        if (!isset($_GET["valid"]) || $_GET["valid"] != 1) {
-             wp_redirect("/contatti-2");
-        }
-     
-        
-    }
-   
-        add_action("init", [$this, "handle_map_registration"]); //aggiungo registrazione
+          
+     add_action("init", [$this, "handle_map_registration"]); //aggiungo registrazione
     }
     //lo chiamo nello shortcode in functions
     public function form_mappa_talenti($slug_mappa = "", $lingua = "")
