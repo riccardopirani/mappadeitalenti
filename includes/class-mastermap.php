@@ -11,8 +11,7 @@ class Mastermap
 
     function __construct()
     {
-          
-     add_action("init", [$this, "handle_map_registration"]); //aggiungo registrazione
+        add_action("init", [$this, "handle_map_registration"]); //aggiungo registrazione
     }
     //lo chiamo nello shortcode in functions
     public function form_mappa_talenti($slug_mappa = "", $lingua = "")
@@ -516,8 +515,8 @@ EOT;
                 );
                 $download_url = do_shortcode(
                     '[e2pdf-download id="1" output="url" dataset="' .
-                        $post_id .
-                        '"]'
+                    $post_id .
+                    '"]'
                 );
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
                     ? $data_di_nascita_madre
@@ -670,8 +669,8 @@ EOT;
             ' .
                     (get_field("testata_email", "option")
                         ? "<img style='width:100%; height:auto; display:block; margin-bottom:20px;' src='" .
-                            get_field("testata_email", "option") .
-                            "'>"
+                        get_field("testata_email", "option") .
+                        "'>"
                         : "") .
                     '
             
@@ -698,8 +697,8 @@ EOT;
         ' .
                     ($footer_email
                         ? '<div class="footer"><p>' .
-                            $footer_email .
-                            "</p></div>"
+                        $footer_email .
+                        "</p></div>"
                         : "") .
                     '
     </div>
@@ -952,8 +951,8 @@ EOT;
                 );
                 $download_url = do_shortcode(
                     '[e2pdf-download id="2" output="url" dataset="' .
-                        $post_id .
-                        '"]'
+                    $post_id .
+                    '"]'
                 );
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
                     ? $data_di_nascita_madre
@@ -1028,8 +1027,8 @@ EOT;
             ' .
                     (get_field("testata_email", "option")
                         ? "<img style='width:100%; height:auto; display:block; margin-bottom:20px;' src='" .
-                            get_field("testata_email", "option") .
-                            "'>"
+                        get_field("testata_email", "option") .
+                        "'>"
                         : "") .
                     '
             
@@ -1050,8 +1049,8 @@ EOT;
         ' .
                     (get_field("footer_email", "option")
                         ? '<div class="footer"><p>' .
-                            get_field("footer_email", "option") .
-                            "</p></div>"
+                        get_field("footer_email", "option") .
+                        "</p></div>"
                         : "") .
                     '
     </div>
