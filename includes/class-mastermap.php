@@ -131,9 +131,7 @@ class Mastermap
             $form .= "</div>";
             $form .= '<div class="col-md-3 mb-2">';
             $form .=
-                '<label for="sesso">' .
-                __("Sesso", "ek_mappa") .
-                "*</label>";
+                '<label for="sesso">' . __("Sesso", "ek_mappa") . "*</label>";
             $form .= '<div class="form-check form-check-inline">';
             $form .=
                 '<input class="form-check-input" type="radio" name="sesso" id="uomo" value="uomo" required>';
@@ -209,8 +207,7 @@ class Mastermap
         $form .= '        value = value.replace(/\D/g, "");';
 
         $form .= "        if (value.length > 2 && value.length <= 4) {";
-        $form .=
-            '            value = value.slice(0, 2) + "/" + value.slice;';
+        $form .= '            value = value.slice(0, 2) + "/" + value.slice;';
         $form .= "        } else if (value.length > 4) {";
         $form .=
             '            value = value.slice(0, 2) + "/" + value.slice(2, 4) + "/" + value.slice(4, 8);';
@@ -294,98 +291,92 @@ class Mastermap
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
 
             $testo = "";
+            $fuoco = "";
+            $karma = "";
+            $gelo = "";
+            $anelli = "";
+            $seme = "";
+            $fiore = "";
+            $albero = "";
+            $acqua = "";
+            $specchio = "";
+            $fulmine = "";
 
             // Formattazione migliorata con Heredoc e spaziatura adeguata
             if (strpos($slug_mappa, "amore") !== false) {
-                $testo = <<<EOT
-<h3>1 KARMA: Che sfida ti lancia il tuo karma in amore?</h3>
-
-Il karma in amore è la prima sfida a gestire le tue emozioni che incontrerai nella vita. È chiaramente legato alla famiglia, ma anche alla società (immagina di nascere in un contesto di guerra). La prima parte della vita avrai quindi la tendenza a incontrare, nei tuoi sentimenti, questa sfida nei partner che incontri. Questo fino a che non sarai riuscito a trasformarlo. Poi passerai al Dharma, ovvero la parte costruttiva dell’esperienza, che avrà le caratteristiche descritte dalla missione.
-
-1. Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.
+                $fuoco = "Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.
 Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia. Dovrebbe essere un mezzo con il quale entriamo in comunicazione profonda con l’altro, ma in questo caso la difficoltà è proprio questa. Sia chi cerca compulsivamente il sesso, che chi lo rifiuta ha la difficoltà ad entrare in comunicazione profonda con l’altro in quanto in profondità c’è la rabbia.
+";
+                $karma = " Il karma in amore è la prima sfida a gestire le tue emozioni che incontrerai nella vita. È chiaramente legato alla famiglia, ma anche alla società (immagina di nascere in un contesto di guerra). La prima parte della vita avrai quindi la tendenza a incontrare, nei tuoi sentimenti, questa sfida nei partner che incontri. Questo fino a che non sarai riuscito a trasformarlo. Poi passerai al Dharma, ovvero la parte costruttiva dell’esperienza, che avrà le caratteristiche descritte dalla missione.
 Trasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro.
-Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.
-EOT;
+Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
             } elseif (strpos($slug_mappa, "bambini") !== false) {
-                $testo = <<<EOT
-<h3>Talenti e Sfide per i Bambini</h3>
-
-Fuoco 
+                $fuoco = "
 - Sfida: Trasformare la rabbia in passione.
 - Talento: La capacità di entusiasmare gli altri.
+";
 
-Gelo 
+                $gelo = "
 - Sfida: Assumersi responsabilità senza perdere l'innocenza.
 - Talento: Saggezza innata.
-
-Anelli 
+";
+                $anelli = " 
 - Sfida: Trasformare l'ansia in opportunità.
-- Talento: Grande intuizione.
+- Talento: Grande intuizione.";
 
-Seme 
+                $seme = "
 - Sfida: Trasformare l'insicurezza in fierezza.
-- Talento: Molteplici capacità da sviluppare.
+- Talento: Molteplici capacità da sviluppare.";
 
-Fiore 
+                $fiore = "
 - Sfida: Trasformare la superficialità in gioia.
-- Talento: Grande creatività.
+- Talento: Grande creatività.";
 
-Albero 
+                $albero = "
 - Sfida: Trasformare il bisogno di controllo in stabilità.
-- Talento: Amore per la propria comunità.
+- Talento: Amore per la propria comunità.";
 
-Acqua 
+                $acqua = "
 - Sfida: Trasformare l'ipersensibilità in empatia.
 - Talento: Capacità di ascolto profondo.
+";
 
-Specchio 
+                $specchio = "
 - Sfida: Gestire problemi di apprendimento o difficoltà ad adattarsi al ritmo degli altri.
-- Talento: Intelligenza "altra" o intelligenza superiore alla media.
+- Talento: Intelligenza altra o intelligenza superiore alla media.";
 
-Fulmine 
+                $fulmine = "
 - Sfida: Trasformare il bisogno di gruppo in autonomia.
-- Talento: Capacità di aiuto e collaborazione.
-EOT;
+- Talento: Capacità di aiuto e collaborazione.";
             } elseif (strpos($slug_mappa, "lavoro") !== false) {
-                $testo = <<<EOT
-<h3>Talenti e Sfide nel Mondo del Lavoro</h3>
-
-Fuoco 
-
+                $fuoco = "
 - Tendenza a bruciare troppo velocemente le energie e le risorse.
 - Impulsività che porta a decisioni affrettate e poco ponderate.
 - Dominanza eccessiva che può intimidire colleghi e collaboratori.
-
-Gelo 
-
+";
+                $gelo = "
 - Eccessivo distacco emotivo che compromette le relazioni lavorative.
-- Rigidità mentale che ostacola il cambiamento.
+- Rigidità mentale che ostacola il cambiamento.";
 
-Anelli 
-
+                $anelli = "
 - Dispersione delle energie in troppi progetti simultanei.
-- Difficoltà nel portare a termine gli impegni presi.
+- Difficoltà nel portare a termine gli impegni presi.";
 
-Seme 
-
+                $seme = "
 - Perfezionismo paralizzante che rallenta i processi.
-- Attaccamento ossessivo ai dettagli perdendo la visione d'insieme.
-EOT;
+- Attaccamento ossessivo ai dettagli perdendo la visione d'insieme.";
             } else {
-                $testo = <<<EOT
-<h3>Il tuo Percorso Karmico</h3>
+                $fuoco = "Karma del Fuoco: lo studente si confronta con la paura di brillare e mostrarsi. La sfida è imparare a gestire la propria energia senza spegnerla.
+";
+                $gelo =
+                    "la sfida principale è superare il perfezionismo paralizzante. Tende a procrastinare per paura di non essere perfetto.";
+                $anelli =
+                    "la sfida principale è superare la tendenza a disperdere le energie in troppe direzioni. Tende a non portare a termine i progetti iniziati.";
+                $seme = " insicurezza sulle proprie capacità, si sminuisce nonostante le evidenti competenze.
+.";
 
-1. Karma del Fuoco: lo studente si confronta con la paura di brillare e mostrarsi. La sfida è imparare a gestire la propria energia senza spegnerla.
-
-2. Karma del Gelo: la sfida principale è superare il perfezionismo paralizzante. Tende a procrastinare per paura di non essere perfetto.
-
-3. Karma degli Anelli: difficoltà nel mantenere la concentrazione e l’attenzione, tende a disperdere le energie in troppe direzioni.
-
-4. Karma del Seme: insicurezza sulle proprie capacità, si sminuisce nonostante le evidenti competenze.
-
-5. Karma del Fiore: prende lo studio troppo alla leggera, deve imparare l’equilibrio tra leggerezza e impegno.
-EOT;
+                $fiore =
+                    "prende lo studio troppo alla leggera, deve imparare l’equilibrio tra leggerezza e impegno.";
             }
 
             // Prepara il post da inserire nel custom post type "mappa"
@@ -515,8 +506,8 @@ EOT;
                 );
                 $download_url = do_shortcode(
                     '[e2pdf-download id="1" output="url" dataset="' .
-                    $post_id .
-                    '"]'
+                        $post_id .
+                        '"]'
                 );
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
                     ? $data_di_nascita_madre
@@ -669,8 +660,8 @@ EOT;
             ' .
                     (get_field("testata_email", "option")
                         ? "<img style='width:100%; height:auto; display:block; margin-bottom:20px;' src='" .
-                        get_field("testata_email", "option") .
-                        "'>"
+                            get_field("testata_email", "option") .
+                            "'>"
                         : "") .
                     '
             
@@ -697,8 +688,8 @@ EOT;
         ' .
                     ($footer_email
                         ? '<div class="footer"><p>' .
-                        $footer_email .
-                        "</p></div>"
+                            $footer_email .
+                            "</p></div>"
                         : "") .
                     '
     </div>
@@ -951,8 +942,8 @@ EOT;
                 );
                 $download_url = do_shortcode(
                     '[e2pdf-download id="2" output="url" dataset="' .
-                    $post_id .
-                    '"]'
+                        $post_id .
+                        '"]'
                 );
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
                     ? $data_di_nascita_madre
@@ -1027,8 +1018,8 @@ EOT;
             ' .
                     (get_field("testata_email", "option")
                         ? "<img style='width:100%; height:auto; display:block; margin-bottom:20px;' src='" .
-                        get_field("testata_email", "option") .
-                        "'>"
+                            get_field("testata_email", "option") .
+                            "'>"
                         : "") .
                     '
             
@@ -1049,8 +1040,8 @@ EOT;
         ' .
                     (get_field("footer_email", "option")
                         ? '<div class="footer"><p>' .
-                        get_field("footer_email", "option") .
-                        "</p></div>"
+                            get_field("footer_email", "option") .
+                            "</p></div>"
                         : "") .
                     '
     </div>
