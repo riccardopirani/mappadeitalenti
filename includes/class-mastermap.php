@@ -385,7 +385,8 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                 "post_type" => "mappa", // Specifica il custom post type
                 "post_status" => "publish",
                 "post_author" => get_current_user_id(),
-                "post_content" => $testo,
+                "post_content" => $fuoco,
+                
             ];
 
             // Inserisci il post
