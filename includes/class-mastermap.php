@@ -4,7 +4,17 @@
  * classe principale starter plugin
  **/
 namespace map_plugin;
-
+$testo = "";
+$fuoco = "";
+$karma = "";
+$gelo = "";
+$anelli = "";
+$seme = "";
+$fiore = "";
+$albero = "";
+$acqua = "";
+$specchio = "";
+$fulmine = "";
 class Mastermap
 {
     const VERSIONE = "1.0";
@@ -290,18 +300,6 @@ class Mastermap
             // Formatta il titolo del nuovo post
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
 
-            $testo = "";
-            $fuoco = "";
-            $karma = "";
-            $gelo = "";
-            $anelli = "";
-            $seme = "";
-            $fiore = "";
-            $albero = "";
-            $acqua = "";
-            $specchio = "";
-            $fulmine = "";
-
             // Formattazione migliorata con Heredoc e spaziatura adeguata
             if (strpos($slug_mappa, "amore") !== false) {
                 $fuoco = "Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.
@@ -386,11 +384,10 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                 "post_status" => "publish",
                 "post_author" => get_current_user_id(),
                 "post_content" => $karma,
-                "post_content2"=> $gelo,
-                "post_content3"=> $anelli,
-                "post_content4"=> $seme,
-                "post_content5"=> $fiore,
-                
+                "post_content2" => $gelo,
+                "post_content3" => $anelli,
+                "post_content4" => $seme,
+                "post_content5" => $fiore,
             ];
 
             // Inserisci il post
@@ -829,7 +826,11 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                 "post_type" => "mappa", // Specifica il custom post type
                 "post_status" => "publish",
                 "post_author" => get_current_user_id(),
-                "post_content" => $testo,
+                "post_content" => $karma,
+                "post_content2" => $gelo,
+                "post_content3" => $anelli,
+                "post_content4" => $seme,
+                "post_content5" => $fiore,
             ];
 
             // Inserisci il post
