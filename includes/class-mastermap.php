@@ -289,23 +289,23 @@ class Mastermap
 
             // Formatta il titolo del nuovo post
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
-$testo = "";
-$fuoco = "";
-$karma = "";
-$gelo = "";
-$anelli = "";
-$seme = "";
-$fiore = "";
-$albero = "";
-$acqua = "";
-$specchio = "";
-$fulmine = "";
+            $testo = "";
+            $fuoco = "";
+            $first = "prova";
+            $second = "";
+            $third = "";
+            $four = "";
+            $five = "";
+            $albero = "";
+            $acqua = "";
+            $specchio = "";
+            $fulmine = "";
             // Formattazione migliorata con Heredoc e spaziatura adeguata
             if (strpos($slug_mappa, "amore") !== false) {
-                $fuoco = "Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.
+                $first = "Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.
 Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia. Dovrebbe essere un mezzo con il quale entriamo in comunicazione profonda con l’altro, ma in questo caso la difficoltà è proprio questa. Sia chi cerca compulsivamente il sesso, che chi lo rifiuta ha la difficoltà ad entrare in comunicazione profonda con l’altro in quanto in profondità c’è la rabbia.
 ";
-                $karma = " Il karma in amore è la prima sfida a gestire le tue emozioni che incontrerai nella vita. È chiaramente legato alla famiglia, ma anche alla società (immagina di nascere in un contesto di guerra). La prima parte della vita avrai quindi la tendenza a incontrare, nei tuoi sentimenti, questa sfida nei partner che incontri. Questo fino a che non sarai riuscito a trasformarlo. Poi passerai al Dharma, ovvero la parte costruttiva dell’esperienza, che avrà le caratteristiche descritte dalla missione.
+                $second = " Il karma in amore è la prima sfida a gestire le tue emozioni che incontrerai nella vita. È chiaramente legato alla famiglia, ma anche alla società (immagina di nascere in un contesto di guerra). La prima parte della vita avrai quindi la tendenza a incontrare, nei tuoi sentimenti, questa sfida nei partner che incontri. Questo fino a che non sarai riuscito a trasformarlo. Poi passerai al Dharma, ovvero la parte costruttiva dell’esperienza, che avrà le caratteristiche descritte dalla missione.
 Trasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro.
 Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
             } elseif (strpos($slug_mappa, "bambini") !== false) {
@@ -314,19 +314,19 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
 - Talento: La capacità di entusiasmare gli altri.
 ";
 
-                $gelo = "
+                $second = "
 - Sfida: Assumersi responsabilità senza perdere l'innocenza.
 - Talento: Saggezza innata.
 ";
-                $anelli = " 
+                $third = " 
 - Sfida: Trasformare l'ansia in opportunità.
 - Talento: Grande intuizione.";
 
-                $seme = "
+                $four = "
 - Sfida: Trasformare l'insicurezza in fierezza.
 - Talento: Molteplici capacità da sviluppare.";
 
-                $fiore = "
+                $five = "
 - Sfida: Trasformare la superficialità in gioia.
 - Talento: Grande creatività.";
 
@@ -352,28 +352,28 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
 - Impulsività che porta a decisioni affrettate e poco ponderate.
 - Dominanza eccessiva che può intimidire colleghi e collaboratori.
 ";
-                $gelo = "
+                $second = "
 - Eccessivo distacco emotivo che compromette le relazioni lavorative.
 - Rigidità mentale che ostacola il cambiamento.";
 
-                $anelli = "
+                $third = "
 - Dispersione delle energie in troppi progetti simultanei.
 - Difficoltà nel portare a termine gli impegni presi.";
 
-                $seme = "
+                $four = "
 - Perfezionismo paralizzante che rallenta i processi.
 - Attaccamento ossessivo ai dettagli perdendo la visione d'insieme.";
             } else {
-                $fuoco = "Karma del Fuoco: lo studente si confronta con la paura di brillare e mostrarsi. La sfida è imparare a gestire la propria energia senza spegnerla.
+                $first = "Karma del Fuoco: lo studente si confronta con la paura di brillare e mostrarsi. La sfida è imparare a gestire la propria energia senza spegnerla.
 ";
-                $gelo =
+                $second =
                     "la sfida principale è superare il perfezionismo paralizzante. Tende a procrastinare per paura di non essere perfetto.";
-                $anelli =
+                $third =
                     "la sfida principale è superare la tendenza a disperdere le energie in troppe direzioni. Tende a non portare a termine i progetti iniziati.";
-                $seme = " insicurezza sulle proprie capacità, si sminuisce nonostante le evidenti competenze.
+                $four = " insicurezza sulle proprie capacità, si sminuisce nonostante le evidenti competenze.
 .";
 
-                $fiore =
+                $five =
                     "prende lo studio troppo alla leggera, deve imparare l’equilibrio tra leggerezza e impegno.";
             }
 
@@ -383,11 +383,11 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                 "post_type" => "mappa", // Specifica il custom post type
                 "post_status" => "publish",
                 "post_author" => get_current_user_id(),
-                "post_content" => $karma,
-                "post_content2" => $gelo,
-                "post_content3" => $anelli,
-                "post_content4" => $seme,
-                "post_content5" => $fiore,
+                "post_content" => $first,
+                "post_content2" => $second,
+                "post_content3" => $third,
+                "post_content4" => $four,
+                "post_content5" => $five,
             ];
 
             // Inserisci il post
@@ -752,352 +752,6 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                 // Gestisci l'errore nella creazione del post
                 echo "<p>Errore nella creazione della mappa dei talenti.</p>";
             }
-        }
-    }
-
-    public function handle_map_registration_old()
-    {
-        session_start();
-        // Verifica se il form è stato inviato tramite POST e il campo 'book' è settato
-        if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["book"])) {
-            // Previene il doppio invio controllando una variabile di sessione
-            if (
-                isset($_SESSION["last_submit"]) &&
-                time() - $_SESSION["last_submit"] < 30
-            ) {
-                echo "<p>Stai inviando troppo rapidamente. Attendere un momento.</p>";
-                return;
-            }
-            $_SESSION["last_submit"] = time();
-
-            // Prepara i dati dal form
-            $nome = sanitize_text_field($_POST["nome"]);
-            $cognome = sanitize_text_field($_POST["cognome"]);
-            $email = sanitize_email($_POST["email"]);
-            $sesso = sanitize_text_field($_POST["sesso"]);
-
-            $slug_mappa = sanitize_text_field($_POST["slug_mappa"]);
-            $lingua = sanitize_text_field($_POST["lingua"]);
-
-            $data_nascita_utente = sanitize_text_field(
-                $_POST["data_di_nascita_utente"]
-            );
-            $data_di_nascita_madre = sanitize_text_field(
-                $_POST["data_di_nascita_madre"]
-            );
-            $data_di_nascita_padre = sanitize_text_field(
-                $_POST["data_di_nascita_padre"]
-            );
-            $accettazione_privacy = sanitize_text_field(
-                $_POST["accettazione_privacy"]
-            );
-
-            $utente_result = reduce_date_to_single_digit_details(
-                $data_nascita_utente
-            );
-            $madre_result = reduce_date_to_single_digit_details(
-                $data_di_nascita_madre
-            );
-            $padre_result = reduce_date_to_single_digit_details(
-                $data_di_nascita_padre
-            );
-            $other_result = other_details(
-                $data_nascita_utente,
-                $data_di_nascita_madre,
-                $data_di_nascita_padre
-            );
-
-            $solution = get_solution(
-                $slug_mappa,
-                $lingua,
-                $utente_result,
-                $madre_result,
-                $padre_result,
-                $other_result
-            );
-
-            // Formatta il titolo del nuovo post
-            $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
-            $testo = "";
-
-            // Prepara il post da inserire nel custom post type "mappa"
-            $post_data = [
-                "post_title" => $post_title,
-                "post_type" => "mappa", // Specifica il custom post type
-                "post_status" => "publish",
-                "post_author" => get_current_user_id(),
-                "post_content" => $karma,
-                "post_content2" => $gelo,
-                "post_content3" => $anelli,
-                "post_content4" => $seme,
-                "post_content5" => $fiore,
-            ];
-
-            // Inserisci il post
-            $post_id = wp_insert_post($post_data);
-
-            // Controlla se il post è stato creato correttamente
-            if ($post_id != 0) {
-                // Imposta i campi ACF con i valori corrispondenti
-                update_field("nome", strtoupper($nome), $post_id);
-                update_field("cognome", strtoupper($cognome), $post_id);
-                update_field("sesso", $sesso, $post_id);
-                update_field("email", $email, $post_id);
-
-                $date_object = DateTime::createFromFormat(
-                    "d/m/Y",
-                    $data_nascita_utente
-                );
-                if ($data_nascita_utente !== false) {
-                    $data_nascita_utente = $date_object->format("Y-m-d");
-                    update_field(
-                        "data_di_nascita_utente",
-                        $data_nascita_utente,
-                        $post_id
-                    );
-                }
-
-                $date_object = DateTime::createFromFormat(
-                    "d/m/Y",
-                    $data_di_nascita_madre
-                );
-                if ($data_di_nascita_madre !== false) {
-                    $data_di_nascita_madre = $date_object->format("Y-m-d");
-                    update_field(
-                        "data_di_nascita_madre",
-                        $data_di_nascita_madre,
-                        $post_id
-                    );
-                }
-
-                $date_object = DateTime::createFromFormat(
-                    "d/m/Y",
-                    $data_di_nascita_padre
-                );
-                if ($data_di_nascita_padre !== false) {
-                    $data_di_nascita_padre = $date_object->format("Y-m-d");
-                    update_field(
-                        "data_di_nascita_padre",
-                        $data_di_nascita_padre,
-                        $post_id
-                    );
-                }
-
-                update_field(
-                    "utente_totale",
-                    $utente_result["totale"],
-                    $post_id
-                );
-                update_field("madre_totale", $madre_result["totale"], $post_id);
-                update_field("padre_totale", $padre_result["totale"], $post_id);
-
-                update_field("utente_anno", $utente_result["anno"], $post_id);
-                update_field("madre_anno", $madre_result["anno"], $post_id);
-                update_field("padre_anno", $padre_result["anno"], $post_id);
-
-                update_field("utente_mese", $utente_result["mese"], $post_id);
-                update_field("madre_mese", $madre_result["mese"], $post_id);
-                update_field("padre_mese", $padre_result["mese"], $post_id);
-
-                update_field(
-                    "utente_giorno",
-                    $utente_result["giorno"],
-                    $post_id
-                );
-                update_field("madre_giorno", $madre_result["giorno"], $post_id);
-                update_field("padre_giorno", $padre_result["giorno"], $post_id);
-
-                update_field(
-                    "u-anno-meno-u-mese",
-                    $utente_result["anno-meno-mese"],
-                    $post_id
-                ); //pos 6
-                update_field(
-                    "u-mese-meno-u-giorno",
-                    $utente_result["mese-meno-giorno"],
-                    $post_id
-                ); //pos 10
-
-                update_field(
-                    "u-giorno-meno-m-totale",
-                    $other_result["u-giorno-meno-m-totale"],
-                    $post_id
-                ); //pos 11
-                update_field(
-                    "p-totale-piu-u-totale",
-                    $other_result["p-totale-piu-u-totale"],
-                    $post_id
-                ); //pos 12
-                update_field(
-                    "u-totale-piu-u-anni",
-                    $other_result["u-totale-piu-u-anni"],
-                    $post_id
-                ); //pos 13
-                update_field("comi", $other_result["comi"], $post_id); //pos 13 KARMA
-                update_field("cogi", $other_result["cogi"], $post_id); //pos 13 Maestro
-
-                update_field(
-                    "accettazione_privacy",
-                    $accettazione_privacy,
-                    $post_id
-                );
-
-                // Genera il link di download usando lo shortcode
-                $download_link = do_shortcode(
-                    '[e2pdf-download id="2" dataset="' . $post_id . '"]'
-                );
-                $download_url = do_shortcode(
-                    '[e2pdf-download id="2" output="url" dataset="' .
-                        $post_id .
-                        '"]'
-                );
-                $data_di_nascita_madre_txt = $data_di_nascita_madre
-                    ? $data_di_nascita_madre
-                    : "data non inserita";
-                $data_di_nascita_padre_txt = $data_di_nascita_padre
-                    ? $data_di_nascita_padre
-                    : "data non inserita";
-
-                //se c'è un oggetto impostato usiamo quello
-                $subject_user = get_field("oggetto_email", "option")
-                    ? get_field("oggetto_email", "option")
-                    : "Riepilogo Mappa Talenti";
-
-                // Costruisci il messaggio HTML dell'email
-                $message_user =
-                    '<!doctype html>
-<html lang="it">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>' .
-                    $subject_user .
-                    '</title>
-    <style media="all" type="text/css">
-        body {
-            font-family: Helvetica, sans-serif;
-            -webkit-font-smoothing: antialiased;
-            font-size: 16px;
-            line-height: 1.3;
-            -ms-text-size-adjust: 100%;
-            -webkit-text-size-adjust: 100%;
-            background-color: #f4f5f6;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            margin: 0 auto;
-            max-width: 600px;
-            padding: 24px;
-            width: 100%;
-        }
-        .main {
-            background: #ffffff;
-            border: 1px solid #eaebed;
-            border-radius: 16px;
-            width: 100%;
-            padding: 24px;
-        }
-        p {
-            font-family: Helvetica, sans-serif;
-            font-size: 16px;
-            margin: 0;
-            margin-bottom: 16px;
-        }
-        a {
-            color: #0867ec;
-            text-decoration: underline;
-        }
-        .footer {
-            text-align: center;
-            color: #9a9ea6;
-            font-size: 16px;
-            margin-top: 30px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <!-- Inizio Contenuto Email -->
-        <div class="main">
-            <!-- Testata Email -->
-            ' .
-                    (get_field("testata_email", "option")
-                        ? "<img style='width:100%; height:auto; display:block; margin-bottom:20px;' src='" .
-                            get_field("testata_email", "option") .
-                            "'>"
-                        : "") .
-                    '
-            
-            <!-- Corpo Email -->
-            ' .
-                    (get_field("corpo_email", "option")
-                        ? get_field("corpo_email", "option")
-                        : "<h1 style='font-size:18px'>Grazie per aver compilato la Mappa Talenti</h1>") .
-                    '
-            
-            <p><b>' .
-                    $download_link .
-                    '</b></p>
-        </div>
-        <!-- Fine Contenuto Email -->
-
-        <!-- Footer -->
-        ' .
-                    (get_field("footer_email", "option")
-                        ? '<div class="footer"><p>' .
-                            get_field("footer_email", "option") .
-                            "</p></div>"
-                        : "") .
-                    '
-    </div>
-</body>
-</html>';
-
-                // Aggiungi header per l'email HTML
-                $headers = ["Content-Type: text/html; charset=UTF-8"];
-
-                // Invia l'email
-                wp_mail($email, $subject_user, $message_user, $headers);
-
-                // Inviare email di riepilogo all'amministratore
-                $admin_email = get_field(
-                    "email_notifica_compilazione",
-                    "option"
-                )
-                    ? get_field("email_notifica_compilazione", "option")
-                    : "alessandro@eklettica.it";
-                $subject_admin = "Nuova Mappa Talenti Creata";
-                $message_admin =
-                    "Un utente ha creato una nuova Mappa Talenti.\n\n";
-                $message_admin .= "Nome: " . $nome . "\n";
-                $message_admin .= "Cognome: " . $cognome . "\n";
-                $message_admin .= "E-mail: " . $email . "\n";
-                $message_admin .= "Sesso: " . $sesso . "\n";
-                $message_admin .=
-                    "Data di nascita: " . $data_nascita_utente . "\n";
-                $message_admin .=
-                    "Data di nascita madre: " .
-                    $data_di_nascita_madre_txt .
-                    "\n";
-                $message_admin .=
-                    "Data di nascita padre: " .
-                    $data_di_nascita_padre_txt .
-                    "\n\n";
-                $message_admin .=
-                    "Scarica la mappa da qui: " . $download_link . "\n";
-                wp_mail($admin_email, $subject_admin, $message_admin);
-
-                // Redirigi alla pagina con ID 99
-                wp_redirect(site_url("/grazie-per-lacquisto"));
-                exit(); // Assicurati che il redirect avvenga subito
-            } else {
-                wp_redirect(site_url("/grazie-per-lacquisto"));
-                // Gestisci l'errore nella creazione del post
-                echo "<p>Errore nella creazione della mappa dei talenti.</p>";
-            }
-
-            wp_redirect(site_url("/grazie-per-lacquisto"));
         }
     }
 }
