@@ -199,7 +199,7 @@ class Mastermap
         $form .= "    return true;";
         $form .= "}";
 
-        
+
         $form .= "function addDateSlashes(inputId) {";
         $form .=
             '    document.getElementById(inputId).addEventListener("input", function(e) {';
@@ -525,7 +525,7 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     $post_id
                 );
 
-               
+
                 $download_link = do_shortcode(
                     '[e2pdf-download id="1" dataset="' . $post_id . '"]'
                 );
@@ -561,10 +561,10 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
 
                 global $wpdb;
 
-   
+
                 $lingua_corrente = $lingua === "EN" ? "EN" : "ITA";
 
-      
+
                 $etichette = $wpdb->get_results(
                     $wpdb->prepare(
                         "SELECT slug_mappa_et, etichetta 
@@ -575,7 +575,7 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     ARRAY_A
                 );
 
-             
+
                 $etichette_map = [];
                 foreach ($etichette as $etichetta) {
                     $etichette_map[$etichetta["slug_mappa_et"]] =
@@ -584,7 +584,7 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                 $solution_content = "<h3>" . $label_risultati . ":</h3>";
                 foreach ($solution as $item) {
                     if (isset($item["domanda"])) {
-                      
+
                         $nome_entita = isset(
                             $etichette_map[$item["slug_entita"]]
                         )
@@ -601,7 +601,7 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                             "";
                     }
                     if (isset($item["risposta"])) {
-                        
+
                         $solution_content .=
                             "" .
                             $label_punteggio .
@@ -618,8 +618,8 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     ? get_field("oggetto_email", "option")
                     : "Riepilogo Mappa Talenti";
 
-// Costruisci il messaggio HTML dell'email
-$message_user = '
+                // Costruisci il messaggio HTML dell'email
+                $message_user = '
 <!doctype html>
 <html lang="it">
 <head>
@@ -707,7 +707,7 @@ $message_user = '
 </html>';
 
                 // Aggiungi header per l'email HTML
-                $headers = ["Content-Type: text/html; charset=UTF-8"];      
+                $headers = ["Content-Type: text/html; charset=UTF-8"];
 
                 // Invia l'email
                 wp_mail($email, $subject_user, $message_user, $headers);
