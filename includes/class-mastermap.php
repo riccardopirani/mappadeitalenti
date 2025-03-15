@@ -618,24 +618,20 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     ? get_field("oggetto_email", "option")
                     : "Riepilogo Mappa Talenti";
 
-                // Costruisci il messaggio HTML dell'email
-                $message_user =
-                    '<!doctype html>
+// Costruisci il messaggio HTML dell'email
+$message_user = '
+<!doctype html>
 <html lang="it">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>' .
-                    $subject_user .
-                    '</title>
+    <title>' . $subject_user . '</title>
     <style media="all" type="text/css">
         body {
-            font-family: Helvetica, sans-serif;
+            font-family: Helvetica, Arial, sans-serif;
             -webkit-font-smoothing: antialiased;
             font-size: 16px;
-            line-height: 1.3;
-            -ms-text-size-adjust: 100%;
-            -webkit-text-size-adjust: 100%;
+            line-height: 1.5;
             background-color: #f4f5f6;
             margin: 0;
             padding: 0;
@@ -648,73 +644,64 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
         }
         .main {
             background: #ffffff;
-            border: 1px solid #eaebed;
             border-radius: 16px;
-            width: 100%;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             padding: 24px;
+            text-align: center;
+        }
+        .header img {
+            max-width: 200px;
+            margin-bottom: 20px;
         }
         p {
-            font-family: Helvetica, sans-serif;
             font-size: 16px;
-            margin: 0;
+            color: #333;
             margin-bottom: 16px;
         }
-        a {
+        .download-box {
+            background: #e8f0fe;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 15px;
+            display: inline-block;
+        }
+        .download-box a {
+            font-size: 16px;
             color: #0867ec;
-            text-decoration: underline;
+            font-weight: bold;
+            text-decoration: none;
         }
-        .dwnButton a {
-            font-size:16px;
-        }
-
         .footer {
             text-align: center;
-            color: #9a9ea6;
-            font-size: 16px;
+            color: #7d7d7d;
+            font-size: 14px;
             margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #ddd;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Inizio Contenuto Email -->
         <div class="main">
-            <!-- Testata Email -->
-            ' .
-                    (get_field("testata_email", "option")
-                        ? "<img style='width:100%; height:auto; display:block; margin-bottom:20px;' src='" .
-                            get_field("testata_email", "option") .
-                            "'>"
-                        : "") .
-                    '
+            <!-- Logo -->
+            <div class="header">
+                <img src="https://ninenergymap.com/wp-content/uploads/2025/02/logo_ninenergy_header.png" alt="Ninenergy Logo">
+            </div>
             
             <!-- Corpo Email -->
-            ' .
-                    ($corpo_email
-                        ? $corpo_email
-                        : "<h1 style='font-size:18px'>Grazie per aver compilato la Mappa Talenti</h1>") .
-                    '
+            ' . ($corpo_email ? $corpo_email : "<h1 style='font-size:18px'>Grazie per aver compilato la Mappa Talenti</h1>") . '
+            ' . $solution_content . '
             
-            ' .
-                    $solution_content .
-                    ' <!-- Aggiungi qui il contenuto della soluzione -->
-            <p style="padding:3px 6px; border:1px solid #eee; margin-bottom:0; margin-top:10px"><b>' .
-                    $label_download .
-                    '</b>
-            <span class="dwnButton">' .
-                    $download_link .
-                    '</span></p>
+            <!-- Download -->
+            <div class="download-box">
+                <p><b>' . $label_download . '</b></p>
+                <p><span class="dwnButton">' . $download_link . '</span></p>
+            </div>
         </div>
-        <!-- Fine Contenuto Email -->
 
         <!-- Footer -->
-        ' .
-                    ($footer_email
-                        ? '<div class="footer"><p>' .
-                            $footer_email .
-                            "</p></div>"
-                        : "") .
-                    '
+        ' . ($footer_email ? '<div class="footer"><p>' . $footer_email . '</p></div>' : '') . '
     </div>
 </body>
 </html>';
