@@ -199,7 +199,7 @@ class Mastermap
         $form .= "    return true;";
         $form .= "}";
 
-        // Funzione per aggiungere gli slash automatici
+        
         $form .= "function addDateSlashes(inputId) {";
         $form .=
             '    document.getElementById(inputId).addEventListener("input", function(e) {';
@@ -376,22 +376,45 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                 $five =
                     "prende lo studio troppo alla leggera, deve imparare l’equilibrio tra leggerezza e impegno.";
             }
+            // Se le variabili sono vuote o hanno meno di 10 caratteri, assegna i valori predefiniti
+            if (empty($first) || strlen($first) < 10) {
+                $first =
+                    "Karma del Fuoco: lo studente si confronta con la paura di brillare e mostrarsi. La sfida è imparare a gestire la propria energia senza spegnerla.";
+            }
+            if (empty($second) || strlen($second) < 10) {
+                $second =
+                    "La sfida principale è superare il perfezionismo paralizzante. Tende a procrastinare per paura di non essere perfetto.";
+            }
+            if (empty($third) || strlen($third) < 10) {
+                $third =
+                    "La sfida principale è superare la tendenza a disperdere le energie in troppe direzioni. Tende a non portare a termine i progetti iniziati.";
+            }
+            if (empty($four) || strlen($four) < 10) {
+                $four =
+                    "Insicurezza sulle proprie capacità, si sminuisce nonostante le evidenti competenze.";
+            }
+            if (empty($five) || strlen($five) < 10) {
+                $five =
+                    "Prende lo studio troppo alla leggera, deve imparare l’equilibrio tra leggerezza e impegno.";
+            }
 
-            // Prepara il post da inserire nel custom post type "mappa"
             $post_data = [
                 "post_title" => $post_title,
-                "post_type" => "mappa", // Specifica il custom post type
+                "post_type" => "mappa",
                 "post_status" => "publish",
                 "post_author" => get_current_user_id(),
-                "post_content" => $first,
-                "post_content2" => $second,
-                "post_content3" => $third,
-                "post_content4" => $four,
-                "post_content5" => $five,
+                "post_content" => $first, // Puoi salvare il primo contenuto nel post_content
             ];
 
-            // Inserisci il post
             $post_id = wp_insert_post($post_data);
+
+            if ($post_id != 0) {
+                update_post_meta($post_id, "section1", $first);
+                update_post_meta($post_id, "section2", $second);
+                update_post_meta($post_id, "section3", $third);
+                update_post_meta($post_id, "section4", $four);
+                update_post_meta($post_id, "section5", $five);
+            }
 
             // Controlla se il post è stato creato correttamente
             if ($post_id != 0) {
@@ -502,14 +525,14 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     $post_id
                 );
 
-                // Genera il link di download usando lo shortcode
+               
                 $download_link = do_shortcode(
                     '[e2pdf-download id="1" dataset="' . $post_id . '"]'
                 );
                 $download_url = do_shortcode(
                     '[e2pdf-download id="1" output="url" dataset="' .
-                        $post_id .
-                        '"]'
+                    $post_id .
+                    '"]'
                 );
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
                     ? $data_di_nascita_madre
@@ -538,10 +561,10 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
 
                 global $wpdb;
 
-                // Variabile per la lingua corrente (ad esempio 'EN' o 'ITA')
+   
                 $lingua_corrente = $lingua === "EN" ? "EN" : "ITA";
 
-                // Query per ottenere tutte le etichette corrispondenti alla lingua corrente
+      
                 $etichette = $wpdb->get_results(
                     $wpdb->prepare(
                         "SELECT slug_mappa_et, etichetta 
@@ -552,23 +575,21 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     ARRAY_A
                 );
 
-                // Organizza le etichette in un array associativo per un accesso rapido
+             
                 $etichette_map = [];
                 foreach ($etichette as $etichetta) {
                     $etichette_map[$etichetta["slug_mappa_et"]] =
                         $etichetta["etichetta"];
                 }
-
-                // Costruisci il contenuto della soluzione da inserire nell'email
                 $solution_content = "<h3>" . $label_risultati . ":</h3>";
                 foreach ($solution as $item) {
                     if (isset($item["domanda"])) {
-                        // Aggiungi il nome dell'entità (sostituendo lo slug con l'etichetta, se esiste)
+                      
                         $nome_entita = isset(
                             $etichette_map[$item["slug_entita"]]
                         )
                             ? $etichette_map[$item["slug_entita"]]
-                            : $item["slug_entita"]; // Usa lo slug come fallback
+                            : $item["slug_entita"];
 
                         $solution_content .=
                             '<h3 style="background-color: #eee;padding: 3px 12px; margin-bottom:0">' .
@@ -580,7 +601,7 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                             "";
                     }
                     if (isset($item["risposta"])) {
-                        // Aggiungi il punteggio e la risposta
+                        
                         $solution_content .=
                             "" .
                             $label_punteggio .
@@ -699,7 +720,7 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
 </html>';
 
                 // Aggiungi header per l'email HTML
-                $headers = ["Content-Type: text/html; charset=UTF-8"];
+                $headers = ["Content-Type: text/html; charset=UTF-8"];      
 
                 // Invia l'email
                 wp_mail($email, $subject_user, $message_user, $headers);
@@ -730,6 +751,8 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     "\n\n";
                 $message_admin .=
                     "Scarica la mappa da qui: " . $download_link . "\n";
+
+
                 wp_mail($admin_email, $subject_admin, $message_admin);
 
                 if ($lingua == "EN"):
@@ -743,9 +766,6 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                         "option"
                     );
                 endif;
-
-                // Redirigi alla pagina con ID 99
-                // wp_redirect($pagina_conferma);
                 wp_redirect("/grazie-per-lacquisto");
                 exit(); // Assicurati che il redirect avvenga subito
             } else {
