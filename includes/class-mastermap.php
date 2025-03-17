@@ -686,7 +686,7 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
         <div class="main">
             <!-- Logo -->
             <div class="header">
-                <img src="https://ninenergymap.com/wp-content/uploads/2025/02/logo_ninenergy_header.png" alt="Ninenergy Logo">
+                <img src="https://ninenergymap.com/logo.png" alt="Ninenergy Logo">
             </div>
             
             <!-- Corpo Email -->
