@@ -24,12 +24,12 @@ class Mastermap
             $form .= "<p><b>*</b> Fill in the required fields</p>";
 
             $form .=
-                '<input type="hidden" name="slug_mappa" value="' .
-                esc_attr($slug_mappa) .
+            '<input type="hidden" name="slug_mappa" value="' .
+            esc_attr($slug_mappa) .
                 '">';
             $form .=
-                '<input type="hidden" name="lingua" value="' .
-                esc_attr($lingua) .
+            '<input type="hidden" name="lingua" value="' .
+            esc_attr($lingua) .
                 '">';
             $form .= '<div class="row reg-row my-1">';
             $form .= '<div class="col-md-3 mb-2">';
@@ -101,58 +101,58 @@ class Mastermap
             $form .= "<p><b>*</b> Compila i campi richiesti</p>";
 
             $form .=
-                '<input type="hidden" name="slug_mappa" value="' .
-                esc_attr($slug_mappa) .
+            '<input type="hidden" name="slug_mappa" value="' .
+            esc_attr($slug_mappa) .
                 '">';
             $form .=
-                '<input type="hidden" name="lingua" value="' .
-                esc_attr($lingua) .
+            '<input type="hidden" name="lingua" value="' .
+            esc_attr($lingua) .
                 '">';
             $form .= '<div class="row reg-row my-1">';
             $form .= '<div class="col-md-3 mb-2">';
             $form .=
-                '<label for="nome">' . __("Nome", "ek_mappa") . "*</label>";
+            '<label for="nome">' . __("Nome", "ek_mappa") . "*</label>";
             $form .=
                 '<input class="form-control" type="text" name="nome" required placeholder="Nome*">';
             $form .= "</div>";
             $form .= '<div class="col-md-3 mb-2">';
             $form .=
-                '<label for="cognome">' .
-                __("Cognome", "ek_mappa") .
+            '<label for="cognome">' .
+            __("Cognome", "ek_mappa") .
                 "*</label>";
             $form .=
                 '<input class="form-control" type="text" name="cognome" required placeholder="Cognome*">';
             $form .= "</div>";
             $form .= '<div class="col-md-3 mb-2">';
             $form .=
-                '<label for="email">' . __("E-mail", "ek_mappa") . "*</label>";
+            '<label for="email">' . __("E-mail", "ek_mappa") . "*</label>";
             $form .=
                 '<input class="form-control" type="email" name="email" required placeholder="E-mail*">';
             $form .= "</div>";
             $form .= '<div class="col-md-3 mb-2">';
             $form .=
-                '<label for="sesso">' . __("Sesso", "ek_mappa") . "*</label>";
+            '<label for="sesso">' . __("Sesso", "ek_mappa") . "*</label>";
             $form .= '<div class="form-check form-check-inline">';
             $form .=
                 '<input class="form-check-input" type="radio" name="sesso" id="uomo" value="uomo" required>';
             $form .=
-                '<label class="form-check-label" for="uomo">' .
-                __("Uomo", "ek_mappa") .
+            '<label class="form-check-label" for="uomo">' .
+            __("Uomo", "ek_mappa") .
                 "</label>";
             $form .= "</div>";
             $form .= '<div class="form-check form-check-inline">';
             $form .=
                 '<input class="form-check-input" type="radio" name="sesso" id="donna" value="donna" required>';
             $form .=
-                '<label class="form-check-label" for="donna">' .
-                __("Donna", "ek_mappa") .
+            '<label class="form-check-label" for="donna">' .
+            __("Donna", "ek_mappa") .
                 "</label>";
             $form .= "</div>";
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
-                '<label for="data_nascita_utente">' .
-                __("La tua data di nascita", "ek_mappa") .
+            '<label for="data_nascita_utente">' .
+            __("La tua data di nascita", "ek_mappa") .
                 "*</label>";
             $form .=
                 '<input class="form-control" type="text" id="data_di_nascita_utente" name="data_di_nascita_utente" required placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
@@ -160,16 +160,16 @@ class Mastermap
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
-                '<label for="data_di_nascita_madre">' .
-                __("Data di nascita di tua madre", "ek_mappa") .
+            '<label for="data_di_nascita_madre">' .
+            __("Data di nascita di tua madre", "ek_mappa") .
                 "</label>";
             $form .=
                 '<input class="form-control" type="text"  id="data_di_nascita_madre" name="data_di_nascita_madre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
-                '<label for="data_di_nascita_padre">' .
-                __("Data di nascita di tuo padre", "ek_mappa") .
+            '<label for="data_di_nascita_padre">' .
+            __("Data di nascita di tuo padre", "ek_mappa") .
                 "</label>";
             $form .=
                 '<input class="form-control" type="text" id="data_di_nascita_padre" name="data_di_nascita_padre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
@@ -182,8 +182,8 @@ class Mastermap
             $form .= "</div>";
             $form .= '<div class="col-md-12 mb-2">';
             $form .=
-                '<input type="submit" name="book" value="' .
-                __("INVIA", "ek_mappa") .
+            '<input type="submit" name="book" value="' .
+            __("INVIA", "ek_mappa") .
                 '" class="btn btn-primary"/>';
             $form .= "</div>";
             $form .= "</div>";
@@ -198,7 +198,6 @@ class Mastermap
         $form .= '    submitButton.value = "Invio in corso...";';
         $form .= "    return true;";
         $form .= "}";
-
 
         $form .= "function addDateSlashes(inputId) {";
         $form .=
@@ -225,6 +224,197 @@ class Mastermap
         $form .= "</script>";
         return $form;
     }
+    public function assegnare_valori($solution)
+    {
+        // Inizializzazione delle variabili
+        $karma          = "";
+        $famiglia       = "";
+        $ego            = "";
+        $bisogno        = "";
+        $puntodebole    = "";
+        $materna        = "";
+        $maestro        = "";
+        $societa        = "";
+        $riconoscimento = "";
+        $puntodiforza   = "";
+        $paterna        = "";
+        $missione       = "";
+        $cuore          = "";
+
+        // Definizione delle mappature per i punteggi
+        $mappature = [
+            "KARMA"          => [
+                1 => "trasformare la rabbia in passione",
+                2 => "trasformare il blocco in presenza",
+                3 => "trasformare l’ansia in opportunità",
+                4 => "trasformare la mancanza in abbondanza",
+                5 => "trasformare la superficialità in gioia",
+                6 => "trasformare il bisogno di controllo in stabilità",
+                7 => "trasformare il dolore in saggezza",
+                8 => "trasformare il giudizio in compassione",
+                9 => "trasformare la catastrofe in rinascita",
+            ],
+            "FAMIGLIA"       => [
+                1 => "portare pace nei conflitti",
+                2 => "accudire chi ne ha bisogno",
+                3 => "mettere in comunicazione chi non dialoga",
+                4 => "portare nutrimento (amore e benessere)",
+                5 => "portare la leggerezza del gioco",
+                6 => "portare la stabilità, gestire le questioni familiari",
+                7 => "portare guarigione a chi ne ha bisogno",
+                8 => "portare giustizia ed equità nelle questioni familiari",
+                9 => "portare cambiamento in famiglia",
+            ],
+            "EGO"            => [
+                1 => "Passionale",
+                2 => "Dolce",
+                3 => "Comunicativa",
+                4 => "Talentosa",
+                5 => "Attraente",
+                6 => "Rispettosa",
+                7 => "Saggia",
+                8 => "Corretta",
+                9 => "Stoica",
+            ],
+            "BISOGNO"        => [
+                1 => "Bisogno di autonomia",
+                2 => "Bisogno di sicurezza",
+                3 => "Bisogno di espressione",
+                4 => "Bisogno di stabilità",
+                5 => "Bisogno di libertà",
+                6 => "Bisogno di armonia",
+                7 => "Bisogno di comprensione",
+                8 => "Bisogno di equità",
+                9 => "Bisogno di trasformazione",
+            ],
+            "PUNTODEBOLE"    => [
+                1 => "Impulsività",
+                2 => "Timidezza",
+                3 => "Disorganizzazione",
+                4 => "Rigidità",
+                5 => "Inquietudine",
+                6 => "Perfezionismo",
+                7 => "Distanza emotiva",
+                8 => "Autoritarismo",
+                9 => "Tendenza al sacrificio",
+            ],
+            "MATERNA"        => [
+                1 => "Energica e protettiva",
+                2 => "Dolce e accogliente",
+                3 => "Comunicativa e stimolante",
+                4 => "Solida e rassicurante",
+                5 => "Creativa e gioiosa",
+                6 => "Attenta e responsabile",
+                7 => "Saggia e riflessiva",
+                8 => "Determinata e forte",
+                9 => "Intuitiva e trasformativa",
+            ],
+            "MAESTRO"        => [
+                1 => "Guida con passione",
+                2 => "Insegna con empatia",
+                3 => "Stimola con creatività",
+                4 => "Istruisce con disciplina",
+                5 => "Insegna con entusiasmo",
+                6 => "Educa con responsabilità",
+                7 => "Guida con saggezza",
+                8 => "Forma con giustizia",
+                9 => "Trasforma con ispirazione",
+            ],
+            "SOCIETA"        => [
+                1 => "Innovatore",
+                2 => "Mediatore",
+                3 => "Comunicatore",
+                4 => "Realizzatore",
+                5 => "Intrattenitore",
+                6 => "Responsabile",
+                7 => "Saggio",
+                8 => "Giudice",
+                9 => "Rivoluzionario",
+            ],
+            "RICONOSCIMENTO" => [
+                1 => "Leader carismatico",
+                2 => "Amico fidato",
+                3 => "Oratore brillante",
+                4 => "Creatore di valore",
+                5 => "Anima della festa",
+                6 => "Punto di riferimento",
+                7 => "Consigliere saggio",
+                8 => "Difensore della giustizia",
+                9 => "Guida spirituale",
+            ],
+            "PUNTODIFORZA"   => [
+                1 => "Determinazione",
+                2 => "Empatia",
+                3 => "Comunicazione",
+                4 => "Affidabilità",
+                5 => "Creatività",
+                6 => "Disciplina",
+                7 => "Saggezza",
+                8 => "Integrità",
+                9 => "Visione",
+            ],
+            "PATERNA"        => [
+                1 => "Guida sicura",
+                2 => "Presenza amorevole",
+                3 => "Motivatore",
+                4 => "Esempio di solidità",
+                5 => "Anima libera",
+                6 => "Protettore",
+                7 => "Saggio maestro",
+                8 => "Figura di autorità",
+                9 => "Spirito ispiratore",
+            ],
+            "MISSIONE"       => [
+                1 => "Guidare con passione",
+                2 => "Accogliere e proteggere",
+                3 => "Unire e comunicare",
+                4 => "Costruire con stabilità",
+                5 => "Illuminare con creatività",
+                6 => "Organizzare e gestire",
+                7 => "Elevare la consapevolezza",
+                8 => "Combattere per la giustizia",
+                9 => "Trasformare e rigenerare",
+            ],
+            "CUORE"          => [
+                1 => "Farti sentire unic*",
+                2 => "Coccolarti",
+                3 => "Farti sentire ascoltat*",
+                4 => "Farti sentire amat*",
+                5 => "Farti divertire",
+                6 => "Farti sentire al sicuro",
+                7 => "Farti sentire la passione profonda",
+                8 => "Farti perdere la testa",
+                9 => "Farti sentire eccezionale",
+            ],
+        ];
+
+        // Assegna i valori in base ai punteggi ricevuti
+        foreach ($solution as $entry) {
+            $slug_entita = $entry["slug_entita"];
+            $punteggio   = $entry["punteggio"];
+
+            if (isset($mappature[$slug_entita]) && isset($mappature[$slug_entita][$punteggio])) {
+                ${strtolower($slug_entita);} = $mappature[$slug_entita][$punteggio];
+            }
+        }
+
+        // Restituisce le variabili aggiornate come array
+        return compact(
+            "karma",
+            "famiglia",
+            "ego",
+            "bisogno",
+            "puntodebole",
+            "materna",
+            "maestro",
+            "societa",
+            "riconoscimento",
+            "puntodiforza",
+            "paterna",
+            "missione",
+            "cuore"
+        );
+    }
 
     public function handle_map_registration()
     {
@@ -242,13 +432,13 @@ class Mastermap
             $_SESSION["last_submit"] = time();
 
             // Prepara i dati dal form
-            $nome = sanitize_text_field($_POST["nome"]);
+            $nome    = sanitize_text_field($_POST["nome"]);
             $cognome = sanitize_text_field($_POST["cognome"]);
-            $email = sanitize_email($_POST["email"]);
-            $sesso = sanitize_text_field($_POST["sesso"]);
+            $email   = sanitize_email($_POST["email"]);
+            $sesso   = sanitize_text_field($_POST["sesso"]);
 
             $slug_mappa = sanitize_text_field($_POST["slug_mappa"]);
-            $lingua = sanitize_text_field($_POST["lingua"]);
+            $lingua     = sanitize_text_field($_POST["lingua"]);
 
             $data_nascita_utente = sanitize_text_field(
                 $_POST["data_di_nascita_utente"]
@@ -288,131 +478,61 @@ class Mastermap
             );
 
             // Formatta il titolo del nuovo post
-            $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
-            $testo = "";
-            $fuoco = "";
-            $first = "prova";
-            $second = "";
-            $third = "";
-            $four = "";
-            $five = "";
-            $albero = "";
-            $acqua = "";
-            $specchio = "";
-            $fulmine = "";
-            // Formattazione migliorata con Heredoc e spaziatura adeguata
-            if (strpos($slug_mappa, "amore") !== false) {
-                $first = "Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.
-Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia. Dovrebbe essere un mezzo con il quale entriamo in comunicazione profonda con l’altro, ma in questo caso la difficoltà è proprio questa. Sia chi cerca compulsivamente il sesso, che chi lo rifiuta ha la difficoltà ad entrare in comunicazione profonda con l’altro in quanto in profondità c’è la rabbia.
-";
-                $second = " Il karma in amore è la prima sfida a gestire le tue emozioni che incontrerai nella vita. È chiaramente legato alla famiglia, ma anche alla società (immagina di nascere in un contesto di guerra). La prima parte della vita avrai quindi la tendenza a incontrare, nei tuoi sentimenti, questa sfida nei partner che incontri. Questo fino a che non sarai riuscito a trasformarlo. Poi passerai al Dharma, ovvero la parte costruttiva dell’esperienza, che avrà le caratteristiche descritte dalla missione.
-Trasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro.
-Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
-            } elseif (strpos($slug_mappa, "bambini") !== false) {
-                $fuoco = "
-- Sfida: Trasformare la rabbia in passione.
-- Talento: La capacità di entusiasmare gli altri.
-";
-
-                $second = "
-- Sfida: Assumersi responsabilità senza perdere l'innocenza.
-- Talento: Saggezza innata.
-";
-                $third = " 
-- Sfida: Trasformare l'ansia in opportunità.
-- Talento: Grande intuizione.";
-
-                $four = "
-- Sfida: Trasformare l'insicurezza in fierezza.
-- Talento: Molteplici capacità da sviluppare.";
-
-                $five = "
-- Sfida: Trasformare la superficialità in gioia.
-- Talento: Grande creatività.";
-
-                $albero = "
-- Sfida: Trasformare il bisogno di controllo in stabilità.
-- Talento: Amore per la propria comunità.";
-
-                $acqua = "
-- Sfida: Trasformare l'ipersensibilità in empatia.
-- Talento: Capacità di ascolto profondo.
-";
-
-                $specchio = "
-- Sfida: Gestire problemi di apprendimento o difficoltà ad adattarsi al ritmo degli altri.
-- Talento: Intelligenza altra o intelligenza superiore alla media.";
-
-                $fulmine = "
-- Sfida: Trasformare il bisogno di gruppo in autonomia.
-- Talento: Capacità di aiuto e collaborazione.";
-            } elseif (strpos($slug_mappa, "lavoro") !== false) {
-                $fuoco = "
-- Tendenza a bruciare troppo velocemente le energie e le risorse.
-- Impulsività che porta a decisioni affrettate e poco ponderate.
-- Dominanza eccessiva che può intimidire colleghi e collaboratori.
-";
-                $second = "
-- Eccessivo distacco emotivo che compromette le relazioni lavorative.
-- Rigidità mentale che ostacola il cambiamento.";
-
-                $third = "
-- Dispersione delle energie in troppi progetti simultanei.
-- Difficoltà nel portare a termine gli impegni presi.";
-
-                $four = "
-- Perfezionismo paralizzante che rallenta i processi.
-- Attaccamento ossessivo ai dettagli perdendo la visione d'insieme.";
-            } else {
-                $first = "Karma del Fuoco: lo studente si confronta con la paura di brillare e mostrarsi. La sfida è imparare a gestire la propria energia senza spegnerla.
-";
-                $second =
-                    "la sfida principale è superare il perfezionismo paralizzante. Tende a procrastinare per paura di non essere perfetto.";
-                $third =
-                    "la sfida principale è superare la tendenza a disperdere le energie in troppe direzioni. Tende a non portare a termine i progetti iniziati.";
-                $four = " insicurezza sulle proprie capacità, si sminuisce nonostante le evidenti competenze.
-.";
-
-                $five =
-                    "prende lo studio troppo alla leggera, deve imparare l’equilibrio tra leggerezza e impegno.";
-            }
-            // Se le variabili sono vuote o hanno meno di 10 caratteri, assegna i valori predefiniti
-            if (empty($first) || strlen($first) < 10) {
-                $first =
-                    "Karma del Fuoco: lo studente si confronta con la paura di brillare e mostrarsi. La sfida è imparare a gestire la propria energia senza spegnerla.";
-            }
-            if (empty($second) || strlen($second) < 10) {
-                $second =
-                    "La sfida principale è superare il perfezionismo paralizzante. Tende a procrastinare per paura di non essere perfetto.";
-            }
-            if (empty($third) || strlen($third) < 10) {
-                $third =
-                    "La sfida principale è superare la tendenza a disperdere le energie in troppe direzioni. Tende a non portare a termine i progetti iniziati.";
-            }
-            if (empty($four) || strlen($four) < 10) {
-                $four =
-                    "Insicurezza sulle proprie capacità, si sminuisce nonostante le evidenti competenze.";
-            }
-            if (empty($five) || strlen($five) < 10) {
-                $five =
-                    "Prende lo studio troppo alla leggera, deve imparare l’equilibrio tra leggerezza e impegno.";
+            $post_title     = "Mappa Talenti: " . $nome . " " . $cognome;
+            $karma          = "";
+            $famiglia       = "";
+            $ego            = "prov";
+            $BISOGNO        = "";
+            $puntodebole    = "";
+            $materna        = "";
+            $MAESTRO        = "";
+            $SOCIETA        = "";
+            $RICONOSCIMENTO = "";
+            $PUNTODIFORZA   = "";
+            $PATERNA        = "";
+            $MISSIONE       = "";
+            $CUORE          = "";
+            if (
+                ! empty($slug_mappa) &&
+                stripos($slug_mappa, "gratuita") !== false
+            ) {
+                $karma          = "";
+                $famiglia       = "";
+                $ego            = "prov";
+                $BISOGNO        = "";
+                $puntodebole    = "";
+                $materna        = "";
+                $MAESTRO        = "";
+                $SOCIETA        = "";
+                $RICONOSCIMENTO = "";
+                $PUNTODIFORZA   = "";
+                $PATERNA        = "";
+                $MISSIONE       = "";
+                $CUORE          = "";
             }
 
+            $valori = assegna_valori($solution);
+
+            // Ora puoi usare i valori ottenuti
+            $karma     = $valori["karma"];
+            $famiglia  = $valori["famiglia"];
+            $ego       = $valori["ego"];
+            $cuore     = $valori["cuore"];
             $post_data = [
-                "post_title" => $post_title,
-                "post_type" => "mappa",
-                "post_status" => "publish",
-                "post_author" => get_current_user_id(),
-                "post_content" => $first, // Puoi salvare il primo contenuto nel post_content
+                "post_title"   => $post_title,
+                "post_type"    => "mappa",
+                "post_status"  => "publish",
+                "post_author"  => get_current_user_id(),
+                "post_content" => $karma, // Puoi salvare il primo contenuto nel post_content
             ];
 
             $post_id = wp_insert_post($post_data);
 
             if ($post_id != 0) {
-                update_post_meta($post_id, "section1", $first);
-                update_post_meta($post_id, "section2", $second);
-                update_post_meta($post_id, "section3", $third);
-                update_post_meta($post_id, "section4", $four);
+                update_post_meta($post_id, "section1", $karma);
+                update_post_meta($post_id, "section2", $famiglia);
+                update_post_meta($post_id, "section3", $ego);
+                update_post_meta($post_id, "section4", $cuore);
                 update_post_meta($post_id, "section5", $five);
             }
 
@@ -515,7 +635,7 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     "u-totale-piu-u-anni",
                     $other_result["u-totale-piu-u-anni"],
                     $post_id
-                ); //pos 13
+                );                                                     //pos 13
                 update_field("comi", $other_result["comi"], $post_id); //pos 13 KARMA
                 update_field("cogi", $other_result["cogi"], $post_id); //pos 13 Maestro
 
@@ -524,7 +644,6 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     $accettazione_privacy,
                     $post_id
                 );
-
 
                 $download_link = do_shortcode(
                     '[e2pdf-download id="1" dataset="' . $post_id . '"]'
@@ -535,24 +654,24 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     '"]'
                 );
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
-                    ? $data_di_nascita_madre
-                    : "data non inserita";
+                ? $data_di_nascita_madre
+                : "data non inserita";
                 $data_di_nascita_padre_txt = $data_di_nascita_padre
-                    ? $data_di_nascita_padre
-                    : "data non inserita";
+                ? $data_di_nascita_padre
+                : "data non inserita";
 
                 //prendo i campi nella giusta lingua
                 if ($lingua == "EN"):
-                    $oggetto_email = get_field("oggetto_email_en", "option");
-                    $corpo_email = get_field("corpo_email_en", "option");
-                    $footer_email = get_field("footer_email_en", "option");
+                    $oggetto_email   = get_field("oggetto_email_en", "option");
+                    $corpo_email     = get_field("corpo_email_en", "option");
+                    $footer_email    = get_field("footer_email_en", "option");
                     $label_punteggio = "Score obtained";
                     $label_risultati = "This is the interpretation of your map";
-                    $label_download = "To download your map";
+                    $label_download  = "To download your map";
                 else:
-                    $oggetto_email = get_field("oggetto_email", "option");
-                    $corpo_email = get_field("corpo_email", "option");
-                    $footer_email = get_field("footer_email", "option");
+                    $oggetto_email   = get_field("oggetto_email", "option");
+                    $corpo_email     = get_field("corpo_email", "option");
+                    $footer_email    = get_field("footer_email", "option");
                     $label_punteggio = "Punteggio ottenuto";
                     $label_risultati =
                         'Questa è l\'interpretazione della tua mappa';
@@ -561,20 +680,17 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
 
                 global $wpdb;
 
-
                 $lingua_corrente = $lingua === "EN" ? "EN" : "ITA";
-
 
                 $etichette = $wpdb->get_results(
                     $wpdb->prepare(
-                        "SELECT slug_mappa_et, etichetta 
-         FROM wp_mappe_etichette 
+                        "SELECT slug_mappa_et, etichetta
+         FROM wp_mappe_etichette
          WHERE lingua_et = %s",
                         $lingua_corrente
                     ),
                     ARRAY_A
                 );
-
 
                 $etichette_map = [];
                 foreach ($etichette as $etichetta) {
@@ -584,48 +700,49 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                 $solution_content = "<h3>" . $label_risultati . ":</h3>";
                 foreach ($solution as $item) {
                     if (isset($item["domanda"])) {
-
                         $nome_entita = isset(
                             $etichette_map[$item["slug_entita"]]
                         )
-                            ? $etichette_map[$item["slug_entita"]]
-                            : $item["slug_entita"];
+                        ? $etichette_map[$item["slug_entita"]]
+                        : $item["slug_entita"];
 
                         $solution_content .=
-                            '<h3 style="background-color: #eee;padding: 3px 12px; margin-bottom:0">' .
-                            esc_html($nome_entita) .
+                        '<h3 style="background-color: #eee;padding: 3px 12px; margin-bottom:0">' .
+                        esc_html($nome_entita) .
                             "</h3>";
                         $solution_content .=
-                            '<p style="padding:3px 6px; border:1px solid #eee; margin-bottom:0">' .
-                            esc_html($item["domanda"]) .
+                        '<p style="padding:3px 6px; border:1px solid #eee; margin-bottom:0">' .
+                        esc_html($item["domanda"]) .
                             "";
                     }
                     if (isset($item["risposta"])) {
-
                         $solution_content .=
-                            "" .
-                            $label_punteggio .
-                            ": " .
-                            esc_html($item["punteggio"]) .
+                        "" .
+                        $label_punteggio .
+                        ": " .
+                        esc_html($item["punteggio"]) .
                             "";
                         $solution_content .=
-                            esc_html($item["risposta"]) . "</p>";
+                        esc_html($item["risposta"]) . "</p>";
                     }
                 }
 
                 //se c'è un oggetto impostato usiamo quello
                 $subject_user = get_field("oggetto_email", "option")
-                    ? get_field("oggetto_email", "option")
-                    : "Riepilogo Mappa Talenti";
+                ? get_field("oggetto_email", "option")
+                : "Riepilogo Mappa Talenti";
 
                 // Costruisci il messaggio HTML dell'email
-                $message_user = '
+                $message_user =
+                    '
 <!doctype html>
 <html lang="it">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>' . $subject_user . '</title>
+    <title>' .
+                    $subject_user .
+                    '</title>
     <style media="all" type="text/css">
         body {
             font-family: Helvetica, Arial, sans-serif;
@@ -688,20 +805,36 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
             <div class="header">
                 <img src="https://ninenergymap.com/logo.png" alt="Ninenergy Logo">
             </div>
-            
+
             <!-- Corpo Email -->
-            ' . ($corpo_email ? $corpo_email : "<h1 style='font-size:18px'>Grazie per aver compilato la Mappa Talenti</h1>") . '
-            ' . $solution_content . '
-            
+            ' .
+                    ($corpo_email
+                    ? $corpo_email
+                    : "<h1 style='font-size:18px'>Grazie per aver compilato la Mappa Talenti</h1>") .
+                    '
+            ' .
+                    $solution_content .
+                    '
+
             <!-- Download -->
             <div class="download-box">
-                <p><b>' . $label_download . '</b></p>
-                <p><span class="dwnButton">' . $download_link . '</span></p>
+                <p><b>' .
+                    $label_download .
+                    '</b></p>
+                <p><span class="dwnButton">' .
+                    $download_link .
+                    '</span></p>
             </div>
         </div>
 
         <!-- Footer -->
-        ' . ($footer_email ? '<div class="footer"><p>' . $footer_email . '</p></div>' : '') . '
+        ' .
+                    ($footer_email
+                    ? '<div class="footer"><p>' .
+                    $footer_email .
+                    "</p></div>"
+                    : "") .
+                    '
     </div>
 </body>
 </html>';
@@ -717,8 +850,8 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     "email_notifica_compilazione",
                     "option"
                 )
-                    ? get_field("email_notifica_compilazione", "option")
-                    : "alessandro@eklettica.it";
+                ? get_field("email_notifica_compilazione", "option")
+                : "alessandro@eklettica.it";
                 $subject_admin = "Nuova Mappa Talenti Creata";
                 $message_admin =
                     "Un utente ha creato una nuova Mappa Talenti.\n\n";
@@ -738,7 +871,6 @@ Per aiutarti puoi usare il codice vibrazionale: “Papa” o “Mama”.";
                     "\n\n";
                 $message_admin .=
                     "Scarica la mappa da qui: " . $download_link . "\n";
-
 
                 wp_mail($admin_email, $subject_admin, $message_admin);
 
