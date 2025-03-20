@@ -224,7 +224,7 @@ class Mastermap
         $form .= "</script>";
         return $form;
     }
-    public function assegnare_valori($solution)
+    public function assegnare_valori($solution,$slug_mappa)
     {
         // Inizializzazione delle variabili
         $karma          = "";
@@ -240,163 +240,322 @@ class Mastermap
         $paterna        = "";
         $missione       = "";
         $cuore          = "";
+        if (strpos($slug_mappa, "amore") !== false) {
 
-        // Definizione delle mappature per i punteggi
-        $mappature = [
-            "KARMA"          => [
-                1 => "trasformare la rabbia in passione",
-                2 => "trasformare il blocco in presenza",
-                3 => "trasformare l’ansia in opportunità",
-                4 => "trasformare la mancanza in abbondanza",
-                5 => "trasformare la superficialità in gioia",
-                6 => "trasformare il bisogno di controllo in stabilità",
-                7 => "trasformare il dolore in saggezza",
-                8 => "trasformare il giudizio in compassione",
-                9 => "trasformare la catastrofe in rinascita",
-            ],
-            "FAMIGLIA"       => [
-                1 => "portare pace nei conflitti",
-                2 => "accudire chi ne ha bisogno",
-                3 => "mettere in comunicazione chi non dialoga",
-                4 => "portare nutrimento (amore e benessere)",
-                5 => "portare la leggerezza del gioco",
-                6 => "portare la stabilità, gestire le questioni familiari",
-                7 => "portare guarigione a chi ne ha bisogno",
-                8 => "portare giustizia ed equità nelle questioni familiari",
-                9 => "portare cambiamento in famiglia",
-            ],
-            "EGO"            => [
-                1 => "Passionale",
-                2 => "Dolce",
-                3 => "Comunicativa",
-                4 => "Talentosa",
-                5 => "Attraente",
-                6 => "Rispettosa",
-                7 => "Saggia",
-                8 => "Corretta",
-                9 => "Stoica",
-            ],
-            "BISOGNO"        => [
-                1 => "Bisogno di autonomia",
-                2 => "Bisogno di sicurezza",
-                3 => "Bisogno di espressione",
-                4 => "Bisogno di stabilità",
-                5 => "Bisogno di libertà",
-                6 => "Bisogno di armonia",
-                7 => "Bisogno di comprensione",
-                8 => "Bisogno di equità",
-                9 => "Bisogno di trasformazione",
-            ],
-            "PUNTODEBOLE"    => [
-                1 => "Impulsività",
-                2 => "Timidezza",
-                3 => "Disorganizzazione",
-                4 => "Rigidità",
-                5 => "Inquietudine",
-                6 => "Perfezionismo",
-                7 => "Distanza emotiva",
-                8 => "Autoritarismo",
-                9 => "Tendenza al sacrificio",
-            ],
-            "MATERNA"        => [
-                1 => "Energica e protettiva",
-                2 => "Dolce e accogliente",
-                3 => "Comunicativa e stimolante",
-                4 => "Solida e rassicurante",
-                5 => "Creativa e gioiosa",
-                6 => "Attenta e responsabile",
-                7 => "Saggia e riflessiva",
-                8 => "Determinata e forte",
-                9 => "Intuitiva e trasformativa",
-            ],
-            "MAESTRO"        => [
-                1 => "Guida con passione",
-                2 => "Insegna con empatia",
-                3 => "Stimola con creatività",
-                4 => "Istruisce con disciplina",
-                5 => "Insegna con entusiasmo",
-                6 => "Educa con responsabilità",
-                7 => "Guida con saggezza",
-                8 => "Forma con giustizia",
-                9 => "Trasforma con ispirazione",
-            ],
-            "SOCIETA"        => [
-                1 => "Innovatore",
-                2 => "Mediatore",
-                3 => "Comunicatore",
-                4 => "Realizzatore",
-                5 => "Intrattenitore",
-                6 => "Responsabile",
-                7 => "Saggio",
-                8 => "Giudice",
-                9 => "Rivoluzionario",
-            ],
-            "RICONOSCIMENTO" => [
-                1 => "Leader carismatico",
-                2 => "Amico fidato",
-                3 => "Oratore brillante",
-                4 => "Creatore di valore",
-                5 => "Anima della festa",
-                6 => "Punto di riferimento",
-                7 => "Consigliere saggio",
-                8 => "Difensore della giustizia",
-                9 => "Guida spirituale",
-            ],
-            "PUNTODIFORZA"   => [
-                1 => "Determinazione",
-                2 => "Empatia",
-                3 => "Comunicazione",
-                4 => "Affidabilità",
-                5 => "Creatività",
-                6 => "Disciplina",
-                7 => "Saggezza",
-                8 => "Integrità",
-                9 => "Visione",
-            ],
-            "PATERNA"        => [
-                1 => "Guida sicura",
-                2 => "Presenza amorevole",
-                3 => "Motivatore",
-                4 => "Esempio di solidità",
-                5 => "Anima libera",
-                6 => "Protettore",
-                7 => "Saggio maestro",
-                8 => "Figura di autorità",
-                9 => "Spirito ispiratore",
-            ],
-            "MISSIONE"       => [
-                1 => "Guidare con passione",
-                2 => "Accogliere e proteggere",
-                3 => "Unire e comunicare",
-                4 => "Costruire con stabilità",
-                5 => "Illuminare con creatività",
-                6 => "Organizzare e gestire",
-                7 => "Elevare la consapevolezza",
-                8 => "Combattere per la giustizia",
-                9 => "Trasformare e rigenerare",
-            ],
-            "CUORE"          => [
-                1 => "Farti sentire unic*",
-                2 => "Coccolarti",
-                3 => "Farti sentire ascoltat*",
-                4 => "Farti sentire amat*",
-                5 => "Farti divertire",
-                6 => "Farti sentire al sicuro",
-                7 => "Farti sentire la passione profonda",
-                8 => "Farti perdere la testa",
-                9 => "Farti sentire eccezionale",
-            ],
-        ];
+            // Definizione delle mappature per i punteggi
+            $mappature = [
+                "KARMA" => [
+                    1 => "trasformare la rabbia in passione",
+                    2 => "trasformare il blocco in presenza",
+                    3 => "trasformare l’ansia in opportunità",
+                    4 => "trasformare la mancanza in abbondanza",
+                    5 => "trasformare la superficialità in gioia",
+                    6 => "trasformare il bisogno di controllo in stabilità",
+                    7 => "trasformare il dolore in saggezza",
+                    8 => "trasformare il giudizio in compassione",
+                    9 => "trasformare la catastrofe in rinascita",
+                ],
+                "FAMIGLIA" => [
+                    1 => "portare pace nei conflitti",
+                    2 => "accudire chi ne ha bisogno",
+                    3 => "mettere in comunicazione chi non dialoga",
+                    4 => "portare nutrimento (amore e benessere)",
+                    5 => "portare la leggerezza del gioco",
+                    6 => "portare la stabilità, gestire le questioni familiari",
+                    7 => "portare guarigione a chi ne ha bisogno",
+                    8 => "portare giustizia ed equità nelle questioni familiari",
+                    9 => "portare cambiamento in famiglia",
+                ],
+                "EGO" => [
+                    1 => "Passionale",
+                    2 => "Dolce",
+                    3 => "Comunicativa",
+                    4 => "Talentosa",
+                    5 => "Attraente",
+                    6 => "Rispettosa",
+                    7 => "Saggia",
+                    8 => "Corretta",
+                    9 => "Stoica",
+                ],
+                "BISOGNO" => [
+                    1 => "Bisogno di autonomia",
+                    2 => "Bisogno di sicurezza",
+                    3 => "Bisogno di espressione",
+                    4 => "Bisogno di stabilità",
+                    5 => "Bisogno di libertà",
+                    6 => "Bisogno di armonia",
+                    7 => "Bisogno di comprensione",
+                    8 => "Bisogno di equità",
+                    9 => "Bisogno di trasformazione",
+                ],
+                "PUNTODEBOLE" => [
+                    1 => "Impulsività",
+                    2 => "Timidezza",
+                    3 => "Disorganizzazione",
+                    4 => "Rigidità",
+                    5 => "Inquietudine",
+                    6 => "Perfezionismo",
+                    7 => "Distanza emotiva",
+                    8 => "Autoritarismo",
+                    9 => "Tendenza al sacrificio",
+                ],
+                "MATERNA" => [
+                    1 => "Energica e protettiva",
+                    2 => "Dolce e accogliente",
+                    3 => "Comunicativa e stimolante",
+                    4 => "Solida e rassicurante",
+                    5 => "Creativa e gioiosa",
+                    6 => "Attenta e responsabile",
+                    7 => "Saggia e riflessiva",
+                    8 => "Determinata e forte",
+                    9 => "Intuitiva e trasformativa",
+                ],
+                "MAESTRO" => [
+                    1 => "Guida con passione",
+                    2 => "Insegna con empatia",
+                    3 => "Stimola con creatività",
+                    4 => "Istruisce con disciplina",
+                    5 => "Insegna con entusiasmo",
+                    6 => "Educa con responsabilità",
+                    7 => "Guida con saggezza",
+                    8 => "Forma con giustizia",
+                    9 => "Trasforma con ispirazione",
+                ],
+                "SOCIETA" => [
+                    1 => "Innovatore",
+                    2 => "Mediatore",
+                    3 => "Comunicatore",
+                    4 => "Realizzatore",
+                    5 => "Intrattenitore",
+                    6 => "Responsabile",
+                    7 => "Saggio",
+                    8 => "Giudice",
+                    9 => "Rivoluzionario",
+                ],
+                "RICONOSCIMENTO" => [
+                    1 => "Leader carismatico",
+                    2 => "Amico fidato",
+                    3 => "Oratore brillante",
+                    4 => "Creatore di valore",
+                    5 => "Anima della festa",
+                    6 => "Punto di riferimento",
+                    7 => "Consigliere saggio",
+                    8 => "Difensore della giustizia",
+                    9 => "Guida spirituale",
+                ],
+                "PUNTODIFORZA" => [
+                    1 => "Determinazione",
+                    2 => "Empatia",
+                    3 => "Comunicazione",
+                    4 => "Affidabilità",
+                    5 => "Creatività",
+                    6 => "Disciplina",
+                    7 => "Saggezza",
+                    8 => "Integrità",
+                    9 => "Visione",
+                ],
+                "PATERNA" => [
+                    1 => "Guida sicura",
+                    2 => "Presenza amorevole",
+                    3 => "Motivatore",
+                    4 => "Esempio di solidità",
+                    5 => "Anima libera",
+                    6 => "Protettore",
+                    7 => "Saggio maestro",
+                    8 => "Figura di autorità",
+                    9 => "Spirito ispiratore",
+                ],
+                "MISSIONE" => [
+                    1 => "Guidare con passione",
+                    2 => "Accogliere e proteggere",
+                    3 => "Unire e comunicare",
+                    4 => "Costruire con stabilità",
+                    5 => "Illuminare con creatività",
+                    6 => "Organizzare e gestire",
+                    7 => "Elevare la consapevolezza",
+                    8 => "Combattere per la giustizia",
+                    9 => "Trasformare e rigenerare",
+                ],
+                "CUORE" => [
+                    1 => "Farti sentire unic*",
+                    2 => "Coccolarti",
+                    3 => "Farti sentire ascoltat*",
+                    4 => "Farti sentire amat*",
+                    5 => "Farti divertire",
+                    6 => "Farti sentire al sicuro",
+                    7 => "Farti sentire la passione profonda",
+                    8 => "Farti perdere la testa",
+                    9 => "Farti sentire eccezionale",
+                ],
+            ];
 
-        // Assegna i valori in base ai punteggi ricevuti
-        foreach ($solution as $entry) {
-            $slug_entita = $entry["slug_entita"];
-            $punteggio   = $entry["punteggio"];
+            // Assegna i valori in base ai punteggi ricevuti
+            foreach ($solution as $entry) {
+                $slug_entita = $entry["slug_entita"];
+                $punteggio = $entry["punteggio"];
 
-            if (isset($mappature[$slug_entita]) && isset($mappature[$slug_entita][$punteggio])) {
-                ${strtolower($slug_entita)} = $mappature[$slug_entita][$punteggio];
+                if (isset($mappature[$slug_entita]) && isset($mappature[$slug_entita][$punteggio])) {
+                    ${strtolower($slug_entita)} = $mappature[$slug_entita][$punteggio];
+                }
             }
-        }
+        } else if (strpos($slug_mappa, "studio") !== false) {
+                // Definizione delle mappature per i punteggi
+            $mappature = [
+                "KARMA" => [
+                    1 => "Lo studente si trova a confrontarsi con la paura di brillare e mostrarsi. Tende a nascondere le proprie capacità per timore del giudizio o dell'esclusione. La sfida è imparare a gestire la propria energia senza spegnerla, trovando il coraggio di emergere e guidare. Spesso si manifesta come difficoltà a parlare in pubblico o a mostrarsi durante le interrogazioni, nonostante la preparazione.",
+                    2 => "La sfida principale è superare il perfezionismo paralizzante. Lo studente può essere così concentrato sul fare tutto perfettamente da bloccarsi e non riuscire a iniziare. Tende a procrastinare finché non è  sicuro di poter fare le cose in modo impeccabile. Deve imparare che l'apprendimento è un processo che include anche gli errori.",
+                    3 => "Il karma si manifesta nella difficoltà di mantenere la concentrazione e l'attenzione. Lo studente tende a disperdere le energie in troppe direzioni, faticando a focalizzarsi su un obiettivo specifico. La sfida è imparare a gestire la propria creatività e versatilità senza perdersi in mille rivoli.",
+                    4 => "La sfida karmika si presenta come una profonda insicurezza sulle proprie capacità, nonostante i talenti evidenti. Lo studente tende a sminuire i propri risultati e a dubitare costantemente delle proprie competenze. Deve imparare a riconoscere e valorizzare le proprie capacità pratiche e concrete.",
+                    5 => "Il karma si manifesta nella tendenza a prendere lo studio troppo alla leggera, cercando sempre la via più divertente e meno impegnativa. Lo studente deve imparare che l'apprendimento richiede anche momenti di serietà e impegno, senza perdere la propria naturale leggerezza.",
+                    6 => "La sfida principale è legata al controllo eccessivo sul processo di apprendimento. Lo studente tende a essere troppo rigido nei suoi metodi di studio, faticando ad adattarsi a nuove situazioni o approcci. Deve imparare a essere più flessibile pur mantenendo la sua naturale stabilità.",
+                    7 => "Il karma si manifesta nella tendenza a farsi travolgere dalle emozioni durante lo studio. Lo studente può essere così sensibile da assorbire anche l'ansia e lo stress degli altri, compromettendo il proprio rendimento. La sfida è imparare a gestire la propria sensibilità emotiva senza esserne sopraffatto.",
+                    8 => "La sfida karmika è legata alla tendenza a teorizzare troppo senza passare all'azione pratica. Lo studente può perdersi in ragionamenti complessi e analisi infinite, faticando a concretizzare lo studio in risultati tangibili. Deve imparare a bilanciare la sua capacità analitica con l'applicazione pratica.",
+                    9 => "Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo studente può sentirsi costantemente in conflitto con le regole e le strutture dell'apprendimento formale. La sfida è imparare a navigare nel sistema educativo mantenendo la propria indipendenza e spirito innovativo senza entrare in aperto conflitto.",
+                ],
+                "FAMIGLIA" => [
+                    1 => "portare pace nei conflitti",
+                    2 => "accudire chi ne ha bisogno",
+                    3 => "mettere in comunicazione chi non dialoga",
+                    4 => "portare nutrimento (amore e benessere)",
+                    5 => "portare la leggerezza del gioco",
+                    6 => "portare la stabilità, gestire le questioni familiari",
+                    7 => "portare guarigione a chi ne ha bisogno",
+                    8 => "portare giustizia ed equità nelle questioni familiari",
+                    9 => "portare cambiamento in famiglia",
+                ],
+                "EGO" => [
+                    1 => "Passionale",
+                    2 => "Dolce",
+                    3 => "Comunicativa",
+                    4 => "Talentosa",
+                    5 => "Attraente",
+                    6 => "Rispettosa",
+                    7 => "Saggia",
+                    8 => "Corretta",
+                    9 => "Stoica",
+                ],
+                "BISOGNO" => [
+                    1 => "Bisogno di autonomia",
+                    2 => "Bisogno di sicurezza",
+                    3 => "Bisogno di espressione",
+                    4 => "Bisogno di stabilità",
+                    5 => "Bisogno di libertà",
+                    6 => "Bisogno di armonia",
+                    7 => "Bisogno di comprensione",
+                    8 => "Bisogno di equità",
+                    9 => "Bisogno di trasformazione",
+                ],
+                "PUNTODEBOLE" => [
+                    1 => "Impulsività",
+                    2 => "Timidezza",
+                    3 => "Disorganizzazione",
+                    4 => "Rigidità",
+                    5 => "Inquietudine",
+                    6 => "Perfezionismo",
+                    7 => "Distanza emotiva",
+                    8 => "Autoritarismo",
+                    9 => "Tendenza al sacrificio",
+                ],
+                "MATERNA" => [
+                    1 => "Energica e protettiva",
+                    2 => "Dolce e accogliente",
+                    3 => "Comunicativa e stimolante",
+                    4 => "Solida e rassicurante",
+                    5 => "Creativa e gioiosa",
+                    6 => "Attenta e responsabile",
+                    7 => "Saggia e riflessiva",
+                    8 => "Determinata e forte",
+                    9 => "Intuitiva e trasformativa",
+                ],
+                "MAESTRO" => [
+                    1 => "Guida con passione",
+                    2 => "Insegna con empatia",
+                    3 => "Stimola con creatività",
+                    4 => "Istruisce con disciplina",
+                    5 => "Insegna con entusiasmo",
+                    6 => "Educa con responsabilità",
+                    7 => "Guida con saggezza",
+                    8 => "Forma con giustizia",
+                    9 => "Trasforma con ispirazione",
+                ],
+                "SOCIETA" => [
+                    1 => "Innovatore",
+                    2 => "Mediatore",
+                    3 => "Comunicatore",
+                    4 => "Realizzatore",
+                    5 => "Intrattenitore",
+                    6 => "Responsabile",
+                    7 => "Saggio",
+                    8 => "Giudice",
+                    9 => "Rivoluzionario",
+                ],
+                "RICONOSCIMENTO" => [
+                    1 => "Leader carismatico",
+                    2 => "Amico fidato",
+                    3 => "Oratore brillante",
+                    4 => "Creatore di valore",
+                    5 => "Anima della festa",
+                    6 => "Punto di riferimento",
+                    7 => "Consigliere saggio",
+                    8 => "Difensore della giustizia",
+                    9 => "Guida spirituale",
+                ],
+                "PUNTODIFORZA" => [
+                    1 => "Determinazione",
+                    2 => "Empatia",
+                    3 => "Comunicazione",
+                    4 => "Affidabilità",
+                    5 => "Creatività",
+                    6 => "Disciplina",
+                    7 => "Saggezza",
+                    8 => "Integrità",
+                    9 => "Visione",
+                ],
+                "PATERNA" => [
+                    1 => "Guida sicura",
+                    2 => "Presenza amorevole",
+                    3 => "Motivatore",
+                    4 => "Esempio di solidità",
+                    5 => "Anima libera",
+                    6 => "Protettore",
+                    7 => "Saggio maestro",
+                    8 => "Figura di autorità",
+                    9 => "Spirito ispiratore",
+                ],
+                "MISSIONE" => [
+                    1 => "Guidare con passione",
+                    2 => "Accogliere e proteggere",
+                    3 => "Unire e comunicare",
+                    4 => "Costruire con stabilità",
+                    5 => "Illuminare con creatività",
+                    6 => "Organizzare e gestire",
+                    7 => "Elevare la consapevolezza",
+                    8 => "Combattere per la giustizia",
+                    9 => "Trasformare e rigenerare",
+                ],
+                "CUORE" => [
+                    1 => "Farti sentire unic*",
+                    2 => "Coccolarti",
+                    3 => "Farti sentire ascoltat*",
+                    4 => "Farti sentire amat*",
+                    5 => "Farti divertire",
+                    6 => "Farti sentire al sicuro",
+                    7 => "Farti sentire la passione profonda",
+                    8 => "Farti perdere la testa",
+                    9 => "Farti sentire eccezionale",
+                ],
+            ];
+
+            // Assegna i valori in base ai punteggi ricevuti
+            foreach ($solution as $entry) {
+                $slug_entita = $entry["slug_entita"];
+                $punteggio = $entry["punteggio"];
+
+                if (isset($mappature[$slug_entita]) && isset($mappature[$slug_entita][$punteggio])) {
+                    ${strtolower($slug_entita)} = $mappature[$slug_entita][$punteggio];
+                }
+            }
+        } 
 
         // Restituisce le variabili aggiornate come array
         return compact(
@@ -510,8 +669,8 @@ class Mastermap
                 $MISSIONE       = "";
                 $CUORE          = "";
             }
-
-            $valori = assegna_valori($solution);
+        
+            $valori = assegnare_valori($solution,$slug_mappa);
 
             // Ora puoi usare i valori ottenuti
             $karma     = $valori["karma"];
