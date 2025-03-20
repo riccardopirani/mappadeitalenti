@@ -394,7 +394,7 @@ class Mastermap
             $punteggio   = $entry["punteggio"];
 
             if (isset($mappature[$slug_entita]) && isset($mappature[$slug_entita][$punteggio])) {
-                ${strtolower($slug_entita);} = $mappature[$slug_entita][$punteggio];
+                ${strtolower($slug_entita)} = $mappature[$slug_entita][$punteggio];
             }
         }
 
