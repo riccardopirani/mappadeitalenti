@@ -24,12 +24,12 @@ class Mastermap
             $form .= "<p><b>*</b> Fill in the required fields</p>";
 
             $form .=
-            '<input type="hidden" name="slug_mappa" value="' .
-            esc_attr($slug_mappa) .
+                '<input type="hidden" name="slug_mappa" value="' .
+                esc_attr($slug_mappa) .
                 '">';
             $form .=
-            '<input type="hidden" name="lingua" value="' .
-            esc_attr($lingua) .
+                '<input type="hidden" name="lingua" value="' .
+                esc_attr($lingua) .
                 '">';
             $form .= '<div class="row reg-row my-1">';
             $form .= '<div class="col-md-3 mb-2">';
@@ -101,58 +101,58 @@ class Mastermap
             $form .= "<p><b>*</b> Compila i campi richiesti</p>";
 
             $form .=
-            '<input type="hidden" name="slug_mappa" value="' .
-            esc_attr($slug_mappa) .
+                '<input type="hidden" name="slug_mappa" value="' .
+                esc_attr($slug_mappa) .
                 '">';
             $form .=
-            '<input type="hidden" name="lingua" value="' .
-            esc_attr($lingua) .
+                '<input type="hidden" name="lingua" value="' .
+                esc_attr($lingua) .
                 '">';
             $form .= '<div class="row reg-row my-1">';
             $form .= '<div class="col-md-3 mb-2">';
             $form .=
-            '<label for="nome">' . __("Nome", "ek_mappa") . "*</label>";
+                '<label for="nome">' . __("Nome", "ek_mappa") . "*</label>";
             $form .=
                 '<input class="form-control" type="text" name="nome" required placeholder="Nome*">';
             $form .= "</div>";
             $form .= '<div class="col-md-3 mb-2">';
             $form .=
-            '<label for="cognome">' .
-            __("Cognome", "ek_mappa") .
+                '<label for="cognome">' .
+                __("Cognome", "ek_mappa") .
                 "*</label>";
             $form .=
                 '<input class="form-control" type="text" name="cognome" required placeholder="Cognome*">';
             $form .= "</div>";
             $form .= '<div class="col-md-3 mb-2">';
             $form .=
-            '<label for="email">' . __("E-mail", "ek_mappa") . "*</label>";
+                '<label for="email">' . __("E-mail", "ek_mappa") . "*</label>";
             $form .=
                 '<input class="form-control" type="email" name="email" required placeholder="E-mail*">';
             $form .= "</div>";
             $form .= '<div class="col-md-3 mb-2">';
             $form .=
-            '<label for="sesso">' . __("Sesso", "ek_mappa") . "*</label>";
+                '<label for="sesso">' . __("Sesso", "ek_mappa") . "*</label>";
             $form .= '<div class="form-check form-check-inline">';
             $form .=
                 '<input class="form-check-input" type="radio" name="sesso" id="uomo" value="uomo" required>';
             $form .=
-            '<label class="form-check-label" for="uomo">' .
-            __("Uomo", "ek_mappa") .
+                '<label class="form-check-label" for="uomo">' .
+                __("Uomo", "ek_mappa") .
                 "</label>";
             $form .= "</div>";
             $form .= '<div class="form-check form-check-inline">';
             $form .=
                 '<input class="form-check-input" type="radio" name="sesso" id="donna" value="donna" required>';
             $form .=
-            '<label class="form-check-label" for="donna">' .
-            __("Donna", "ek_mappa") .
+                '<label class="form-check-label" for="donna">' .
+                __("Donna", "ek_mappa") .
                 "</label>";
             $form .= "</div>";
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
-            '<label for="data_nascita_utente">' .
-            __("La tua data di nascita", "ek_mappa") .
+                '<label for="data_nascita_utente">' .
+                __("La tua data di nascita", "ek_mappa") .
                 "*</label>";
             $form .=
                 '<input class="form-control" type="text" id="data_di_nascita_utente" name="data_di_nascita_utente" required placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
@@ -160,16 +160,16 @@ class Mastermap
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
-            '<label for="data_di_nascita_madre">' .
-            __("Data di nascita di tua madre", "ek_mappa") .
+                '<label for="data_di_nascita_madre">' .
+                __("Data di nascita di tua madre", "ek_mappa") .
                 "</label>";
             $form .=
                 '<input class="form-control" type="text"  id="data_di_nascita_madre" name="data_di_nascita_madre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
-            '<label for="data_di_nascita_padre">' .
-            __("Data di nascita di tuo padre", "ek_mappa") .
+                '<label for="data_di_nascita_padre">' .
+                __("Data di nascita di tuo padre", "ek_mappa") .
                 "</label>";
             $form .=
                 '<input class="form-control" type="text" id="data_di_nascita_padre" name="data_di_nascita_padre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
@@ -182,8 +182,8 @@ class Mastermap
             $form .= "</div>";
             $form .= '<div class="col-md-12 mb-2">';
             $form .=
-            '<input type="submit" name="book" value="' .
-            __("INVIA", "ek_mappa") .
+                '<input type="submit" name="book" value="' .
+                __("INVIA", "ek_mappa") .
                 '" class="btn btn-primary"/>';
             $form .= "</div>";
             $form .= "</div>";
@@ -224,24 +224,23 @@ class Mastermap
         $form .= "</script>";
         return $form;
     }
-    public function assegnare_valori($solution,$slug_mappa)
+    public function assegnare_valori($solution, $slug_mappa)
     {
         // Inizializzazione delle variabili
-        $karma          = "";
-        $famiglia       = "";
-        $ego            = "";
-        $bisogno        = "";
-        $puntodebole    = "";
-        $materna        = "";
-        $maestro        = "";
-        $societa        = "";
+        $karma = "";
+        $famiglia = "";
+        $ego = "";
+        $bisogno = "";
+        $puntodebole = "";
+        $materna = "";
+        $maestro = "";
+        $societa = "";
         $riconoscimento = "";
-        $puntodiforza   = "";
-        $paterna        = "";
-        $missione       = "";
-        $cuore          = "";
-        if (strpos($slug_mappa, "amore") !== false) {
-
+        $puntodiforza = "";
+        $paterna = "";
+        $missione = "";
+        $cuore = "";
+        if (strpos($slug_mappa, "gratuita") !== false) {
             // Definizione delle mappature per i punteggi
             $mappature = [
                 "KARMA" => [
@@ -394,12 +393,16 @@ class Mastermap
                 $slug_entita = $entry["slug_entita"];
                 $punteggio = $entry["punteggio"];
 
-                if (isset($mappature[$slug_entita]) && isset($mappature[$slug_entita][$punteggio])) {
-                    ${strtolower($slug_entita)} = $mappature[$slug_entita][$punteggio];
+                if (
+                    isset($mappature[$slug_entita]) &&
+                    isset($mappature[$slug_entita][$punteggio])
+                ) {
+                    ${strtolower($slug_entita)} =
+                        $mappature[$slug_entita][$punteggio];
                 }
             }
-        } else if (strpos($slug_mappa, "studio") !== false) {
-                // Definizione delle mappature per i punteggi
+        } elseif (strpos($slug_mappa, "studio") !== false) {
+            // Definizione delle mappature per i punteggi
             $mappature = [
                 "KARMA" => [
                     1 => "Lo studente si trova a confrontarsi con la paura di brillare e mostrarsi. Tende a nascondere le proprie capacità per timore del giudizio o dell'esclusione. La sfida è imparare a gestire la propria energia senza spegnerla, trovando il coraggio di emergere e guidare. Spesso si manifesta come difficoltà a parlare in pubblico o a mostrarsi durante le interrogazioni, nonostante la preparazione.",
@@ -413,15 +416,15 @@ class Mastermap
                     9 => "Il karma si manifesta nella resistenza al sistema educativo tradizionale. Lo studente può sentirsi costantemente in conflitto con le regole e le strutture dell'apprendimento formale. La sfida è imparare a navigare nel sistema educativo mantenendo la propria indipendenza e spirito innovativo senza entrare in aperto conflitto.",
                 ],
                 "FAMIGLIA" => [
-                    1 => "portare pace nei conflitti",
-                    2 => "accudire chi ne ha bisogno",
-                    3 => "mettere in comunicazione chi non dialoga",
-                    4 => "portare nutrimento (amore e benessere)",
-                    5 => "portare la leggerezza del gioco",
-                    6 => "portare la stabilità, gestire le questioni familiari",
-                    7 => "portare guarigione a chi ne ha bisogno",
-                    8 => "portare giustizia ed equità nelle questioni familiari",
-                    9 => "portare cambiamento in famiglia",
+                    1 => "L'ambiente familiare è caratterizzato da alte aspettative e spinte all'eccellenza. Lo studente cresce in un contesto dove il successo è fortemente valorizzato e spesso si sente spinto a primeggiare. La famiglia tende a enfatizzare i risultati visibili e i riconoscimenti pubblici, creando uno studente che può sentirsi costantemente sotto i riflettori o pressato a dimostrare il proprio valore attraverso i risultati accademici. Oppure può essere caratterizzata dalla non considerazione, spingendo lo studente a voler primeggiare.",
+                    2 => "L'ambiente familiare è formale e strutturato, con un forte accento sull'ordine e la disciplina nello studio. La famiglia valorizza l'eccellenza silenziosa e la precisione. Lo studente sviluppa un approccio metodico all'apprendimento, ma può sentirsi poco supportato emotivamente o troppo pressato verso la perfezione formale. Oppure essere troppo protetto e quindi non essere autonomo nel suo percorso di apprendimento. ",
+                    3 => "L'ambiente familiare è stimolante e variegato, con molti input culturali e intellettuali. La famiglia incoraggia la curiosità e la versatilità, ma può mancare di struttura e continuità. Lo studente sviluppa un approccio creativo e multidisciplinare, ma può faticare a trovare focus e disciplina. Oppure proviene da una cultura chiusa e particolare per cui fatica ad approcciarsi ad un ambiente aperto e comunicativo. ",
+                    4 => "L'ambiente familiare è pratico e concreto, orientato ai risultati tangibili. La famiglia valorizza l'impegno costante e il duro lavoro. Lo studente sviluppa un approccio pragmatico allo studio, ma può sentirsi poco valorizzato negli aspetti più creativi o teorici dell'apprendimento. Oppure avere la tendenza dare piu’ valore al lavoro che allo studio e quindi non valorizzare questo aspetto. ",
+                    5 => "L'ambiente familiare è leggero e poco strutturato riguardo allo studio. La famiglia tende a non dare eccessiva importanza ai risultati accademici, preferendo un approccio più spontaneo. Lo studente sviluppa un rapporto giocoso con l'apprendimento, ma può faticare quando serve maggiore disciplina e struttura. Oppure avere dei genitori poco stabili che spingono lo studente ad impegnarsi anche duramente per essere d’aiuto. ",
+                    6 => "L'ambiente familiare è molto strutturato e organizzato rispetto allo studio. La famiglia offre un forte sostegno pratico e organizzativo. Lo studente sviluppa ottime abitudini di studio, ma può sentirsi troppo controllato o dipendente dal supporto familiare. Oppure essersi dovuto organizzare da solo in quanto i genitori erano assenti, sentendosi caricato di responsabilità. ",
+                    7 => "L'ambiente familiare è emotivamente intenso, con forte enfasi sui legami e le tradizioni familiari. La famiglia tende a essere molto coinvolta emotivamente nel percorso di studio. Lo studente sviluppa una forte connessione emotiva con l'apprendimento, ma può faticare a separare le proprie aspirazioni da quelle familiari. Oppure una famiglia dove ci sono problematiche importanti che influenza emotivamente anche se non direttamente nello studio. ",
+                    8 => "L'ambiente familiare valorizza fortemente l'intelletto e la comprensione profonda. La famiglia stimola il pensiero critico e l'analisi. Lo studente sviluppa eccellenti capacità analitiche, ma può sentirsi pressato a dover sempre capire tutto perfettamente prima di procedere. Oppure una famiglia che non ha potuto accedere ad un certo grado di studi per cui lo studente si sente chiamato a colmare la mancanza. ",
+                    9 => "L'ambiente familiare è non convenzionale e spesso in contrasto con il sistema educativo tradizionale. La famiglia incoraggia l'indipendenza e il pensiero alternativo. Lo studente sviluppa un approccio originale all'apprendimento, ma può trovarsi in difficoltà nell'adattarsi alle strutture educative convenzionali. Oppure essere inserito in un ambiente iper-tradizionale che influenza il suo percorso di studi. ",
                 ],
                 "EGO" => [
                     1 => "Passionale",
@@ -551,11 +554,15 @@ class Mastermap
                 $slug_entita = $entry["slug_entita"];
                 $punteggio = $entry["punteggio"];
 
-                if (isset($mappature[$slug_entita]) && isset($mappature[$slug_entita][$punteggio])) {
-                    ${strtolower($slug_entita)} = $mappature[$slug_entita][$punteggio];
+                if (
+                    isset($mappature[$slug_entita]) &&
+                    isset($mappature[$slug_entita][$punteggio])
+                ) {
+                    ${strtolower($slug_entita)} =
+                        $mappature[$slug_entita][$punteggio];
                 }
             }
-        } 
+        }
 
         // Restituisce le variabili aggiornate come array
         return compact(
@@ -591,13 +598,13 @@ class Mastermap
             $_SESSION["last_submit"] = time();
 
             // Prepara i dati dal form
-            $nome    = sanitize_text_field($_POST["nome"]);
+            $nome = sanitize_text_field($_POST["nome"]);
             $cognome = sanitize_text_field($_POST["cognome"]);
-            $email   = sanitize_email($_POST["email"]);
-            $sesso   = sanitize_text_field($_POST["sesso"]);
+            $email = sanitize_email($_POST["email"]);
+            $sesso = sanitize_text_field($_POST["sesso"]);
 
             $slug_mappa = sanitize_text_field($_POST["slug_mappa"]);
-            $lingua     = sanitize_text_field($_POST["lingua"]);
+            $lingua = sanitize_text_field($_POST["lingua"]);
 
             $data_nascita_utente = sanitize_text_field(
                 $_POST["data_di_nascita_utente"]
@@ -637,62 +644,83 @@ class Mastermap
             );
 
             // Formatta il titolo del nuovo post
-            $post_title     = "Mappa Talenti: " . $nome . " " . $cognome;
-            $karma          = "";
-            $famiglia       = "";
-            $ego            = "prov";
-            $BISOGNO        = "";
-            $puntodebole    = "";
-            $materna        = "";
-            $MAESTRO        = "";
-            $SOCIETA        = "";
+            $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
+            $karma = "";
+            $famiglia = "";
+            $ego = "prov";
+            $BISOGNO = "";
+            $puntodebole = "";
+            $materna = "";
+            $MAESTRO = "";
+            $SOCIETA = "";
             $RICONOSCIMENTO = "";
-            $PUNTODIFORZA   = "";
-            $PATERNA        = "";
-            $MISSIONE       = "";
-            $CUORE          = "";
-            if (
-                ! empty($slug_mappa) &&
-                stripos($slug_mappa, "gratuita") !== false
-            ) {
-                $karma          = "";
-                $famiglia       = "";
-                $ego            = "prov";
-                $BISOGNO        = "";
-                $puntodebole    = "";
-                $materna        = "";
-                $MAESTRO        = "";
-                $SOCIETA        = "";
-                $RICONOSCIMENTO = "";
-                $PUNTODIFORZA   = "";
-                $PATERNA        = "";
-                $MISSIONE       = "";
-                $CUORE          = "";
-            }
-        
-            $valori = assegnare_valori($solution,$slug_mappa);
+            $PUNTODIFORZA = "";
+            $PATERNA = "";
+            $MISSIONE = "";
+            $CUORE = "";
 
-            // Ora puoi usare i valori ottenuti
-            $karma     = $valori["karma"];
-            $famiglia  = $valori["famiglia"];
-            $ego       = $valori["ego"];
-            $cuore     = $valori["cuore"];
+            // Formatta il titolo del nuovo post
+            $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
+
+            // Inizializza tutte le variabili per evitare errori
+            $karma = "";
+            $famiglia = "";
+            $ego = "";
+            $bisogno = "";
+            $puntodebole = "";
+            $materna = "";
+            $maestro = "";
+            $societa = "";
+            $riconoscimento = "";
+            $puntodiforza = "";
+            $paterna = "";
+            $missione = "";
+            $cuore = "";
+
+            // Recupera i valori dalla funzione assegnare_valori()
+            $valori = assegnare_valori($solution, $slug_mappa);
+
+            // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
+            $karma = $valori["karma"] ?? "";
+            $famiglia = $valori["famiglia"] ?? "";
+            $ego = $valori["ego"] ?? "";
+            $bisogno = $valori["bisogno"] ?? "";
+            $puntodebole = $valori["puntodebole"] ?? "";
+            $materna = $valori["materna"] ?? "";
+            $maestro = $valori["maestro"] ?? "";
+            $societa = $valori["societa"] ?? "";
+            $riconoscimento = $valori["riconoscimento"] ?? "";
+            $puntodiforza = $valori["puntodiforza"] ?? "";
+            $paterna = $valori["paterna"] ?? "";
+            $missione = $valori["missione"] ?? "";
+            $cuore = $valori["cuore"] ?? "";
+
+            // Creazione del post di tipo "mappa"
             $post_data = [
-                "post_title"   => $post_title,
-                "post_type"    => "mappa",
-                "post_status"  => "publish",
-                "post_author"  => get_current_user_id(),
+                "post_title" => $post_title,
+                "post_type" => "mappa",
+                "post_status" => "publish",
+                "post_author" => get_current_user_id(),
                 "post_content" => $karma, // Puoi salvare il primo contenuto nel post_content
             ];
 
             $post_id = wp_insert_post($post_data);
 
+            // Se il post viene creato con successo, aggiorna i metadati
             if ($post_id != 0) {
                 update_post_meta($post_id, "section1", $karma);
                 update_post_meta($post_id, "section2", $famiglia);
                 update_post_meta($post_id, "section3", $ego);
                 update_post_meta($post_id, "section4", $cuore);
-                update_post_meta($post_id, "section5", $five);
+                update_post_meta($post_id, "section5", $bisogno);
+                update_post_meta($post_id, "section6", $puntodebole);
+                update_post_meta($post_id, "section7", $materna);
+                update_post_meta($post_id, "section8", $maestro);
+                update_post_meta($post_id, "section9", $societa);
+                update_post_meta($post_id, "section10", $riconoscimento);
+                update_post_meta($post_id, "section11", $puntodiforza);
+                update_post_meta($post_id, "section12", $paterna);
+                update_post_meta($post_id, "section13", $missione);
             }
 
             // Controlla se il post è stato creato correttamente
@@ -794,7 +822,7 @@ class Mastermap
                     "u-totale-piu-u-anni",
                     $other_result["u-totale-piu-u-anni"],
                     $post_id
-                );                                                     //pos 13
+                ); //pos 13
                 update_field("comi", $other_result["comi"], $post_id); //pos 13 KARMA
                 update_field("cogi", $other_result["cogi"], $post_id); //pos 13 Maestro
 
@@ -809,28 +837,28 @@ class Mastermap
                 );
                 $download_url = do_shortcode(
                     '[e2pdf-download id="1" output="url" dataset="' .
-                    $post_id .
-                    '"]'
+                        $post_id .
+                        '"]'
                 );
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
-                ? $data_di_nascita_madre
-                : "data non inserita";
+                    ? $data_di_nascita_madre
+                    : "data non inserita";
                 $data_di_nascita_padre_txt = $data_di_nascita_padre
-                ? $data_di_nascita_padre
-                : "data non inserita";
+                    ? $data_di_nascita_padre
+                    : "data non inserita";
 
                 //prendo i campi nella giusta lingua
                 if ($lingua == "EN"):
-                    $oggetto_email   = get_field("oggetto_email_en", "option");
-                    $corpo_email     = get_field("corpo_email_en", "option");
-                    $footer_email    = get_field("footer_email_en", "option");
+                    $oggetto_email = get_field("oggetto_email_en", "option");
+                    $corpo_email = get_field("corpo_email_en", "option");
+                    $footer_email = get_field("footer_email_en", "option");
                     $label_punteggio = "Score obtained";
                     $label_risultati = "This is the interpretation of your map";
-                    $label_download  = "To download your map";
+                    $label_download = "To download your map";
                 else:
-                    $oggetto_email   = get_field("oggetto_email", "option");
-                    $corpo_email     = get_field("corpo_email", "option");
-                    $footer_email    = get_field("footer_email", "option");
+                    $oggetto_email = get_field("oggetto_email", "option");
+                    $corpo_email = get_field("corpo_email", "option");
+                    $footer_email = get_field("footer_email", "option");
                     $label_punteggio = "Punteggio ottenuto";
                     $label_risultati =
                         'Questa è l\'interpretazione della tua mappa';
@@ -862,34 +890,34 @@ class Mastermap
                         $nome_entita = isset(
                             $etichette_map[$item["slug_entita"]]
                         )
-                        ? $etichette_map[$item["slug_entita"]]
-                        : $item["slug_entita"];
+                            ? $etichette_map[$item["slug_entita"]]
+                            : $item["slug_entita"];
 
                         $solution_content .=
-                        '<h3 style="background-color: #eee;padding: 3px 12px; margin-bottom:0">' .
-                        esc_html($nome_entita) .
+                            '<h3 style="background-color: #eee;padding: 3px 12px; margin-bottom:0">' .
+                            esc_html($nome_entita) .
                             "</h3>";
                         $solution_content .=
-                        '<p style="padding:3px 6px; border:1px solid #eee; margin-bottom:0">' .
-                        esc_html($item["domanda"]) .
+                            '<p style="padding:3px 6px; border:1px solid #eee; margin-bottom:0">' .
+                            esc_html($item["domanda"]) .
                             "";
                     }
                     if (isset($item["risposta"])) {
                         $solution_content .=
-                        "" .
-                        $label_punteggio .
-                        ": " .
-                        esc_html($item["punteggio"]) .
+                            "" .
+                            $label_punteggio .
+                            ": " .
+                            esc_html($item["punteggio"]) .
                             "";
                         $solution_content .=
-                        esc_html($item["risposta"]) . "</p>";
+                            esc_html($item["risposta"]) . "</p>";
                     }
                 }
 
                 //se c'è un oggetto impostato usiamo quello
                 $subject_user = get_field("oggetto_email", "option")
-                ? get_field("oggetto_email", "option")
-                : "Riepilogo Mappa Talenti";
+                    ? get_field("oggetto_email", "option")
+                    : "Riepilogo Mappa Talenti";
 
                 // Costruisci il messaggio HTML dell'email
                 $message_user =
@@ -968,8 +996,8 @@ class Mastermap
             <!-- Corpo Email -->
             ' .
                     ($corpo_email
-                    ? $corpo_email
-                    : "<h1 style='font-size:18px'>Grazie per aver compilato la Mappa Talenti</h1>") .
+                        ? $corpo_email
+                        : "<h1 style='font-size:18px'>Grazie per aver compilato la Mappa Talenti</h1>") .
                     '
             ' .
                     $solution_content .
@@ -989,10 +1017,10 @@ class Mastermap
         <!-- Footer -->
         ' .
                     ($footer_email
-                    ? '<div class="footer"><p>' .
-                    $footer_email .
-                    "</p></div>"
-                    : "") .
+                        ? '<div class="footer"><p>' .
+                            $footer_email .
+                            "</p></div>"
+                        : "") .
                     '
     </div>
 </body>
@@ -1009,8 +1037,8 @@ class Mastermap
                     "email_notifica_compilazione",
                     "option"
                 )
-                ? get_field("email_notifica_compilazione", "option")
-                : "alessandro@eklettica.it";
+                    ? get_field("email_notifica_compilazione", "option")
+                    : "alessandro@eklettica.it";
                 $subject_admin = "Nuova Mappa Talenti Creata";
                 $message_admin =
                     "Un utente ha creato una nuova Mappa Talenti.\n\n";
