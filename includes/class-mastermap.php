@@ -750,6 +750,164 @@ class Mastermap
                 9 => "Farti sentire eccezionale",
             ],
         ];
+        $mappatura_amore_uomo = [
+            "KARMA" => [
+                1 => "Bisogno compulsivo del sesso/rifiuto del sesso. Trasformazione: contattare la rabbia e iniziare a 'sentire' veramente l’altro.",
+                2 => "Bisogno estremo di attenzioni. Trasformazione: diventare emotivamente adulto.",
+                3 => "Attrai relazioni karmiche. Trasformazione: accettare l’aspetto destinico.",
+                4 => "Bisogno di sicurezza. Trasformazione: contattare il senso del tuo valore.",
+                5 => "Bisogno di attrarre. Trasformazione: imparare la responsabilità emotiva.",
+                6 => "Bisogno di stabilità. Trasformazione: trasformare il bisogno di controllo.",
+                7 => "Bisogno di empatia. Trasformazione: entrare in contatto con il proprio dolore.",
+                8 => "Bisogno di eccellenza. Trasformazione: ricollegarti al tuo sogno.",
+                9 => "Colpo di fulmine. Trasformazione: imparare a gestire gli impulsi.",
+            ],
+            "FAMIGLIA" => [
+                1 => "Una famiglia in movimento",
+                2 => "Una famiglia accudente",
+                3 => "Una famiglia allargata",
+                4 => "Una famiglia confortevole",
+                5 => "Famiglia giocosa",
+                6 => "Una famiglia stabile",
+                7 => "Una famiglia che trasmette valori",
+                8 => "Una famiglia equa",
+                9 => "Una famiglia che si aiuta",
+            ],
+            "EGO" => [
+                1 => "Passionale",
+                2 => "Dolce",
+                3 => "Social",
+                4 => "Famiglia",
+                5 => "Creativa",
+                6 => "Rispettosa",
+                7 => "Fusionale",
+                8 => "Intelligente",
+                9 => "Che ti sconvolga la vita",
+            ],
+            "BISOGNO" => [
+                1 => "Di agire con passione / Che ti si faccia appassionare",
+                2 => "Di accudimento / Comodità, poter sognare",
+                3 => "Sapere, essere al corrente / Comunicare, parlare",
+                4 => "Status, sentirti nel giusto ruolo / Nutrimento anche affettivo",
+                5 => "Divertimento / Libertà",
+                6 => "Avere il controllo / Non sentirsi sovraccaricati",
+                7 => "Essere capiti nel proprio dolore / Salvare gli altri dal dolore",
+                8 => "Essere importante / Prevedere i problemi",
+                9 => "Essere accettati / Far accettare gli altri o situazioni",
+            ],
+            "PUNTO_DEBOLE" => [
+                1 => "Quando le cose non procedono velocemente / Quando non ti senti desiderato",
+                2 => "Superficialità / Paura dell’abbandono",
+                3 => "Ricerca dell’esperienza / Diffidenza",
+                4 => "Insicurezza (non si mostra) / Insicurezza (vuole essere vista)",
+                5 => "Incostanza / Non sa difendersi",
+                6 => "Tradimento, irresponsabilità / Paura del tradimento",
+                7 => "Manipolazione (cerca di essere aiutato) / Non vuole mostrare il dolore",
+                8 => "Paura di soffrire (cinismo) / Paura di soffrire (educazione)",
+                9 => "Paura di fare male (scoppiare) / Implosione (di non farcela)",
+            ],
+            "MISSIONE" => [
+                1 => "Amore puro",
+                2 => "Amore adulto",
+                3 => "Reincontrare l'amore",
+                4 => "Sentire la pienezza dell'amore",
+                5 => "Vivere la leggerezza dell'amore",
+                6 => "L'amore libero",
+                7 => "Vivere la trasformazione dell'amore",
+                8 => "Riconoscere l'amore",
+                9 => "Salvarti dall'amore",
+            ],
+            "CUORE" => [
+                1 => "Farti sentire unica",
+                2 => "Coccolarti",
+                3 => "Farti sentire ascoltata",
+                4 => "Farti sentire amata",
+                5 => "Farti divertire",
+                6 => "Farti sentire al sicuro",
+                7 => "Farti sentire la passione profonda",
+                8 => "Farti perdere la testa",
+                9 => "Farti sentire eccezionale",
+            ],
+        ];
+        $mappatura_lavoro = [
+            "KARMA" => [
+                1 => "Tendenza a bruciare troppo velocemente le energie e le risorse. Trasformazione: imparare a gestire le energie con equilibrio.",
+                2 => "Eccessivo distacco emotivo che compromette le relazioni lavorative. Trasformazione: sviluppare empatia autentica.",
+                3 => "Dispersione delle energie in troppi progetti simultanei. Trasformazione: imparare a focalizzarsi su ciò che conta.",
+                4 => "Perfezionismo paralizzante che rallenta i processi. Trasformazione: accettare l’imperfezione come parte della crescita.",
+                5 => "Superficialità nelle relazioni professionali. Trasformazione: sviluppare profondità nei legami.",
+                6 => "Rigidità eccessiva nel mantenere le proprie posizioni. Trasformazione: coltivare flessibilità e apertura.",
+                7 => "Tendenza ad assorbire troppo le emozioni altrui. Trasformazione: stabilire confini chiari.",
+                8 => "Tendenza a riflettere troppo senza agire. Trasformazione: trovare equilibrio tra analisi e azione.",
+                9 => "Impazienza che porta a saltare passaggi importanti. Trasformazione: sviluppare costanza e metodo.",
+            ],
+            "FAMIGLIA" => [
+                1 => "Una famiglia che valorizza l’azione e la leadership.",
+                2 => "Una famiglia che insegna il controllo emotivo e l’indipendenza.",
+                3 => "Una famiglia che ha trasmesso capacità sociali e di adattamento.",
+                4 => "Una famiglia che ha insegnato disciplina e precisione.",
+                5 => "Una famiglia che ha valorizzato creatività ed espressione personale.",
+                6 => "Una famiglia che ha trasmesso stabilità e responsabilità.",
+                7 => "Una famiglia che ha insegnato sensibilità ed empatia.",
+                8 => "Una famiglia che ha valorizzato la riflessione e l’analisi.",
+                9 => "Una famiglia che ha trasmesso il valore del cambiamento e dell’innovazione.",
+            ],
+            "EGO" => [
+                1 => "Determinato e impulsivo.",
+                2 => "Razionale e distaccato.",
+                3 => "Versatile e comunicativo.",
+                4 => "Metodico e attento ai dettagli.",
+                5 => "Creativo e affascinante.",
+                6 => "Responsabile e protettivo.",
+                7 => "Empatico e adattabile.",
+                8 => "Intellettuale e perfezionista.",
+                9 => "Ribelle e innovativo.",
+            ],
+            "BISOGNO" => [
+                1 => "Di agire con passione / Essere motivato.",
+                2 => "Di stabilità emotiva / Sicurezza.",
+                3 => "Di comunicare e connettersi / Sentirsi incluso.",
+                4 => "Di controllo e struttura / Sentirsi utile.",
+                5 => "Di libertà e leggerezza / Espressione autentica.",
+                6 => "Di sicurezza e ordine / Protezione.",
+                7 => "Di comprensione e accettazione / Equilibrio emotivo.",
+                8 => "Di eccellenza e riconoscimento / Autenticità.",
+                9 => "Di indipendenza e cambiamento / Sfide stimolanti.",
+            ],
+            "PUNTO_DEBOLE" => [
+                1 => "Impazienza e impulsività.",
+                2 => "Difficoltà nel connettersi emotivamente.",
+                3 => "Tendenza a disperdere energie.",
+                4 => "Rigidità mentale e perfezionismo.",
+                5 => "Superficialità e paura del conflitto.",
+                6 => "Controllo eccessivo e difficoltà a delegare.",
+                7 => "Mancanza di confini e ipersensibilità.",
+                8 => "Analisi eccessiva e paura del giudizio.",
+                9 => "Insofferenza alle regole e instabilità.",
+            ],
+            "MISSIONE" => [
+                1 => "Trovare equilibrio tra azione e riflessione.",
+                2 => "Unire empatia e razionalità nel lavoro.",
+                3 => "Utilizzare la versatilità con discernimento.",
+                4 => "Accettare il cambiamento senza perdere stabilità.",
+                5 => "Trovare profondità oltre l’apparenza.",
+                6 => "Lasciare andare il controllo e accettare l’evoluzione.",
+                7 => "Imparare a proteggere la propria energia.",
+                8 => "Trovare un equilibrio tra introspezione e azione.",
+                9 => "Usare l’innovazione in modo costruttivo.",
+            ],
+            "CUORE" => [
+                1 => "Farti sentire speciale e motivato.",
+                2 => "Offrirti sicurezza emotiva.",
+                3 => "Coinvolgerti con leggerezza e dinamismo.",
+                4 => "Creare una base solida e affidabile.",
+                5 => "Portarti gioia e ispirazione.",
+                6 => "Darti stabilità e protezione.",
+                7 => "Comprendere profondamente i tuoi sentimenti.",
+                8 => "Stimolarti intellettualmente e spiritualmente.",
+                9 => "Accendere il tuo entusiasmo e la tua energia.",
+            ],
+        ];
 
         // Determinare quale mappatura usare
         $mappature =
@@ -757,10 +915,14 @@ class Mastermap
                 ? $mappature_studio
                 : (strpos($slug_mappa, "amore_donna") !== false
                     ? $mappature_amore_donna
-                    : (strpos($slug_mappa, "bambino_missione_talenti") !== false
-                        ? $mappa_bambino_missione_talenti
-                        : $mappature_base));
-
+                    : (strpos($slug_mappa, "amore_uomo") !== false
+                        ? $mappatura_amore_uomo
+                        : (strpos($slug_mappa, "bambino_missione_talenti") !==
+                        false
+                            ? $mappa_bambino_missione_talenti
+                            : (strpos($slug_mappa, "lavoro") !== false
+                                ? $mappatura_lavoro
+                                : $mappature_base))));
         // Inizializzazione array risultati
         $valori = [];
 
