@@ -923,6 +923,10 @@ class Mastermap
                             : (strpos($slug_mappa, "lavoro") !== false
                                 ? $mappatura_lavoro
                                 : $mappature_base))));
+
+        if (!isset($mappature)) {
+            $mappature = $mappature_base;
+        }
         // Inizializzazione array risultati
         $valori = [];
 
