@@ -7,7 +7,7 @@ class Mastermap
 
     function __construct()
     {
-        add_action("init", [$this, "handle_map_registration"]); 
+        add_action("init", [$this, "handle_map_registration"]);
     }
 
     public function form_mappa_talenti($slug_mappa = "", $lingua = "")
@@ -515,11 +515,251 @@ class Mastermap
             ],
         ];
 
+        $mappature_amore_donna = [
+            "KARMA" => [
+                1 => "Bisogno compulsivo del sesso/rifiuto del sesso... Trasformazione: contattare la rabbia e iniziare a 'sentire' veramente l’altro.",
+                2 => "Bisogno estremo di attenzioni... Trasformazione: diventare emotivamente adulta.",
+                3 => "Attrai relazioni karmiche... Trasformazione: accettare l’aspetto destinico.",
+                4 => "Bisogno di sicurezza... Trasformazione: contattare il senso del tuo valore.",
+                5 => "Bisogno di attrarre... Trasformazione: imparare la responsabilità emotiva.",
+                6 => "Bisogno di stabilità... Trasformazione: trasformare il bisogno di controllo.",
+                7 => "Bisogno di empatia... Trasformazione: entrare in contatto con il proprio dolore.",
+                8 => "Bisogno di eccellenza... Trasformazione: ricollegarti al tuo sogno.",
+                9 => "Colpo di fulmine... Trasformazione: imparare a gestire gli impulsi.",
+            ],
+            "FAMIGLIA" => [
+                1 => "Una famiglia in movimento... Non mettere al mondo figli perché ci si aspetta questo da te.",
+                2 => "Una famiglia accudente... La casa è un luogo sacro per te.",
+                3 => "Una famiglia allargata... L'amicizia è un grande valore per te.",
+                4 => "Una famiglia confortevole... Attenzione a non mettere i figli al centro del tuo mondo.",
+                5 => "Famiglia giocosa... Alleggerire il quotidiano con soluzioni creative.",
+                6 => "Una famiglia stabile... Hai bisogno di rapporti stabili e duraturi.",
+                7 => "Una famiglia che trasmette valori... Importante che i valori siano condivisi.",
+                8 => "Una famiglia equa... Hai bisogno dei tuoi spazi di libertà.",
+                9 => "Una famiglia che si aiuta... Importante saper scegliere bene.",
+            ],
+            "EGO" => [
+                1 => "Passionale... Soffri molto se l’altra persona ostacola le tue passioni.",
+                2 => "Dolce... Soffri se la persona è assente o non mostra cura.",
+                3 => "Social... Vivi la coppia all’interno di contesti aperti.",
+                4 => "Famiglia... Per te la coppia è mutuo soccorso.",
+                5 => "Creativa... Hai bisogno di progettualità condivisa.",
+                6 => "Rispettosa... Vuoi sentirti profondamente rispettata.",
+                7 => "Fusionale... Offri comprensione e vicinanza.",
+                8 => "Intelligente... Vuoi organizzare la coppia secondo le tue priorità.",
+                9 => "Che ti sconvolga la vita... Hai bisogno di una relazione trasformativa.",
+            ],
+            "BISOGNO" => [
+                1 => "Di agire con passione / Che ti si faccia appassionare.",
+                2 => "Di accudimento, dimenticare i problemi / Comodità, poter sognare.",
+                3 => "Sapere, essere al corrente / Comunicare, parlare.",
+                4 => "Status, sentirti nel giusto ruolo / Nutrimento anche affettivo.",
+                5 => "Divertimento / Libertà.",
+                6 => "Avere il controllo / Non sentirsi sovraccaricate.",
+                7 => "Essere capite nel proprio dolore / Salvare gli altri dal dolore.",
+                8 => "Essere importante / Prevedere i problemi.",
+                9 => "Essere accettate / Far accettare gli altri o situazioni.",
+            ],
+            "PUNTODEBOLE" => [
+                1 => "Quando le cose non procedono velocemente / Quando non ti senti desiderata.",
+                2 => "Superficialità / Paura dell’abbandono.",
+                3 => "Ricerca dell’esperienza / Diffidenza.",
+                4 => "Insicurezza (non si mostra) / Insicurezza (vuole essere vista).",
+                5 => "Incostanza / Non sa difendersi.",
+                6 => "Tradimento, irresponsabilità / Paura del tradimento.",
+                7 => "Manipolazione (cerca di essere aiutata) / Non vuole mostrare il dolore.",
+                8 => "Paura di soffrire (cinismo) / Paura di soffrire (educazione).",
+                9 => "Paura di fare male (scoppiare) / Implosione (di non farcela).",
+            ],
+            "MATERNA" => [
+                1 => "Erediti il bisogno di libertà ed espressione erotica. Attenta alla rabbia verso gli uomini.",
+                2 => "Erediti la capacità di accudire. Attenta alla ricerca del padre nel partner.",
+                3 => "Erediti la comunicazione. Attenta a non nascondere i tuoi bisogni.",
+                4 => "Erediti dolcezza e affetto. Attenta al bisogno di rassicurazioni.",
+                5 => "Erediti la capacità seduttiva. Attenta alla vergogna o esibizionismo eccessivo.",
+                6 => "Erediti la solidità. Attenta alla gelosia o al bisogno di controllo.",
+                7 => "Erediti il sostegno. Attenta al dolore ereditato non risolto.",
+                8 => "Erediti l’intelletto. Attenta alle ingiustizie vissute da tua madre.",
+                9 => "Erediti la capacità di resistere. Attenta alla paura dell’imprevisto.",
+            ],
+            "MAESTRO" => [
+                1 => "Unica e appassionata.",
+                2 => "Molto affettiva.",
+                3 => "Avventurosa.",
+                4 => "Costruttiva.",
+                5 => "Divertente.",
+                6 => "Stabile.",
+                7 => "Romantica e intensa.",
+                8 => "Libera.",
+                9 => "Grandiosa.",
+            ],
+            "SOCIETA" => [
+                1 => "Conquista.",
+                2 => "Cura dei dettagli.",
+                3 => "Interesse.",
+                4 => "Mostrare il proprio valore.",
+                5 => "Simpatia.",
+                6 => "Affidabilità.",
+                7 => "Sensualità.",
+                8 => "Parlando.",
+                9 => "Stupendo.",
+            ],
+            "RICONOSCIMENTO" => [
+                1 => "Che ti segua / Che si dimostri innamorato.",
+                2 => "Per la cura che offri / Che sei amabile come sei.",
+                3 => "Per la tua capacità di stare nel mondo / Per la tua visione particolare.",
+                4 => "Per l'immagine che dai / Per le tue conoscenze.",
+                5 => "Per il tuo fascino / Per la tua capacità di farlo esprimere.",
+                6 => "Per la tua capacità di esserci / Per la tua attitudine a fare insieme.",
+                7 => "Per la tua capacità di sentire / Per la tua capacità di ascoltare.",
+                8 => "Per la tua equità / Per la tua intelligenza.",
+                9 => "Per la capacità di trasformare / Perché mantieni le tradizioni.",
+            ],
+            "PUNTODIFORZA" => [
+                1 => "Passione o progetti condivisi.",
+                2 => "Calma o riposo.",
+                3 => "Dialogo o fare insieme.",
+                4 => "Contatto fisico o fare cose piacevoli.",
+                5 => "Gioco a due o divertimento.",
+                6 => "Solitudine o isolamento con il partner.",
+                7 => "Sostegno o sensibilità.",
+                8 => "Analisi o visione a lungo termine.",
+                9 => "Pazienza o educare al cambiamento.",
+            ],
+            "PATERNA" => [
+                1 => "Cerchi un uomo passionale.",
+                2 => "Cerchi un uomo calmo e accudente.",
+                3 => "Cerchi un uomo stimolante.",
+                4 => "Cerchi un uomo curato.",
+                5 => "Cerchi un uomo spiritoso.",
+                6 => "Cerchi un uomo solido e responsabile.",
+                7 => "Cerchi un uomo che si prenda cura di te.",
+                8 => "Cerchi un uomo intelligente.",
+                9 => "Cerchi un uomo imprevedibile.",
+            ],
+            "MISSIONE" => [
+                1 => "Amore puro.",
+                2 => "Amore adulto.",
+                3 => "Reincontrare l’amore.",
+                4 => "Sentire la pienezza dell’amore.",
+                5 => "Vivere la leggerezza dell’amore.",
+                6 => "Amore libero.",
+                7 => "Trasformazione dell’amore.",
+                8 => "Riconoscere l’amore.",
+                9 => "Salvarti dall’amore.",
+            ],
+            "CUORE" => [
+                1 => "Farti sentire unica.",
+                2 => "Coccolarti.",
+                3 => "Farti sentire ascoltata.",
+                4 => "Farti sentire amata.",
+                5 => "Farti divertire.",
+                6 => "Farti sentire al sicuro.",
+                7 => "Farti sentire la passione profonda.",
+                8 => "Farti perdere la testa.",
+                9 => "Farti sentire eccezionale.",
+            ],
+        ];
+        $mappa_bambino_missione_talenti = [
+            "KARMA" => [
+                1 => "Trasformare la rabbia in passione",
+                2 => "Assumersi responsabilità senza perdere l'innocenza",
+                3 => "Trasformare l'ansia in opportunità",
+                4 => "Trasformare l'insicurezza in fierezza",
+                5 => "Trasformare la superficialità in gioia",
+                6 => "Trasformare il bisogno di controllo in stabilità",
+                7 => "Trasformare l'ipersensibilità in empatia",
+                8 => "Gestire problemi di apprendimento o difficoltà ad adattarsi al ritmo degli altri",
+                9 => "Trasformare il bisogno di gruppo in autonomia",
+            ],
+            "TALENTO" => [
+                1 => "La capacità di entusiasmare gli altri.",
+                2 => "Saggezza innata.",
+                3 => "Grande intuizione.",
+                4 => "Molteplici capacità da sviluppare.",
+                5 => "Grande creatività.",
+                6 => "Amore per la propria comunità.",
+                7 => "Capacità di ascolto profondo.",
+                8 => "Intelligenza 'altra' o intelligenza superiore alla media.",
+                9 => "Capacità di aiuto e collaborazione.",
+            ],
+            "FAMIGLIA" => [
+                1 => "Famiglia dinamica dove si gioca e si esplora",
+                2 => "Famiglia accudente e affettuosa",
+                3 => "Famiglia aperta e piena di amici",
+                4 => "Famiglia confortevole e sicura",
+                5 => "Famiglia gioiosa e creativa",
+                6 => "Famiglia stabile e rassicurante",
+                7 => "Famiglia dove si condividono valori importanti",
+                8 => "Famiglia equa dove ognuno ha il suo spazio",
+                9 => "Famiglia solidale che si aiuta sempre",
+            ],
+            "EGO" => [
+                1 => "Ha bisogno di passione e entusiasmo",
+                2 => "Ha bisogno di dolcezza e protezione",
+                3 => "Vuole condividere interessi con gli altri",
+                4 => "Vuole sentirsi utile e nel suo ruolo",
+                5 => "Ama creare e divertirsi con gli altri",
+                6 => "Desidera rispetto e stabilità",
+                7 => "Cerca connessione profonda",
+                8 => "Ama organizzare e capire",
+                9 => "Vuole qualcosa di speciale che lasci il segno",
+            ],
+            "BISOGNO" => [
+                1 => "Di agire con passione / di essere appassionata",
+                2 => "Di accudire e sognare in tranquillità",
+                3 => "Di comunicare e condividere",
+                4 => "Di sicurezza e nutrimento affettivo",
+                5 => "Di libertà e leggerezza",
+                6 => "Di stabilità e non sentirsi sovraccaricata",
+                7 => "Di empatia e di salvare dal dolore",
+                8 => "Di essere riconosciuta e prevedere problemi",
+                9 => "Di essere accettata e far accettare gli altri",
+            ],
+            "PUNTO_DEBOLE" => [
+                1 => "Impazienza o bisogno di sentirsi desiderata",
+                2 => "Superficialità o paura dell’abbandono",
+                3 => "Ricerca eccessiva di esperienze o diffidenza",
+                4 => "Insicurezza mascherata o ostentata",
+                5 => "Incostanza o incapacità di difendersi",
+                6 => "Tradimento o paura di essere tradita",
+                7 => "Manipolazione o negazione del dolore",
+                8 => "Paura di soffrire, cinismo o distanza",
+                9 => "Esplosione o implosione emotiva",
+            ],
+            "MISSIONE" => [
+                1 => "Amore puro",
+                2 => "Amore adulto",
+                3 => "Reincontrare l'amore",
+                4 => "Sentire la pienezza dell'amore",
+                5 => "Vivere la leggerezza dell'amore",
+                6 => "L'amore libero",
+                7 => "Vivere la trasformazione dell'amore",
+                8 => "Riconoscere l'amore",
+                9 => "Salvarti dall'amore",
+            ],
+            "CUORE" => [
+                1 => "Farti sentire unica",
+                2 => "Coccolarti",
+                3 => "Farti sentire ascoltata",
+                4 => "Farti sentire amata",
+                5 => "Farti divertire",
+                6 => "Farti sentire al sicuro",
+                7 => "Farti sentire la passione profonda",
+                8 => "Farti perdere la testa",
+                9 => "Farti sentire eccezionale",
+            ],
+        ];
+
         // Determinare quale mappatura usare
         $mappature =
             strpos($slug_mappa, "studio") !== false
                 ? $mappature_studio
-                : $mappature_base;
+                : (strpos($slug_mappa, "amore_donna") !== false
+                    ? $mappature_amore_donna
+                    : (strpos($slug_mappa, "bambino_missione_talenti") !== false
+                        ? $mappa_bambino_missione_talenti
+                        : $mappature_base));
 
         // Inizializzazione array risultati
         $valori = [];
@@ -549,20 +789,15 @@ class Mastermap
                 isset($_SESSION["last_submit"]) &&
                 time() - $_SESSION["last_submit"] < 30
             ) {
-                // echo "<p>Stai inviando troppo rapidamente. Attendere un momento.</p>";
+                // echo "<p>Stai inviando troppo rapidamente. Attendere un momento.</p>" ;
                 return;
             }
-            $_SESSION["last_submit"] = time();
-
-            // Prepara i dati dal form
-            $nome = sanitize_text_field($_POST["nome"]);
+            $_SESSION["last_submit"] = time(); // Prepara i dati dal form $nome=sanitize_text_field($_POST["nome"]);
             $cognome = sanitize_text_field($_POST["cognome"]);
             $email = sanitize_email($_POST["email"]);
             $sesso = sanitize_text_field($_POST["sesso"]);
-
             $slug_mappa = sanitize_text_field($_POST["slug_mappa"]);
             $lingua = sanitize_text_field($_POST["lingua"]);
-
             $data_nascita_utente = sanitize_text_field(
                 $_POST["data_di_nascita_utente"]
             );
@@ -575,7 +810,6 @@ class Mastermap
             $accettazione_privacy = sanitize_text_field(
                 $_POST["accettazione_privacy"]
             );
-
             $utente_result = reduce_date_to_single_digit_details(
                 $data_nascita_utente
             );
@@ -590,7 +824,6 @@ class Mastermap
                 $data_di_nascita_madre,
                 $data_di_nascita_padre
             );
-
             $solution = get_solution(
                 $slug_mappa,
                 $lingua,
@@ -598,9 +831,7 @@ class Mastermap
                 $madre_result,
                 $padre_result,
                 $other_result
-            );
-
-            // Formatta il titolo del nuovo post
+            ); // Formatta il titolo del nuovo post
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
             $karma = "";
             $famiglia = "";
@@ -614,16 +845,8 @@ class Mastermap
             $PUNTODIFORZA = "";
             $PATERNA = "";
             $MISSIONE = "";
-            $CUORE = "";
-
-            // Formatta il titolo del nuovo post
-            $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
-
-            // Inizializza tutte le variabili per evitare errori
-            $karma = "";
-            $famiglia = "";
-            $ego = "";
-            $bisogno = "";
+            $CUORE = ""; // Formatta il titolo del nuovo post $post_title="Mappa Talenti: " . $nome . " " .
+            $cognome; // Inizializza tutte le variabili per evitare errori $karma="" ; $famiglia="" ; $ego="" ; $bisogno="" ;
             $puntodebole = "";
             $materna = "";
             $maestro = "";
@@ -632,10 +855,8 @@ class Mastermap
             $puntodiforza = "";
             $paterna = "";
             $missione = "";
-            $cuore = "";
-
-            // Recupera i valori dalla funzione assegnare_valori()
-            $valori = $this->assegnare_valori($solution, $slug_mappa);
+            $cuore = ""; // Recupera i valori dalla funzione assegnare_valori() $valori=$this->
+            assegnare_valori($solution, $slug_mappa);
             //var_dump($valori);
             // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
             $karma = $valori["KARMA"] ?? "";
@@ -831,8 +1052,8 @@ class Mastermap
                 $etichette = $wpdb->get_results(
                     $wpdb->prepare(
                         "SELECT slug_mappa_et, etichetta
-         FROM wp_mappe_etichette
-         WHERE lingua_et = %s",
+    FROM wp_mappe_etichette
+    WHERE lingua_et = %s",
                         $lingua_corrente
                     ),
                     ARRAY_A
@@ -881,15 +1102,16 @@ class Mastermap
                 // Costruisci il messaggio HTML dell'email
                 $message_user =
                     '
-<!doctype html>
-<html lang="it">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>' .
+    <!doctype html>
+    <html lang="it">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>' .
                     $subject_user .
                     '</title>
-    <style media="all" type="text/css">
+        <style media="all" type="text/css">
         body {
             font-family: Helvetica, Arial, sans-serif;
             -webkit-font-smoothing: antialiased;
@@ -899,12 +1121,14 @@ class Mastermap
             margin: 0;
             padding: 0;
         }
+
         .container {
             margin: 0 auto;
             max-width: 600px;
             padding: 24px;
             width: 100%;
         }
+
         .main {
             background: #ffffff;
             border-radius: 16px;
@@ -912,15 +1136,18 @@ class Mastermap
             padding: 24px;
             text-align: center;
         }
+
         .header img {
             max-width: 200px;
             margin-bottom: 20px;
         }
+
         p {
             font-size: 16px;
             color: #333;
             margin-bottom: 16px;
         }
+
         .download-box {
             background: #e8f0fe;
             padding: 12px;
@@ -928,12 +1155,14 @@ class Mastermap
             margin-top: 15px;
             display: inline-block;
         }
+
         .download-box a {
             font-size: 16px;
             color: #0867ec;
             font-weight: bold;
             text-decoration: none;
         }
+
         .footer {
             text-align: center;
             color: #7d7d7d;
@@ -942,48 +1171,52 @@ class Mastermap
             padding-top: 15px;
             border-top: 1px solid #ddd;
         }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="main">
-            <!-- Logo -->
-            <div class="header">
-                <img src="https://ninenergymap.com/logo.png" alt="Ninenergy Logo">
-            </div>
+        </style>
+    </head>
 
-            <!-- Corpo Email -->
-            ' .
+    <body>
+        <div class="container">
+            <div class="main">
+                <!-- Logo -->
+                <div class="header">
+                    <img src="https://ninenergymap.com/logo.png" alt="Ninenergy Logo">
+                </div>
+
+                <!-- Corpo Email -->
+                ' .
                     ($corpo_email
                         ? $corpo_email
                         : "<h1 style='font-size:18px'>Grazie per aver compilato la Mappa Talenti</h1>") .
                     '
-            ' .
+                ' .
                     $solution_content .
                     '
 
-            <!-- Download -->
-            <div class="download-box">
-                <p><b>' .
+                <!-- Download -->
+                <div class="download-box">
+                    <p><b>' .
                     $label_download .
                     '</b></p>
-                <p><span class="dwnButton">' .
+                    <p><span class="dwnButton">' .
                     $download_link .
                     '</span></p>
+                </div>
             </div>
-        </div>
 
-        <!-- Footer -->
-        ' .
+            <!-- Footer -->
+            ' .
                     ($footer_email
-                        ? '<div class="footer"><p>' .
+                        ? '<div class="footer">
+                <p>' .
                             $footer_email .
-                            "</p></div>"
+                            "</p>
+            </div>"
                         : "") .
                     '
-    </div>
-</body>
-</html>';
+        </div>
+    </body>
+
+    </html>';
 
                 // Aggiungi header per l'email HTML
                 $headers = ["Content-Type: text/html; charset=UTF-8"];
