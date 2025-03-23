@@ -908,41 +908,38 @@ class Mastermap
                 9 => "Accendere il tuo entusiasmo e la tua energia.",
             ],
         ];
-
+$mappature=[];
         // Determinare quale mappatura usare
-        $mappature =
-            strpos($slug_mappa, "studio") !== false
-                ? $mappature_studio
-                : (strpos($slug_mappa, "amore_donna") !== false
-                    ? $mappature_amore_donna
-                    : (strpos($slug_mappa, "amore_uomo") !== false
-                        ? $mappatura_amore_uomo
-                        : (strpos($slug_mappa, "bambino_missione_talenti") !==
-                        false
-                            ? $mappa_bambino_missione_talenti
-                            : (strpos($slug_mappa, "lavoro") !== false
-                                ? $mappatura_lavoro
-                                : $mappature_base))));
+       // Determina quale mappatura usare in base allo slug
+if (strpos($slug_mappa, "studio") !== false) {
+        $mappature = $mappature_studio;
+    } elseif (strpos($slug_mappa, "amore_donna") !== false) {
+        $mappature = $mappature_amore_donna;
+    } elseif (strpos($slug_mappa, "amore_uomo") !== false) {
+        $mappature = $mappatura_amore_uomo;
+    } elseif (strpos($slug_mappa, "bambino_missione_talenti") !== false) {
+        $mappature = $mappa_bambino_missione_talenti;
+    } elseif (strpos($slug_mappa, "lavoro") !== false) {
+        $mappature = $mappatura_lavoro;
+    } else {
+        $mappature = $mappature_base;
+    }
 
-        if (!isset($mappature)) {
-            $mappature = $mappature_base;
-        }
-        // Inizializzazione array risultati
-        $valori = [];
+    // Assicuriamoci che $solution sia un array
+    $solution = is_array($solution) ? $solution : [];
 
-        foreach ($mappature as $chiave => $valori_mappa) {
-            if (isset($solution[$chiave])) {
-                $indice = $solution[$chiave];
-            } else {
-                // Se $solution non contiene il valore, prendi il primo valore della categoria
-                $indice = array_key_first($valori_mappa);
-            }
+    // Calcolo dei valori finali
+    $valori = [];
 
-            $valori[$chiave] =
-                $valori_mappa[$indice] ?? "Valore non disponibile";
-        }
+    foreach ($mappature as $chiave => $valori_mappa) {
+        // Usa l’indice da $solution se presente, altrimenti il primo disponibile
+        $indice = $solution[$chiave] ?? array_key_first($valori_mappa);
 
-        return $valori;
+        // Prendi SEMPRE un valore valido, senza fallback generico
+        $valori[$chiave] = $valori_mappa[$indice];
+    }
+
+    return $valori;
     }
 
     public function handle_map_registration()
@@ -999,30 +996,8 @@ class Mastermap
                 $other_result
             ); // Formatta il titolo del nuovo post
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
-            $karma = "";
-            $famiglia = "";
-            $ego = "prov";
-            $BISOGNO = "";
-            $puntodebole = "";
-            $materna = "";
-            $MAESTRO = "";
-            $SOCIETA = "";
-            $RICONOSCIMENTO = "";
-            $PUNTODIFORZA = "";
-            $PATERNA = "";
-            $MISSIONE = "";
-            $CUORE = ""; // Formatta il titolo del nuovo post $post_title="Mappa Talenti: " . $nome . " " .
-            $cognome; // Inizializza tutte le variabili per evitare errori $karma="" ; $famiglia="" ; $ego="" ; $bisogno="" ;
-            $puntodebole = "";
-            $materna = "";
-            $maestro = "";
-            $societa = "";
-            $riconoscimento = "";
-            $puntodiforza = "";
-            $paterna = "";
-            $missione = "";
-            $cuore = ""; // Recupera i valori dalla funzione assegnare_valori() $valori=$this->
-            assegnare_valori($solution, $slug_mappa);
+            
+            $valori=$this->assegnare_valori($solution, $slug_mappa);
             //var_dump($valori);
             // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
             $karma = $valori["KARMA"] ?? "";
