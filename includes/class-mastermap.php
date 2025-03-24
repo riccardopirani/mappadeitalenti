@@ -28,67 +28,79 @@ class Mastermap
                 esc_attr($lingua) .
                 '">';
             $form .= '<div class="row reg-row my-1">';
+
             $form .= '<div class="col-md-3 mb-2">';
             $form .= '<label for="nome">Name*</label>';
             $form .=
-                '<input class="form-control" type="text" name="nome" required placeholder="Nome*">';
+                '<input class="form-control" type="text" name="nome" required placeholder="Name*">';
             $form .= "</div>";
+
             $form .= '<div class="col-md-3 mb-2">';
             $form .= '<label for="cognome">Last Name*</label>';
             $form .=
-                '<input class="form-control" type="text" name="cognome" required placeholder="Cognome*">';
+                '<input class="form-control" type="text" name="cognome" required placeholder="Last Name*">';
             $form .= "</div>";
+
             $form .= '<div class="col-md-3 mb-2">';
             $form .= '<label for="email">E-mail*</label>';
             $form .=
                 '<input class="form-control" type="email" name="email" required placeholder="E-mail*">';
             $form .= "</div>";
+
             $form .= '<div class="col-md-3 mb-2">';
             $form .= '<label for="sesso">Gender*</label>';
             $form .= '<div class="form-check form-check-inline">';
             $form .=
-                '<input class="form-check-input" type="radio" name="sesso" id="uomo" value="uomo" required>';
-            $form .= '<label class="form-check-label" for="uomo">Male</label>';
+                '<input class="form-check-input" type="radio" name="sesso" id="male" value="male" required>';
+            $form .= '<label class="form-check-label" for="male">Male</label>';
             $form .= "</div>";
+
             $form .= '<div class="form-check form-check-inline">';
             $form .=
-                '<input class="form-check-input" type="radio" name="sesso" id="donna" value="donna" required>';
+                '<input class="form-check-input" type="radio" name="sesso" id="female" value="female" required>';
             $form .=
-                '<label class="form-check-label" for="donna">Female</label>';
+                '<label class="form-check-label" for="female">Female</label>';
             $form .= "</div>";
             $form .= "</div>";
+
+            // Campi per le date con type="date"
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
                 '<label for="data_nascita_utente">Your date of birth*</label>';
-
             $form .=
-                '<input class="form-control" type="text" id="data_di_nascita_utente" name="data_di_nascita_utente" required placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
-
+                '<input class="form-control" type="date" id="data_di_nascita_utente" name="data_di_nascita_utente" required>';
             $form .= "</div>";
+
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
                 '<label for="data_di_nascita_madre">Your mother\'s date of birth</label>';
             $form .=
-                '<input class="form-control" type="text"  id="data_di_nascita_madre" name="data_di_nascita_madre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
+                '<input class="form-control" type="date" id="data_di_nascita_madre" name="data_di_nascita_madre">';
             $form .= "</div>";
+
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
                 '<label for="data_di_nascita_padre">Your father\'s date of birth</label>';
             $form .=
-                '<input class="form-control" type="text" id="data_di_nascita_padre" name="data_di_nascita_padre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
+                '<input class="form-control" type="date" id="data_di_nascita_padre" name="data_di_nascita_padre">';
             $form .= "</div>";
+
             $form .= '<div class="col-md-12 mb-2 ps-5 form-check">';
             $form .=
                 '<input class="form-check-input" type="checkbox" name="accettazione_privacy" required>';
             $form .=
                 ' <label class="form-check-label" for="accettazione_privacy">I have read the <a href="#">privacy policy</a> and I consent to the storage of my data, in accordance with the European regulation on personal data protection no. 679/2016 (GDPR)*</label>';
             $form .= "</div>";
+
             $form .= '<div class="col-md-12 mb-2">';
             $form .=
                 '<input type="submit" name="book" value="SEND" class="btn btn-primary"/>';
             $form .= "</div>";
             $form .= "</div>";
             $form .= "</form>";
+            // Versione italiana
+
+            // Campi per le date con type="date"
         else:
             $form =
                 '<form id="f_mappa_talenti" action="' .
@@ -105,119 +117,70 @@ class Mastermap
                 esc_attr($lingua) .
                 '">';
             $form .= '<div class="row reg-row my-1">';
+
             $form .= '<div class="col-md-3 mb-2">';
-            $form .=
-                '<label for="nome">' . __("Nome", "ek_mappa") . "*</label>";
+            $form .= '<label for="nome">Nome*</label>';
             $form .=
                 '<input class="form-control" type="text" name="nome" required placeholder="Nome*">';
             $form .= "</div>";
+
             $form .= '<div class="col-md-3 mb-2">';
-            $form .=
-                '<label for="cognome">' .
-                __("Cognome", "ek_mappa") .
-                "*</label>";
+            $form .= '<label for="cognome">Cognome*</label>';
             $form .=
                 '<input class="form-control" type="text" name="cognome" required placeholder="Cognome*">';
             $form .= "</div>";
+
             $form .= '<div class="col-md-3 mb-2">';
-            $form .=
-                '<label for="email">' . __("E-mail", "ek_mappa") . "*</label>";
+            $form .= '<label for="email">E-mail*</label>';
             $form .=
                 '<input class="form-control" type="email" name="email" required placeholder="E-mail*">';
             $form .= "</div>";
+
             $form .= '<div class="col-md-3 mb-2">';
-            $form .=
-                '<label for="sesso">' . __("Sesso", "ek_mappa") . "*</label>";
+            $form .= '<label for="sesso">Sesso*</label>';
             $form .= '<div class="form-check form-check-inline">';
             $form .=
                 '<input class="form-check-input" type="radio" name="sesso" id="uomo" value="uomo" required>';
-            $form .=
-                '<label class="form-check-label" for="uomo">' .
-                __("Uomo", "ek_mappa") .
-                "</label>";
+            $form .= '<label class="form-check-label" for="uomo">Uomo</label>';
             $form .= "</div>";
+
             $form .= '<div class="form-check form-check-inline">';
             $form .=
                 '<input class="form-check-input" type="radio" name="sesso" id="donna" value="donna" required>';
             $form .=
-                '<label class="form-check-label" for="donna">' .
-                __("Donna", "ek_mappa") .
-                "</label>";
+                '<label class="form-check-label" for="donna">Donna</label>';
             $form .= "</div>";
             $form .= "</div>";
-            $form .= '<div class="col-md-4 mb-2">';
-            $form .=
-                '<label for="data_nascita_utente">' .
-                __("La tua data di nascita", "ek_mappa") .
-                "*</label>";
-            $form .=
-                '<input class="form-control" type="text" id="data_di_nascita_utente" name="data_di_nascita_utente" required placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
 
-            $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
-                '<label for="data_di_nascita_madre">' .
-                __("Data di nascita di tua madre", "ek_mappa") .
-                "</label>";
+                '<label for="data_nascita_utente">La tua data di nascita*</label>';
             $form .=
-                '<input class="form-control" type="text"  id="data_di_nascita_madre" name="data_di_nascita_madre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
+                '<input class="form-control" type="date" id="data_di_nascita_utente" name="data_di_nascita_utente" required>';
             $form .= "</div>";
+
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
-                '<label for="data_di_nascita_padre">' .
-                __("Data di nascita di tuo padre", "ek_mappa") .
-                "</label>";
+                '<label for="data_di_nascita_madre">Data di nascita di tua madre</label>';
             $form .=
-                '<input class="form-control" type="text" id="data_di_nascita_padre" name="data_di_nascita_padre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
+                '<input class="form-control" type="date" id="data_di_nascita_madre" name="data_di_nascita_madre">';
             $form .= "</div>";
-            $form .= '<div class="col-md-12 mb-2 ps-5 form-check">';
+
+            $form .= '<div class="col-md-4 mb-2">';
             $form .=
-                '<input class="form-check-input" type="checkbox" name="accettazione_privacy" required>';
+                '<label for="data_di_nascita_padre">Data di nascita di tuo padre</label>';
             $form .=
-                ' <label class="form-check-label" for="accettazione_privacy">Ho letto l\'<a href="#">informativa sulla privacy</a> e acconsento alla memorizzazione dei miei dati, secondo quanto stabilito dal regolamento europeo per la protezione dei dati personali n. 679/2016 (GDPR)*</label>';
+                '<input class="form-control" type="date" id="data_di_nascita_padre" name="data_di_nascita_padre">';
             $form .= "</div>";
+
             $form .= '<div class="col-md-12 mb-2">';
             $form .=
-                '<input type="submit" name="book" value="' .
-                __("INVIA", "ek_mappa") .
-                '" class="btn btn-primary"/>';
+                '<input type="submit" name="book" value="INVIA" class="btn btn-primary"/>';
             $form .= "</div>";
             $form .= "</div>";
             $form .= "</form>";
         endif;
 
-        $form .= "<script>";
-        $form .= "function handleSubmit() {";
-        $form .=
-            '    var submitButton = document.getElementById("submit_button");';
-        $form .= "    submitButton.disabled = true;";
-        $form .= '    submitButton.value = "Invio in corso...";';
-        $form .= "    return true;";
-        $form .= "}";
-
-        $form .= "function addDateSlashes(inputId) {";
-        $form .=
-            '    document.getElementById(inputId).addEventListener("input", function(e) {';
-        $form .= "        var value = e.target.value;";
-        $form .= '        value = value.replace(/\D/g, "");';
-
-        $form .= "        if (value.length > 2 && value.length <= 4) {";
-        $form .= '            value = value.slice(0, 2) + "/" + value.slice;';
-        $form .= "        } else if (value.length > 4) {";
-        $form .=
-            '            value = value.slice(0, 2) + "/" + value.slice(2, 4) + "/" + value.slice(4, 8);';
-        $form .= "        }";
-
-        $form .= "        e.target.value = value;";
-        $form .= "    });";
-        $form .= "}";
-
-        // Applica la funzione a tutti i campi data
-        $form .= 'addDateSlashes("data_di_nascita_utente");';
-        $form .= 'addDateSlashes("data_di_nascita_madre");';
-        $form .= 'addDateSlashes("data_di_nascita_padre");';
-
-        $form .= "</script>";
         return $form;
     }
     public function assegnare_valori($solution, $slug_mappa)
@@ -908,38 +871,38 @@ class Mastermap
                 9 => "Accendere il tuo entusiasmo e la tua energia.",
             ],
         ];
-$mappature=[];
+        $mappature = [];
         // Determinare quale mappatura usare
-       // Determina quale mappatura usare in base allo slug
-if (strpos($slug_mappa, "studio") !== false) {
-        $mappature = $mappature_studio;
-    } elseif (strpos($slug_mappa, "amore_donna") !== false) {
-        $mappature = $mappature_amore_donna;
-    } elseif (strpos($slug_mappa, "amore_uomo") !== false) {
-        $mappature = $mappatura_amore_uomo;
-    } elseif (strpos($slug_mappa, "bambino_missione_talenti") !== false) {
-        $mappature = $mappa_bambino_missione_talenti;
-    } elseif (strpos($slug_mappa, "lavoro") !== false) {
-        $mappature = $mappatura_lavoro;
-    } else {
-        $mappature = $mappature_base;
-    }
+        // Determina quale mappatura usare in base allo slug
+        if (strpos($slug_mappa, "studio") !== false) {
+            $mappature = $mappature_studio;
+        } elseif (strpos($slug_mappa, "amore_donna") !== false) {
+            $mappature = $mappature_amore_donna;
+        } elseif (strpos($slug_mappa, "amore_uomo") !== false) {
+            $mappature = $mappatura_amore_uomo;
+        } elseif (strpos($slug_mappa, "bambino_missione_talenti") !== false) {
+            $mappature = $mappa_bambino_missione_talenti;
+        } elseif (strpos($slug_mappa, "lavoro") !== false) {
+            $mappature = $mappatura_lavoro;
+        } else {
+            $mappature = $mappature_base;
+        }
 
-    // Assicuriamoci che $solution sia un array
-    $solution = is_array($solution) ? $solution : [];
+        // Assicuriamoci che $solution sia un array
+        $solution = is_array($solution) ? $solution : [];
 
-    // Calcolo dei valori finali
-    $valori = [];
+        // Calcolo dei valori finali
+        $valori = [];
 
-    foreach ($mappature as $chiave => $valori_mappa) {
-        // Usa l’indice da $solution se presente, altrimenti il primo disponibile
-        $indice = $solution[$chiave] ?? array_key_first($valori_mappa);
+        foreach ($mappature as $chiave => $valori_mappa) {
+            // Usa l’indice da $solution se presente, altrimenti il primo disponibile
+            $indice = $solution[$chiave] ?? array_key_first($valori_mappa);
 
-        // Prendi SEMPRE un valore valido, senza fallback generico
-        $valori[$chiave] = $valori_mappa[$indice];
-    }
+            // Prendi SEMPRE un valore valido, senza fallback generico
+            $valori[$chiave] = $valori_mappa[$indice];
+        }
 
-    return $valori;
+        return $valori;
     }
 
     public function handle_map_registration()
@@ -996,8 +959,8 @@ if (strpos($slug_mappa, "studio") !== false) {
                 $other_result
             ); // Formatta il titolo del nuovo post
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
-            
-            $valori=$this->assegnare_valori($solution, $slug_mappa);
+
+            $valori = $this->assegnare_valori($solution, $slug_mappa);
             //var_dump($valori);
             // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
             $karma = $valori["KARMA"] ?? "";
