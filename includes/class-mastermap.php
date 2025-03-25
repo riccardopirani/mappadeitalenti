@@ -224,7 +224,9 @@ class Mastermap
         $solution,
         $slug_mappa,
         $sesso,
-        $karmaNumber
+        $karmaNumber,
+        $famiglianumber,
+        $egonumber
     ) {
         // Definizione delle mappature
         $mappature_base = [
@@ -756,91 +758,124 @@ class Mastermap
         ];
         $mappatura_amore_uomo = [
             "KARMA" => [
-                1 => "Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia. Dovrebbe essere un mezzo con la quale entriamo in comunicazione profonda con l’altro, ma in questo caso la difficoltà è proprio questa . Sia chi cerca compulsivamente il sesso, che chi lo rifiuta ha la difficoltà ad entrare in comunicazione profonda con l’altro in quanto in profondità c’è la rabbia.
+                1 => "Fuoco: bisogno compulsivo del sesso/rifiuto del sesso. 
+Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia. Dovrebbe essere un mezzo con la quale entriamo in comunicazione profonda con l’altro, ma in questo caso la difficoltà è proprio questa . Sia chi cerca compulsivamente il sesso, che chi lo rifiuta ha la difficoltà ad entrare in comunicazione profonda con l’altro in quanto in profondità c’è la rabbia.
 Trasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro. 
 Per aiutarti puoi usare il codice vibrazionale “Papa” o “Mama”. 
 ",
-                2 => "Karmicamente c’è una parte di te che non è diventata emotivamente adulta e questo ti porta a entrare in relazione esprimendo bisogni che potrebbero risultare infantili, o se anche non li esprimi, farti valutare non soddisfacente una relazione per motivi infantili. Il risultato è che potresti vivere o relazioni dipendenti o evitare le relazioni per paura di non ricevere ciò che ritieni giusto.",
-                3 => "Nella prima parte della vita potresti avere la tendenza ad attrarre relazioni karmiche. Hai dei sospesi animici con anime che hai dovuto/dovrai incontrare per apprendere una lezione importante. Gli incontri non sono evitabili, possono portarti a relazioni alleate o tossiche, ma lo svolgimento della relazione dipende dal tuo libero arbitrio. La cosa importante è che tu sappia che non sono relazioni che DEVONO restare nella tua vita. 
+                2 => "Gelo: bisogno estremo di attenzioni. 
+ Karmicamente c’è una parte di te che non è diventata emotivamente adulta e questo ti porta a entrare in relazione esprimendo bisogni che potrebbero risultare infantili, o se anche non li esprimi, farti valutare non soddisfacente una relazione per motivi infantili. Il risultato è che potresti vivere o relazioni dipendenti o evitare le relazioni per paura di non ricevere ciò che ritieni giusto",
+                3 => "Anelli: attrai relazioni karmiche.
+ con anime che hai dovuto/dovrai incontrare per apprendere una lezione importante. Gli incontri non sono evitabili, possono portarti a relazioni alleate o tossiche, ma lo svolgimento della relazione dipende dal tuo libero arbitrio. La cosa importante è che tu sappia che non sono relazioni che DEVONO restare nella tua vita. 
 Trasformazione: accettare l’aspetto destinico di questo punto e sentirsi liberi nel proseguire la vita in libera scelta. 
-Per aiutarti puoi usare il codice vibrazionale “Vision” o “Acept”.
-",
-                4 => "Bisogno di sicurezza. Nella prima parte della vita potresti avere la tendenza a chiedere dimostrazioni d’amore continue non sentendoti mai appagat* pienamente. Questo nasce da un aspetto di profonda insicurezza rispetto la tua autostima. Avrai quindi la tendenza a far scappare le persone o, nel momento in cui riesci a conquistarne una, ad essere terrorizzat* di perderla accettando anche situazioni poco valorizzanti per te o diventando soffocante per l’altro. Trasformazione: contattare il senso del tuo valore e attrarre situazioni appaganti. Puoi aiutarti con il codice vibrazionale “Value” e “Initiation”.",
-                5 => "Nella prima parte della vita potresti avere continuamente bisogno di sentire che riesci ad attrarre altre persone. Potresti avere quindi la tendenza a flirtare anche quando il contesto non lo richiederebbe. Potresti attrarre anche chi non ti interessa veramente trovandoti incastrato in situazioni dalla quale poi vuoi fuggire, facendoti nascere sensi di colpa. Oppure potresti voler attrarre persone “irraggiungibili” per te provocandoti la sensazione di essere poco attraente. 
+Per aiutarti puoi usare il codice vibrazionale “Vision” o “Acept”.",
+    4 => "SEME: Bisogno di sicurezza. Nella prima parte della vita potresti avere la tendenza a chiedere dimostrazioni d’amore continue non sentendoti mai appagat* pienamente. Questo nasce da un aspetto di profonda insicurezza rispetto la tua autostima. Avrai quindi la tendenza a far scappare le persone o, nel momento in cui riesci a conquistarne una, ad essere terrorizzat* di perderla accettando anche situazioni poco valorizzanti per te o diventando soffocante per l’altro. Trasformazione: contattare il senso del tuo valore e attrarre situazioni appaganti. Puoi aiutarti con il codice vibrazionale “Value” e “Initiation”.",
+        5 => "Fiore: bisogno di attrarre.
+ Nella prima parte della vita potresti avere continuamente bisogno di sentire che riesci ad attrarre altre persone. Potresti avere quindi la tendenza a flirtare anche quando il contesto non lo richiederebbe. Potresti attrarre anche chi non ti interessa veramente trovandoti incastrato in situazioni dalla quale poi vuoi fuggire, facendoti nascere sensi di colpa. Oppure potresti voler attrarre persone “irraggiungibili” per te provocandoti la sensazione di essere poco attraente. 
 Trasformazione: imparare la responsabilità emotiva che ti permetterà di vivere con gioia e leggerezza  le tue relazioni. 
 Puoi aiutarti con il codice vibrazionale “Responsability” e “Initiation”.  
-",
-                6 => "Nella prima parte della vita potresti avere bisogno di stabilità emotiva che ti può portare a cercarla o in una relazione stabile precoce o nella focalizzazione sul lavoro che ti autorizza ad evitare le relazioni. Hai paura del tradimento e quindi potresti attrarlo o metterlo in atto. Hai bisogno di ritrovare la fiducia nella vita per permetterti di vivere maggiormente nel flusso accettando gli eventuali cambiamenti o imparando a metterti veramente in gioco senza temere che poi finisca.
+",   
+        6 => "Albero: bisogno di stabilità.
+ Nella prima parte della vita potresti avere bisogno di stabilità emotiva che ti può portare a cercarla o in una relazione stabile precoce o nella focalizzazione sul lavoro che ti autorizza ad evitare le relazioni. Hai paura del tradimento e quindi potresti attrarlo o metterlo in atto. Hai bisogno di ritrovare la fiducia nella vita per permetterti di vivere maggiormente nel flusso accettando gli eventuali cambiamenti o imparando a metterti veramente in gioco senza temere che poi finisca.
 Trasformazione: trasformare il bisogno di controllo in fiducia e libertà per sé stessi e gli altri. 
 Puoi usare il codice vibrazionale “Flow”, oppure “Indipendence Mama” o Indipendence Papa”. 
-",
-                7 => "Nella prima parte della vita potresti avere bisogno di sentirti compreso profondamente dall’altro. Potresti manifestarlo o richiamando la sua attenzione con il tuo dolore, oppure prendendoti cura dell’altro sperando che la controparte faccia lo stesso con te. 
+",     
+    7 => "Acqua: bisogno di empatia.
+ Nella prima parte della vita potresti avere bisogno di sentirti compreso profondamente dall’altro. Potresti manifestarlo o richiamando la sua attenzione con il tuo dolore, oppure prendendoti cura dell’altro sperando che la controparte faccia lo stesso con te. 
 Spesso questo tipo di situazioni attrae persone poco empatiche che non solo non capiscono il tuo dolore ma te ne procurano.  
 Trasformazione: entrare in contatto con il proprio dolore, trasformarlo e permetterti di vivere relazioni eque.
 Puoi usare il codice vibrazionale  “Empathy”.
 ",
-                8 => "Nella prima parte della vita potresti avere la tendenza ad idealizzare la relazione e a cercarne una idilliaca dove l’altro corrisponde ad un ideale che ti sei fatto tu che nella stragrande maggiorananza dei casi non corrisponde alla realtà facendoti vivere profonde delusioni. 
+                8 => "Specchio: bisogno di eccellenza.
+ Nella prima parte della vita potresti avere la tendenza ad idealizzare la relazione e a cercarne una idilliaca dove l’altro corrisponde ad un ideale che ti sei fatto tu che nella stragrande maggiorananza dei casi non corrisponde alla realtà facendoti vivere profonde delusioni. 
 Questo potrebbe farti pensare che tu non sei destinato a vivere l’amore facendoti diventare o cinico o accettare anche relazioni che non corrispondono a ciò che desideri.
 Trasformazione: ricollegarti al tuo sogno e perseverare fino al raggiungimento del tuo sogno d’amore che però deve corrispondere ad una persona reale e umana.
 Puoi usare il codice vibrazionale “Vision”. 
 ",
-                9 => "Colpo di fulmine. La tua prima parte della vita potresti aver vissuto/vivere l’esperienza di grandi colpi di fulmine. Innamorarti istantaneamente di persone che non conosci e che poi potrebbero deluderti quando la relazione comincia a diventare seria, oppure non raggiungere lo stato di relazione. In entrambi i casi potresti pensare di avere un destino avverso, oppure chiuderti alle relazioni in quanto non puoi governare gli innamoramenti e quindi è meglio che non accadano. Trasformazione: imparare a gestire gli impulsi in modo da poter vivere gli innamoramenti senza buttartici dentro in modo troppo impulsivo, imparando il discernimento e a respingere ciò che non va bene per te e ad accogliere ciò che va bene. Puoi usare il codice vibrazionale “Papa” o “Mama”.",
+                9 => "Fulmine:  Colpo di fulmine. La tua prima parte della vita potresti aver vissuto/vivere l’esperienza di grandi colpi di fulmine. Innamorarti istantaneamente di persone che non conosci e che poi potrebbero deluderti quando la relazione comincia a diventare seria, oppure non raggiungere lo stato di relazione. In entrambi i casi potresti pensare di avere un destino avverso, oppure chiuderti alle relazioni in quanto non puoi governare gli innamoramenti e quindi è meglio che non accadano. Trasformazione: imparare a gestire gli impulsi in modo da poter vivere gli innamoramenti senza buttartici dentro in modo troppo impulsivo, imparando il discernimento e a respingere ciò che non va bene per te e ad accogliere ciò che va bene. Puoi usare il codice vibrazionale “Papa” o “Mama”.",
             ],
             "FAMIGLIA" => [
-                1 => "Una cosa della quale ti devi guardare bene è cadere nell'illusione che la staticità (confondendola con la stabilità) ti renderà felice. Tu hai bisogno di continue nuove avventure e quindi se decidi di creare una famiglia con qualcuno ricordati bene di questo aspetto. Deve essere una famiglia in continuo movimento o che è inserita in un contesto molto attivo. La famiglia tradizionale molto basata sulla routine non fa per te. Rifletti bene anche sul tema figli: se decidi di averne ricordati che tu hai bisogno di avere sempre nuovi stimoli, quindi è meglio che imposti le cose in modo da poterne avere coinvolgendo i tuoi figli. La cosa importante è che tu non metta al mondo figli perché ci si aspetta questo da te.",
-                2 => "Una famiglia accudente",
-                3 => "Una famiglia allargata",
-                4 => "Una famiglia confortevole",
-                5 => "Famiglia giocosa",
-                6 => "Una famiglia stabile",
-                7 => "Una famiglia che trasmette valori",
-                8 => "Una famiglia equa",
-                9 => "Una famiglia che si aiuta",
+                1 => " Fuoco: Una famiglia in movimento. Una cosa della quale ti devi guardare bene è cadere nell'illusione che la staticità (confondendola con la stabilità) ti renderà felice. Tu hai bisogno di continue nuove avventure e quindi se decidi di creare una famiglia con qualcuno ricordati bene di questo aspetto. Deve essere una famiglia in continuo movimento o che è inserita in un contesto molto attivo. La famiglia tradizionale molto basata sulla routine non fa per te. Rifletti bene anche sul tema figli: se decidi di averne ricordati che tu hai bisogno di avere sempre nuovi stimoli, quindi è meglio che imposti le cose in modo da poterne avere coinvolgendo i tuoi figli. La cosa importante è che tu non metta al mondo figli perché ci si aspetta questo da te.",
+                2 => "Gelo: Una famiglia accudente. Tu hai bisogno di impostare una famiglia che si prenda cura dei bisogni emotivi di tutti. Hai bisogno di una casa e che la famiglia risulti unita e vada d'accordo. Devi solo stare attento di non occuparti tu dei bisogni emotivi degli altri e che gli altri non facciano altrettanto. La casa è un luogo sacro per te: deve avere quel giusto grado di comfort e bellezza che ti rende piacevole la lunga permanenza. I figli dovrebbero essere per te una forma di espressione naturale; se così non fosse c'è un blocco energetico.",
+                3 => " Anelli: una famiglia allargata. L'amicizia è un grande valore per te, hai bisogno che sia espresso sia in casa che fuori. È probabile che la tua sia una casa dove ci si trova a parlare. Potresti quindi voler vivere in piccole comunità, oppure aprire la tua casa agli amici. Potresti vivere più situazioni sentimentali che poi si intrecciano diventando famiglie allargate. Devi stare attento solo a capire se tutti i componenti della famiglia amano questa continua invasione degli spazi domestici e cercare di venire incontro anche a chi ha bisogno di intimità senza soffocare il tuo bisogno di apertura. I figli non sono necessariamente una tua forma di espressione, potresti averli ma avere comunque la tendenza ad inserirli nel contesto di amici.",
+                4 => "Seme: una famiglia confortevole.  Hai bisogno che la tua famiglia si fondi su un ambiente confortevole, sia dal punto di vista affettivo oltre che economico, ma anche dell'ambiente e delle relazioni esterne alla famiglia. Tendi a creare corporazione, nel senso che tu pensi che insieme è meglio. Potresti avere quindi la tendenza ad ascoltare troppo le opinioni della famiglia di provenienza o delle persone con le quali ti sei associato. Ti piace trascorrere buon tempo con le persone che ami, apprezzi le piccole cose, i gesti di attenzione e la cura. I figli potrebbero essere una tua forma di espressione, attenzione a non metterli al centro del tuo mondo e a far ricadere su di loro troppe aspettative.",
+                5 => "Fiore: famiglia giocosa. Hai bisogno di un ambiente familiare allegro, dove ci sia spazio per la creatività, per il gioco, per il divertimento. Ti pesa moltissimo l'impegno quotidiano come la gestione della casa e dei bisogni altrui, per cui dovrai stare attento a non inserirti in contesti che ti richiedano troppo questo tipo di impegno. Potresti sentirti più attratto da semiconvivenze o situazioni comunque libere. Se anche hai scelto di formare una famiglia ricordati di alleggerire al massimo il quotidiano con soluzioni creative. I figli possono essere una tua forma espressiva, in quanto ti permettono di esprimere la tua parte di giocosità; in questo caso dovrai radicare bene per affrontare la parte dell'impegno.",
+                6 => "Albero: una famiglia stabile. Ti piace l'idea di avere o dare stabilità alla tua famiglia. Hai la tendenza quindi a gestire o a dirigere in quanto hai la visione di come andrebbero fatte le cose. Devi stare attento ad ascoltare anche le opinioni altrui altrimenti rischi di vivere molti contrasti. In alcuni casi potresti essere una persona che fatica a trovare la sua stabilità e quindi a fuggire dalle situazioni che richiedono un tuo impegno (in questo caso ci sono blocchi energetici). In generale hai bisogno di rapporti stabili e duraturi. I figli possono essere una tua forma di espressione, fai attenzione all'ascolto dei loro bisogni emotivi.",
+                7 => "Acqua: una famiglia che trasmette valori. Hai bisogno che la famiglia che costituisci trasmetta i valori in cui credi. Che siano spirituali, culturali, politici o saperi pratici per te è importante che avvenga la trasmissione. È quindi fondamentale per te comprendere se le persone che scegli di avere al tuo fianco sono in linea con essi perché con lo scorrere del tempo potrebbe diventare un problema. Anche nel caso in cui dovessi scegliere persone di altre culture fai attenzione a capire se i principi che per te sono fondamentali vengono condivisi. I figli possono essere una tua naturale forma di espressione, attenzione ad accettare eventuali espressioni di altri valori.",
+                8 => " Specchio: una famiglia equa. Per te è importante che ci sia equità nel dare e nell'avere. È fondamentale la ripartizione dello sforzo e dell'impegno. Hai quindi la tendenza a mettere regole chiare e precise nella gestione dello svolgimento dell'impegno quotidiano, devi solo stare attento che le regole non siano troppo rigide e che non valutino i bisogni degli altri. Hai altresì bisogno dei tuoi spazi di libertà, per cui nell'equità del fare devi tenere presente anche la possibilità di allontanarti per momenti di riossigenazione. I figli possono essere una tua forma di espressione, fai solo attenzione a non sostituire le regole con l'ascolto.",
+                9 => "Fulmine: una famiglia che si aiuta. Hai bisogno di sapere che puoi contare sulla tua famiglia e del resto tu per essa ci sei. Avrai quindi la tendenza a cercare di unirti a persone delle quali ti puoi fidare, che hanno dato prova di esserci non solo nei momenti piacevoli, ma anche nei momenti meno divertenti. Potresti quindi vivere grandi delusioni se ti accorgi che non è così. È importante saper scegliere bene ma ricordarsi anche che questa è una tua attitudine che non è detto venga naturale anche ad altri. I figli possono essere una tua forma di espressione, potranno sicuramente contare su di te.",
             ],
             "EGO" => [
-                1 => "Passionale",
-                2 => "Dolce",
-                3 => "Social",
-                4 => "Famiglia",
-                5 => "Creativa",
-                6 => "Rispettosa",
-                7 => "Fusionale",
-                8 => "Intelligente",
-                9 => "Che ti sconvolga la vita",
+                1 => " Fuoco: Passionale  La tua idea di coppia ideale è passionale. Cerchi una persona con la quale condividere le tue passioni e della quale appassionarti. Soffri molto se la persona con cui stai ostacola le tue passioni, potresti sentirlo come un modo per smorzarti, ti toglie l'entusiasmo e potresti cercare di trovare passione in rapporti paralleli. Potresti anche avere la tendenza a vivere rapporti di breve durata, in modo che siano sempre passionali.",
+                2 => "Gelo: Dolce La tua idea di coppia è dolce e accudente. Cerchi una persona con la quale vivere bene l'intimità del nido. Della quale prenderti cura e che si prenda cura di te. Soffri molto se la persona è assente o non ti mostra interesse e cura, potresti sentirlo come un abbandono e quindi iniziare a stare male emotivamente o fisicamente per ottenere le sue attenzioni. Oppure potresti decidere di vivere in solitudine con la compagnia di animali.",
+                3 => "Anelli: Social La tua idea di coppia è social. Nel senso che ti piace l'idea di vivere la coppia all'interno di gruppi sociali o di amici, o familiari o associativi o social. In pratica ti piace la coppia che si apre al mondo e che non si chiude nel suo piccolo mondo. Soffri profondamente la chiusura e il possesso che ti toglie la vivacità di cui hai bisogno. Potresti anche scegliere di vivere coppie aperte o relazioni multiple.",
+                4 => "Seme: Famiglia La tua idea di coppia è quella legata alla famiglia che genera figli o che si prende cura di animali, terra o che lavora assieme. Per te il concetto di famiglia come mutuo soccorso e base fondante della vita è fondamentale. Fatichi in situazioni dove l'altro non si assume il suo ruolo e tu potresti avere la tendenza ad annullarti pur di portarlo verso quel concetto di famiglia che desideri tu. Potresti decidere di vivere in comunità cercando la famiglia.",
+                5 => "Fiore: Creativa La tua idea di coppia è creativa. Hai bisogno che la persona che sta al tuo fianco progetti con te nuove esperienze da creare assieme e veder fiorire. Per te la coppia è una tavolozza dove dipingere la tua esistenza assieme all'altra persona. Fatichi a vivere in situazioni troppo noiose, dove l'altro non ti stimola o non viene solleticato dai tuoi stimoli. Potresti vivere molte relazioni eccezionali ma poco durature.",
+                6 => " Albero: Rispettosa La tua idea di coppia è rispettosa. È importante per te sentirti profondamente rispettato. Hai bisogno che l'altro ti dimostri di capire come funzioni e di adoperarsi per fare in modo di venirti incontro in quello che per te è fondamentale. Di fronte alle mancanze di rispetto potresti arrivare a chiudere la relazione per inadeguatezza alle tue aspettative. Potresti cadere nella tentazione di accettare di stare con una persona che ti rispetta ma che ti annoia.",
+                7 => " Acqua: Fusionale La tua idea di coppia è fusionale. È importante per te sentire la fusione con l'altro. Hai bisogno di sentirti profondamente capito e amato e offri comprensione e vicinanza in ogni situazione. Soffri profondamente se ti senti trattato in modo superficiale o indifferente. Potresti cadere nel pericoloso ruolo di crocerossino, fai attenzione! Non è aiutando l'altro che farai in modo che si accorga di quanto sei importante.",
+                8 => "Specchio: Intelligente La tua idea di coppia è pragmatica e intelligente. È importante per te organizzare la coppia in modo tale che risponda al meglio ai tuoi bisogni e al tuo stile di vita. Non ami che la coppia ti sposti da qualcosa che per te in questo momento è importante e ha priorità. Chi ti sta vicino deve essere indipendente e non avere costante bisogno di te. Attenzione a non evitare di affrontare le emozioni profonde in questo modo, perché prima o poi i nodi vengono al pettine.",
+                9 => "Fulmine: che ti sconvolga la vita Se proprio proprio ti devi impegnare in una relazione, deve essere qualcosa che ti sconvolge la vita. Non ti basta una relazione qualunque, ma qualcosa che ti obblighi a rimettere tutto in discussione. Cosa che potresti non volere con la coscienza, ma cercare inconsciamente. Hai bisogno di cambiare punto di vista sull'amore e solo l'amore stesso lo può fare. Quando arriva potresti, però, cercare di boicottarlo per paura. Attenzione a non perderlo.",
             ],
-            "BISOGNO" => [
-                1 => "Di agire con passione / Che ti si faccia appassionare",
-                2 => "Di accudimento / Comodità, poter sognare",
-                3 => "Sapere, essere al corrente / Comunicare, parlare",
-                4 => "Status, sentirti nel giusto ruolo / Nutrimento anche affettivo",
-                5 => "Divertimento / Libertà",
-                6 => "Avere il controllo / Non sentirsi sovraccaricati",
-                7 => "Essere capiti nel proprio dolore / Salvare gli altri dal dolore",
-                8 => "Essere importante / Prevedere i problemi",
-                9 => "Essere accettati / Far accettare gli altri o situazioni",
-            ],
-            "PUNTO_DEBOLE" => [
-                1 => "Quando le cose non procedono velocemente / Quando non ti senti desiderato",
-                2 => "Superficialità / Paura dell’abbandono",
-                3 => "Ricerca dell’esperienza / Diffidenza",
-                4 => "Insicurezza (non si mostra) / Insicurezza (vuole essere vista)",
-                5 => "Incostanza / Non sa difendersi",
-                6 => "Tradimento, irresponsabilità / Paura del tradimento",
-                7 => "Manipolazione (cerca di essere aiutato) / Non vuole mostrare il dolore",
-                8 => "Paura di soffrire (cinismo) / Paura di soffrire (educazione)",
-                9 => "Paura di fare male (scoppiare) / Implosione (di non farcela)",
-            ],
-            "MISSIONE" => [
-                1 => "Amore puro",
-                2 => "Amore adulto",
-                3 => "Reincontrare l'amore",
-                4 => "Sentire la pienezza dell'amore",
-                5 => "Vivere la leggerezza dell'amore",
-                6 => "L'amore libero",
-                7 => "Vivere la trasformazione dell'amore",
-                8 => "Riconoscere l'amore",
-                9 => "Salvarti dall'amore",
-            ],
+          "BISOGNO" => [
+    1 => "FUOCO +: hai bisogno di conquistare, di vedere il risultato, possibilmente in breve tempo, hai bisogno sempre di stimoli nuovi, di passione, di continue novità. / FUOCO -: hai bisogno di venire conquistato, di essere amato, adorato, hai bisogno di essere al centro del mondo delle persone che ami, di sentire sempre rinnovata la passione nei tuoi confronti.",
+    
+    2 => "GELO +: hai bisogno di poterti prendere cura delle persone che ami e venire riconosciuto per questo, non ami però doverti occupare dei problemi troppo stressanti. Tu ti occupi delle emozioni. / GELO -: hai bisogno di comodità, di tranquillità, di poterti permettere di vivere i tuoi sogni, possibilmente d'amore. Hai bisogno di sentirti in un nido sicuro.",
+    
+    3 => "ANELLI +: hai bisogno di verità, di sapere come vanno le cose, di avere chiarezza sulle situazioni. Non ti piacciono i sotterfugi e preferisci sapere e scegliere con consapevolezza. / ANELLI -: hai bisogno di comunicare, di sentirti ascoltato ma soprattutto di poterti esprimere. Hai bisogno anche di avere amicizie e di non essere concentrato solo in una situazione.",
+    
+    4 => "SEME +: hai bisogno di sentirti parte, di essere riconosciuto per il tuo ruolo, di sapere che fai parte di quella famiglia, quel gruppo, hai quel ruolo per quella persona. / SEME -: hai bisogno di nutrimento, prima di tutto affettivo. Di sentirti sazio, di sapere che da parte hai sicurezze anche economiche. Ma sentirti amato anche affettivamente è la prima cosa.",
+    
+    5 => "FIORE +: hai bisogno di divertimento e di leggerezza. Hai bisogno che le situazioni che vivi non siano mai troppo sovraccariche di responsabilità. Hai bisogno di civettare, di corteggiare. / FIORE -: hai bisogno di libertà, di non sentirti chiuso in situazioni ingabbianti. Hai bisogno di poter cambiare continuamente situazione, di sentirti nella possibilità di movimento.",
+    
+    6 => "ALBERO +: hai bisogno di stabilità quindi cerchi di prevedere qualunque situazione possa scombussolare questa tua tranquillità. Hai bisogno di avere sotto controllo la situazione. / ALBERO -: hai bisogno di non sentirti sovraccaricato di responsabilità. Hai bisogno di appoggiarti ad altri per poter sostenere il tuo ruolo. Hai bisogno di sentirti libero.",
+    
+    7 => "ACQUA +: hai bisogno che il tuo dolore venga compreso e accolto, senti il bisogno che qualcuno si interessi a te e alla tua sofferenza. Hai bisogno di ascolto. / ACQUA -: hai bisogno di sentire che sei di aiuto nel sostenere gli altri nel dolore, oppure per guarire gli altri dal proprio dolore. Hai bisogno di sentirti utile.",
+    
+    8 => "SPECCHIO +: hai bisogno di sentirti importante per le persone a cui tieni, oppure nel posto di lavoro. Hai bisogno che venga apprezzato ciò che fai e ciò che sei e che ti venga riconosciuto. / SPECCHIO -: hai bisogno di sapere che hai fatto tutto per evitare i problemi, avrai quindi bisogno di recuperare più informazioni possibili rispetto a ciò che ti crea ansia, in modo da evitare di avere amare sorprese.",
+    
+    9 => "FULMINE +: hai bisogno di sentirti accettato dalla persona che ami, dalla famiglia o dal tuo gruppo di appartenenza. Vorresti da tutti e tre, ma in caso uno non ti accetti, ti riversi sugli altri dando il massimo. / FULMINE -: hai bisogno di sentirti investito della missione di fare accettare qualcosa di non accettabile, un gruppo di persone, un'ideologia. Sei portatore di pace e mediazione. Hai bisogno di sentirti in una missione importante."
+],
+
+           "PUNTO_DEBOLE" => [
+    1 => "FUOCO +: quando le cose non procedono velocemente. Se una situazione ti appassiona la vuoi ottenere subito. Ti irrita profondamente dover aspettare e per questo potresti avere l'istinto di insistere o di agire in modo impulsivo chiudendo o allontanandoti con rabbia. Puoi aiutare questo aspetto con il codice vibrazionale Stay. / FUOCO -: quando non ti senti desiderato. Se non ti senti desiderato potresti avere la tendenza ad andare in sconforto prima ancora di averci provato, rinunciando a monte. Ma spesso accade che chi ha questo aspetto emani segnali di chiusura che non invogliano l'altro a muoversi. Puoi aiutare questo aspetto con il codice vibrazionale Flow.",
+    
+    2 => "GELO +: potresti avere timore di andare in profondità nei tuoi sentimenti e avere quindi la tendenza a cercare di starne in superficie, occupandoti più di cose belle che di affrontare questo aspetto, venendo, a volte, accusato di non essere adulto. Puoi aiutare questo aspetto con il codice vibrazionale Initiation. / GELO -: potresti avere il timore di essere abbandonato e quindi o evitare di entrare in situazioni che ti fanno vivere questo pericolo, rinunciando a monte a delle opportunità, oppure attaccandoti alla persona o alla situazione offrendoti senza ritegno, vergognandotene. Puoi aiutare questo aspetto con il codice vibrazionale Indipendence Mama.",
+    
+    3 => "ANELLI +: potresti avere bisogno compulsivo di fare esperienze eccitanti, meglio se particolari e che hanno il sapore del destinico. Esperienze che spesso diventano grandi delusioni per cui potresti arrivare a non permetterti più di farne per paura di soffrire ancora. Puoi aiutare questo aspetto con il codice vibrazionale Papa. / ANELLI -: potresti soffrire di diffidenza nei confronti degli altri, dovuta alla paura di essere tradito, ingannato. Potresti quindi mettere in atto tutta una serie di prove che l'altro deve superare per rassicurarti, salvo rischiare di autoingannarti. Puoi aiutare questo aspetto con il codice vibrazionale Indipendence Papa.",
+    
+    4 => "SEME +: potresti vergognarti di mostrarti per quello che sei e quindi avere la tendenza a rimanere in ombra soffrendo perché non vieni notato o perché non ti si dà peso. Spesso tutto parte proprio dalla tua incapacità di affermarti. Puoi aiutare questo aspetto con il codice vibrazionale [manca il nome del codice]. / SEME -: potresti avere la sensazione di non essere all'altezza degli altri e quindi cercare di esibire tutto ciò che hai da mostrare per attirare l'attenzione. Il rischio è di ridicolizzarti o di suscitare antipatia. Puoi aiutare questo aspetto con il codice vibrazionale Mama.",
+    
+    5 => "FIORE +: potresti avere la tendenza all'incostanza e di questo vergognarti. Potresti soffrire per gli sguardi di disapprovazione che ti vengono lanciati dalla persona che ami o per il continuo mostrarti la tua inadeguatezza. Puoi aiutare questo aspetto con il codice vibrazionale Responsability. / FIORE -: potresti avere la tendenza a non difenderti e per questo vergognarti del tuo senso di impotenza. Potresti provare il desiderio di silenziosa vendetta, magari attuarla per poi sentirti in colpa. Puoi aiutare questo aspetto con il codice vibrazionale Humility.",
+    
+    6 => "ALBERO +: potresti avere la tendenza a non assumerti la responsabilità emotiva di alcune situazioni, in particolar modo la tendenza al tradimento e di questo vergognarti, nonostante tu potresti essere molto responsabile in altri settori della vita. Puoi aiutare questo aspetto con il codice vibrazionale Papa. / ALBERO -: potresti avere il terrore del tradimento e per questo cercare di controllare la situazione. Potresti quindi risultare soffocante e attirare proprio quella situazione che tanto temi. Puoi aiutare questo aspetto con il codice vibrazionale Initiation.",
+    
+    7 => "ACQUA +: potresti avere la tendenza a cercare sostegno e aiuto eccessivo quando soffri, questo potrebbe allontanare le persone e farti provare la forte sensazione di solitudine. In amore potresti avere la tendenza a manipolare con il bisogno. Puoi aiutare questo aspetto con il codice vibrazionale Responsability. / ACQUA -: Potresti vergognarti di mostrare il tuo dolore, questo da un lato ti aiuta a sentirti forte, ma potresti rischiare di far credere alla persona che ami che tu non hai bisogno di nulla e quindi attirare un atteggiamento di indifferenza ai tuoi bisogni. Puoi aiutare questo aspetto con il codice vibrazionale Humility.",
+    
+    8 => "SPECCHIO +: hai la tendenza ad avere paura delle delusioni, di essere tradito, di vivere fallimenti. Hai paura di illuderti. Questo potrebbe farti rinunciare a molte possibilità e farti sentire irrealizzato. Potresti quindi avvicinarti e allontanarti dalla persona di tuo interesse per evitare di andare troppo in profondità rischiando di rovinare il rapporto. Puoi aiutare questo aspetto con il codice vibrazionale Emphaty. / SPECCHIO -: hai la tendenza ad essere estremamente riservato, a mantenere le distanze, magari con estrema educazione perché hai paura di soffrire, di essere manipolato. Questo fa sì che potresti vedere la tua vita bloccata nelle relazioni in quanto non fai capire i tuoi veri desideri. Potresti quindi dissimulare disinteresse allo scopo di avvicinarti proteggendoti che però potrebbe non arrivare mai ad una realizzazione. Puoi aiutare questa situazione con il codice vibrazionale Acept.",
+    
+    9 => "FULMINE +: tieni, tieni, tieni e poi… scoppi. Hai paura che accada, ma se la situazione diventa troppo pesante non reggi più il peso e le conseguenze possono essere anche irreparabili, perché se scoppi, rompi e potresti perdere la persona che ami. Puoi aiutare questa situazione con il codice vibrazionale Vision. / FULMINE -: temi di non riuscire a superare determinati ostacoli, eviti di entrare in certe situazioni per paura dell'abbandono, di dover vivere lo strazio del doverti allontanare emotivamente da determinate situazioni. Potresti quindi diventare oppositivo alla persona che ti interessa o che ami attirando il suo allontanamento. Puoi aiutare questa situazione con il codice vibrazionale Calm X."
+],
+
+         "MISSIONE" => [
+    1 => "AMORE PURO: È l'amore depurato dalle aspettative, dal bisogno di riconoscimento, dalla rabbia. È un amore che si dona generosamente e coraggiosamente. Probabilmente dovrai vivere più relazioni e probabilmente le vivrai con grandi picchi di passione e delusione e questo ti richiederà di trasformare l'eccesso di impulso per arrivare a esprimere questo tuo amore in modo entusiasta ma quieto.",
+    
+    2 => "AMORE ADULTO: È l'amore che deve crescere e smettere di aspettarsi dall'altra ciò che ci si aspetta da un genitore. È l'amore che sa stare al proprio posto con il giusto grado di calma di chi sa cos'è giusto e cos'è sbagliato ma può permettersi di lasciar sbagliare gli altri per lasciarli crescere. Probabilmente dovrai vivere dipendenze affettive prima di trovare la strada dell'autonomia affettiva che ti insegnerà a sorreggerti sulle tue gambe e a cercare persone che sanno fare lo stesso per vivere un rapporto sano e adulto.",
+    
+    3 => "REINCONTRARE L'AMORE: È l'amore che è stato troppe volte deluso, che ha smesso di crederci, che aspetta da fuori l'arrivo dell'amore quando il cuore si è inaridito. È l'amore che deve tornare a credere che l'amore esiste e che può essere vissuto. Probabilmente dovrai incontrare persone che potrebbero 'sembrare' quelle giuste per poi rivelarsi una delusione. Potrai anche incontrare persone che sembrano 'destinate' ma con le quali vivrai situazioni molto dolorose. Dovrai affrontare un percorso spirituale per riconnetterti all'essenza dell'amore per attrarre a te l'amore che desideri.",
+    
+    4 => "SENTIRE LA PIENEZZA DELL'AMORE: È l'amore che non si sente mai sazio, quello che ne vorrebbe sempre di più, che non si sente mai appagato. È l'amore che deve ritrovare il suo senso di abbondanza, sentire il nutrimento e potersi esprimere dal pieno e non dal senso di vuoto. Probabilmente vivrai relazioni poco appaganti, oppure che ti faranno sempre sentire inadeguato finché non arriverai a capire che il proprio valore non dipende dall'altra. Allora si potrà vivere una relazione più appagante in quanto si percepisce ciò che l’altra riesce a dare.",
+    
+    5 => "VIVERE LA LEGGEREZZA DELL'AMORE: È l'amore che deve scrollarsi di dosso il senso di pesantezza dell'impegno quotidiano. È l'amore che deve saper superare la gabbia della routine e ritrovare il gioco attraente che lo rende così speciale. Probabilmente o avrai la tendenza a fuggire dalle relazioni serie o tenderai a caricarti dei problemi di tutti facendoti schiacciare dal peso del quotidiano, fino a che non avrai incontrato la leggerezza del servizio d'amore e avrai imparato ad impegnarti solo per ciò che ti compete. Allora tornerai a giocare all'amore.",
+    
+    6 => "L'AMORE LIBERO: È l'amore che deve imparare a lasciar fluire e a non voler controllare gli eventi e l'altra per paura di perderla. È l'amore che deve tornare a ricordarsi che sta in piedi anche da solo, che può ospitare un'altra per il tempo che ha senso che rimanga per poi lasciarla andare e permettersi di vivere altre esperienze. Che anche quando si costruisce assieme si rimane liberi di manifestare sé stessi senza imporre all'altra la propria visione. Potresti vivere relazioni altalenanti, oppure con un grosso carico di gelosia finché non trovi la stabilità in te, allora anche la relazione diventerà stabile.",
+    
+    7 => "VIVERE LA TRASFORMAZIONE DELL'AMORE: È l'amore che teme la perdita, che soffre tremendamente l'abbandono. È l'amore che deve ritornare a ricordarsi che la vita è fugace e che il vero amore è altro. Che deve ricordarsi che in questa dimensione tutto ha un termine e che non va pianto ma onorato. È l'amore che si trasforma in saggezza dell'amore. Potresti vivere molte storie dolorose o lutti importanti fino a che non avrai imparato a lasciare andare e a onorare la memoria mantenendo lo sguardo nel qui e ora per poter godere dell'amore che c'è nella tua vita.",
+    
+    8 => "RICONOSCERE L'AMORE: È l'amore che illude e si autoillude. È l'amore che vive d'inganni e che si crogiola nei sensi di colpa. È l'amore che deve diventare limpido e vero che impara ad amare imparando a riconoscere l'autoinganno e a trasformarlo in chiarezza. Potresti vivere molte relazioni basate sull'inganno o sull'autoinganno dove ti sentirai in colpa per ciò che fai oppure vittima delle ingiustizie altrui finché non imparerai a riconoscere i tuoi meccanismi e a non metterli più in atto. Solo allora potrai vivere una relazione basata sull'amore vero.",
+    
+    9 => "SALVARTI DALL'AMORE: È l'amore crocerossino, quello che cerca di salvare l'altra, che dà troppo. Oppure che fugge dall'amore per non sentirsi in obbligo a salvare l'altra o a dare troppo. È l'amore che deve liberarsi dal senso di responsabilità della salvezza altrui e imparare a salvare sé stesso attraverso la crescita personale. Potresti vivere relazioni dipendenti con persone che chiedono troppo e non danno molto o dove tu chiedi troppo e non dai molto. Dovrai imparare a lasciare che gli altri imparino a badare a sé stessi e di conseguenza a offrirti ciò che meriti. Solo allora vivrai un amore equo."
+],
+
             "CUORE" => [
                 1 => "Farti sentire unica",
                 2 => "Coccolarti",
@@ -959,27 +994,44 @@ Puoi usare il codice vibrazionale “Vision”.
         // Calcolo dei valori finali
         $valori = [];
         foreach ($mappature as $chiave => $valori_mappa) {
-            if ($chiave === "KARMA") {
-                // Normalizza il numero karma: positivo e intero
-                $indice = abs(round($karmaNumber)); // Es: -3 -> 3
+    if ($chiave === "KARMA") {
+        // Normalizza il numero karma: positivo e intero
+        $indice = abs(round($karmaNumber)); // Es: -3 -> 3
 
-                // Se l'indice non esiste nella mappa, fallback
-                if (!isset($valori_mappa[$indice])) {
-                    $indice = array_key_first($valori_mappa);
-                }
-            } else {
-                // Usa il valore da $solution se disponibile
-                $indice = $solution[$chiave] ?? null;
-            }
-
-            // Se esiste la chiave nella mappa, assegna
-            if ($indice !== null && isset($valori_mappa[$indice])) {
-                $valori[$chiave] = $valori_mappa[$indice];
-            } else {
-                // Fallback generico
-                $valori[$chiave] = reset($valori_mappa);
-            }
+        // Se l'indice non esiste nella mappa, fallback
+        if (!isset($valori_mappa[$indice])) {
+            $indice = array_key_first($valori_mappa);
         }
+    } elseif ($chiave === "FAMIGLIA") {
+        // Usa direttamente il numero della famiglia passato alla funzione
+        $indice = abs(round($famiglianumber));
+
+        if (!isset($valori_mappa[$indice])) {
+            $indice = array_key_first($valori_mappa);
+        }
+    } 
+     elseif ($chiave === "EGO") {
+        // Usa direttamente il numero della famiglia passato alla funzione
+        $indice = abs(round($egonumber));
+
+        if (!isset($valori_mappa[$indice])) {
+            $indice = array_key_first($valori_mappa);
+        }
+    }
+    else {
+        // Usa il valore da $solution se disponibile
+        $indice = $solution[$chiave] ?? null;
+    }
+
+    // Se esiste la chiave nella mappa, assegna
+    if ($indice !== null && isset($valori_mappa[$indice])) {
+        $valori[$chiave] = $valori_mappa[$indice];
+    } else {
+        // Fallback generico
+        $valori[$chiave] = reset($valori_mappa);
+    }
+}
+
 
         return $valori;
     }
@@ -1042,7 +1094,7 @@ Puoi usare il codice vibrazionale “Vision”.
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
             $karmaNumber = $other_result["comi"];
 
-            $valori = $this->assegnare_valori($solution, $slug_mappa, $sesso, $karmaNumber);
+            $valori = $this->assegnare_valori($solution, $slug_mappa, $sesso, $karmaNumber,famiglianumber: $utente_result["mese"],egonumber: $utente_result["giorno"]);
             // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
             $karma = $valori["KARMA"];
             $famiglia = $valori["FAMIGLIA"];
