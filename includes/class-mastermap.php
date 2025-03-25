@@ -1487,10 +1487,10 @@ FULMINE -: educare al cambiamento.",
                             esc_html($item["risposta"]) . "</p>";
                     }
                 }
-               
+
                 $subject_user = get_field("oggetto_email", "option")
                     ? get_field("oggetto_email", "option")
-                    : "Riepilogo Mappa Talenti";              
+                    : "Riepilogo Mappa Talenti";
                 $message_user =
                     '
     <!doctype html>
@@ -1609,9 +1609,7 @@ FULMINE -: educare al cambiamento.",
 
     </html>';
 
-              
                 $headers = ["Content-Type: text/html; charset=UTF-8"];
-
 
                 wp_mail($email, $subject_user, $message_user, $headers);
 
@@ -1655,8 +1653,8 @@ FULMINE -: educare al cambiamento.",
                     );
                 endif;
                 wp_redirect("/grazie-per-la-mappa/");
-                exit(); 
-            } 
+                exit();
+            }
         }
     }
 }
