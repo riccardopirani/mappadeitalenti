@@ -223,7 +223,8 @@ class Mastermap
         $karmaNumber,
         $famiglianumber,
         $egonumber,
-        $bisgognonumber
+        $bisgognonumber,
+        $puntodebolenumber
     ) {
         // Definizione delle mappature
         $mappature_base = [
@@ -912,128 +913,128 @@ Puoi usare il codice vibrazionale “Vision”.
                 9 => "FULMINE: Cerchi una donna imprevedibile, che non ti faccia mai sentire annoiato, che riesca sempre a stupirti con le sue idee. Attenzione che non diventi un rapporto instabile, oppure che non si creino quelle situazioni che vi obbligano a rimettere a posto problemi che avete generato voi. (Ti consigliamo il codice vibrazionale Initiation)"
             ],
             "PUNTODIFORZA" => [
-    1 => "FUOCO: con la passione. Se ci sono problemi in coppia cerchi di ritrovare l'entusiasmo per qualcosa che vi accomuna o cerchi di riaccendere la passione. 
+                1 => "FUOCO: con la passione. Se ci sono problemi in coppia cerchi di ritrovare l'entusiasmo per qualcosa che vi accomuna o cerchi di riaccendere la passione. 
 Nello specifico il tuo punto di forza si esprime: 
 FUOCO +: con la sessualità 
 FUOCO -: con progetti comuni che vi appassionano.",
 
-    2 => "GELO: la calma. Se ci sono problemi in amore cerchi di riportare la calma e la pacatezza per poter riparare ciò che è stato lacerato. 
+                2 => "GELO: la calma. Se ci sono problemi in amore cerchi di riportare la calma e la pacatezza per poter riparare ciò che è stato lacerato. 
 Nello specifico il tuo punto di forza si esprime: 
 GELO +: ti allontani, anche solo con il silenzio. 
 GELO -: hai bisogno di dormire, di riposare.",
 
-    3 => "ANELLI: la connessione. Se ci sono problemi in amore cerchi di ripristinare il dialogo e la connessione con lei. Per te il dialogo è fondamentale. 
+                3 => "ANELLI: la connessione. Se ci sono problemi in amore cerchi di ripristinare il dialogo e la connessione con lei. Per te il dialogo è fondamentale. 
 Nello specifico il tuo punto di forza si esprime: 
 ANELLI +: con il chiarimento 
 ANELLI -: facendo cose insieme che vi riportano al dialogo.",
 
-    4 => "SEME: la tua capacità di amare. Se ci sono problemi in amore cerchi di ritrovare la dolcezza, anche e soprattutto attraverso il contatto fisico. Per te l'abbraccio, anche intimo, è fondamentale. 
+                4 => "SEME: la tua capacità di amare. Se ci sono problemi in amore cerchi di ritrovare la dolcezza, anche e soprattutto attraverso il contatto fisico. Per te l'abbraccio, anche intimo, è fondamentale. 
 Nello specifico il tuo punto di forza si esprime: 
 SEME +: abbraccio 
 SEME -: fare cose piacevoli insieme.",
 
-    5 => "FIORE: la tua capacità di alleggerire la vita. Se ci sono problemi in amore cerchi di risolverli riportando il gioco nella coppia. Hai bisogno di alleggerire le situazioni. 
+                5 => "FIORE: la tua capacità di alleggerire la vita. Se ci sono problemi in amore cerchi di risolverli riportando il gioco nella coppia. Hai bisogno di alleggerire le situazioni. 
 Nello specifico il tuo punto di forza si esprime: 
 FIORE +: gioco a due 
 FIORE -: fare cose divertenti insieme.",
 
-    6 => "ALBERO: la tua capacità di essere stabile. Se ci sono problemi nella coppia cerchi di risolverli riportando la stabilità. Hai bisogno di equilibrio e che le emozioni non sbilancino troppo la vita. 
+                6 => "ALBERO: la tua capacità di essere stabile. Se ci sono problemi nella coppia cerchi di risolverli riportando la stabilità. Hai bisogno di equilibrio e che le emozioni non sbilancino troppo la vita. 
 Nello specifico il tuo punto di forza si esprime: 
 ALBERO +: stare solo per non agire in modo impulsivo. 
 ALBERO -: allontanarti dal mondo con lei.",
 
-    7 => "ACQUA: la tua capacità di trasformare. Se ci sono problemi nella coppia tu hai bisogno di andare a fondo per trasformarli. Hai bisogno di profondità. 
+                7 => "ACQUA: la tua capacità di trasformare. Se ci sono problemi nella coppia tu hai bisogno di andare a fondo per trasformarli. Hai bisogno di profondità. 
 Nello specifico il tuo punto di forza si esprime: 
 ACQUA +: sostieni la situazione e lei se serve. 
 ACQUA -: sensibilità.",
 
-    8 => "SPECCHIO: la tua capacità di decidere. Se ci sono problemi nella coppia tendi a raccogliere informazioni per arrivare a prendere le decisioni che meglio aiutano la risoluzione. 
+                8 => "SPECCHIO: la tua capacità di decidere. Se ci sono problemi nella coppia tendi a raccogliere informazioni per arrivare a prendere le decisioni che meglio aiutano la risoluzione. 
 Nello specifico il tuo punto di forza si esprime: 
 SPECCHIO +: capacità di analizzare 
 SPECCHIO -: visione a lungo termine.",
 
-    9 => "FULMINE: la tua capacità di resistere. Se ci sono problemi nella coppia tendi a sopportare per lungo tempo per permettere a lei di crescere e cambiare atteggiamento. Tu credi nella pazienza. 
+                9 => "FULMINE: la tua capacità di resistere. Se ci sono problemi nella coppia tendi a sopportare per lungo tempo per permettere a lei di crescere e cambiare atteggiamento. Tu credi nella pazienza. 
 Nello specifico il tuo punto di forza si esprime: 
 FULMINE +: pazienza 
 FULMINE -: educare al cambiamento."
-],
-"PATERNA" => [
-    1 => "FUOCO: Conquistare. Conquistare è un talento che deriva dal tuo albero genealogico paterno. La conquista è tipica dei viaggiatori e dei condottieri. Ti rende quindi una persona che tende ad avere continuo desiderio di conquista, ti piace corteggiare e far cadere ai tuoi piedi chi ha attratto la tua attenzione. Dall'albero genealogico paterno potresti aver acquisito una certa aggressività che potresti manifestare o soffocare. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale PAPA) Come padre avrai la tendenza ad essere un genitore dinamico, che ama viaggiare e fare gite fuori porta.",
-    
-    2 => "GELO: Prendersi cura. Prendersi cura è un talento che deriva dall'albero genealogico del padre. È tipico di chi ha la tendenza a mettersi a servizio degli altri. Ti rende quindi una persona che tende ad essere attenta ai bisogni di chi ti sta vicino e molto disponibile alle richieste altrui. Dall'albero genealogico paterno potresti aver ereditato la tendenza ad un atteggiamento che diventa servile o all'immaturità. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale INDIPENDENCE PAPA) Come padre avrai la tendenza ad essere molto accudente e ad ascoltare i tuoi figli.",
-    
-    3 => "ANELLI: Comunicare. Comunicare è un talento che deriva dall'albero genealogico paterno. La tua capacità di mediare nelle situazioni, ma anche di essere l'anima allegra della casa o della compagnia. Ti rende quindi una persona capace di tenere sempre vivo l'interesse di chi è al tuo fianco. Dall'albero genealogico potresti aver ereditato la tendenza ad essere molto dispersivo nell'attenzione che dai e a dare retta anche a persone poco affidabili. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale STAY). Come padre potresti avere la tendenza a inserire bene i tuoi figli nella tua rete relazionale e ad aiutarli a districarsi nelle relazioni.",
-    
-    4 => "SEME: Importanza della famiglia. Dall'albero genealogico di tuo padre deriva la sensazione che senza una famiglia sulla quale appoggiarti tu faccia fatica a garantirti la sopravvivenza. Darai quindi importanza alla tua famiglia, oppure all'impresa per cui lavori o operi. Ovviamente questo ti rende molto affidabile. Devi stare molto attento a capire fino a che punto questo corrisponda ad un tuo vero bisogno o ad un'imposizione inconscia. Dovresti chiederti fino a che punto corrisponda alla tua verità interiore. (Ti consigliamo il codice vibrazionale INDIPENDENCE PAPA). Come padre potresti avere la tendenza a voler provvedere a tutti i bisogni dei tuoi figli, a non voler far mancare loro nulla.",
-    
-    5 => "FIORE: Idee liberali. Dall'albero genealogico di tuo padre potresti aver ereditato una certa mentalità liberale, poco tradizionale, che vede nella relazione un'esperienza importante e da vivere con grande entusiasmo piuttosto che un'istituzione sociale. Potresti però aver acquisito anche una certa tendenza a muoverti nella relazione in modo un po' adolescenziale, senza arrivare mai ad assumertene veramente la responsabilità. Ti farebbe bene andare verso una nuova maturità emotiva. (Ti consigliamo il codice INITIATION). Come padre potresti essere molto giocoso e divertente.",
-    
-    6 => "ALBERO: Capo famiglia. Dall'albero genealogico di tuo padre potresti aver ereditato il ruolo di capo famiglia. La capacità di gestire, di guidare. Questo tenderà a farti sentire molto responsabile rispetto a chi ritieni di dover proteggere. Potresti aver ereditato, però, anche una certa propensione all'autoritarismo. In questo caso ti consigliamo di iniziare a valutare di trasformare questa dinamica in autorevolezza. (Ti consigliamo il codice vibrazionale PAPA). Come padre avrai la tendenza a dare il buon esempio ai tuoi figli e a cercare di insegnare loro le regole per stare al mondo.",
-    
-    7 => "ACQUA: Onorare la memoria. La storia per te ha un valore importante, soprattutto quella che coinvolge la tua famiglia. Potresti quindi o portare avanti la memoria di storie familiari e avere il desiderio di farle proseguire con la tua vita o con la tua stirpe coinvolgendo le persone che ami. Potresti avere il desiderio di trovare una persona che come te crede nelle tradizioni. Potresti, però, faticare ad accettare la necessità altrui di cambiare direzione. Dovresti imparare ad accettare i cambiamenti. (Ti consigliamo il codice vibrazionale ACCEPT). Come padre avrai la tendenza ad insegnare ciò che per tradizione ritieni giusto.",
-    
-    8 => "SPECCHIO: Condividere sapere. La ricerca, la conoscenza hanno per te un valore importante. Lo hai ereditato dal tuo albero genealogico familiare. Hai quindi il desiderio di incontrare persone che come te amino conoscere, scoprire, pensare, discutere. Hai però ereditato anche una certa intolleranza per chi cade nell'errore rischiando di diventare insensibile al dolore altrui, anche a quello di chi ti è più vicino. Dovresti imparare ad essere più compassionevole ed empatico. (Ti consigliamo il codice EMPATHY). Come padre potresti essere molto stimolante, sempre pronto a dare spunto e direzione.",
-    
-    9 => "FULMINE: Voglia di essere d'aiuto. Dal tuo albero genealogico paterno hai ereditato la voglia di essere d'aiuto. Potresti quindi cercare persone che hanno bisogno d'aiuto o persone che come te hanno il desiderio di offrire il proprio aiuto e di farlo assieme. Devi stare attento a non attirare persone parassite e a non diventare crocerossino. (Ti consigliamo il codice vibrazionale MAMA). Come padre potresti essere molto attento ai bisogni dei tuoi figli e cercare di aiutarli nelle difficoltà."
-],
-"SOCIETA" => [
-    1 => "CONQUISTA: Hai l'istinto predatore. Osservi la preda e la punti quando hai capito quali mosse fare. Lo fai in modo continuativo ma brioso, in modo da incuriosirla. Sai giocare con la preda e non molli finché non giungi alla conquista.",
-    
-    2 => "CURA DEI DETTAGLI: Avvicini in modo gentile, ti presenti in modo molto curato. I tuoi modi sono pacati e ami attrarre attraverso i piccoli particolari. Ti piace stupirla con piccoli dettagli che creano un'armonia d'insieme che la affascina.",
-    
-    3 => "INTERESSE: Ami attrarre attraverso la condivisione degli interessi. Spesso sei pure inconsapevole di attrarre. Potresti farlo limitandoti a vivere con passione e gioia quello che ti piace, esponendolo in modo gioioso e attraendola senza avere la chiara intenzione di farlo.",
-    
-    4 => "MOSTRARE IL PROPRIO VALORE: Cerchi di attrarre mostrando il valore che hai. Ti prendi cura di te, cerchi di presentarti bene. Cerchi di conoscere cose e condividerle destando interesse per ciò che fai o sai. Fai in modo che lei ti apprezzi e che desideri essere conquistata.",
-    
-    5 => "SIMPATIA: Il tuo modo di attrarre è attraverso la simpatia, il gioco, il divertimento. Cerchi di coinvolgerla in modo allegro e se ti piace potresti divertirti a punzecchiarla e a cercare di attrarre la sua attenzione con lo scherzo.",
-    
-    6 => "AFFIDABILITÀ: Il tuo modo di attrarre è facendola sentire al sicuro. Cerchi di farle capire che con te può lasciarsi andare, può permettersi di essere sé stessa senza maschere. Ami l'intimità sia fisica che emotiva e se puoi cerchi di trovare l'occasione per stare soli.",
-    
-    7 => "SENSUALITÀ: Il tuo modo di attrarre è attraverso il mistero, la parte più sensuale della vita. Ti piace giocare al chiaro-scuro, non rivelare mai troppo per non togliere l'aura di mistero che ti avvolge. Ti piace tenere la suspense e giocare con la sua psicologia.",
-    
-    8 => "PARLANDO: Tu conquisti parlando. Ti piace conoscerla, farle mille domande. Ti interessi a lei e cerchi di carpire più informazioni che puoi. Seduci facendole sentire il tuo interesse e ascolto. Non è detto che tu esprima molto di te, preferisci scoprirti in un secondo momento.",
-    
-    9 => "STUPENDO: Ti piace conquistare stupendola, facendole trovare ciò che le piace, oppure facendole fare esperienze mai fatte. Ami vedere lo stupore che si dipinge nel suo volto. Ti piace soprattutto sapere di avere intuito l'idea giusta."
-],
+            ],
+            "PATERNA" => [
+                1 => "FUOCO: Conquistare. Conquistare è un talento che deriva dal tuo albero genealogico paterno. La conquista è tipica dei viaggiatori e dei condottieri. Ti rende quindi una persona che tende ad avere continuo desiderio di conquista, ti piace corteggiare e far cadere ai tuoi piedi chi ha attratto la tua attenzione. Dall'albero genealogico paterno potresti aver acquisito una certa aggressività che potresti manifestare o soffocare. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale PAPA) Come padre avrai la tendenza ad essere un genitore dinamico, che ama viaggiare e fare gite fuori porta.",
 
-"RICONOSCIMENTO" => [
-    1 => "FUOCO +: vuoi che lei ti dimostri di credere in te, che si fidi delle decisioni che prendi, della direzione che dai e ti segua stando al tuo fianco, anche se doveste andare contro tutti gli altri. / FUOCO -: tu vuoi che lei si dimostri innamorata di te in modo passionale. Che ti faccia sentire il suo desiderio di te, che ti cerchi.",
-    
-    2 => "GELO +: vuoi che riconosca quanto amore e dedizione offri a lei. Che si accorga delle tante piccole attenzioni che sai avere e ti piacerebbe riceverle. / GELO -: vuoi essere semplicemente amato per quello che sei, senza tanti motivi, solo perché lei si è innamorata di te.",
-    
-    3 => "ANELLI +: vuoi che lei apprezzi la tua capacità di stare nel mondo e abbia la voglia di condividerlo con te. / ANELLI -: vuoi che lei apprezzi e condivida la tua visione particolare delle cose.",
-    
-    4 => "SEME +: hai bisogno di sapere che lei ti trovi bello, piacevole e che ammiri il modo in cui ti mostri nel mondo. / SEME -: hai bisogno che lei riconosca i tuoi talenti, quello che sai o che sai fare.",
-    
-    5 => "FIORE +: hai bisogno che lei ti trovi attraente e che ti dimostri che riconosce anche il fatto che lo sei anche per le altre. / FIORE -: vuoi che ti venga riconosciuto il fatto che tu sei capace di riconoscere i talenti che lei ha da mettere in campo e vuoi essere da stimolo perché si migliori.",
-    
-    6 => "ALBERO +: vuoi che ti venga riconosciuta la tua capacità di esserci sempre, di essere punto di riferimento e desideri che ti venga offerta la stessa cosa. / ALBERO -: vuoi che ti venga riconosciuto il valore che tu apporti nei progetti comuni, nel fatto che tu contribuisci sostanzialmente e desideri ricevere la gratificazione del tuo impegno.",
-    
-    7 => "ACQUA +: vuoi che ti venga riconosciuta la tua capacità di sentirla nel profondo e che lei si metta a disposizione di una comunicazione profonda. / ACQUA -: vuoi che ti venga riconosciuta la tua capacità di ascolto. Sai essere amico oltre che compagno e chiedi lo stesso a lei.",
-    
-    8 => "SPECCHIO +: vuoi che ti venga riconosciuta la tua capacità di essere equo nel dare e avere e desideri ricevere altrettanta equità. / SPECCHIO -: vuoi che ti venga riconosciuta la tua intelligenza e la tua capacità di analisi e comprensione.",
-    
-    9 => "FULMINE +: vuoi che ti venga riconosciuta la tua capacità di trasformare le situazioni negative in positive e la capacità di cambiare nel tempo. / FULMINE -: vuoi che ti venga riconosciuta la tua capacità di mantenere vive le tradizioni, di avere imparato ciò che ti è stato trasmesso."
-],
-"MAESTRO" => [
-    1 => "FUOCO: Hai bisogno di sentirti unico e che la relazione ti accenda sempre. Se competi in amore vuoi vincere, ti piace catturare la preda. Ti piace che la persona ti faccia capire che prova passione per te. Tendi a spegnerti subito se ti si ignora e se la situazione non ti stimola.",
-    
-    2 => "GELO: Hai bisogno di sentirti unito alla persona che ami. Hai bisogno di sentire che siete una cosa sola, che se ci siete voi due tutto il resto non conta. Tendi però a stare appeso alle situazioni che non evolvono e a perdere tempo e occasioni.",
-    
-    3 => "ANELLI: Hai bisogno di sentirti ascoltato dalla persona che ami, ma anche e soprattutto di condividere passioni e di poter vivere insieme splendide avventure. Tendi però a distrarti dalla coppia o a causa di altre situazioni o a causa di interessi tuoi.",
-    
-    4 => "SEME: Hai bisogno di sentirti amato e di sentirlo anche fisicamente. Hai bisogno di sentirti avvolto dalla presenza dell'altra, meglio se in un contesto intimo e familiare. Potresti avere però troppo la proiezione della famiglia e meno del vivere l'amore.",
-    
-    5 => "FIORE: Hai bisogno di sentire che sei attraente. Ti piace vedere che le persone perdono la testa per te e quindi tendi a provocare per vedere le reazioni. Potresti però avere la difficoltà a controllare gli effetti di ciò che fai, perdere il contatto con i sentimenti dell'altra e quindi ferire involontariamente.",
-    
-    6 => "ALBERO: Hai bisogno di sentirti stabile nella relazione. Riesci a concederti veramente solo quando ti senti al sicuro, allora dai tantissimo e si può veramente fare affidamento su di te. Potresti avere però la tendenza alla gelosia, proprio per il tuo bisogno di non veder messe in discussione le tue sicurezze.",
-    
-    7 => "ACQUA: Hai bisogno di sentirti capito, ma soprattutto hai bisogno di sentire la profondità della relazione, che è una relazione speciale, unica. Una connessione animica profonda che va oltre lo spazio-tempo. In alcuni casi, però, potresti essere attratto dalla sessualità in modo ossessivo o dipendente e questo renderti succube della persona che hai davanti.",
-    
-    8 => "SPECCHIO: Hai bisogno di sentirti libero, hai quindi bisogno che la relazione che vivi ti conceda spazi di libertà, dove poterti ricaricare, tornare in te e donarti la voglia di essere nuovamente passionale con la persona che ami. Potresti però avere la pretesa di fare quello che vuoi senza ascoltare i bisogni dell'altra e questo portarti ad avere problemi di relazione.",
-    
-    9 => "FULMINE: Hai bisogno di sentire che la tua relazione è qualcosa di grandioso, oppure alla quale aspirare per gli altri, un esempio da seguire. Una relazione che si fonda su principi comuni, su ideali condivisi. Devi solo stare attento di non caricare di troppe aspettative la persona che hai di fronte, che altrimenti potrà solo deluderti."
-],
+                2 => "GELO: Prendersi cura. Prendersi cura è un talento che deriva dall'albero genealogico del padre. È tipico di chi ha la tendenza a mettersi a servizio degli altri. Ti rende quindi una persona che tende ad essere attenta ai bisogni di chi ti sta vicino e molto disponibile alle richieste altrui. Dall'albero genealogico paterno potresti aver ereditato la tendenza ad un atteggiamento che diventa servile o all'immaturità. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale INDIPENDENCE PAPA) Come padre avrai la tendenza ad essere molto accudente e ad ascoltare i tuoi figli.",
+
+                3 => "ANELLI: Comunicare. Comunicare è un talento che deriva dall'albero genealogico paterno. La tua capacità di mediare nelle situazioni, ma anche di essere l'anima allegra della casa o della compagnia. Ti rende quindi una persona capace di tenere sempre vivo l'interesse di chi è al tuo fianco. Dall'albero genealogico potresti aver ereditato la tendenza ad essere molto dispersivo nell'attenzione che dai e a dare retta anche a persone poco affidabili. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale STAY). Come padre potresti avere la tendenza a inserire bene i tuoi figli nella tua rete relazionale e ad aiutarli a districarsi nelle relazioni.",
+
+                4 => "SEME: Importanza della famiglia. Dall'albero genealogico di tuo padre deriva la sensazione che senza una famiglia sulla quale appoggiarti tu faccia fatica a garantirti la sopravvivenza. Darai quindi importanza alla tua famiglia, oppure all'impresa per cui lavori o operi. Ovviamente questo ti rende molto affidabile. Devi stare molto attento a capire fino a che punto questo corrisponda ad un tuo vero bisogno o ad un'imposizione inconscia. Dovresti chiederti fino a che punto corrisponda alla tua verità interiore. (Ti consigliamo il codice vibrazionale INDIPENDENCE PAPA). Come padre potresti avere la tendenza a voler provvedere a tutti i bisogni dei tuoi figli, a non voler far mancare loro nulla.",
+
+                5 => "FIORE: Idee liberali. Dall'albero genealogico di tuo padre potresti aver ereditato una certa mentalità liberale, poco tradizionale, che vede nella relazione un'esperienza importante e da vivere con grande entusiasmo piuttosto che un'istituzione sociale. Potresti però aver acquisito anche una certa tendenza a muoverti nella relazione in modo un po' adolescenziale, senza arrivare mai ad assumertene veramente la responsabilità. Ti farebbe bene andare verso una nuova maturità emotiva. (Ti consigliamo il codice INITIATION). Come padre potresti essere molto giocoso e divertente.",
+
+                6 => "ALBERO: Capo famiglia. Dall'albero genealogico di tuo padre potresti aver ereditato il ruolo di capo famiglia. La capacità di gestire, di guidare. Questo tenderà a farti sentire molto responsabile rispetto a chi ritieni di dover proteggere. Potresti aver ereditato, però, anche una certa propensione all'autoritarismo. In questo caso ti consigliamo di iniziare a valutare di trasformare questa dinamica in autorevolezza. (Ti consigliamo il codice vibrazionale PAPA). Come padre avrai la tendenza a dare il buon esempio ai tuoi figli e a cercare di insegnare loro le regole per stare al mondo.",
+
+                7 => "ACQUA: Onorare la memoria. La storia per te ha un valore importante, soprattutto quella che coinvolge la tua famiglia. Potresti quindi o portare avanti la memoria di storie familiari e avere il desiderio di farle proseguire con la tua vita o con la tua stirpe coinvolgendo le persone che ami. Potresti avere il desiderio di trovare una persona che come te crede nelle tradizioni. Potresti, però, faticare ad accettare la necessità altrui di cambiare direzione. Dovresti imparare ad accettare i cambiamenti. (Ti consigliamo il codice vibrazionale ACCEPT). Come padre avrai la tendenza ad insegnare ciò che per tradizione ritieni giusto.",
+
+                8 => "SPECCHIO: Condividere sapere. La ricerca, la conoscenza hanno per te un valore importante. Lo hai ereditato dal tuo albero genealogico familiare. Hai quindi il desiderio di incontrare persone che come te amino conoscere, scoprire, pensare, discutere. Hai però ereditato anche una certa intolleranza per chi cade nell'errore rischiando di diventare insensibile al dolore altrui, anche a quello di chi ti è più vicino. Dovresti imparare ad essere più compassionevole ed empatico. (Ti consigliamo il codice EMPATHY). Come padre potresti essere molto stimolante, sempre pronto a dare spunto e direzione.",
+
+                9 => "FULMINE: Voglia di essere d'aiuto. Dal tuo albero genealogico paterno hai ereditato la voglia di essere d'aiuto. Potresti quindi cercare persone che hanno bisogno d'aiuto o persone che come te hanno il desiderio di offrire il proprio aiuto e di farlo assieme. Devi stare attento a non attirare persone parassite e a non diventare crocerossino. (Ti consigliamo il codice vibrazionale MAMA). Come padre potresti essere molto attento ai bisogni dei tuoi figli e cercare di aiutarli nelle difficoltà."
+            ],
+            "SOCIETA" => [
+                1 => "CONQUISTA: Hai l'istinto predatore. Osservi la preda e la punti quando hai capito quali mosse fare. Lo fai in modo continuativo ma brioso, in modo da incuriosirla. Sai giocare con la preda e non molli finché non giungi alla conquista.",
+
+                2 => "CURA DEI DETTAGLI: Avvicini in modo gentile, ti presenti in modo molto curato. I tuoi modi sono pacati e ami attrarre attraverso i piccoli particolari. Ti piace stupirla con piccoli dettagli che creano un'armonia d'insieme che la affascina.",
+
+                3 => "INTERESSE: Ami attrarre attraverso la condivisione degli interessi. Spesso sei pure inconsapevole di attrarre. Potresti farlo limitandoti a vivere con passione e gioia quello che ti piace, esponendolo in modo gioioso e attraendola senza avere la chiara intenzione di farlo.",
+
+                4 => "MOSTRARE IL PROPRIO VALORE: Cerchi di attrarre mostrando il valore che hai. Ti prendi cura di te, cerchi di presentarti bene. Cerchi di conoscere cose e condividerle destando interesse per ciò che fai o sai. Fai in modo che lei ti apprezzi e che desideri essere conquistata.",
+
+                5 => "SIMPATIA: Il tuo modo di attrarre è attraverso la simpatia, il gioco, il divertimento. Cerchi di coinvolgerla in modo allegro e se ti piace potresti divertirti a punzecchiarla e a cercare di attrarre la sua attenzione con lo scherzo.",
+
+                6 => "AFFIDABILITÀ: Il tuo modo di attrarre è facendola sentire al sicuro. Cerchi di farle capire che con te può lasciarsi andare, può permettersi di essere sé stessa senza maschere. Ami l'intimità sia fisica che emotiva e se puoi cerchi di trovare l'occasione per stare soli.",
+
+                7 => "SENSUALITÀ: Il tuo modo di attrarre è attraverso il mistero, la parte più sensuale della vita. Ti piace giocare al chiaro-scuro, non rivelare mai troppo per non togliere l'aura di mistero che ti avvolge. Ti piace tenere la suspense e giocare con la sua psicologia.",
+
+                8 => "PARLANDO: Tu conquisti parlando. Ti piace conoscerla, farle mille domande. Ti interessi a lei e cerchi di carpire più informazioni che puoi. Seduci facendole sentire il tuo interesse e ascolto. Non è detto che tu esprima molto di te, preferisci scoprirti in un secondo momento.",
+
+                9 => "STUPENDO: Ti piace conquistare stupendola, facendole trovare ciò che le piace, oppure facendole fare esperienze mai fatte. Ami vedere lo stupore che si dipinge nel suo volto. Ti piace soprattutto sapere di avere intuito l'idea giusta."
+            ],
+
+            "RICONOSCIMENTO" => [
+                1 => "FUOCO +: vuoi che lei ti dimostri di credere in te, che si fidi delle decisioni che prendi, della direzione che dai e ti segua stando al tuo fianco, anche se doveste andare contro tutti gli altri. / FUOCO -: tu vuoi che lei si dimostri innamorata di te in modo passionale. Che ti faccia sentire il suo desiderio di te, che ti cerchi.",
+
+                2 => "GELO +: vuoi che riconosca quanto amore e dedizione offri a lei. Che si accorga delle tante piccole attenzioni che sai avere e ti piacerebbe riceverle. / GELO -: vuoi essere semplicemente amato per quello che sei, senza tanti motivi, solo perché lei si è innamorata di te.",
+
+                3 => "ANELLI +: vuoi che lei apprezzi la tua capacità di stare nel mondo e abbia la voglia di condividerlo con te. / ANELLI -: vuoi che lei apprezzi e condivida la tua visione particolare delle cose.",
+
+                4 => "SEME +: hai bisogno di sapere che lei ti trovi bello, piacevole e che ammiri il modo in cui ti mostri nel mondo. / SEME -: hai bisogno che lei riconosca i tuoi talenti, quello che sai o che sai fare.",
+
+                5 => "FIORE +: hai bisogno che lei ti trovi attraente e che ti dimostri che riconosce anche il fatto che lo sei anche per le altre. / FIORE -: vuoi che ti venga riconosciuto il fatto che tu sei capace di riconoscere i talenti che lei ha da mettere in campo e vuoi essere da stimolo perché si migliori.",
+
+                6 => "ALBERO +: vuoi che ti venga riconosciuta la tua capacità di esserci sempre, di essere punto di riferimento e desideri che ti venga offerta la stessa cosa. / ALBERO -: vuoi che ti venga riconosciuto il valore che tu apporti nei progetti comuni, nel fatto che tu contribuisci sostanzialmente e desideri ricevere la gratificazione del tuo impegno.",
+
+                7 => "ACQUA +: vuoi che ti venga riconosciuta la tua capacità di sentirla nel profondo e che lei si metta a disposizione di una comunicazione profonda. / ACQUA -: vuoi che ti venga riconosciuta la tua capacità di ascolto. Sai essere amico oltre che compagno e chiedi lo stesso a lei.",
+
+                8 => "SPECCHIO +: vuoi che ti venga riconosciuta la tua capacità di essere equo nel dare e avere e desideri ricevere altrettanta equità. / SPECCHIO -: vuoi che ti venga riconosciuta la tua intelligenza e la tua capacità di analisi e comprensione.",
+
+                9 => "FULMINE +: vuoi che ti venga riconosciuta la tua capacità di trasformare le situazioni negative in positive e la capacità di cambiare nel tempo. / FULMINE -: vuoi che ti venga riconosciuta la tua capacità di mantenere vive le tradizioni, di avere imparato ciò che ti è stato trasmesso."
+            ],
+            "MAESTRO" => [
+                1 => "FUOCO: Hai bisogno di sentirti unico e che la relazione ti accenda sempre. Se competi in amore vuoi vincere, ti piace catturare la preda. Ti piace che la persona ti faccia capire che prova passione per te. Tendi a spegnerti subito se ti si ignora e se la situazione non ti stimola.",
+
+                2 => "GELO: Hai bisogno di sentirti unito alla persona che ami. Hai bisogno di sentire che siete una cosa sola, che se ci siete voi due tutto il resto non conta. Tendi però a stare appeso alle situazioni che non evolvono e a perdere tempo e occasioni.",
+
+                3 => "ANELLI: Hai bisogno di sentirti ascoltato dalla persona che ami, ma anche e soprattutto di condividere passioni e di poter vivere insieme splendide avventure. Tendi però a distrarti dalla coppia o a causa di altre situazioni o a causa di interessi tuoi.",
+
+                4 => "SEME: Hai bisogno di sentirti amato e di sentirlo anche fisicamente. Hai bisogno di sentirti avvolto dalla presenza dell'altra, meglio se in un contesto intimo e familiare. Potresti avere però troppo la proiezione della famiglia e meno del vivere l'amore.",
+
+                5 => "FIORE: Hai bisogno di sentire che sei attraente. Ti piace vedere che le persone perdono la testa per te e quindi tendi a provocare per vedere le reazioni. Potresti però avere la difficoltà a controllare gli effetti di ciò che fai, perdere il contatto con i sentimenti dell'altra e quindi ferire involontariamente.",
+
+                6 => "ALBERO: Hai bisogno di sentirti stabile nella relazione. Riesci a concederti veramente solo quando ti senti al sicuro, allora dai tantissimo e si può veramente fare affidamento su di te. Potresti avere però la tendenza alla gelosia, proprio per il tuo bisogno di non veder messe in discussione le tue sicurezze.",
+
+                7 => "ACQUA: Hai bisogno di sentirti capito, ma soprattutto hai bisogno di sentire la profondità della relazione, che è una relazione speciale, unica. Una connessione animica profonda che va oltre lo spazio-tempo. In alcuni casi, però, potresti essere attratto dalla sessualità in modo ossessivo o dipendente e questo renderti succube della persona che hai davanti.",
+
+                8 => "SPECCHIO: Hai bisogno di sentirti libero, hai quindi bisogno che la relazione che vivi ti conceda spazi di libertà, dove poterti ricaricare, tornare in te e donarti la voglia di essere nuovamente passionale con la persona che ami. Potresti però avere la pretesa di fare quello che vuoi senza ascoltare i bisogni dell'altra e questo portarti ad avere problemi di relazione.",
+
+                9 => "FULMINE: Hai bisogno di sentire che la tua relazione è qualcosa di grandioso, oppure alla quale aspirare per gli altri, un esempio da seguire. Una relazione che si fonda su principi comuni, su ideali condivisi. Devi solo stare attento di non caricare di troppe aspettative la persona che hai di fronte, che altrimenti potrà solo deluderti."
+            ],
 
 
         ];
@@ -1119,7 +1120,7 @@ FULMINE -: educare al cambiamento."
         $mappature = [];
         if (strpos($slug_mappa, "studio") !== false) {
             $mappature = $mappature_studio;
-        }  elseif (strpos($slug_mappa, "amore") !== false) {
+        } elseif (strpos($slug_mappa, "amore") !== false) {
             if (strpos($sesso, "uomo") !== false) {
                 $mappature = $mappatura_amore_uomo; // Corretto il nome della variabile
             } else {
@@ -1133,57 +1134,62 @@ FULMINE -: educare al cambiamento."
             $mappature = $mappature_base;
         }
 
-        // Assicuriamoci che $solution sia un array
+
         $solution = is_array($solution) ? $solution : [];
 
-        // Calcolo dei valori finali
+
         $valori = [];
         foreach ($mappature as $chiave => $valori_mappa) {
-    if ($chiave === "KARMA") {
-        // Normalizza il numero karma: positivo e intero
-        $indice = abs(round($karmaNumber)); // Es: -3 -> 3
+            if ($chiave === "KARMA") {
+                // Normalizza il numero karma: positivo e intero
+                $indice = abs(round($karmaNumber)); // Es: -3 -> 3
 
-        // Se l'indice non esiste nella mappa, fallback
-        if (!isset($valori_mappa[$indice])) {
-            $indice = array_key_first($valori_mappa);
+                // Se l'indice non esiste nella mappa, fallback
+                if (!isset($valori_mappa[$indice])) {
+                    $indice = array_key_first($valori_mappa);
+                }
+            } elseif ($chiave === "FAMIGLIA") {
+                // Usa direttamente il numero della famiglia passato alla funzione
+                $indice = abs(round($famiglianumber));
+
+                if (!isset($valori_mappa[$indice])) {
+                    $indice = array_key_first($valori_mappa);
+                }
+            } elseif ($chiave === "EGO") {
+                // Usa direttamente il numero della famiglia passato alla funzione
+                $indice = abs(round($egonumber));
+
+                if (!isset($valori_mappa[$indice])) {
+                    $indice = array_key_first($valori_mappa);
+                }
+            } elseif ($chiave === "BISOGNO") {
+
+                $indice = abs(round($bisgognonumber));
+
+                if (!isset($valori_mappa[$indice])) {
+                    $indice = array_key_first($valori_mappa);
+                }
+            } 
+            else if($chiave=="PUNTO_DEBOLE"){
+                $indice = abs(round($puntodebolenumber));
+
+                if (!isset($valori_mappa[$indice])) {
+                    $indice = array_key_first($valori_mappa);
+                }
+            }
+            else {
+                // Usa il valore da $solution se disponibile
+                $indice = $solution[$chiave] ?? null;
+            }
+
+            // Se esiste la chiave nella mappa, assegna
+            if ($indice !== null && isset($valori_mappa[$indice])) {
+                $valori[$chiave] = $valori_mappa[$indice];
+            } else {
+                // Fallback generico
+                $valori[$chiave] = reset($valori_mappa);
+            }
         }
-    } elseif ($chiave === "FAMIGLIA") {
-        // Usa direttamente il numero della famiglia passato alla funzione
-        $indice = abs(round($famiglianumber));
-
-        if (!isset($valori_mappa[$indice])) {
-            $indice = array_key_first($valori_mappa);
-        }
-    } 
-     elseif ($chiave === "EGO") {
-        // Usa direttamente il numero della famiglia passato alla funzione
-        $indice = abs(round($egonumber));
-
-        if (!isset($valori_mappa[$indice])) {
-            $indice = array_key_first($valori_mappa);
-        }
-    }
-     elseif ($chiave === "BISOGNO") {
-        // Usa direttamente il numero della famiglia passato alla funzione
-        $indice = abs(round($bisgognonumber));
-
-        if (!isset($valori_mappa[$indice])) {
-            $indice = array_key_first($valori_mappa);
-        }
-    }
-    else {
-        // Usa il valore da $solution se disponibile
-        $indice = $solution[$chiave] ?? null;
-    }
-
-    // Se esiste la chiave nella mappa, assegna
-    if ($indice !== null && isset($valori_mappa[$indice])) {
-        $valori[$chiave] = $valori_mappa[$indice];
-    } else {
-        // Fallback generico
-        $valori[$chiave] = reset($valori_mappa);
-    }
-}
 
 
         return $valori;
@@ -1193,16 +1199,16 @@ FULMINE -: educare al cambiamento."
     {
         session_start();
         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["book"])) {
-          
+
             if (
                 isset($_SESSION["last_submit"]) &&
                 time() - $_SESSION["last_submit"] < 30
             ) {
-            
+
                 return;
             }
             $_SESSION["last_submit"] = time();
-            $nome=sanitize_text_field($_POST["nome"]);
+            $nome = sanitize_text_field($_POST["nome"]);
             $cognome = sanitize_text_field($_POST["cognome"]);
             $email = sanitize_email($_POST["email"]);
             $sesso = sanitize_text_field($_POST["sesso"]);
@@ -1243,11 +1249,11 @@ FULMINE -: educare al cambiamento."
                 $madre_result,
                 $padre_result,
                 $other_result
-            ); 
+            );
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
             $karmaNumber = $other_result["comi"];
 
-            $valori = $this->assegnare_valori($solution, $slug_mappa, $sesso, $karmaNumber,famiglianumber: $utente_result["mese"],egonumber: $utente_result["giorno"],bisgognonumber:  $utente_result["giorno"]);
+            $valori = $this->assegnare_valori($solution, $slug_mappa, $sesso, $karmaNumber, famiglianumber: $utente_result["mese"], egonumber: $utente_result["giorno"], bisgognonumber: $utente_result["giorno"],puntodebolenumber:  $utente_result["mese-meno-giorno"]);
             // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
             $karma = $valori["KARMA"];//
             $famiglia = $valori["FAMIGLIA"];
@@ -1407,8 +1413,8 @@ FULMINE -: educare al cambiamento."
                 );
                 $download_url = do_shortcode(
                     '[e2pdf-download id="1" output="url" dataset="' .
-                        $post_id .
-                        '"]'
+                    $post_id .
+                    '"]'
                 );
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
                     ? $data_di_nascita_madre
@@ -1598,8 +1604,8 @@ FULMINE -: educare al cambiamento."
                     ($footer_email
                         ? '<div class="footer">
                 <p>' .
-                            $footer_email .
-                            "</p>
+                        $footer_email .
+                        "</p>
             </div>"
                         : "") .
                     '
