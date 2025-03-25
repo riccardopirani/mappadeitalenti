@@ -224,7 +224,8 @@ class Mastermap
         $egonumber,
         $bisgognonumber,
         $puntodebolenumber,
-        $missionenumber
+        $missionenumber,
+        $cuorenumber
     ) {
         // Definizione delle mappature
         $mappature_base = [
@@ -1178,6 +1179,13 @@ FULMINE -: educare al cambiamento.",
                 }
             } 
 
+            else if ($chiave === "CUORE") {
+                 $indice = abs(round(num: $cuorenumber));
+
+                if (!isset($valori_mappa[$indice])) {
+                    $indice = array_key_first($valori_mappa);
+                }
+            } 
             // Se esiste la chiave nella mappa, assegna
             if ($indice !== null && isset($valori_mappa[$indice])) {
                 $valori[$chiave] = $valori_mappa[$indice];
@@ -1255,7 +1263,8 @@ FULMINE -: educare al cambiamento.",
                 egonumber: $utente_result["giorno"],
                 bisgognonumber: $utente_result["giorno"],
                 puntodebolenumber: $utente_result["mese-meno-giorno"],
-                missionenumber: $utente_result["totale"]
+                missionenumber: $utente_result["totale"],
+                cuorenumber:  $utente_result["anno-meno-mese"]
             );
             // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
             $karma = $valori["KARMA"]; //
