@@ -62,20 +62,20 @@ class Mastermap
                 '<label for="data_nascita_utente">Your date of birth*</label>';
 
             $form .=
-                '<input class="form-control" type="text" id="data_di_nascita_utente" name="data_di_nascita_utente" required placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
+                '<input class="form-control" type="text" id="data_di_nascita_utente" name="data_di_nascita_utente" required >';
 
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
                 '<label for="data_di_nascita_madre">Your mother\'s date of birth</label>';
             $form .=
-                '<input class="form-control" type="text"  id="data_di_nascita_madre" name="data_di_nascita_madre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
+                '<input class="form-control" type="text"  id="data_di_nascita_madre" name="data_di_nascita_madre" required >';
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
                 '<label for="data_di_nascita_padre">Your father\'s date of birth</label>';
             $form .=
-                '<input class="form-control" type="text" id="data_di_nascita_padre" name="data_di_nascita_padre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
+                '<input class="form-control" type="text" id="data_di_nascita_padre" name="data_di_nascita_padre" required >';
             $form .= "</div>";
             $form .= '<div class="col-md-12 mb-2 ps-5 form-check">';
             $form .=
@@ -151,7 +151,7 @@ class Mastermap
                 __("La tua data di nascita", "ek_mappa") .
                 "*</label>";
             $form .=
-                '<input class="form-control" type="text" id="data_di_nascita_utente" name="data_di_nascita_utente" required placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
+                '<input class="form-control" type="text" id="data_di_nascita_utente" name="data_di_nascita_utente" required >';
 
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
@@ -160,7 +160,7 @@ class Mastermap
                 __("Data di nascita di tua madre", "ek_mappa") .
                 "</label>";
             $form .=
-                '<input class="form-control" type="text"  id="data_di_nascita_madre" name="data_di_nascita_madre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
+                '<input class="form-control" type="text"  id="data_di_nascita_madre" name="data_di_nascita_madre" required>';
             $form .= "</div>";
             $form .= '<div class="col-md-4 mb-2">';
             $form .=
@@ -168,7 +168,7 @@ class Mastermap
                 __("Data di nascita di tuo padre", "ek_mappa") .
                 "</label>";
             $form .=
-                '<input class="form-control" type="text" id="data_di_nascita_padre" name="data_di_nascita_padre" placeholder="gg/mm/aaaa" pattern="\d{1,2}/\d{1,2}/\d{4}">';
+                '<input class="form-control" type="text" id="data_di_nascita_padre" name="data_di_nascita_padre" required>';
             $form .= "</div>";
             $form .= '<div class="col-md-12 mb-2 ps-5 form-check">';
             $form .=
@@ -213,9 +213,9 @@ class Mastermap
         $form .= "}";
 
         // Applica la funzione a tutti i campi data
-        $form .= 'addDateSlashes("data_di_nascita_utente");';
-        $form .= 'addDateSlashes("data_di_nascita_madre");';
-        $form .= 'addDateSlashes("data_di_nascita_padre");';
+        //$form .= 'addDateSlashes("data_di_nascita_utente");';
+        //$form .= 'addDateSlashes("data_di_nascita_madre");';
+        //$form .= 'addDateSlashes("data_di_nascita_padre");';
 
         $form .= "</script>";
         return $form;
