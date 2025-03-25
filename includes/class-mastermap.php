@@ -1170,7 +1170,7 @@ FULMINE -: educare al cambiamento."
                     $indice = array_key_first($valori_mappa);
                 }
             } 
-            else if($chiave=="PUNTO_DEBOLE"){
+            else if($chiave ==="PUNTO_DEBOLE"){
                 $indice = abs(round($puntodebolenumber));
 
                 if (!isset($valori_mappa[$indice])) {
