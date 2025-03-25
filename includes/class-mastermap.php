@@ -1123,9 +1123,9 @@ FULMINE -: educare al cambiamento.",
             $mappature = $mappature_studio;
         } elseif (strpos($slug_mappa, "amore") !== false) {
             if (strpos($sesso, "uomo") !== false) {
-                $mappature = $mappatura_amore_uomo; // Corretto il nome della variabile
+                $mappature = $mappatura_amore_uomo;
             } else {
-                $mappature = $mappature_amore_donna; // Corretto il nome della variabile
+                $mappature = $mappature_amore_donna; 
             }
         } elseif (strpos($slug_mappa, "bambino_missione_talenti") !== false) {
             $mappature = $mappa_bambino_missione_talenti; // Uniformato il nome
