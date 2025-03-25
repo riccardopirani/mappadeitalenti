@@ -220,8 +220,12 @@ class Mastermap
         $form .= "</script>";
         return $form;
     }
-    public function assegnare_valori($solution, $slug_mappa)
-    {
+    public function assegnare_valori(
+        $solution,
+        $slug_mappa,
+        $sesso,
+        $karmaNumber
+    ) {
         // Definizione delle mappature
         $mappature_base = [
             "KARMA" => [
@@ -752,18 +756,38 @@ class Mastermap
         ];
         $mappatura_amore_uomo = [
             "KARMA" => [
-                1 => "Bisogno compulsivo del sesso/rifiuto del sesso. Trasformazione: contattare la rabbia e iniziare a 'sentire' veramente l’altro.",
-                2 => "Bisogno estremo di attenzioni. Trasformazione: diventare emotivamente adulto.",
-                3 => "Attrai relazioni karmiche. Trasformazione: accettare l’aspetto destinico.",
-                4 => "Bisogno di sicurezza. Trasformazione: contattare il senso del tuo valore.",
-                5 => "Bisogno di attrarre. Trasformazione: imparare la responsabilità emotiva.",
-                6 => "Bisogno di stabilità. Trasformazione: trasformare il bisogno di controllo.",
-                7 => "Bisogno di empatia. Trasformazione: entrare in contatto con il proprio dolore.",
-                8 => "Bisogno di eccellenza. Trasformazione: ricollegarti al tuo sogno.",
-                9 => "Colpo di fulmine. Trasformazione: imparare a gestire gli impulsi.",
+                1 => "Il sesso è una delle forme d’espressione con la quale trasformiamo la rabbia. Dovrebbe essere un mezzo con la quale entriamo in comunicazione profonda con l’altro, ma in questo caso la difficoltà è proprio questa . Sia chi cerca compulsivamente il sesso, che chi lo rifiuta ha la difficoltà ad entrare in comunicazione profonda con l’altro in quanto in profondità c’è la rabbia.
+Trasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro. 
+Per aiutarti puoi usare il codice vibrazionale “Papa” o “Mama”. 
+",
+                2 => "Karmicamente c’è una parte di te che non è diventata emotivamente adulta e questo ti porta a entrare in relazione esprimendo bisogni che potrebbero risultare infantili, o se anche non li esprimi, farti valutare non soddisfacente una relazione per motivi infantili. Il risultato è che potresti vivere o relazioni dipendenti o evitare le relazioni per paura di non ricevere ciò che ritieni giusto.",
+                3 => "Nella prima parte della vita potresti avere la tendenza ad attrarre relazioni karmiche. Hai dei sospesi animici con anime che hai dovuto/dovrai incontrare per apprendere una lezione importante. Gli incontri non sono evitabili, possono portarti a relazioni alleate o tossiche, ma lo svolgimento della relazione dipende dal tuo libero arbitrio. La cosa importante è che tu sappia che non sono relazioni che DEVONO restare nella tua vita. 
+Trasformazione: accettare l’aspetto destinico di questo punto e sentirsi liberi nel proseguire la vita in libera scelta. 
+Per aiutarti puoi usare il codice vibrazionale “Vision” o “Acept”.
+",
+                4 => "Bisogno di sicurezza. Nella prima parte della vita potresti avere la tendenza a chiedere dimostrazioni d’amore continue non sentendoti mai appagat* pienamente. Questo nasce da un aspetto di profonda insicurezza rispetto la tua autostima. Avrai quindi la tendenza a far scappare le persone o, nel momento in cui riesci a conquistarne una, ad essere terrorizzat* di perderla accettando anche situazioni poco valorizzanti per te o diventando soffocante per l’altro. Trasformazione: contattare il senso del tuo valore e attrarre situazioni appaganti. Puoi aiutarti con il codice vibrazionale “Value” e “Initiation”.",
+                5 => "Nella prima parte della vita potresti avere continuamente bisogno di sentire che riesci ad attrarre altre persone. Potresti avere quindi la tendenza a flirtare anche quando il contesto non lo richiederebbe. Potresti attrarre anche chi non ti interessa veramente trovandoti incastrato in situazioni dalla quale poi vuoi fuggire, facendoti nascere sensi di colpa. Oppure potresti voler attrarre persone “irraggiungibili” per te provocandoti la sensazione di essere poco attraente. 
+Trasformazione: imparare la responsabilità emotiva che ti permetterà di vivere con gioia e leggerezza  le tue relazioni. 
+Puoi aiutarti con il codice vibrazionale “Responsability” e “Initiation”.  
+",
+                6 => "Nella prima parte della vita potresti avere bisogno di stabilità emotiva che ti può portare a cercarla o in una relazione stabile precoce o nella focalizzazione sul lavoro che ti autorizza ad evitare le relazioni. Hai paura del tradimento e quindi potresti attrarlo o metterlo in atto. Hai bisogno di ritrovare la fiducia nella vita per permetterti di vivere maggiormente nel flusso accettando gli eventuali cambiamenti o imparando a metterti veramente in gioco senza temere che poi finisca.
+Trasformazione: trasformare il bisogno di controllo in fiducia e libertà per sé stessi e gli altri. 
+Puoi usare il codice vibrazionale “Flow”, oppure “Indipendence Mama” o Indipendence Papa”. 
+",
+                7 => "Nella prima parte della vita potresti avere bisogno di sentirti compreso profondamente dall’altro. Potresti manifestarlo o richiamando la sua attenzione con il tuo dolore, oppure prendendoti cura dell’altro sperando che la controparte faccia lo stesso con te. 
+Spesso questo tipo di situazioni attrae persone poco empatiche che non solo non capiscono il tuo dolore ma te ne procurano.  
+Trasformazione: entrare in contatto con il proprio dolore, trasformarlo e permetterti di vivere relazioni eque.
+Puoi usare il codice vibrazionale  “Empathy”.
+",
+                8 => "Nella prima parte della vita potresti avere la tendenza ad idealizzare la relazione e a cercarne una idilliaca dove l’altro corrisponde ad un ideale che ti sei fatto tu che nella stragrande maggiorananza dei casi non corrisponde alla realtà facendoti vivere profonde delusioni. 
+Questo potrebbe farti pensare che tu non sei destinato a vivere l’amore facendoti diventare o cinico o accettare anche relazioni che non corrispondono a ciò che desideri.
+Trasformazione: ricollegarti al tuo sogno e perseverare fino al raggiungimento del tuo sogno d’amore che però deve corrispondere ad una persona reale e umana.
+Puoi usare il codice vibrazionale “Vision”. 
+",
+                9 => "Colpo di fulmine. La tua prima parte della vita potresti aver vissuto/vivere l’esperienza di grandi colpi di fulmine. Innamorarti istantaneamente di persone che non conosci e che poi potrebbero deluderti quando la relazione comincia a diventare seria, oppure non raggiungere lo stato di relazione. In entrambi i casi potresti pensare di avere un destino avverso, oppure chiuderti alle relazioni in quanto non puoi governare gli innamoramenti e quindi è meglio che non accadano. Trasformazione: imparare a gestire gli impulsi in modo da poter vivere gli innamoramenti senza buttartici dentro in modo troppo impulsivo, imparando il discernimento e a respingere ciò che non va bene per te e ad accogliere ciò che va bene. Puoi usare il codice vibrazionale “Papa” o “Mama”.",
             ],
             "FAMIGLIA" => [
-                1 => "Una famiglia in movimento",
+                1 => "Una cosa della quale ti devi guardare bene è cadere nell'illusione che la staticità (confondendola con la stabilità) ti renderà felice. Tu hai bisogno di continue nuove avventure e quindi se decidi di creare una famiglia con qualcuno ricordati bene di questo aspetto. Deve essere una famiglia in continuo movimento o che è inserita in un contesto molto attivo. La famiglia tradizionale molto basata sulla routine non fa per te. Rifletti bene anche sul tema figli: se decidi di averne ricordati che tu hai bisogno di avere sempre nuovi stimoli, quindi è meglio che imposti le cose in modo da poterne avere coinvolgendo i tuoi figli. La cosa importante è che tu non metta al mondo figli perché ci si aspetta questo da te.",
                 2 => "Una famiglia accudente",
                 3 => "Una famiglia allargata",
                 4 => "Una famiglia confortevole",
@@ -908,38 +932,56 @@ class Mastermap
                 9 => "Accendere il tuo entusiasmo e la tua energia.",
             ],
         ];
-$mappature=[];
+        $mappature = [];
         // Determinare quale mappatura usare
-       // Determina quale mappatura usare in base allo slug
-if (strpos($slug_mappa, "studio") !== false) {
-        $mappature = $mappature_studio;
-    } elseif (strpos($slug_mappa, "amore_donna") !== false) {
-        $mappature = $mappature_amore_donna;
-    } elseif (strpos($slug_mappa, "amore_uomo") !== false) {
-        $mappature = $mappatura_amore_uomo;
-    } elseif (strpos($slug_mappa, "bambino_missione_talenti") !== false) {
-        $mappature = $mappa_bambino_missione_talenti;
-    } elseif (strpos($slug_mappa, "lavoro") !== false) {
-        $mappature = $mappatura_lavoro;
-    } else {
-        $mappature = $mappature_base;
-    }
+        // Determina quale mappatura usare in base allo slug
+        if (strpos($slug_mappa, "studio") !== false) {
+            $mappature = $mappature_studio;
+        } elseif (strpos($slug_mappa, "amore_donna") !== false) {
+            $mappature = $mappature_amore_donna;
+        } elseif (strpos($slug_mappa, "amore") !== false) {
+            if (strpos($sesso, "uomo") !== false) {
+                $mappature = $mappatura_amore_uomo; // Corretto il nome della variabile
+            } else {
+                $mappature = $mappature_amore_donna; // Corretto il nome della variabile
+            }
+        } elseif (strpos($slug_mappa, "bambino_missione_talenti") !== false) {
+            $mappature = $mappa_bambino_missione_talenti; // Uniformato il nome
+        } elseif (strpos($slug_mappa, "lavoro") !== false) {
+            $mappature = $mappatura_lavoro; // Uniformato anche questo
+        } else {
+            $mappature = $mappature_base;
+        }
 
-    // Assicuriamoci che $solution sia un array
-    $solution = is_array($solution) ? $solution : [];
+        // Assicuriamoci che $solution sia un array
+        $solution = is_array($solution) ? $solution : [];
 
-    // Calcolo dei valori finali
-    $valori = [];
+        // Calcolo dei valori finali
+        $valori = [];
+        foreach ($mappature as $chiave => $valori_mappa) {
+            if ($chiave === "KARMA") {
+                // Normalizza il numero karma: positivo e intero
+                $indice = abs(round($karmaNumber)); // Es: -3 -> 3
 
-    foreach ($mappature as $chiave => $valori_mappa) {
-        // Usa l’indice da $solution se presente, altrimenti il primo disponibile
-        $indice = $solution[$chiave] ?? array_key_first($valori_mappa);
+                // Se l'indice non esiste nella mappa, fallback
+                if (!isset($valori_mappa[$indice])) {
+                    $indice = array_key_first($valori_mappa);
+                }
+            } else {
+                // Usa il valore da $solution se disponibile
+                $indice = $solution[$chiave] ?? null;
+            }
 
-        // Prendi SEMPRE un valore valido, senza fallback generico
-        $valori[$chiave] = $valori_mappa[$indice];
-    }
+            // Se esiste la chiave nella mappa, assegna
+            if ($indice !== null && isset($valori_mappa[$indice])) {
+                $valori[$chiave] = $valori_mappa[$indice];
+            } else {
+                // Fallback generico
+                $valori[$chiave] = reset($valori_mappa);
+            }
+        }
 
-    return $valori;
+        return $valori;
     }
 
     public function handle_map_registration()
@@ -982,6 +1024,8 @@ if (strpos($slug_mappa, "studio") !== false) {
             $padre_result = reduce_date_to_single_digit_details(
                 $data_di_nascita_padre
             );
+            $nome = sanitize_text_field($_POST["nome"]);
+
             $other_result = other_details(
                 $data_nascita_utente,
                 $data_di_nascita_madre,
@@ -996,23 +1040,23 @@ if (strpos($slug_mappa, "studio") !== false) {
                 $other_result
             ); // Formatta il titolo del nuovo post
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
-            
-            $valori=$this->assegnare_valori($solution, $slug_mappa);
-            //var_dump($valori);
+            $karmaNumber = $other_result["comi"];
+
+            $valori = $this->assegnare_valori($solution, $slug_mappa, $sesso, $karmaNumber);
             // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
-            $karma = $valori["KARMA"] ?? "";
-            $famiglia = $valori["FAMIGLIA"] ?? "";
-            $ego = $valori["EGO"] ?? "";
-            $bisogno = $valori["BISOGNO"] ?? "";
-            $puntodebole = $valori["PUNTODEBOLE"] ?? "";
-            $materna = $valori["MATERNA"] ?? "";
-            $maestro = $valori["MAESTRO"] ?? "";
-            $societa = $valori["SOCIETA"] ?? "";
-            $riconoscimento = $valori["RICONOSCIMENTO"] ?? "";
-            $puntodiforza = $valori["PUNTODIFORZA"] ?? "";
-            $paterna = $valori["PATERNA"] ?? "";
-            $missione = $valori["MISSIONE"] ?? "";
-            $cuore = $valori["CUORE"] ?? "";
+            $karma = $valori["KARMA"];
+            $famiglia = $valori["FAMIGLIA"];
+            $ego = $valori["EGO"];
+            $bisogno = $valori["BISOGNO"];
+            $puntodebole = $valori["PUNTODEBOLE"];
+            $materna = $valori["MATERNA"];
+            $maestro = $valori["MAESTRO"];
+            $societa = $valori["SOCIETA"];
+            $riconoscimento = $valori["RICONOSCIMENTO"];
+            $puntodiforza = $valori["PUNTODIFORZA"];
+            $paterna = $valori["PATERNA"];
+            $missione = $valori["MISSIONE"];
+            $cuore = $valori["CUORE"];
 
             // Creazione del post di tipo "mappa"
             $post_data = [
