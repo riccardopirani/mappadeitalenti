@@ -1192,17 +1192,17 @@ FULMINE -: educare al cambiamento."
     public function handle_map_registration()
     {
         session_start();
-        // Verifica se il form è stato inviato tramite POST e il campo 'book' è settato
         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["book"])) {
-            // Previene il doppio invio controllando una variabile di sessione
+          
             if (
                 isset($_SESSION["last_submit"]) &&
                 time() - $_SESSION["last_submit"] < 30
             ) {
-                // echo "<p>Stai inviando troppo rapidamente. Attendere un momento.</p>" ;
+            
                 return;
             }
-            $_SESSION["last_submit"] = time(); // Prepara i dati dal form $nome=sanitize_text_field($_POST["nome"]);
+            $_SESSION["last_submit"] = time();
+            $nome=sanitize_text_field($_POST["nome"]);
             $cognome = sanitize_text_field($_POST["cognome"]);
             $email = sanitize_email($_POST["email"]);
             $sesso = sanitize_text_field($_POST["sesso"]);
