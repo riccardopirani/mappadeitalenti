@@ -212,10 +212,6 @@ class Mastermap
         $form .= "    });";
         $form .= "}";
 
-        // Applica la funzione a tutti i campi data
-        //$form .= 'addDateSlashes("data_di_nascita_utente");';
-        //$form .= 'addDateSlashes("data_di_nascita_madre");';
-        //$form .= 'addDateSlashes("data_di_nascita_padre");';
 
         $form .= "</script>";
         return $form;
@@ -226,7 +222,8 @@ class Mastermap
         $sesso,
         $karmaNumber,
         $famiglianumber,
-        $egonumber
+        $egonumber,
+        $bisgognonumber
     ) {
         // Definizione delle mappature
         $mappature_base = [
@@ -1018,6 +1015,25 @@ FULMINE -: educare al cambiamento."
     
     9 => "FULMINE +: vuoi che ti venga riconosciuta la tua capacità di trasformare le situazioni negative in positive e la capacità di cambiare nel tempo. / FULMINE -: vuoi che ti venga riconosciuta la tua capacità di mantenere vive le tradizioni, di avere imparato ciò che ti è stato trasmesso."
 ],
+"MAESTRO" => [
+    1 => "FUOCO: Hai bisogno di sentirti unico e che la relazione ti accenda sempre. Se competi in amore vuoi vincere, ti piace catturare la preda. Ti piace che la persona ti faccia capire che prova passione per te. Tendi a spegnerti subito se ti si ignora e se la situazione non ti stimola.",
+    
+    2 => "GELO: Hai bisogno di sentirti unito alla persona che ami. Hai bisogno di sentire che siete una cosa sola, che se ci siete voi due tutto il resto non conta. Tendi però a stare appeso alle situazioni che non evolvono e a perdere tempo e occasioni.",
+    
+    3 => "ANELLI: Hai bisogno di sentirti ascoltato dalla persona che ami, ma anche e soprattutto di condividere passioni e di poter vivere insieme splendide avventure. Tendi però a distrarti dalla coppia o a causa di altre situazioni o a causa di interessi tuoi.",
+    
+    4 => "SEME: Hai bisogno di sentirti amato e di sentirlo anche fisicamente. Hai bisogno di sentirti avvolto dalla presenza dell'altra, meglio se in un contesto intimo e familiare. Potresti avere però troppo la proiezione della famiglia e meno del vivere l'amore.",
+    
+    5 => "FIORE: Hai bisogno di sentire che sei attraente. Ti piace vedere che le persone perdono la testa per te e quindi tendi a provocare per vedere le reazioni. Potresti però avere la difficoltà a controllare gli effetti di ciò che fai, perdere il contatto con i sentimenti dell'altra e quindi ferire involontariamente.",
+    
+    6 => "ALBERO: Hai bisogno di sentirti stabile nella relazione. Riesci a concederti veramente solo quando ti senti al sicuro, allora dai tantissimo e si può veramente fare affidamento su di te. Potresti avere però la tendenza alla gelosia, proprio per il tuo bisogno di non veder messe in discussione le tue sicurezze.",
+    
+    7 => "ACQUA: Hai bisogno di sentirti capito, ma soprattutto hai bisogno di sentire la profondità della relazione, che è una relazione speciale, unica. Una connessione animica profonda che va oltre lo spazio-tempo. In alcuni casi, però, potresti essere attratto dalla sessualità in modo ossessivo o dipendente e questo renderti succube della persona che hai davanti.",
+    
+    8 => "SPECCHIO: Hai bisogno di sentirti libero, hai quindi bisogno che la relazione che vivi ti conceda spazi di libertà, dove poterti ricaricare, tornare in te e donarti la voglia di essere nuovamente passionale con la persona che ami. Potresti però avere la pretesa di fare quello che vuoi senza ascoltare i bisogni dell'altra e questo portarti ad avere problemi di relazione.",
+    
+    9 => "FULMINE: Hai bisogno di sentire che la tua relazione è qualcosa di grandioso, oppure alla quale aspirare per gli altri, un esempio da seguire. Una relazione che si fonda su principi comuni, su ideali condivisi. Devi solo stare attento di non caricare di troppe aspettative la persona che hai di fronte, che altrimenti potrà solo deluderti."
+],
 
 
         ];
@@ -1101,13 +1117,9 @@ FULMINE -: educare al cambiamento."
             ],
         ];
         $mappature = [];
-        // Determinare quale mappatura usare
-        // Determina quale mappatura usare in base allo slug
         if (strpos($slug_mappa, "studio") !== false) {
             $mappature = $mappature_studio;
-        } elseif (strpos($slug_mappa, "amore_donna") !== false) {
-            $mappature = $mappature_amore_donna;
-        } elseif (strpos($slug_mappa, "amore") !== false) {
+        }  elseif (strpos($slug_mappa, "amore") !== false) {
             if (strpos($sesso, "uomo") !== false) {
                 $mappature = $mappatura_amore_uomo; // Corretto il nome della variabile
             } else {
@@ -1146,6 +1158,14 @@ FULMINE -: educare al cambiamento."
      elseif ($chiave === "EGO") {
         // Usa direttamente il numero della famiglia passato alla funzione
         $indice = abs(round($egonumber));
+
+        if (!isset($valori_mappa[$indice])) {
+            $indice = array_key_first($valori_mappa);
+        }
+    }
+     elseif ($chiave === "BISOGNO") {
+        // Usa direttamente il numero della famiglia passato alla funzione
+        $indice = abs(round($bisgognonumber));
 
         if (!isset($valori_mappa[$indice])) {
             $indice = array_key_first($valori_mappa);
@@ -1227,7 +1247,7 @@ FULMINE -: educare al cambiamento."
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
             $karmaNumber = $other_result["comi"];
 
-            $valori = $this->assegnare_valori($solution, $slug_mappa, $sesso, $karmaNumber,famiglianumber: $utente_result["mese"],egonumber: $utente_result["giorno"]);
+            $valori = $this->assegnare_valori($solution, $slug_mappa, $sesso, $karmaNumber,famiglianumber: $utente_result["mese"],egonumber: $utente_result["giorno"],bisgognonumber:  $utente_result["giorno"]);
             // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
             $karma = $valori["KARMA"];
             $famiglia = $valori["FAMIGLIA"];
