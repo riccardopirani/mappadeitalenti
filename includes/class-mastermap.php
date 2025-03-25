@@ -212,7 +212,6 @@ class Mastermap
         $form .= "    });";
         $form .= "}";
 
-
         $form .= "</script>";
         return $form;
     }
@@ -831,7 +830,7 @@ Puoi usare il codice vibrazionale “Vision”.
 
                 8 => "SPECCHIO +: hai bisogno di sentirti importante per le persone a cui tieni, oppure nel posto di lavoro. Hai bisogno che venga apprezzato ciò che fai e ciò che sei e che ti venga riconosciuto. / SPECCHIO -: hai bisogno di sapere che hai fatto tutto per evitare i problemi, avrai quindi bisogno di recuperare più informazioni possibili rispetto a ciò che ti crea ansia, in modo da evitare di avere amare sorprese.",
 
-                9 => "FULMINE +: hai bisogno di sentirti accettato dalla persona che ami, dalla famiglia o dal tuo gruppo di appartenenza. Vorresti da tutti e tre, ma in caso uno non ti accetti, ti riversi sugli altri dando il massimo. / FULMINE -: hai bisogno di sentirti investito della missione di fare accettare qualcosa di non accettabile, un gruppo di persone, un'ideologia. Sei portatore di pace e mediazione. Hai bisogno di sentirti in una missione importante."
+                9 => "FULMINE +: hai bisogno di sentirti accettato dalla persona che ami, dalla famiglia o dal tuo gruppo di appartenenza. Vorresti da tutti e tre, ma in caso uno non ti accetti, ti riversi sugli altri dando il massimo. / FULMINE -: hai bisogno di sentirti investito della missione di fare accettare qualcosa di non accettabile, un gruppo di persone, un'ideologia. Sei portatore di pace e mediazione. Hai bisogno di sentirti in una missione importante.",
             ],
 
             "PUNTO_DEBOLE" => [
@@ -851,7 +850,7 @@ Puoi usare il codice vibrazionale “Vision”.
 
                 8 => "SPECCHIO +: hai la tendenza ad avere paura delle delusioni, di essere tradito, di vivere fallimenti. Hai paura di illuderti. Questo potrebbe farti rinunciare a molte possibilità e farti sentire irrealizzato. Potresti quindi avvicinarti e allontanarti dalla persona di tuo interesse per evitare di andare troppo in profondità rischiando di rovinare il rapporto. Puoi aiutare questo aspetto con il codice vibrazionale Emphaty. / SPECCHIO -: hai la tendenza ad essere estremamente riservato, a mantenere le distanze, magari con estrema educazione perché hai paura di soffrire, di essere manipolato. Questo fa sì che potresti vedere la tua vita bloccata nelle relazioni in quanto non fai capire i tuoi veri desideri. Potresti quindi dissimulare disinteresse allo scopo di avvicinarti proteggendoti che però potrebbe non arrivare mai ad una realizzazione. Puoi aiutare questa situazione con il codice vibrazionale Acept.",
 
-                9 => "FULMINE +: tieni, tieni, tieni e poi… scoppi. Hai paura che accada, ma se la situazione diventa troppo pesante non reggi più il peso e le conseguenze possono essere anche irreparabili, perché se scoppi, rompi e potresti perdere la persona che ami. Puoi aiutare questa situazione con il codice vibrazionale Vision. / FULMINE -: temi di non riuscire a superare determinati ostacoli, eviti di entrare in certe situazioni per paura dell'abbandono, di dover vivere lo strazio del doverti allontanare emotivamente da determinate situazioni. Potresti quindi diventare oppositivo alla persona che ti interessa o che ami attirando il suo allontanamento. Puoi aiutare questa situazione con il codice vibrazionale Calm X."
+                9 => "FULMINE +: tieni, tieni, tieni e poi… scoppi. Hai paura che accada, ma se la situazione diventa troppo pesante non reggi più il peso e le conseguenze possono essere anche irreparabili, perché se scoppi, rompi e potresti perdere la persona che ami. Puoi aiutare questa situazione con il codice vibrazionale Vision. / FULMINE -: temi di non riuscire a superare determinati ostacoli, eviti di entrare in certe situazioni per paura dell'abbandono, di dover vivere lo strazio del doverti allontanare emotivamente da determinate situazioni. Potresti quindi diventare oppositivo alla persona che ti interessa o che ami attirando il suo allontanamento. Puoi aiutare questa situazione con il codice vibrazionale Calm X.",
             ],
 
             "MISSIONE" => [
@@ -871,7 +870,7 @@ Puoi usare il codice vibrazionale “Vision”.
 
                 8 => "RICONOSCERE L'AMORE: È l'amore che illude e si autoillude. È l'amore che vive d'inganni e che si crogiola nei sensi di colpa. È l'amore che deve diventare limpido e vero che impara ad amare imparando a riconoscere l'autoinganno e a trasformarlo in chiarezza. Potresti vivere molte relazioni basate sull'inganno o sull'autoinganno dove ti sentirai in colpa per ciò che fai oppure vittima delle ingiustizie altrui finché non imparerai a riconoscere i tuoi meccanismi e a non metterli più in atto. Solo allora potrai vivere una relazione basata sull'amore vero.",
 
-                9 => "SALVARTI DALL'AMORE: È l'amore crocerossino, quello che cerca di salvare l'altra, che dà troppo. Oppure che fugge dall'amore per non sentirsi in obbligo a salvare l'altra o a dare troppo. È l'amore che deve liberarsi dal senso di responsabilità della salvezza altrui e imparare a salvare sé stesso attraverso la crescita personale. Potresti vivere relazioni dipendenti con persone che chiedono troppo e non danno molto o dove tu chiedi troppo e non dai molto. Dovrai imparare a lasciare che gli altri imparino a badare a sé stessi e di conseguenza a offrirti ciò che meriti. Solo allora vivrai un amore equo."
+                9 => "SALVARTI DALL'AMORE: È l'amore crocerossino, quello che cerca di salvare l'altra, che dà troppo. Oppure che fugge dall'amore per non sentirsi in obbligo a salvare l'altra o a dare troppo. È l'amore che deve liberarsi dal senso di responsabilità della salvezza altrui e imparare a salvare sé stesso attraverso la crescita personale. Potresti vivere relazioni dipendenti con persone che chiedono troppo e non danno molto o dove tu chiedi troppo e non dai molto. Dovrai imparare a lasciare che gli altri imparino a badare a sé stessi e di conseguenza a offrirti ciò che meriti. Solo allora vivrai un amore equo.",
             ],
 
             "CUORE" => [
@@ -891,7 +890,7 @@ Puoi usare il codice vibrazionale “Vision”.
 
                 8 => "Farti perdere la testa. Chi vuole conquistarti deve farti perdere letteralmente la testa. Se mantieni il controllo potresti rimanere nei tuoi sistemi difensivi, se invece ti innamori in modo folle, allora puoi lasciarti andare.",
 
-                9 => "Farti sentire eccezionale. Chi vuole conquistarti deve farti sentire eccezionale, qualcosa di sconvolgente che entra nella tua vita e che destabilizza le certezze. Deve quindi dimostrare il coraggio di amarti; a quel punto tu supererai qualunque ostacolo per stare con chi ami."
+                9 => "Farti sentire eccezionale. Chi vuole conquistarti deve farti sentire eccezionale, qualcosa di sconvolgente che entra nella tua vita e che destabilizza le certezze. Deve quindi dimostrare il coraggio di amarti; a quel punto tu supererai qualunque ostacolo per stare con chi ami.",
             ],
             "MATERNA" => [
                 1 => "FUOCO: Cerchi una donna passionale, che ti faccia sentire vivo. Questo tuo bisogno di vivacità e passione potrebbe però farti innescare involontariamente situazioni di conflitto che celano la rabbia nei confronti del femminile. (Ti consigliamo il codice vibrazionale Mama)",
@@ -910,7 +909,7 @@ Puoi usare il codice vibrazionale “Vision”.
 
                 8 => "SPECCHIO: Cerchi una donna che sia intelligente, che ti faccia sentire orgoglioso di averla vicino, con la quale condividere idee. Attenzione a non tenere troppo il rapporto sul piano mentale e a non dimenticarti delle emozioni. (Ti consigliamo il codice vibrazionale Empathy)",
 
-                9 => "FULMINE: Cerchi una donna imprevedibile, che non ti faccia mai sentire annoiato, che riesca sempre a stupirti con le sue idee. Attenzione che non diventi un rapporto instabile, oppure che non si creino quelle situazioni che vi obbligano a rimettere a posto problemi che avete generato voi. (Ti consigliamo il codice vibrazionale Initiation)"
+                9 => "FULMINE: Cerchi una donna imprevedibile, che non ti faccia mai sentire annoiato, che riesca sempre a stupirti con le sue idee. Attenzione che non diventi un rapporto instabile, oppure che non si creino quelle situazioni che vi obbligano a rimettere a posto problemi che avete generato voi. (Ti consigliamo il codice vibrazionale Initiation)",
             ],
             "PUNTODIFORZA" => [
                 1 => "FUOCO: con la passione. Se ci sono problemi in coppia cerchi di ritrovare l'entusiasmo per qualcosa che vi accomuna o cerchi di riaccendere la passione. 
@@ -956,7 +955,7 @@ SPECCHIO -: visione a lungo termine.",
                 9 => "FULMINE: la tua capacità di resistere. Se ci sono problemi nella coppia tendi a sopportare per lungo tempo per permettere a lei di crescere e cambiare atteggiamento. Tu credi nella pazienza. 
 Nello specifico il tuo punto di forza si esprime: 
 FULMINE +: pazienza 
-FULMINE -: educare al cambiamento."
+FULMINE -: educare al cambiamento.",
             ],
             "PATERNA" => [
                 1 => "FUOCO: Conquistare. Conquistare è un talento che deriva dal tuo albero genealogico paterno. La conquista è tipica dei viaggiatori e dei condottieri. Ti rende quindi una persona che tende ad avere continuo desiderio di conquista, ti piace corteggiare e far cadere ai tuoi piedi chi ha attratto la tua attenzione. Dall'albero genealogico paterno potresti aver acquisito una certa aggressività che potresti manifestare o soffocare. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale PAPA) Come padre avrai la tendenza ad essere un genitore dinamico, che ama viaggiare e fare gite fuori porta.",
@@ -975,7 +974,7 @@ FULMINE -: educare al cambiamento."
 
                 8 => "SPECCHIO: Condividere sapere. La ricerca, la conoscenza hanno per te un valore importante. Lo hai ereditato dal tuo albero genealogico familiare. Hai quindi il desiderio di incontrare persone che come te amino conoscere, scoprire, pensare, discutere. Hai però ereditato anche una certa intolleranza per chi cade nell'errore rischiando di diventare insensibile al dolore altrui, anche a quello di chi ti è più vicino. Dovresti imparare ad essere più compassionevole ed empatico. (Ti consigliamo il codice EMPATHY). Come padre potresti essere molto stimolante, sempre pronto a dare spunto e direzione.",
 
-                9 => "FULMINE: Voglia di essere d'aiuto. Dal tuo albero genealogico paterno hai ereditato la voglia di essere d'aiuto. Potresti quindi cercare persone che hanno bisogno d'aiuto o persone che come te hanno il desiderio di offrire il proprio aiuto e di farlo assieme. Devi stare attento a non attirare persone parassite e a non diventare crocerossino. (Ti consigliamo il codice vibrazionale MAMA). Come padre potresti essere molto attento ai bisogni dei tuoi figli e cercare di aiutarli nelle difficoltà."
+                9 => "FULMINE: Voglia di essere d'aiuto. Dal tuo albero genealogico paterno hai ereditato la voglia di essere d'aiuto. Potresti quindi cercare persone che hanno bisogno d'aiuto o persone che come te hanno il desiderio di offrire il proprio aiuto e di farlo assieme. Devi stare attento a non attirare persone parassite e a non diventare crocerossino. (Ti consigliamo il codice vibrazionale MAMA). Come padre potresti essere molto attento ai bisogni dei tuoi figli e cercare di aiutarli nelle difficoltà.",
             ],
             "SOCIETA" => [
                 1 => "CONQUISTA: Hai l'istinto predatore. Osservi la preda e la punti quando hai capito quali mosse fare. Lo fai in modo continuativo ma brioso, in modo da incuriosirla. Sai giocare con la preda e non molli finché non giungi alla conquista.",
@@ -994,7 +993,7 @@ FULMINE -: educare al cambiamento."
 
                 8 => "PARLANDO: Tu conquisti parlando. Ti piace conoscerla, farle mille domande. Ti interessi a lei e cerchi di carpire più informazioni che puoi. Seduci facendole sentire il tuo interesse e ascolto. Non è detto che tu esprima molto di te, preferisci scoprirti in un secondo momento.",
 
-                9 => "STUPENDO: Ti piace conquistare stupendola, facendole trovare ciò che le piace, oppure facendole fare esperienze mai fatte. Ami vedere lo stupore che si dipinge nel suo volto. Ti piace soprattutto sapere di avere intuito l'idea giusta."
+                9 => "STUPENDO: Ti piace conquistare stupendola, facendole trovare ciò che le piace, oppure facendole fare esperienze mai fatte. Ami vedere lo stupore che si dipinge nel suo volto. Ti piace soprattutto sapere di avere intuito l'idea giusta.",
             ],
 
             "RICONOSCIMENTO" => [
@@ -1014,7 +1013,7 @@ FULMINE -: educare al cambiamento."
 
                 8 => "SPECCHIO +: vuoi che ti venga riconosciuta la tua capacità di essere equo nel dare e avere e desideri ricevere altrettanta equità. / SPECCHIO -: vuoi che ti venga riconosciuta la tua intelligenza e la tua capacità di analisi e comprensione.",
 
-                9 => "FULMINE +: vuoi che ti venga riconosciuta la tua capacità di trasformare le situazioni negative in positive e la capacità di cambiare nel tempo. / FULMINE -: vuoi che ti venga riconosciuta la tua capacità di mantenere vive le tradizioni, di avere imparato ciò che ti è stato trasmesso."
+                9 => "FULMINE +: vuoi che ti venga riconosciuta la tua capacità di trasformare le situazioni negative in positive e la capacità di cambiare nel tempo. / FULMINE -: vuoi che ti venga riconosciuta la tua capacità di mantenere vive le tradizioni, di avere imparato ciò che ti è stato trasmesso.",
             ],
             "MAESTRO" => [
                 1 => "FUOCO: Hai bisogno di sentirti unico e che la relazione ti accenda sempre. Se competi in amore vuoi vincere, ti piace catturare la preda. Ti piace che la persona ti faccia capire che prova passione per te. Tendi a spegnerti subito se ti si ignora e se la situazione non ti stimola.",
@@ -1033,10 +1032,8 @@ FULMINE -: educare al cambiamento."
 
                 8 => "SPECCHIO: Hai bisogno di sentirti libero, hai quindi bisogno che la relazione che vivi ti conceda spazi di libertà, dove poterti ricaricare, tornare in te e donarti la voglia di essere nuovamente passionale con la persona che ami. Potresti però avere la pretesa di fare quello che vuoi senza ascoltare i bisogni dell'altra e questo portarti ad avere problemi di relazione.",
 
-                9 => "FULMINE: Hai bisogno di sentire che la tua relazione è qualcosa di grandioso, oppure alla quale aspirare per gli altri, un esempio da seguire. Una relazione che si fonda su principi comuni, su ideali condivisi. Devi solo stare attento di non caricare di troppe aspettative la persona che hai di fronte, che altrimenti potrà solo deluderti."
+                9 => "FULMINE: Hai bisogno di sentire che la tua relazione è qualcosa di grandioso, oppure alla quale aspirare per gli altri, un esempio da seguire. Una relazione che si fonda su principi comuni, su ideali condivisi. Devi solo stare attento di non caricare di troppe aspettative la persona che hai di fronte, che altrimenti potrà solo deluderti.",
             ],
-
-
         ];
         $mappatura_lavoro = [
             "KARMA" => [
@@ -1134,9 +1131,7 @@ FULMINE -: educare al cambiamento."
             $mappature = $mappature_base;
         }
 
-
         $solution = is_array($solution) ? $solution : [];
-
 
         $valori = [];
         foreach ($mappature as $chiave => $valori_mappa) {
@@ -1163,21 +1158,18 @@ FULMINE -: educare al cambiamento."
                     $indice = array_key_first($valori_mappa);
                 }
             } elseif ($chiave === "BISOGNO") {
-
                 $indice = abs(round($bisgognonumber));
 
                 if (!isset($valori_mappa[$indice])) {
                     $indice = array_key_first($valori_mappa);
                 }
-            } 
-            else if($chiave ==="PUNTO_DEBOLE"){
+            } elseif ($chiave === "PUNTO_DEBOLE") {
                 $indice = abs(round($puntodebolenumber));
 
                 if (!isset($valori_mappa[$indice])) {
                     $indice = array_key_first($valori_mappa);
                 }
-            }
-            else {
+            } else {
                 // Usa il valore da $solution se disponibile
                 $indice = $solution[$chiave] ?? null;
             }
@@ -1191,7 +1183,6 @@ FULMINE -: educare al cambiamento."
             }
         }
 
-
         return $valori;
     }
 
@@ -1199,12 +1190,10 @@ FULMINE -: educare al cambiamento."
     {
         session_start();
         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["book"])) {
-
             if (
                 isset($_SESSION["last_submit"]) &&
                 time() - $_SESSION["last_submit"] < 30
             ) {
-
                 return;
             }
             $_SESSION["last_submit"] = time();
@@ -1253,9 +1242,18 @@ FULMINE -: educare al cambiamento."
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
             $karmaNumber = $other_result["comi"];
 
-            $valori = $this->assegnare_valori($solution, $slug_mappa, $sesso, $karmaNumber, famiglianumber: $utente_result["mese"], egonumber: $utente_result["giorno"], bisgognonumber: $utente_result["giorno"],puntodebolenumber:  $utente_result["mese-meno-giorno"]);
+            $valori = $this->assegnare_valori(
+                $solution,
+                $slug_mappa,
+                $sesso,
+                $karmaNumber,
+                famiglianumber: $utente_result["mese"],
+                egonumber: $utente_result["giorno"],
+                bisgognonumber: $utente_result["giorno"],
+                puntodebolenumber: $utente_result["mese-meno-giorno"]
+            );
             // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
-            $karma = $valori["KARMA"];//
+            $karma = $valori["KARMA"]; //
             $famiglia = $valori["FAMIGLIA"];
             $ego = $valori["EGO"];
             $bisogno = $valori["BISOGNO"];
@@ -1413,8 +1411,8 @@ FULMINE -: educare al cambiamento."
                 );
                 $download_url = do_shortcode(
                     '[e2pdf-download id="1" output="url" dataset="' .
-                    $post_id .
-                    '"]'
+                        $post_id .
+                        '"]'
                 );
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
                     ? $data_di_nascita_madre
@@ -1604,8 +1602,8 @@ FULMINE -: educare al cambiamento."
                     ($footer_email
                         ? '<div class="footer">
                 <p>' .
-                        $footer_email .
-                        "</p>
+                            $footer_email .
+                            "</p>
             </div>"
                         : "") .
                     '
