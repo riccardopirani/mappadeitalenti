@@ -999,6 +999,26 @@ FULMINE -: educare al cambiamento."
     9 => "STUPENDO: Ti piace conquistare stupendola, facendole trovare ciò che le piace, oppure facendole fare esperienze mai fatte. Ami vedere lo stupore che si dipinge nel suo volto. Ti piace soprattutto sapere di avere intuito l'idea giusta."
 ],
 
+"RICONOSCIMENTO" => [
+    1 => "FUOCO +: vuoi che lei ti dimostri di credere in te, che si fidi delle decisioni che prendi, della direzione che dai e ti segua stando al tuo fianco, anche se doveste andare contro tutti gli altri. / FUOCO -: tu vuoi che lei si dimostri innamorata di te in modo passionale. Che ti faccia sentire il suo desiderio di te, che ti cerchi.",
+    
+    2 => "GELO +: vuoi che riconosca quanto amore e dedizione offri a lei. Che si accorga delle tante piccole attenzioni che sai avere e ti piacerebbe riceverle. / GELO -: vuoi essere semplicemente amato per quello che sei, senza tanti motivi, solo perché lei si è innamorata di te.",
+    
+    3 => "ANELLI +: vuoi che lei apprezzi la tua capacità di stare nel mondo e abbia la voglia di condividerlo con te. / ANELLI -: vuoi che lei apprezzi e condivida la tua visione particolare delle cose.",
+    
+    4 => "SEME +: hai bisogno di sapere che lei ti trovi bello, piacevole e che ammiri il modo in cui ti mostri nel mondo. / SEME -: hai bisogno che lei riconosca i tuoi talenti, quello che sai o che sai fare.",
+    
+    5 => "FIORE +: hai bisogno che lei ti trovi attraente e che ti dimostri che riconosce anche il fatto che lo sei anche per le altre. / FIORE -: vuoi che ti venga riconosciuto il fatto che tu sei capace di riconoscere i talenti che lei ha da mettere in campo e vuoi essere da stimolo perché si migliori.",
+    
+    6 => "ALBERO +: vuoi che ti venga riconosciuta la tua capacità di esserci sempre, di essere punto di riferimento e desideri che ti venga offerta la stessa cosa. / ALBERO -: vuoi che ti venga riconosciuto il valore che tu apporti nei progetti comuni, nel fatto che tu contribuisci sostanzialmente e desideri ricevere la gratificazione del tuo impegno.",
+    
+    7 => "ACQUA +: vuoi che ti venga riconosciuta la tua capacità di sentirla nel profondo e che lei si metta a disposizione di una comunicazione profonda. / ACQUA -: vuoi che ti venga riconosciuta la tua capacità di ascolto. Sai essere amico oltre che compagno e chiedi lo stesso a lei.",
+    
+    8 => "SPECCHIO +: vuoi che ti venga riconosciuta la tua capacità di essere equo nel dare e avere e desideri ricevere altrettanta equità. / SPECCHIO -: vuoi che ti venga riconosciuta la tua intelligenza e la tua capacità di analisi e comprensione.",
+    
+    9 => "FULMINE +: vuoi che ti venga riconosciuta la tua capacità di trasformare le situazioni negative in positive e la capacità di cambiare nel tempo. / FULMINE -: vuoi che ti venga riconosciuta la tua capacità di mantenere vive le tradizioni, di avere imparato ciò che ti è stato trasmesso."
+],
+
 
         ];
         $mappatura_lavoro = [
