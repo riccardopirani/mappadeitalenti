@@ -227,7 +227,8 @@ class Mastermap
         $missionenumber,
         $cuorenumber,
         $maestronumber,
-        $maternanumber
+        $maternanumber,
+        $societanumber
     ) {
 
         $mappature_base = [
@@ -1125,7 +1126,7 @@ FULMINE -: educare al cambiamento.",
             if (strpos($sesso, "uomo") !== false) {
                 $mappature = $mappatura_amore_uomo;
             } else {
-                $mappature = $mappature_amore_donna; 
+                $mappature = $mappature_amore_donna;
             }
         } elseif (strpos($slug_mappa, "bambino_missione_talenti") !== false) {
             $mappature = $mappa_bambino_missione_talenti; // Uniformato il nome
@@ -1174,21 +1175,19 @@ FULMINE -: educare al cambiamento.",
                     $indice = array_key_first($valori_mappa);
                 }
             } else if ($chiave === "MISSIONE") {
-                 $indice = abs(round($missionenumber));
+                $indice = abs(round($missionenumber));
 
                 if (!isset($valori_mappa[$indice])) {
                     $indice = array_key_first($valori_mappa);
                 }
-            }
-            else if($chiave==="MAESTRO"){
+            } else if ($chiave === "MAESTRO") {
                 $indice = abs(round($maestronumber));
 
                 if (!isset($valori_mappa[$indice])) {
                     $indice = array_key_first($valori_mappa);
                 }
-            } 
-            else if ($chiave === "CUORE") {
-                 $indice = abs(round(num: $cuorenumber));
+            } else if ($chiave === "CUORE") {
+                $indice = abs(round(num: $cuorenumber));
 
                 if (!isset($valori_mappa[$indice])) {
                     $indice = array_key_first($valori_mappa);
@@ -1199,7 +1198,13 @@ FULMINE -: educare al cambiamento.",
                 if (!isset($valori_mappa[$indice])) {
                     $indice = array_key_first($valori_mappa);
                 }
-            } 
+            } else if ($chiave === "SOCIETA") {
+                $indice = abs(round(num: $societanumber));
+
+                if (!isset($valori_mappa[$indice])) {
+                    $indice = array_key_first($valori_mappa);
+                }
+            }
             if ($indice !== null && isset($valori_mappa[$indice])) {
                 $valori[$chiave] = $valori_mappa[$indice];
             } else {
@@ -1276,11 +1281,14 @@ FULMINE -: educare al cambiamento.",
                 bisgognonumber: $utente_result["giorno"],
                 puntodebolenumber: $utente_result["mese-meno-giorno"],
                 missionenumber: $utente_result["totale"],
-                cuorenumber:  $utente_result["anno-meno-mese"],
-                maestronumber:$other_result["cogi"]
+                cuorenumber: $utente_result["anno-meno-mese"],
+                maestronumber: $other_result["cogi"],
+               maternanumber: $utente_result["anno-meno-mese"],
+                societanumber: $utente_result["anno"]
+               
             );
-        
-            $karma = $valori["KARMA"]; 
+
+            $karma = $valori["KARMA"];
             $famiglia = $valori["FAMIGLIA"];
             $ego = $valori["EGO"];
             $bisogno = $valori["BISOGNO"];
@@ -1299,7 +1307,7 @@ FULMINE -: educare al cambiamento.",
                 "post_type" => "mappa",
                 "post_status" => "publish",
                 "post_author" => get_current_user_id(),
-                "post_content" => $karma, 
+                "post_content" => $karma,
             ];
             $post_id = wp_insert_post($post_data);
             if ($post_id != 0) {
@@ -1432,8 +1440,8 @@ FULMINE -: educare al cambiamento.",
                 );
                 $download_url = do_shortcode(
                     '[e2pdf-download id="1" output="url" dataset="' .
-                        $post_id .
-                        '"]'
+                    $post_id .
+                    '"]'
                 );
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
                     ? $data_di_nascita_madre
@@ -1620,8 +1628,8 @@ FULMINE -: educare al cambiamento.",
                     ($footer_email
                         ? '<div class="footer">
                 <p>' .
-                            $footer_email .
-                            "</p>
+                        $footer_email .
+                        "</p>
             </div>"
                         : "") .
                     '
