@@ -1286,141 +1286,231 @@ Si innamora dello studio quando può contribuire al cambiamento. Ama progetti in
 ],
 
 
-           "MATERNA" => [
-    1 => "Fuoco: Cerchi una donna passionale, che ti faccia sentire vivo. Questo tuo bisogno di vivacità e passione potrebbe però farti innescare involontariamente situazioni di conflitto che celano la rabbia nei confronti del femminile. (Ti consigliamo il codice vibrazionale Mama)",
+"MATERNA" => [
+    1 => "Eredità Materna del Fuoco  
+La madre del Fuoco trasmette al figlio una visione dello studio come palcoscenico dove brillare e distinguersi. Con la sua energia dinamica e appassionata, ispira un approccio all'apprendimento basato sull'azione e il movimento.  
+Questa eredità si esprime al meglio in percorsi legati alle scienze motorie, alle arti performative o alle attività all'aria aperta, dove il figlio può canalizzare il suo naturale bisogno di movimento e la sua capacità di entusiasmare gli altri.  
+Se la madre è stata poco attenta nel \"vedere\" il figlio, questo può tradursi in un bisogno di attenzione carico di rabbia.",
 
-    2 => "Gelo: Cerchi una donna calma e accudente, che ti faccia sentire rilassato. Questo tuo bisogno di calma potrebbe però farti cercare di evitare conflitti al punto di non esprimere i tuoi bisogni e non permettere all'altra di esprimerli. (Ti consigliamo il codice vibrazionale Expression)",
+    2 => "Eredità Materna del Gelo  
+La madre del Gelo trasmette al figlio un approccio allo studio caratterizzato da eleganza e precisione manuale. Dalla famiglia materna eredita un talento naturale per la precisione e la manualità fine, che si esprime nell'attenzione ai dettagli e nella capacità di creare con le mani.  
+Questa eredità trova la sua massima espressione in percorsi come la cucina d'alta gamma, il restauro artistico, l'oreficeria o l'estetica professionale, dove può mettere a frutto la sua naturale propensione per la perfezione formale e la manipolazione della materia.  
+Se la madre è un po' infantile, potrebbe aver generato nel figlio un bisogno compensatorio di perfezionismo.",
 
-    3 => "Anelli: Cerchi una donna interessante e che ti faccia sentire capito. Questo tuo bisogno di stimoli potrebbe però farti essere spesso distratto o eccessivamente ansioso, generando discussioni nella coppia. (Ti consigliamo il codice vibrazionale Calm Y)",
+    3 => "Eredità Materna degli Anelli  
+La madre degli Anelli trasmette l'arte di connettere diversi saperi, come una tessitrice di relazioni. Dalla famiglia materna eredita un talento naturale per la comunicazione e le relazioni interpersonali, che si manifesta nella capacità di creare connessioni e mediare tra diverse culture e contesti.  
+Questa eredità trova terreno fertile in ambiti come il giornalismo, il marketing digitale, la mediazione culturale o le relazioni internazionali, dove può esprimere la sua naturale versatilità comunicativa e creatività relazionale.  
+Se la madre è troppo eccentrica, potrebbe aver sviluppato un eccessivo bisogno di popolarità.",
 
-    4 => "Seme: Cerchi una donna bella e curata, può essere anche particolare (non la bellezza standard) ma hai bisogno di guardarla e di pensare che sia bella. Attenzione a non idealizzarla e a non comprendere lati meno semplici da gestire. (Ti consigliamo il codice vibrazionale Empathy)",
+    4 => "Eredità Materna del Seme  
+La madre del Seme trasmette il valore del lavoro costante e della crescita graduale. Dalla famiglia materna eredita un talento naturale per la gestione pratica e concreta delle risorse, che si esprime nella capacità di far crescere progetti e nella connessione con la natura.  
+Questa eredità trova la sua realizzazione in percorsi come agraria, economia aziendale, naturopatia o ristorazione, dove può esprimere il suo pragmatismo e la sua attitudine alla pianificazione sostenibile.  
+Se la madre è insicura, potrebbe aver generato confusione nelle scelte di studio.",
 
-    5 => "Fiore: Cerchi una donna spiritosa e allegra, che sappia divertirsi e che voglia farlo con te. Attenzione perché potresti incorrere in questi due problemi: o che l'inizio è bello poi il rapporto si appesantisce, o che non porti avanti relazioni per paura che si appesantiscano. Dietro c'è la tua difficoltà a radicare. (Ti consigliamo il codice vibrazionale Stay)",
+    5 => "Eredità Materna del Fiore  
+La madre del Fiore trasmette la capacità di trovare bellezza e gioia nell'apprendimento. Dalla famiglia materna eredita un talento naturale per l'estetica e la creatività, che si manifesta nella capacità di creare armonia e bellezza in ogni contesto.  
+Questa eredità si esprime al meglio in ambiti come il fashion design, l'architettura d'interni, l'event planning o l'illustrazione, dove può dar voce alla sua sensibilità artistica e alla sua capacità di innovazione estetica.  
+Se la madre è emotivamente immatura, potrebbe invece trasmettere ansia nello studio.",
 
-    6 => "Albero: Cerchi una donna che sappia stare al suo posto, che conosca il proprio ruolo nel mondo e lo sappia incarnare. Attenzione che potrebbe però o tentare di governare la tua vita o tu avere la pretesa di governare la sua. (Ti consigliamo il codice vibrazionale Indipendence Mama)",
+    6 => "Eredità Materna dell'Albero  
+La madre dell'Albero trasmette il valore della struttura e dell'organizzazione. Dalla famiglia materna eredita un talento naturale per la leadership e la gestione strategica, che si manifesta nella capacità di pianificare e coordinare progetti complessi.  
+Questa eredità trova la sua massima espressione in percorsi come economia e management, amministrazione aziendale o gestione del turismo, dove può esprimere la sua naturale attitudine alla pianificazione e al problem-solving.  
+Se la madre è ipercontrollante, potrebbe aver deresponsabilizzato il figlio nello studio.",
 
-    7 => "Acqua: Cerchi una donna che si prenda cura di te, che sappia farti sentire amato e rispettato. Attenzione che potresti andare in frustrazione se questo non accade come vuoi tu e potresti diventare pungente e innescare litigi. Oppure potresti diventare tu crocerossino se lei non si prende cura di te. (Ti consigliamo il codice vibrazionale Accept)",
+    7 => "Eredità Materna dell'Acqua  
+La madre dell'Acqua trasmette una profonda sensibilità verso il processo di apprendimento. Dalla famiglia materna eredita un talento naturale per la comprensione empatica e la guarigione, che si manifesta nella capacità di ascolto profondo e nella memoria storica.  
+Questa eredità trova la sua massima espressione in percorsi come medicina, psicologia, arte terapia o counseling, dove può mettere a frutto la sua naturale intuizione e la sua propensione alla cura degli altri.  
+Se la madre è poco ottimista, potrebbe aver gravato emotivamente sul figlio.",
 
-    8 => "Specchio: Cerchi una donna che sia intelligente, che ti faccia sentire orgoglioso di averla vicino, con la quale condividere idee. Attenzione a non tenere troppo il rapporto sul piano mentale e a non dimenticarti delle emozioni. (Ti consigliamo il codice vibrazionale Empathy)",
+    8 => "Eredità Materna dello Specchio  
+La madre dello Specchio trasmette l'amore per la comprensione profonda e l'analisi critica. Dalla famiglia materna eredita un talento naturale per l'innovazione e il pensiero analitico, che si esprime nella capacità di trovare soluzioni creative e nell'attitudine all'arte astratta.  
+Questa eredità si realizza in ambiti come l'ingegneria, la matematica, l'arte digitale o la fisica applicata, dove può esprimere la sua naturale propensione al pensiero innovativo e alla ricerca.  
+Se la madre è ipercritica, potrebbe aver minato l'autostima del figlio.",
 
-    9 => "Fulmine: Cerchi una donna imprevedibile, che non ti faccia mai sentire annoiato, che riesca sempre a stupirti con le sue idee. Attenzione che non diventi un rapporto instabile, oppure che non si creino quelle situazioni che vi obbligano a rimettere a posto problemi che avete generato voi. (Ti consigliamo il codice vibrazionale Initiation)",
+    9 => "Eredità Materna del Fulmine  
+La madre del Fulmine trasmette il valore dell'innovazione e del servizio agli altri. Dalla famiglia materna eredita un talento naturale per la gestione delle emergenze e il problem-solving rapido, che si manifesta nella capacità di agire prontamente in situazioni critiche.  
+Questa eredità trova la sua massima espressione in percorsi come protezione civile, scienze infermieristiche, cooperazione internazionale o sport estremi, dove può esprimere la sua naturale vocazione all'aiuto e la sua resistenza allo stress.  
+Se la madre è troppo conservatrice, potrebbe aver scatenato nel figlio una forte spinta alla rivoluzione."
 ],
 
-         "PUNTODIFORZA" => [
-    1 => "Fuoco: con la passione. Se ci sono problemi in coppia cerchi di ritrovare l'entusiasmo per qualcosa che vi accomuna o cerchi di riaccendere la passione.
-Nello specifico il tuo punto di forza si esprime:
-FUOCO +: con la sessualità
-FUOCO -: con progetti comuni che vi appassionano",
 
-    2 => "Gelo: la calma. Se ci sono problemi in amore cerchi di riportare la calma e la pacatezza per poter riparare ciò che è stato lacerato.
-Nello specifico il tuo punto di forza si esprime:
-GELO +: ti allontani, anche solo con il silenzio.
-GELO -: hai bisogno di dormire, di riposare.",
+"PUNTODIFORZA" => [
+    1 => "Punto di Forza del Fuoco  
+Come una fiamma che illumina e riscalda tutto ciò che tocca, la forza del Fuoco risiede nella sua straordinaria capacità di infondere vita e passione in ogni aspetto dello studio.  
+È quello studente che ha il dono naturale di trasformare anche l'argomento più arido in qualcosa di elettrizzante.  
+La sua energia contagiosa non solo alimenta il proprio apprendimento, ma accende anche la scintilla dell'entusiasmo negli altri.  
+Come un faro nella notte, ha la capacità innata di illuminare il percorso, mostrando possibilità che altri potrebbero non vedere.  
+La sua presenza energetica e il suo carisma naturale creano un ambiente di studio vibrante e dinamico, dove l'apprendimento diventa un'avventura eccitante e coinvolgente.  
+**Lato ombra:** può credere di avere forza illimitata.",
 
-    3 => "Anelli: la connessione. Se ci sono problemi in amore cerchi di ripristinare il dialogo e la connessione con lei. Per te il dialogo è fondamentale.
-Nello specifico il tuo punto di forza si esprime:
-ANELLI +: con il chiarimento
-ANELLI -: facendo cose insieme che vi riportano al dialogo.",
+    2 => "Punto di Forza del Gelo  
+Come un cristallo di ghiaccio perfettamente formato, la forza del Gelo si manifesta nella sua eccezionale capacità di creare ordine e bellezza nel processo di apprendimento.  
+È lo studente che possiede il dono naturale della precisione e dell'eleganza metodologica.  
+La sua mente cristallina sa cogliere la struttura sottostante di ogni materia, organizzando le informazioni con una chiarezza che rasenta la perfezione.  
+Come un maestro scultore che lavora il marmo più pregiato, sa estrarre la forma più pura da ogni concetto.  
+**Lato ombra:** può eccedere nella lentezza per ottenere la precisione.",
 
-    4 => "Seme: la tua capacità di amare. Se ci sono problemi in amore cerchi di ritrovare la dolcezza, anche e soprattutto attraverso il contatto fisico. Per te l'abbraccio, anche intimo, è fondamentale.
-Nello specifico il tuo punto di forza si esprime:
-SEME +: abbraccio
-SEME -: fare cose piacevoli insieme.",
+    3 => "Punto di Forza degli Anelli  
+Come un virtuoso giocoliere di idee, la forza degli Anelli brilla nella stupefacente capacità di connettere e integrare informazioni diverse.  
+È lo studente che possiede il dono naturale di vedere collegamenti dove altri vedono solo elementi separati.  
+La sua mente versatile danza tra concetti diversi con l'agilità di un acrobata, creando sintesi innovative e prospettive inaspettate.  
+Come un tessitore di tappeti preziosi, sa intrecciare fili di conoscenza in patterns sorprendenti.  
+**Lato ombra:** può trascurare troppi dettagli come date, nomi e formule.",
 
-    5 => "Fiore: la tua capacità di alleggerire la vita. Se ci sono problemi in amore cerchi di risolverli riportando il gioco nella coppia. Hai bisogno di alleggerire le situazioni.
-Nello specifico il tuo punto di forza si esprime:
-FIORE +: gioco a due
-FIORE -: fare cose divertenti insieme.",
+    4 => "Punto di Forza del Seme  
+Come un maestro artigiano nel suo laboratorio, la forza del Seme si esprime nella straordinaria capacità di trasformare la teoria in pratica concreta.  
+È lo studente che ha il dono naturale di rendere tangibile e utilizzabile ogni apprendimento.  
+La sua mente pratica sa piantare i semi della conoscenza nel terreno fertile dell'esperienza, curandoli fino a vederli fruttificare.  
+**Lato ombra:** potrebbe avere bisogno di troppe conferme.",
 
-    6 => "Albero: la tua capacità di essere stabile. Se ci sono problemi nella coppia cerchi di risolverli riportando la stabilità. Hai bisogno di equilibrio e che le emozioni non sbilancino troppo la vita.
-Nello specifico il tuo punto di forza si esprime:
-ALBERO +: stare solo per non agire in modo impulsivo.
-ALBERO -: allontanarti dal mondo con lei.",
+    5 => "Punto di Forza del Fiore  
+Come un artista che trasforma ogni tela in un'esplosione di colori, la forza del Fiore risiede nella meravigliosa capacità di rendere lo studio un'esperienza di gioia e leggerezza.  
+È lo studente che possiede il dono naturale di trovare il lato luminoso e piacevole in ogni apprendimento.  
+La sua presenza porta una freschezza contagiosa, come una brezza primaverile.  
+**Lato ombra:** potrebbe approfittarsi del suo lato seduttivo per ottenere favoritismi.",
 
-    7 => "Acqua: la tua capacità di trasformare. Se ci sono problemi nella coppia tu hai bisogno di andare a fondo per trasformarli. Hai bisogno di profondità.
-Nello specifico il tuo punto di forza si esprime:
-ACQUA +: sostieni la situazione e lei se serve.
-ACQUA -: sensibilità.",
+    6 => "Punto di Forza dell'Albero  
+Come una quercia centenaria che offre stabilità e riparo, la forza dell'Albero si manifesta nella straordinaria capacità di creare fondamenta solide per l'apprendimento.  
+È lo studente con il dono dell'organizzazione sistematica e della costruzione metodica.  
+La sua mente strutturata è come un architetto che realizza percorsi di studio resistenti nel tempo.  
+**Lato ombra:** potrebbe essere poco creativo.",
 
-    8 => "Specchio: la tua capacità di decidere. Se ci sono problemi nella coppia tendi a raccogliere informazioni per arrivare a prendere le decisioni che meglio aiutano la risoluzione.
-Nello specifico il tuo punto di forza si esprime:
-SPECCHIO +: capacità di analizzare
-SPECCHIO -: visione a lungo termine.",
+    7 => "Punto di Forza dell'Acqua  
+Come un fiume che scorre profondo e costante, la forza dell'Acqua brilla nella sua incredibile capacità di comprendere e assorbire la conoscenza a livello emotivo.  
+È lo studente che possiede il dono dell'empatia e della comprensione intuitiva.  
+Sa cogliere sfumature e significati profondi e adattarsi naturalmente ai diversi contesti.  
+**Lato ombra:** potrebbe perdersi troppo in speculazioni.",
 
-    9 => "Fulmine: la tua capacità di resistere. Se ci sono problemi nella coppia tendi a sopportare per lungo tempo per permettere a lei di crescere e cambiare atteggiamento. Tu credi nella pazienza.
-Nello specifico il tuo punto di forza si esprime:
-FULMINE +: pazienza.
-FULMINE -: educare al cambiamento.",
+    8 => "Punto di Forza dello Specchio  
+Come un prisma che rivela la vera natura della luce, la forza dello Specchio si esprime nella straordinaria capacità di analisi e comprensione profonda.  
+È lo studente con il dono del pensiero logico e della visione chiara.  
+Riesce a scomporre problemi complessi in elementi essenziali e a trarre conclusioni illuminanti.  
+**Lato ombra:** potrebbe essere troppo legato alle prove, restringendo il campo d’azione.",
+
+    9 => "Punto di Forza del Fulmine  
+Come una scarica elettrica che illumina il cielo notturno, la forza del Fulmine brilla nella sua straordinaria capacità di generare intuizioni rivoluzionarie e aprire nuove vie di comprensione.  
+È lo studente con il dono dell'innovazione e della trasformazione.  
+Rompe schemi e crea nuovi approcci al sapere, aprendo sentieri per sé e per gli altri.  
+**Lato ombra:** potrebbe essere troppo generoso e resiliente fino ad esaurirsi."
 ],
 
-     "PATERNA" => [
-    1 => "Fuoco: conquistare.
-Conquistare è un talento che deriva dal tuo albero genealogico paterno. La conquista è tipica dei viaggiatori e dei condottieri. Ti rende quindi una persona che tende ad avere continuo desiderio di conquista, ti piace corteggiare e far cadere ai tuoi piedi chi ha attratto la tua attenzione. Dall'albero genealogico paterno potresti aver acquisito una certa aggressività che potresti manifestare o soffocare. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale PAPA) Come padre avrai la tendenza ad essere un genitore dinamico, che ama viaggiare e fare gite fuori porta.",
 
-    2 => "Gelo: prendersi cura.
-Prendersi cura è un talento che deriva dall'albero genealogico del padre. È tipico di chi ha la tendenza a mettersi a servizio degli altri. Ti rende quindi una persona che tende ad essere attenta ai bisogni di chi ti sta vicino e ad essere molto disponibile alle richieste altrui. Dall'albero genealogico paterno potresti aver ereditato la tendenza ad un atteggiamento che diventa servile o all'immaturità. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale INDIPENDENCE PAPA) Come padre avrai la tendenza ad essere molto accudente e ad ascoltare i tuoi figli.",
+"PATERNA" => [
+    1 => "Eredità Paterna del Fuoco  
+Come un faro che illumina la strada, il padre Fuoco trasmette un'eredità di ambizione e leadership. Dalla famiglia paterna eredita un talento naturale per l'azione e il dinamismo, che si esprime nella capacità di guidare gli altri e nell'amore per il movimento.  
+Questa eredità trova la sua massima espressione in percorsi come scienze motorie, arte drammatica, gestione sportiva o aviazione, dove può canalizzare la sua energia dinamica e la capacità di entusiasmare gli altri.  
+**Lato ombra:** quando il padre è troppo concentrato su se stesso, può generare nel figlio un'ossessione per l'eccellenza e un bisogno costante di riconoscimento.",
 
-    3 => "Anelli: comunicare.
-Comunicare è un talento che deriva dall'albero genealogico paterno. La tua capacità di mediare nelle situazioni, ma anche di essere l'anima allegra della casa o della compagnia. Ti rende quindi una persona capace di tenere sempre vivo l'interesse di chi è al tuo fianco. Dall'albero genealogico potresti avere ereditato la tendenza ad essere molto dispersivo nell'attenzione che dai e a dare retta anche a persone poco affidabili. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale Stay). Come padre potresti avere la tendenza a inserire bene i tuoi figli nella tua rete relazionale e ad aiutarli a districarsi nelle relazioni.",
+    2 => "Eredità Paterna del Gelo  
+Come un maestro di scacchi, il padre Gelo trasmette un'eredità di precisione e rigore metodologico. Dalla famiglia paterna eredita un talento naturale per la manualità fine e l'attenzione ai dettagli, che si esprime nella capacità di creare con precisione e nel forte senso estetico.  
+Questa eredità trova la sua realizzazione in percorsi come alta cucina, restauro, oreficeria o design, dove può esprimere la sua naturale attitudine alla perfezione e al problem-solving pratico.  
+**Lato ombra:** quando il padre è troppo insicuro, può lasciare il figlio senza un valido appoggio, generando solitudine e perfezionismo paralizzante.",
 
-    4 => "Seme: importanza della famiglia.
-Dall'albero genealogico di tuo padre deriva la sensazione che senza una famiglia sulla quale appoggiarti tu faccia fatica a garantirti la sopravvivenza. Darai quindi importanza alla tua famiglia, oppure all'impresa per cui lavori o operi. Ovviamente questo ti rende molto affidabile. Devi stare molto attento a capire fino a che punto questo corrisponda ad un tuo vero bisogno o ad un'imposizione inconscia. Dovresti chiederti fino a che punto corrisponda alla tua verità interiore. (Ti consigliamo il codice vibrazionale INDIPENDENCE PAPA). Come padre potresti avere la tendenza a voler provvedere a tutti i bisogni dei tuoi figli, a non voler far mancare loro nulla.",
+    3 => "Eredità Paterna degli Anelli  
+Come un esploratore curioso, il padre Anelli trasmette un'eredità di versatilità e creatività comunicativa. Dalla famiglia paterna eredita un talento naturale per le relazioni e la comunicazione, che si manifesta nella capacità di connettere idee e persone.  
+Questa eredità trova terreno fertile in ambiti come giornalismo, marketing, mediazione culturale o relazioni internazionali, dove può esprimere la sua naturale propensione al networking e alla comprensione delle dinamiche sociali.  
+**Lato ombra:** quando il padre è troppo preso dai propri interessi, può spingere il figlio a cercare costantemente l'approvazione degli altri.",
 
-    5 => "Fiore: idee liberali.
-Dall'albero genealogico di tuo padre potresti aver ereditato una certa mentalità liberale, poco tradizionale che vede nella relazione un'esperienza importante e da vivere con grande entusiasmo piuttosto che un'istituzione sociale. Potresti però aver acquisito anche una certa tendenza a muoverti nella relazione in modo un po' adolescenziale, senza arrivare mai ad assumertene veramente la responsabilità. Ti farebbe bene andare verso una nuova maturità emotiva. (Ti consigliamo il codice INITIATION) Come padre potresti essere molto giocoso e divertente.",
+    4 => "Eredità Paterna del Seme  
+Come un artigiano esperto, il padre Seme trasmette un'eredità di concretezza e pragmatismo. Dalla famiglia paterna eredita un talento naturale per la pianificazione e la gestione pratica, che si esprime nell'amore per la natura e nella capacità di realizzare progetti concreti.  
+Questa eredità trova la sua realizzazione in percorsi come agraria, economia aziendale, naturopatia o gestione ambientale.  
+**Lato ombra:** quando il padre mostra eccessiva umiltà, può trasmettere al figlio una scarsa autostima e difficoltà nelle scelte.",
 
-    6 => "Albero: capo famiglia.
-Dall'albero genealogico di tuo padre potresti aver ereditato il ruolo di capo famiglia. La capacità di gestire, di guidare. Questo tenderà a farti sentire molto responsabile rispetto a chi ritieni di dover proteggere. Potresti aver ereditato, però, anche una certa propensione all'autoritarismo. In questo caso ti consigliamo di iniziare a valutare di trasformare questa dinamica in autorevolezza. (Potresti usare il codice vibrazionale PAPA). Come padre avrai la tendenza a dare il buon esempio ai tuoi figli e a cercare di insegnare loro le regole per stare al mondo.",
+    5 => "Eredità Paterna del Fiore  
+Come un artista creativo, il padre Fiore trasmette un'eredità di bellezza e leggerezza. Dalla famiglia paterna eredita un talento naturale per l'estetica e la creatività, che si manifesta nella capacità di creare armonia e innovazione nel design.  
+Questa eredità si esprime in ambiti come fashion design, architettura d'interni, event planning o illustrazione.  
+**Lato ombra:** quando il padre si sottrae alle responsabilità, può lasciare al figlio un peso emotivo eccessivo da gestire.",
 
-    7 => "Acqua: onorare la memoria.
-La storia per te ha un valore importante, soprattutto quella che coinvolge la tua famiglia. Potresti quindi o portare avanti la memoria di storie familiari e avere il desiderio di farle proseguire con la tua vita o con la tua stirpe coinvolgendo le persone che ami. Potresti avere il desiderio di trovare una persona che come te crede nelle tradizioni. Potresti, però, faticare ad accettare la necessità altrui di cambiare direzione. Dovresti imparare ad accettare i cambiamenti. (Ti consigliamo il codice vibrazionale ACCEPT). Come padre avrai la tendenza ad insegnare ciò che per tradizione ritieni giusto.",
+    6 => "Eredità Paterna dell'Albero  
+Come un guardiano di tradizioni, il padre Albero trasmette un'eredità di stabilità e organizzazione. Dalla famiglia paterna eredita un talento naturale per la leadership e la gestione strategica, che si esprime nella capacità di strutturare e coordinare progetti complessi.  
+Questa eredità trova la sua realizzazione in percorsi come economia e management, amministrazione aziendale o progettazione tecnica.  
+**Lato ombra:** quando il padre è autoritario, può soffocare l'espressione naturale e autonoma del figlio.",
 
-    8 => "Specchio: condividere sapere.
-La ricerca, la conoscenza hanno per te un valore importante. Lo hai ereditato dal tuo albero genealogico familiare. Hai quindi il desiderio di incontrare persone che come te amino conoscere, scoprire, pensare, discutere. Hai però ereditato anche una certa intolleranza per chi cade nell'errore rischiando di diventare insensibile al dolore altrui, anche a quello di chi ti è più vicino. Dovresti imparare ad essere più compassionevole ed empatico. (Ti consigliamo il codice EMPATHY). Come padre potresti essere molto stimolante, sempre pronto a dare spunto e direzione.",
+    7 => "Eredità Paterna dell'Acqua  
+Come un saggio sensibile, il padre Acqua trasmette un'eredità di comprensione emotiva e intuizione. Dalla famiglia paterna eredita un talento naturale per l'empatia e la guarigione, che si manifesta nella capacità di ascolto profondo e nella memoria storica.  
+Questa eredità trova la sua realizzazione in percorsi come medicina, psicologia, counseling o arte terapia.  
+**Lato ombra:** se il padre ha problemi personali irrisolti, questi possono ricadere sul figlio come pesi emotivi non suoi.",
 
-    9 => "Fulmine: voglia di essere d'aiuto.
-Dal tuo albero genealogico paterno hai ereditato la voglia di essere d'aiuto. Potresti quindi cercare persone che hanno bisogno d'aiuto o persone che come te hanno il desiderio di offrire il proprio aiuto e di farlo assieme. Devi stare attento a non attirare persone parassite e a non diventare crocerossino. (Ti consigliamo il codice vibrazionale MAMA). Come padre potresti essere molto attento ai bisogni dei tuoi figli e cercare di aiutarli nelle difficoltà.",
+    8 => "Eredità Paterna dello Specchio  
+Come un filosofo analitico, il padre Specchio trasmette un'eredità di pensiero logico e innovazione. Dalla famiglia paterna eredita un talento naturale per l'analisi e la creatività tecnica, che si esprime nella capacità di trovare soluzioni innovative e nell'attitudine all'arte astratta.  
+Questa eredità trova la sua realizzazione in percorsi come ingegneria, matematica, arte digitale o fisica applicata.  
+**Lato ombra:** quando il padre è ignorante o poco istruito, può generare nel figlio un senso di vergogna o di dover compensare culturalmente per entrambi.",
+
+    9 => "Eredità Paterna del Fulmine  
+Come un pioniere rivoluzionario, il padre Fulmine trasmette un'eredità di innovazione e servizio. Dalla famiglia paterna eredita un talento naturale per la gestione delle crisi e il problem-solving rapido, che si manifesta nella capacità di agire prontamente in situazioni di emergenza.  
+Questa eredità trova la sua realizzazione in percorsi come protezione civile, scienze infermieristiche o cooperazione internazionale.  
+**Lato ombra:** se il padre è troppo conservatore, può non comprendere e scoraggiare le idee innovative del figlio, creando tensioni e frustrazione."
 ],
 
-            "SOCIETA" => [
-                1 => "CONQUISTA: Hai l'istinto predatore. Osservi la preda e la punti quando hai capito quali mosse fare. Lo fai in modo continuativo ma brioso, in modo da incuriosirla. Sai giocare con la preda e non molli finché non giungi alla conquista.",
 
-                2 => "CURA DEI DETTAGLI: Avvicini in modo gentile, ti presenti in modo molto curato. I tuoi modi sono pacati e ami attrarre attraverso i piccoli particolari. Ti piace stupirla con piccoli dettagli che creano un'armonia d'insieme che la affascina.",
+        "SOCIETA" => [
+    1 => "Fuoco – La Conquista  
+Attrai attraverso carisma e determinazione. Il tuo approccio è diretto, travolgente e ricco di energia. Quando ti metti in testa qualcosa – o qualcuno – non ti fermi finché non ottieni ciò che vuoi. Ami far sentire l’altro speciale, e utilizzi il tuo entusiasmo per coinvolgerlo.  
+**Ombra**: potresti trasformare la conquista in bisogno di affermazione personale, perdendo di vista l’altro.",
 
-                3 => "INTERESSE: Ami attrarre attraverso la condivisione degli interessi. Spesso sei pure inconsapevole di attrarre. Potresti farlo limitandoti a vivere con passione e gioia quello che ti piace, esponendolo in modo gioioso e attraendola senza avere la chiara intenzione di farlo.",
+    2 => "Gelo – La Cura dei Dettagli  
+Attrai con grazia e raffinatezza. Ogni tuo gesto, parola o abito è studiato con attenzione, non per calcolo, ma per creare bellezza e armonia. Seduci con eleganza, lasciando che sia la delicatezza a parlare per te.  
+**Ombra**: potresti reprimere troppo le emozioni per paura di disturbare l'equilibrio, rendendoti distante.",
 
-                4 => "MOSTRARE IL PROPRIO VALORE: Cerchi di attrarre mostrando il valore che hai. Ti prendi cura di te, cerchi di presentarti bene. Cerchi di conoscere cose e condividerle destando interesse per ciò che fai o sai. Fai in modo che lei ti apprezzi e che desideri essere conquistata.",
+    3 => "Anelli – L’Interesse Condiviso  
+Attrai con la tua curiosità e apertura. Seduci parlando dei tuoi interessi con entusiasmo, spesso senza neppure rendertene conto. Ti basta essere te stesso per catturare l’attenzione, e il dialogo diventa il tuo principale strumento di connessione.  
+**Ombra**: potresti cercare costantemente approvazione, disperdendo la tua energia in troppi contatti.",
 
-                5 => "SIMPATIA: Il tuo modo di attrarre è attraverso la simpatia, il gioco, il divertimento. Cerchi di coinvolgerla in modo allegro e se ti piace potresti divertirti a punzecchiarla e a cercare di attrarre la sua attenzione con lo scherzo.",
+    4 => "Seme – Il Valore Personale  
+Attrai mostrando ciò che sai fare e chi sei realmente. Ti prendi cura della tua immagine e delle tue competenze, dimostrando di essere una persona su cui si può contare.  
+**Ombra**: potresti eccedere nella ricerca di approvazione, confondendo il tuo valore con la performance.",
 
-                6 => "AFFIDABILITÀ: Il tuo modo di attrarre è facendola sentire al sicuro. Cerchi di farle capire che con te può lasciarsi andare, può permettersi di essere sé stessa senza maschere. Ami l'intimità sia fisica che emotiva e se puoi cerchi di trovare l'occasione per stare soli.",
+    5 => "Fiore – La Simpatia e il Gioco  
+Attrai con il tuo spirito leggero e la tua capacità di divertire. Usi l’umorismo, il gioco e la battuta per sciogliere il ghiaccio e creare complicità.  
+**Ombra**: potresti evitare la profondità per paura di perdere la leggerezza.",
 
-                7 => "SENSUALITÀ: Il tuo modo di attrarre è attraverso il mistero, la parte più sensuale della vita. Ti piace giocare al chiaro-scuro, non rivelare mai troppo per non togliere l'aura di mistero che ti avvolge. Ti piace tenere la suspense e giocare con la sua psicologia.",
+    6 => "Albero – L’Affidabilità  
+Attrai con la tua stabilità e il tuo senso di protezione. Fai sentire l’altro al sicuro, presente, coerente. Offri uno spazio in cui potersi esprimere senza giudizio.  
+**Ombra**: potresti diventare troppo prevedibile o chiuderti alla spontaneità per mantenere il controllo.",
 
-                8 => "PARLANDO: Tu conquisti parlando. Ti piace conoscerla, farle mille domande. Ti interessi a lei e cerchi di carpire più informazioni che puoi. Seduci facendole sentire il tuo interesse e ascolto. Non è detto che tu esprima molto di te, preferisci scoprirti in un secondo momento.",
+    7 => "Acqua – La Sensualità Profonda  
+Attrai con il mistero e la profondità emotiva. Non ti sveli mai completamente e lasci che l’altro desideri scoprirti a poco a poco. Seduci con la tua capacità di sentire e comprendere.  
+**Ombra**: potresti usare il tuo dolore per manipolare o attirare attenzione.",
 
-                9 => "STUPENDO: Ti piace conquistare stupendola, facendole trovare ciò che le piace, oppure facendole fare esperienze mai fatte. Ami vedere lo stupore che si dipinge nel suo volto. Ti piace soprattutto sapere di avere intuito l'idea giusta.",
-            ],
+    8 => "Specchio – Il Dialogo Intellettuale  
+Attrai parlando e ascoltando con attenzione. Usi la mente per connetterti, facendo sentire l’altro stimolato e valorizzato.  
+**Ombra**: potresti restare troppo sul piano mentale, evitando l’intimità emotiva.",
 
-            "RICONOSCIMENTO" => [
-                1 => "FUOCO +: vuoi che lei ti dimostri di credere in te, che si fidi delle decisioni che prendi, della direzione che dai e ti segua stando al tuo fianco, anche se doveste andare contro tutti gli altri. / FUOCO -: tu vuoi che lei si dimostri innamorata di te in modo passionale. Che ti faccia sentire il suo desiderio di te, che ti cerchi.",
+    9 => "Fulmine – Lo Stupore  
+Attrai attraverso la sorpresa. Ami colpire con gesti unici, idee fuori dagli schemi, situazioni insolite. Desideri lasciare un’impressione forte e positiva.  
+**Ombra**: potresti puntare troppo sull’effetto speciale, dimenticando l’autenticità."
+],
 
-                2 => "GELO +: vuoi che riconosca quanto amore e dedizione offri a lei. Che si accorga delle tante piccole attenzioni che sai avere e ti piacerebbe riceverle. / GELO -: vuoi essere semplicemente amato per quello che sei, senza tanti motivi, solo perché lei si è innamorata di te.",
 
-                3 => "ANELLI +: vuoi che lei apprezzi la tua capacità di stare nel mondo e abbia la voglia di condividerlo con te. / ANELLI -: vuoi che lei apprezzi e condivida la tua visione particolare delle cose.",
+ "RICONOSCIMENTO" => [
+    1 => "Riconoscimento del Fuoco  
+Come un sole che desidera brillare nel cielo più alto, lo studente Fuoco cerca un riconoscimento visibile e luminoso. Il suo bisogno di validazione è simile a quello di un attore sul palcoscenico: desidera applausi, attestati di stima pubblica, momenti di gloria che confermino la sua eccellenza. Non gli basta sapere di aver fatto bene – ha bisogno che gli altri vedano e celebrino i suoi successi. Il suo talento risplende maggiormente quando può condividere le sue conquiste, quando può ispirare altri con i suoi risultati. È come una fiamma che cresce e si rafforza quanto più viene ammirata e riconosciuta.",
 
-                4 => "SEME +: hai bisogno di sapere che lei ti trovi bello, piacevole e che ammiri il modo in cui ti mostri nel mondo. / SEME -: hai bisogno che lei riconosca i tuoi talenti, quello che sai o che sai fare.",
+    2 => "Riconoscimento del Gelo  
+Come un artista che cerca la perfezione formale, lo studente Gelo aspira a un riconoscimento basato sull'eleganza e la precisione del suo lavoro. Il suo bisogno di validazione si manifesta attraverso la ricerca dell'eccellenza formale e del dettaglio impeccabile. Non cerca tanto gli applausi quanto l'apprezzamento silenzioso dei veri conoscitori. È come un diamante perfettamente tagliato che brilla di luce propria, cercando occhi esperti che ne sappiano apprezzare ogni sfaccettatura. La sua soddisfazione più grande viene dal raggiungimento di standard elevati e dal riconoscimento della sua maestria tecnica.",
 
-                5 => "FIORE +: hai bisogno che lei ti trovi attraente e che ti dimostri che riconosce anche il fatto che lo sei anche per le altre. / FIORE -: vuoi che ti venga riconosciuto il fatto che tu sei capace di riconoscere i talenti che lei ha da mettere in campo e vuoi essere da stimolo perché si migliori.",
+    3 => "Riconoscimento degli Anelli  
+Come un esploratore che scopre nuove connessioni, lo studente Anelli cerca riconoscimento per la sua versatilità e creatività. Il suo bisogno di validazione si esprime attraverso la capacità di sorprendere con collegamenti inaspettati e intuizioni brillanti. È come un tessitore di tappeti multicolori che desidera che gli altri apprezzino non solo il risultato finale, ma anche l’intreccio complesso dei fili che lo compongono. Trova la sua maggiore gratificazione quando gli altri riconoscono la sua capacità di navigare tra diverse discipline, creando ponti di comprensione innovativi.",
 
-                6 => "ALBERO +: vuoi che ti venga riconosciuta la tua capacità di esserci sempre, di essere punto di riferimento e desideri che ti venga offerta la stessa cosa. / ALBERO -: vuoi che ti venga riconosciuto il valore che tu apporti nei progetti comuni, nel fatto che tu contribuisci sostanzialmente e desideri ricevere la gratificazione del tuo impegno.",
+    4 => "Riconoscimento del Seme  
+Come un artigiano che plasma la materia con maestria, lo studente Seme cerca riconoscimento per i risultati concreti e tangibili del suo lavoro. Il suo bisogno di validazione si manifesta attraverso la dimostrazione pratica delle sue competenze. È come un costruttore che trova soddisfazione nel vedere la sua opera ergersi solida e funzionale, cercando l'apprezzamento per l'utilità e la solidità del suo lavoro più che per la sua apparenza. La sua più grande gratificazione viene dal vedere i suoi sforzi tradursi in risultati pratici e misurabili.",
 
-                7 => "ACQUA +: vuoi che ti venga riconosciuta la tua capacità di sentirla nel profondo e che lei si metta a disposizione di una comunicazione profonda. / ACQUA -: vuoi che ti venga riconosciuta la tua capacità di ascolto. Sai essere amico oltre che compagno e chiedi lo stesso a lei.",
+    5 => "Riconoscimento del Fiore  
+Come un artista di strada che incanta il suo pubblico, lo studente Fiore cerca riconoscimento attraverso la capacità di rendere l’apprendimento un’esperienza gioiosa e leggera. Il suo bisogno di validazione si esprime attraverso il sorriso e l’apprezzamento di chi lo circonda. È come un giardiniere che coltiva non solo fiori, ma anche la gioia che questi portano a chi li osserva. Trova la sua massima realizzazione quando gli altri riconoscono la sua capacità di trasformare lo studio in un'avventura piacevole e stimolante.",
 
-                8 => "SPECCHIO +: vuoi che ti venga riconosciuta la tua capacità di essere equo nel dare e avere e desideri ricevere altrettanta equità. / SPECCHIO -: vuoi che ti venga riconosciuta la tua intelligenza e la tua capacità di analisi e comprensione.",
+    6 => "Riconoscimento dell'Albero  
+Come un saggio custode di antiche tradizioni, lo studente Albero cerca riconoscimento per la solidità e l'affidabilità del suo approccio. Il suo bisogno di validazione si manifesta attraverso la costruzione di strutture durature e sistemi affidabili. È come una quercia centenaria che trova soddisfazione nella sua capacità di offrire sostegno e stabilità. La sua più grande gratificazione viene dal vedere i suoi metodi e le sue strutture adottati e apprezzati da altri come fondamenta sicure per la crescita.",
 
-                9 => "FULMINE +: vuoi che ti venga riconosciuta la tua capacità di trasformare le situazioni negative in positive e la capacità di cambiare nel tempo. / FULMINE -: vuoi che ti venga riconosciuta la tua capacità di mantenere vive le tradizioni, di avere imparato ciò che ti è stato trasmesso.",
-            ],
+    7 => "Riconoscimento dell'Acqua  
+Come un poeta che tocca le corde più profonde dell’anima, lo studente Acqua cerca riconoscimento per la sua sensibilità e profondità emotiva. Il suo bisogno di validazione si esprime attraverso connessioni emotive autentiche e comprensione profonda. È come un fiume che riflette il cielo e nutre la terra, trovando soddisfazione nella sua capacità di toccare e trasformare ciò che incontra. La sua più grande gratificazione viene dal vedere riconosciuta la sua capacità di comprendere e nutrire il processo di apprendimento a livello emotivo.",
+
+    8 => "Riconoscimento dello Specchio  
+Come un filosofo che svela verità nascoste, lo studente Specchio cerca riconoscimento per la sua capacità di analisi e comprensione profonda. Il suo bisogno di validazione si manifesta attraverso l’apprezzamento della sua lucidità intellettuale e capacità di penetrare la superficie delle cose. È come un prisma che scompone la luce in tutti i suoi colori, trovando soddisfazione quando gli altri riconoscono la sua capacità di rivelare la struttura nascosta della conoscenza.",
+
+    9 => "Riconoscimento del Fulmine  
+Come un innovatore che apre nuove strade, lo studente Fulmine cerca riconoscimento per la sua originalità e capacità di provocare cambiamento. Il suo bisogno di validazione si esprime attraverso l’impatto trasformativo delle sue idee e azioni. È come un fulmine che illumina il cielo notturno, rivelando nuove prospettive e possibilità. La sua più grande gratificazione viene dal vedere riconosciuto il suo ruolo di catalizzatore del cambiamento e pioniere di nuovi approcci all’apprendimento."
+],
+
             "MAESTRO" => [
                 1 => "FUOCO: Hai bisogno di sentirti unico e che la relazione ti accenda sempre. Se competi in amore vuoi vincere, ti piace catturare la preda. Ti piace che la persona ti faccia capire che prova passione per te. Tendi a spegnerti subito se ti si ignora e se la situazione non ti stimola.",
 
