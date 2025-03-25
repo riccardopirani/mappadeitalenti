@@ -1258,7 +1258,7 @@ FULMINE -: educare al cambiamento.",
                 $solution,
                 $slug_mappa,
                 $sesso,
-                $karmaNumber,
+                karmaNumber: $karmaNumber,
                 famiglianumber: $utente_result["mese"],
                 egonumber: $utente_result["giorno"],
                 bisgognonumber: $utente_result["giorno"],
@@ -1266,8 +1266,8 @@ FULMINE -: educare al cambiamento.",
                 missionenumber: $utente_result["totale"],
                 cuorenumber:  $utente_result["anno-meno-mese"]
             );
-            // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
-            $karma = $valori["KARMA"]; //
+        
+            $karma = $valori["KARMA"]; 
             $famiglia = $valori["FAMIGLIA"];
             $ego = $valori["EGO"];
             $bisogno = $valori["BISOGNO"];
@@ -1281,20 +1281,14 @@ FULMINE -: educare al cambiamento.",
             $missione = $valori["MISSIONE"];
             $cuore = $valori["CUORE"];
 
-            // Creazione del post di tipo "mappa"
             $post_data = [
                 "post_title" => $post_title,
                 "post_type" => "mappa",
                 "post_status" => "publish",
                 "post_author" => get_current_user_id(),
-                "post_content" => $karma, // Puoi salvare il primo contenuto nel post_content
+                "post_content" => $karma, 
             ];
-
-            // echo "Section add !";
-
             $post_id = wp_insert_post($post_data);
-
-            // Se il post viene creato con successo, aggiorna i metadati
             if ($post_id != 0) {
                 update_post_meta($post_id, "section1", $karma);
                 update_post_meta($post_id, "section2", $famiglia);
