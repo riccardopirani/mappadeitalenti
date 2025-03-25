@@ -1511,25 +1511,35 @@ Come un filosofo che svela verità nascoste, lo studente Specchio cerca riconosc
 Come un innovatore che apre nuove strade, lo studente Fulmine cerca riconoscimento per la sua originalità e capacità di provocare cambiamento. Il suo bisogno di validazione si esprime attraverso l’impatto trasformativo delle sue idee e azioni. È come un fulmine che illumina il cielo notturno, rivelando nuove prospettive e possibilità. La sua più grande gratificazione viene dal vedere riconosciuto il suo ruolo di catalizzatore del cambiamento e pioniere di nuovi approcci all’apprendimento."
 ],
 
-            "MAESTRO" => [
-                1 => "FUOCO: Hai bisogno di sentirti unico e che la relazione ti accenda sempre. Se competi in amore vuoi vincere, ti piace catturare la preda. Ti piace che la persona ti faccia capire che prova passione per te. Tendi a spegnerti subito se ti si ignora e se la situazione non ti stimola.",
+          "MAESTRO" => [
+    1 => "FUOCO: unico/appassionato
+Hai bisogno di sentirti unico e che la relazione ti accenda sempre. Se competi in amore vuoi vincere, ti piace catturare la preda. Ti piace che la persona ti faccia capire che prova passione per te. Tendi a spegnerti subito se ti si ignora e se la situazione non ti stimola.",
 
-                2 => "GELO: Hai bisogno di sentirti unito alla persona che ami. Hai bisogno di sentire che siete una cosa sola, che se ci siete voi due tutto il resto non conta. Tendi però a stare appeso alle situazioni che non evolvono e a perdere tempo e occasioni.",
+    2 => "GELO: molto affettivo
+Hai bisogno di sentirti unito alla persona che ami. Hai bisogno di sentire che siete una cosa sola, che se ci siete voi due tutto il resto non conta. Tendi però a stare appeso alle situazioni che non evolvono e a perdere tempo e occasioni.",
 
-                3 => "ANELLI: Hai bisogno di sentirti ascoltato dalla persona che ami, ma anche e soprattutto di condividere passioni e di poter vivere insieme splendide avventure. Tendi però a distrarti dalla coppia o a causa di altre situazioni o a causa di interessi tuoi.",
+    3 => "ANELLI: avventuroso
+Hai bisogno di sentirti ascoltato dalla persona che ami, ma anche e soprattutto di condividere passioni e di poter vivere insieme splendide avventure. Tendi però a distrarti dalla coppia o a causa di altre situazioni o a causa di interessi tuoi.",
 
-                4 => "SEME: Hai bisogno di sentirti amato e di sentirlo anche fisicamente. Hai bisogno di sentirti avvolto dalla presenza dell'altra, meglio se in un contesto intimo e familiare. Potresti avere però troppo la proiezione della famiglia e meno del vivere l'amore.",
+    4 => "SEME: costruttivo
+Hai bisogno di sentirti amato e di sentirlo anche fisicamente. Hai bisogno di sentirti avvolto dalla presenza dell'altra, meglio se in un contesto intimo e familiare. Potresti avere però troppo la proiezione della famiglia e meno del vivere l'amore.",
 
-                5 => "FIORE: Hai bisogno di sentire che sei attraente. Ti piace vedere che le persone perdono la testa per te e quindi tendi a provocare per vedere le reazioni. Potresti però avere la difficoltà a controllare gli effetti di ciò che fai, perdere il contatto con i sentimenti dell'altra e quindi ferire involontariamente.",
+    5 => "FIORE: divertente
+Hai bisogno di sentire che sei attraente. Ti piace vedere che le persone perdono la testa per te e quindi tendi a provocare per vedere le reazioni. Potresti però avere la difficoltà a controllare gli effetti di ciò che fai, perdere il contatto con i sentimenti dell'altra e quindi ferire involontariamente.",
 
-                6 => "ALBERO: Hai bisogno di sentirti stabile nella relazione. Riesci a concederti veramente solo quando ti senti al sicuro, allora dai tantissimo e si può veramente fare affidamento su di te. Potresti avere però la tendenza alla gelosia, proprio per il tuo bisogno di non veder messe in discussione le tue sicurezze.",
+    6 => "ALBERO: stabile
+Hai bisogno di sentirti stabile nella relazione. Riesci a concederti veramente solo quando ti senti al sicuro, allora dai tantissimo e si può veramente fare affidamento su di te. Potresti avere però la tendenza alla gelosia, proprio per il tuo bisogno di non veder messe in discussione le tue sicurezze.",
 
-                7 => "ACQUA: Hai bisogno di sentirti capito, ma soprattutto hai bisogno di sentire la profondità della relazione, che è una relazione speciale, unica. Una connessione animica profonda che va oltre lo spazio-tempo. In alcuni casi, però, potresti essere attratto dalla sessualità in modo ossessivo o dipendente e questo renderti succube della persona che hai davanti.",
+    7 => "ACQUA: romantico/melodrammatico
+Hai bisogno di sentirti capito, ma soprattutto hai bisogno di sentire la profondità della relazione, che è una relazione speciale, unica. Una connessione animica profonda che va oltre lo spazio-tempo. In alcuni casi, però, potresti essere attratto dalla sessualità in modo ossessivo o dipendente e questo renderti succube della persona che hai davanti.",
 
-                8 => "SPECCHIO: Hai bisogno di sentirti libero, hai quindi bisogno che la relazione che vivi ti conceda spazi di libertà, dove poterti ricaricare, tornare in te e donarti la voglia di essere nuovamente passionale con la persona che ami. Potresti però avere la pretesa di fare quello che vuoi senza ascoltare i bisogni dell'altra e questo portarti ad avere problemi di relazione.",
+    8 => "SPECCHIO: libero
+Hai bisogno di sentirti libero, hai quindi bisogno che la relazione che vivi ti conceda spazi di libertà, dove poterti ricaricare, tornare in te e donarti la voglia di essere nuovamente passionale con la persona che ami. Potresti però avere la pretesa di fare quello che vuoi senza ascoltare i bisogni dell'altra e questo portarti ad avere problemi di relazione.",
 
-                9 => "FULMINE: Hai bisogno di sentire che la tua relazione è qualcosa di grandioso, oppure alla quale aspirare per gli altri, un esempio da seguire. Una relazione che si fonda su principi comuni, su ideali condivisi. Devi solo stare attento di non caricare di troppe aspettative la persona che hai di fronte, che altrimenti potrà solo deluderti.",
-            ],
+    9 => "FULMINE: grandioso
+Hai bisogno di sentire che la tua relazione è qualcosa di grandioso, oppure alla quale aspirare per gli altri, un esempio da seguire. Una relazione che si fonda su principi comuni, su ideali condivisi. Devi solo stare attento di non caricare di troppe aspettative la persona che hai di fronte, che altrimenti potrà solo deluderti.",
+],
+
         ];
 
         
