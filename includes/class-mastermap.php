@@ -228,7 +228,8 @@ class Mastermap
         $cuorenumber,
         $maestronumber,
         $maternanumber,
-        $societanumber
+        $societanumber,
+        $paternanumber
     ) {
 
         $mappature_base = [
@@ -1205,6 +1206,13 @@ FULMINE -: educare al cambiamento.",
                     $indice = array_key_first($valori_mappa);
                 }
             }
+            else if($chiave==="PATERNA"){
+                 $indice = abs(round(num: $paternanumber));
+
+                if (!isset($valori_mappa[$indice])) {
+                    $indice = array_key_first($valori_mappa);
+                }
+            }
             if ($indice !== null && isset($valori_mappa[$indice])) {
                 $valori[$chiave] = $valori_mappa[$indice];
             } else {
@@ -1283,8 +1291,9 @@ FULMINE -: educare al cambiamento.",
                 missionenumber: $utente_result["totale"],
                 cuorenumber: $utente_result["anno-meno-mese"],
                 maestronumber: $other_result["cogi"],
-               maternanumber: $utente_result["anno-meno-mese"],
-                societanumber: $utente_result["anno"]
+                maternanumber: $utente_result["anno-meno-mese"],
+                societanumber: $utente_result["anno"],
+                paternanumber: $padre_result["totale"]
                
             );
 
