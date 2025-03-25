@@ -1487,13 +1487,10 @@ FULMINE -: educare al cambiamento.",
                             esc_html($item["risposta"]) . "</p>";
                     }
                 }
-
-                //se c'è un oggetto impostato usiamo quello
+               
                 $subject_user = get_field("oggetto_email", "option")
                     ? get_field("oggetto_email", "option")
-                    : "Riepilogo Mappa Talenti";
-
-                // Costruisci il messaggio HTML dell'email
+                    : "Riepilogo Mappa Talenti";              
                 $message_user =
                     '
     <!doctype html>
@@ -1612,13 +1609,12 @@ FULMINE -: educare al cambiamento.",
 
     </html>';
 
-                // Aggiungi header per l'email HTML
+              
                 $headers = ["Content-Type: text/html; charset=UTF-8"];
 
-                // Invia l'email
+
                 wp_mail($email, $subject_user, $message_user, $headers);
 
-                // Inviare email di riepilogo all'amministratore
                 $admin_email = get_field(
                     "email_notifica_compilazione",
                     "option"
@@ -1659,11 +1655,8 @@ FULMINE -: educare al cambiamento.",
                     );
                 endif;
                 wp_redirect("/grazie-per-la-mappa/");
-                exit(); // Assicurati che il redirect avvenga subito
-            } else {
-                // Gestisci l'errore nella creazione del post
-                // echo "<p>Errore nella creazione della mappa dei talenti.</p>";
-            }
+                exit(); 
+            } 
         }
     }
 }
