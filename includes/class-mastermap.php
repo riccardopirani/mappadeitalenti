@@ -226,9 +226,10 @@ class Mastermap
         $puntodebolenumber,
         $missionenumber,
         $cuorenumber,
-        $maestronumber
+        $maestronumber,
+        $maternanumber
     ) {
-        // Definizione delle mappature
+
         $mappature_base = [
             "KARMA" => [
                 1 => "trasformare la rabbia in passione",
@@ -1188,6 +1189,12 @@ FULMINE -: educare al cambiamento.",
             } 
             else if ($chiave === "CUORE") {
                  $indice = abs(round(num: $cuorenumber));
+
+                if (!isset($valori_mappa[$indice])) {
+                    $indice = array_key_first($valori_mappa);
+                }
+            } else if ($chiave === "MATERNA") {
+                $indice = abs(round(num: $maternanumber));
 
                 if (!isset($valori_mappa[$indice])) {
                     $indice = array_key_first($valori_mappa);
