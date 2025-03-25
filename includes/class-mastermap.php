@@ -1405,7 +1405,7 @@ if (strpos($slug_mappa, "studio") !== false) {
                         "option"
                     );
                 endif;
-                wp_redirect("/grazie-per-lacquisto");
+                wp_redirect("/grazie-per-la-mappa/");
                 exit(); // Assicurati che il redirect avvenga subito
             } else {
                 // Gestisci l'errore nella creazione del post
