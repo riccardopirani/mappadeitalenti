@@ -1249,7 +1249,7 @@ FULMINE -: educare al cambiamento."
 
             $valori = $this->assegnare_valori($solution, $slug_mappa, $sesso, $karmaNumber,famiglianumber: $utente_result["mese"],egonumber: $utente_result["giorno"],bisgognonumber:  $utente_result["giorno"]);
             // Ora puoi usare i valori ottenuti, gestendo eventuali chiavi mancanti
-            $karma = $valori["KARMA"];
+            $karma = $valori["KARMA"];//
             $famiglia = $valori["FAMIGLIA"];
             $ego = $valori["EGO"];
             $bisogno = $valori["BISOGNO"];
