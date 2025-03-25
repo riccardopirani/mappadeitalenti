@@ -960,6 +960,45 @@ Nello specifico il tuo punto di forza si esprime:
 FULMINE +: pazienza 
 FULMINE -: educare al cambiamento."
 ],
+"PATERNA" => [
+    1 => "FUOCO: Conquistare. Conquistare è un talento che deriva dal tuo albero genealogico paterno. La conquista è tipica dei viaggiatori e dei condottieri. Ti rende quindi una persona che tende ad avere continuo desiderio di conquista, ti piace corteggiare e far cadere ai tuoi piedi chi ha attratto la tua attenzione. Dall'albero genealogico paterno potresti aver acquisito una certa aggressività che potresti manifestare o soffocare. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale PAPA) Come padre avrai la tendenza ad essere un genitore dinamico, che ama viaggiare e fare gite fuori porta.",
+    
+    2 => "GELO: Prendersi cura. Prendersi cura è un talento che deriva dall'albero genealogico del padre. È tipico di chi ha la tendenza a mettersi a servizio degli altri. Ti rende quindi una persona che tende ad essere attenta ai bisogni di chi ti sta vicino e molto disponibile alle richieste altrui. Dall'albero genealogico paterno potresti aver ereditato la tendenza ad un atteggiamento che diventa servile o all'immaturità. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale INDIPENDENCE PAPA) Come padre avrai la tendenza ad essere molto accudente e ad ascoltare i tuoi figli.",
+    
+    3 => "ANELLI: Comunicare. Comunicare è un talento che deriva dall'albero genealogico paterno. La tua capacità di mediare nelle situazioni, ma anche di essere l'anima allegra della casa o della compagnia. Ti rende quindi una persona capace di tenere sempre vivo l'interesse di chi è al tuo fianco. Dall'albero genealogico potresti aver ereditato la tendenza ad essere molto dispersivo nell'attenzione che dai e a dare retta anche a persone poco affidabili. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale STAY). Come padre potresti avere la tendenza a inserire bene i tuoi figli nella tua rete relazionale e ad aiutarli a districarsi nelle relazioni.",
+    
+    4 => "SEME: Importanza della famiglia. Dall'albero genealogico di tuo padre deriva la sensazione che senza una famiglia sulla quale appoggiarti tu faccia fatica a garantirti la sopravvivenza. Darai quindi importanza alla tua famiglia, oppure all'impresa per cui lavori o operi. Ovviamente questo ti rende molto affidabile. Devi stare molto attento a capire fino a che punto questo corrisponda ad un tuo vero bisogno o ad un'imposizione inconscia. Dovresti chiederti fino a che punto corrisponda alla tua verità interiore. (Ti consigliamo il codice vibrazionale INDIPENDENCE PAPA). Come padre potresti avere la tendenza a voler provvedere a tutti i bisogni dei tuoi figli, a non voler far mancare loro nulla.",
+    
+    5 => "FIORE: Idee liberali. Dall'albero genealogico di tuo padre potresti aver ereditato una certa mentalità liberale, poco tradizionale, che vede nella relazione un'esperienza importante e da vivere con grande entusiasmo piuttosto che un'istituzione sociale. Potresti però aver acquisito anche una certa tendenza a muoverti nella relazione in modo un po' adolescenziale, senza arrivare mai ad assumertene veramente la responsabilità. Ti farebbe bene andare verso una nuova maturità emotiva. (Ti consigliamo il codice INITIATION). Come padre potresti essere molto giocoso e divertente.",
+    
+    6 => "ALBERO: Capo famiglia. Dall'albero genealogico di tuo padre potresti aver ereditato il ruolo di capo famiglia. La capacità di gestire, di guidare. Questo tenderà a farti sentire molto responsabile rispetto a chi ritieni di dover proteggere. Potresti aver ereditato, però, anche una certa propensione all'autoritarismo. In questo caso ti consigliamo di iniziare a valutare di trasformare questa dinamica in autorevolezza. (Ti consigliamo il codice vibrazionale PAPA). Come padre avrai la tendenza a dare il buon esempio ai tuoi figli e a cercare di insegnare loro le regole per stare al mondo.",
+    
+    7 => "ACQUA: Onorare la memoria. La storia per te ha un valore importante, soprattutto quella che coinvolge la tua famiglia. Potresti quindi o portare avanti la memoria di storie familiari e avere il desiderio di farle proseguire con la tua vita o con la tua stirpe coinvolgendo le persone che ami. Potresti avere il desiderio di trovare una persona che come te crede nelle tradizioni. Potresti, però, faticare ad accettare la necessità altrui di cambiare direzione. Dovresti imparare ad accettare i cambiamenti. (Ti consigliamo il codice vibrazionale ACCEPT). Come padre avrai la tendenza ad insegnare ciò che per tradizione ritieni giusto.",
+    
+    8 => "SPECCHIO: Condividere sapere. La ricerca, la conoscenza hanno per te un valore importante. Lo hai ereditato dal tuo albero genealogico familiare. Hai quindi il desiderio di incontrare persone che come te amino conoscere, scoprire, pensare, discutere. Hai però ereditato anche una certa intolleranza per chi cade nell'errore rischiando di diventare insensibile al dolore altrui, anche a quello di chi ti è più vicino. Dovresti imparare ad essere più compassionevole ed empatico. (Ti consigliamo il codice EMPATHY). Come padre potresti essere molto stimolante, sempre pronto a dare spunto e direzione.",
+    
+    9 => "FULMINE: Voglia di essere d'aiuto. Dal tuo albero genealogico paterno hai ereditato la voglia di essere d'aiuto. Potresti quindi cercare persone che hanno bisogno d'aiuto o persone che come te hanno il desiderio di offrire il proprio aiuto e di farlo assieme. Devi stare attento a non attirare persone parassite e a non diventare crocerossino. (Ti consigliamo il codice vibrazionale MAMA). Come padre potresti essere molto attento ai bisogni dei tuoi figli e cercare di aiutarli nelle difficoltà."
+],
+"SOCIETA" => [
+    1 => "CONQUISTA: Hai l'istinto predatore. Osservi la preda e la punti quando hai capito quali mosse fare. Lo fai in modo continuativo ma brioso, in modo da incuriosirla. Sai giocare con la preda e non molli finché non giungi alla conquista.",
+    
+    2 => "CURA DEI DETTAGLI: Avvicini in modo gentile, ti presenti in modo molto curato. I tuoi modi sono pacati e ami attrarre attraverso i piccoli particolari. Ti piace stupirla con piccoli dettagli che creano un'armonia d'insieme che la affascina.",
+    
+    3 => "INTERESSE: Ami attrarre attraverso la condivisione degli interessi. Spesso sei pure inconsapevole di attrarre. Potresti farlo limitandoti a vivere con passione e gioia quello che ti piace, esponendolo in modo gioioso e attraendola senza avere la chiara intenzione di farlo.",
+    
+    4 => "MOSTRARE IL PROPRIO VALORE: Cerchi di attrarre mostrando il valore che hai. Ti prendi cura di te, cerchi di presentarti bene. Cerchi di conoscere cose e condividerle destando interesse per ciò che fai o sai. Fai in modo che lei ti apprezzi e che desideri essere conquistata.",
+    
+    5 => "SIMPATIA: Il tuo modo di attrarre è attraverso la simpatia, il gioco, il divertimento. Cerchi di coinvolgerla in modo allegro e se ti piace potresti divertirti a punzecchiarla e a cercare di attrarre la sua attenzione con lo scherzo.",
+    
+    6 => "AFFIDABILITÀ: Il tuo modo di attrarre è facendola sentire al sicuro. Cerchi di farle capire che con te può lasciarsi andare, può permettersi di essere sé stessa senza maschere. Ami l'intimità sia fisica che emotiva e se puoi cerchi di trovare l'occasione per stare soli.",
+    
+    7 => "SENSUALITÀ: Il tuo modo di attrarre è attraverso il mistero, la parte più sensuale della vita. Ti piace giocare al chiaro-scuro, non rivelare mai troppo per non togliere l'aura di mistero che ti avvolge. Ti piace tenere la suspense e giocare con la sua psicologia.",
+    
+    8 => "PARLANDO: Tu conquisti parlando. Ti piace conoscerla, farle mille domande. Ti interessi a lei e cerchi di carpire più informazioni che puoi. Seduci facendole sentire il tuo interesse e ascolto. Non è detto che tu esprima molto di te, preferisci scoprirti in un secondo momento.",
+    
+    9 => "STUPENDO: Ti piace conquistare stupendola, facendole trovare ciò che le piace, oppure facendole fare esperienze mai fatte. Ami vedere lo stupore che si dipinge nel suo volto. Ti piace soprattutto sapere di avere intuito l'idea giusta."
+],
+
 
         ];
         $mappatura_lavoro = [
