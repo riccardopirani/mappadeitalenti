@@ -1243,7 +1243,7 @@ FULMINE -: educare al cambiamento."
                 $madre_result,
                 $padre_result,
                 $other_result
-            ); // Formatta il titolo del nuovo post
+            ); 
             $post_title = "Mappa Talenti: " . $nome . " " . $cognome;
             $karmaNumber = $other_result["comi"];
 
