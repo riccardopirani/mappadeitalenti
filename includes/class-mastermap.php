@@ -314,7 +314,7 @@ Puoi usare il codice vibrazionale “Vision”.
                 9 => "FULMINE +: hai bisogno di sentirti accettato dalla persona che ami, dalla famiglia o dal tuo gruppo di appartenenza. Vorresti da tutti e tre, ma in caso uno non ti accetti, ti riversi sugli altri dando il massimo. / FULMINE -: hai bisogno di sentirti investito della missione di fare accettare qualcosa di non accettabile, un gruppo di persone, un'ideologia. Sei portatore di pace e mediazione. Hai bisogno di sentirti in una missione importante.",
             ],
 
-            "PUNTO_DEBOLE" => [
+            "PUNTODEBOLE" => [
                 1 => "FUOCO +: quando le cose non procedono velocemente. Se una situazione ti appassiona la vuoi ottenere subito. Ti irrita profondamente dover aspettare e per questo potresti avere l'istinto di insistere o di agire in modo impulsivo chiudendo o allontanandoti con rabbia. Puoi aiutare questo aspetto con il codice vibrazionale Stay. / FUOCO -: quando non ti senti desiderato. Se non ti senti desiderato potresti avere la tendenza ad andare in sconforto prima ancora di averci provato, rinunciando a monte. Ma spesso accade che chi ha questo aspetto emani segnali di chiusura che non invogliano l'altro a muoversi. Puoi aiutare questo aspetto con il codice vibrazionale Flow.",
 
                 2 => "GELO +: potresti avere timore di andare in profondità nei tuoi sentimenti e avere quindi la tendenza a cercare di starne in superficie, occupandoti più di cose belle che di affrontare questo aspetto, venendo, a volte, accusato di non essere adulto. Puoi aiutare questo aspetto con il codice vibrazionale Initiation. / GELO -: potresti avere il timore di essere abbandonato e quindi o evitare di entrare in situazioni che ti fanno vivere questo pericolo, rinunciando a monte a delle opportunità, oppure attaccandoti alla persona o alla situazione offrendoti senza ritegno, vergognandotene. Puoi aiutare questo aspetto con il codice vibrazionale Indipendence Mama.",
@@ -574,7 +574,7 @@ Per te è importante che ci sia equità nel dare e nell'avere. È fondamentale l
                 9 => "Fulmine: essere accettati/ -9 far accettare gli altri o situazioni\nFULMINE +: hai bisogno di sentirti accettato dalla persona che ami, dalla famiglia o dal tuo gruppo di appartenenza. Vorresti da tutti e tre, ma in caso uno non ti accetti, ti riversi sugli altri dando il massimo.\nFULMINE -: hai bisogno di sentirti investito della missione di fare accettare qualcosa di non accettabile, un gruppo di persone, un'ideologia. Sei portatore di pace e mediazione. Hai bisogno di sentirti in una missione importante.",
             ],
 
-            "PUNTO_DEBOLE" => [
+            "PUNTODEBOLE" => [
                 1 => "Fuoco: +1 quando le cose non procedono velocemente/-1 quando non ti senti desiderato.
 FUOCO +: quando le cose non procedono velocemente. Se una situazione ti appassiona la vuoi ottenere subito. Ti irrita profondamente dover aspettare e per questo potresti avere l'istinto di insistere o di agire in modo impulsivo chiudendo o allontanandoti con rabbia. Puoi aiutare questo aspetto con il codice vibrazionale Stay.
 FUOCO -: quando non ti senti desiderato. Se non ti senti desiderato potresti avere la tendenza ad andare in sconforto prima ancora di averci provato, rinunciando a monte. Ma spesso accade che chi ha questo aspetto emani segnali di chiusura che non invogliano l'altro a muoversi. Puoi aiutare questo aspetto con il codice vibrazionale Flow.
@@ -1008,7 +1008,7 @@ Dal tuo albero genealogico paterno hai ereditato la voglia di essere d'aiuto. Po
         //fatto
         $mappature_studio = [
 
-            "PUNTO_DEBOLE" => [
+            "PUNTODEBOLE" => [
                 1 => "FUOCO +: quando le cose non procedono velocemente. Se una situazione ti appassiona la vuoi ottenere subito. Ti irrita profondamente dover aspettare e per questo potresti avere l'istinto di insistere o di agire in modo impulsivo chiudendo o allontanandoti con rabbia. Puoi aiutare questo aspetto con il codice vibrazionale Stay. / FUOCO -: quando non ti senti desiderato. Se non ti senti desiderato potresti avere la tendenza ad andare in sconforto prima ancora di averci provato, rinunciando a monte. Ma spesso accade che chi ha questo aspetto emani segnali di chiusura che non invogliano l'altro a muoversi. Puoi aiutare questo aspetto con il codice vibrazionale Flow.",
 
                 2 => "GELO +: potresti avere timore di andare in profondità nei tuoi sentimenti e avere quindi la tendenza a cercare di starne in superficie, occupandoti più di cose belle che di affrontare questo aspetto, venendo, a volte, accusato di non essere adulto. Puoi aiutare questo aspetto con il codice vibrazionale Initiation. / GELO -: potresti avere il timore di essere abbandonato e quindi o evitare di entrare in situazioni che ti fanno vivere questo pericolo, rinunciando a monte a delle opportunità, oppure attaccandoti alla persona o alla situazione offrendoti senza ritegno, vergognandotene. Puoi aiutare questo aspetto con il codice vibrazionale Indipendence Mama.",
@@ -1195,34 +1195,7 @@ Necessita di comprensione logica e razionale. Ha bisogno di vedere chiaramente i
 Richiede autonomia e libertà nel processo di apprendimento. Ha bisogno di sentirsi indipendente nelle scelte di studio e di poter seguire percorsi non convenzionali. Cerca opportunità per innovare e rivoluzionare il proprio approccio allo studio.  
 **Lato ombra:** potrebbe non ammettere di avere bisogno di aiuto.",
             ],
-            "PUNTO_DEBOLE" => [
-                1 => "Punto Debole del Fuoco  
-Come una fiamma che si spegne quando non ha abbastanza ossigeno, lo studente Fuoco soffre profondamente quando non riceve il riconoscimento che cerca. È come un attore sul palco che perde tutta la sua energia quando le luci si spengono. La sua vulnerabilità si manifesta in un bisogno quasi disperato di visibilità e apprezzamento. Quando si sente invisibile o non riconosciuto, può perdere completamente la motivazione, come un sole che si nasconde dietro le nuvole. Nei momenti peggiori, può abbandonare progetti promettenti solo perché non riceve abbastanza attenzione, sacrificando il suo potenziale sull'altare della visibilità.",
-
-                2 => "Punto Debole del Gelo  
-Come un artista paralizzato dalla ricerca della perfezione assoluta, lo studente Gelo può rimanere immobile davanti alla pagina bianca, terrorizzato dalla possibilità dell'errore. È come un danzatore che conosce tutti i passi ma non osa muoversi per paura di non essere impeccabile. La sua vulnerabilità si manifesta in un perfezionismo paralizzante che trasforma ogni compito in una potenziale fonte di ansia. Come ghiaccio che non osa sciogliersi, può rimanere rigido e immobile, perdendo preziose opportunità di apprendimento per paura di non essere all'altezza dei suoi stessi standard impossibili.",
-
-                3 => "Punto Debole degli Anelli  
-Come una farfalla che volteggia di fiore in fiore senza mai fermarsi abbastanza a lungo, lo studente Anelli soffre di una dispersione cronica dell'attenzione. È come una radio che capta troppe frequenze contemporaneamente, creando solo rumore. La sua vulnerabilità si manifesta nell'incapacità di mantenere il focus su un singolo argomento abbastanza a lungo da approfondirlo veramente. Come un giocoliere che aggiunge sempre più palline, rischia costantemente di far cadere tutto per eccesso di elementi in gioco.",
-
-                4 => "Punto Debole del Seme  
-Come un albero che non riconosce la propria forza e si piega anche con una brezza leggera, lo studente Seme soffre di una profonda insicurezza nelle proprie capacità. È come un artista che nasconde le proprie opere migliori nel cassetto, convinto che non siano abbastanza buone. La sua vulnerabilità si manifesta in un costante sottostimarsi, come un atleta che si ritira dalla gara convinto di non essere all'altezza, nonostante l'ottima preparazione.",
-
-                5 => "Punto Debole del Fiore  
-Come una farfalla che vola solo nelle giornate di sole, lo studente Fiore perde tutta la sua energia quando l'atmosfera si fa pesante. È come un musicista che suona solo quando è ispirato, ignorando l'importanza della pratica costante. La sua vulnerabilità si manifesta in una dipendenza eccessiva dall'umore e dal piacere immediato. Come un giardino che fiorisce solo in primavera, rischia di lasciare incolti lunghi periodi di potenziale crescita.",
-
-                6 => "Punto Debole dell'Albero  
-Come una quercia che non sa piegarsi al vento, lo studente Albero soffre di un'eccessiva rigidità nei suoi metodi. È come un orologio che continua a segnare la stessa ora, incapace di adattarsi al cambiamento del tempo. La sua vulnerabilità si manifesta in una resistenza quasi ossessiva al cambiamento, come un danzatore che conosce solo una coreografia e rifiuta di impararne altre. Questa rigidità può trasformarsi in una gabbia che limita il suo potenziale di crescita.",
-
-                7 => "Punto Debole dell'Acqua  
-Come uno specchio d'acqua che riflette ogni increspatura, lo studente Acqua è ipersensibile alle energie e alle emozioni circostanti. È come una spugna emotiva che assorbe lo stress e l'ansia di tutto l'ambiente circostante. La sua vulnerabilità si manifesta in una difficoltà a mantenere i propri confini emotivi, come un fiume che straripa ad ogni pioggia. Questa sensibilità può trasformare ogni momento di tensione in un'ondata emotiva travolgente.",
-
-                8 => "Punto Debole dello Specchio  
-Come un filosofo perso nei propri pensieri, lo studente Specchio può rimanere intrappolato in un labirinto di analisi infinite. È come un detective che continua a cercare indizi anche quando il caso è già risolto. La sua vulnerabilità si manifesta in una tendenza a complicare anche i concetti più semplici, come un matematico che usa equazioni complesse per risolvere problemi elementari. Questo eccesso di analisi può trasformare ogni studio in un percorso tortuoso e infinito.",
-
-                9 => "Punto Debole del Fulmine  
-Come un rivoluzionario che si oppone a tutto per principio, lo studente Fulmine può sabotare il proprio apprendimento attraverso una resistenza automatica all'autorità. È come un artista che rifiuta di studiare le tecniche classiche solo perché sono tradizionali. La sua vulnerabilità si manifesta in una ribellione che può diventare fine a se stessa, come un fulmine che colpisce anche quando non c'è tempesta. Questa resistenza può privarlo di preziose opportunità di apprendimento, solo perché presentate in forme convenzionali.",
-            ],
+            
 
             "MISSIONE" => [
                 1 => "Amore puro  
@@ -1637,7 +1610,7 @@ Il tuo bambino potrebbe avere bisogno di sentire che la sua famiglia è ben acce
                 9 => "Di essere accettata e far accettare gli altri. Il bambino Fulmine necessita di sentirsi accettato nella sua peculiarità, sia dalla famiglia che dal contesto sociale. Va aiutato ad accettare prima se stesso e poi le diverse opinioni altrui, trovando i contesti più adatti alla sua natura. Il suo forte idealismo va bilanciato con la cura di sé, guidandolo a mantenere il suo spirito di giustizia sociale senza dimenticare l'importanza del proprio benessere personale.",
             ],
 
-            "PUNTO_DEBOLE" => [
+            "PUNTODEBOLE" => [
                 1 => "Impazienza o bisogno di sentirsi desiderata. Il bambino Fuoco mostra una forte tendenza all'impulsività, manifestando difficoltà nel gestire l'attesa e la frustrazione. Può reagire con crisi di rabbia quando non ottiene ciò che desidera immediatamente. Questa impulsività richiede una gestione attenta e consapevole per aiutarlo a sviluppare la pazienza e l'autocontrollo.",
                 2 => "Superficialità o paura dell’abbandono. Il bambino Gelo può mostrare resistenza nell'esplorare i propri sentimenti profondi, preferendo rimanere in superficie e occuparsi di aspetti più leggeri della vita. Questa tendenza può essere interpretata come immaturità, ma è in realtà un meccanismo di protezione emotiva. Ha un profondo timore dell'abbandono che può esprimersi in due modi opposti: o attraverso l'evitamento di situazioni che potrebbero esporlo a questo rischio, rinunciando a opportunità di crescita, oppure attraverso un eccessivo attaccamento che può portare a vergogna e senso di inadeguatezza.",
                 3 => "Ricerca eccessiva di esperienze o diffidenza. Il bambino Anelli può sviluppare paure apparentemente irrazionali che possono condizionare significativamente la sua vita quotidiana. Queste paure possono manifestarsi attraverso crisi di ansia improvvise o reazioni fisiche come svenimenti. Può anche manifestare una profonda diffidenza verso gli altri, radicata nel timore di essere tradito o ingannato. Questa tendenza può portarlo a giudizi affrettati negativi sulle persone, seguiti da sensi di colpa quando scopre di aver giudicato erroneamente.",
@@ -1717,7 +1690,7 @@ Il tuo bambino potrebbe avere bisogno di sentire che la sua famiglia è ben acce
                 8 => "Di eccellenza e riconoscimento / Autenticità.",
                 9 => "Di indipendenza e cambiamento / Sfide stimolanti.",
             ],
-            "PUNTO_DEBOLE" => [
+            "PUNTODEBOLE" => [
                 1 => "Impazienza e impulsività.",
                 2 => "Difficoltà nel connettersi emotivamente.",
                 3 => "Tendenza a disperdere energie.",
@@ -1988,7 +1961,7 @@ FULMINE -: educare al cambiamento.",
                 if (!isset($valori_mappa[$indice])) {
                     $indice = array_key_first($valori_mappa);
                 }
-            } elseif ($chiave === "PUNTO_DEBOLE") {
+            } elseif ($chiave === "PUNTODEBOLE") {
                 $indice = abs(round($puntodebolenumber));
 
                 if (!isset($valori_mappa[$indice])) {
