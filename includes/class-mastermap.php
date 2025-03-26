@@ -1005,7 +1005,7 @@ Dal tuo albero genealogico paterno hai ereditato la voglia di essere d'aiuto. Po
                 9 => "Farti sentire eccezionale",
             ],
         ];
-        //fatto
+        //fatto completoa
         $mappature_studio = [
 
             "PUNTODEBOLE" => [
@@ -1913,7 +1913,7 @@ FULMINE -: educare al cambiamento.",
             
         ];
         $mappature = [];
-        if (strpos($slug_mappa, "studio") !== false) {
+      if (strpos($slug_mappa, "studio") !== false || strpos($slug_mappa, "mappa studio") !== false || preg_match('/\bstudio\b|\bmappa studio\b/', $slug_mappa)) {
             $mappature = $mappature_studio;
         } elseif (strpos($slug_mappa, "amore") !== false) {
             if (strpos($sesso, "uomo") !== false) {
@@ -2041,7 +2041,10 @@ FULMINE -: educare al cambiamento.",
             $cognome = sanitize_text_field($_POST["cognome"]);
             $email = sanitize_email($_POST["email"]);
             $sesso = sanitize_text_field($_POST["sesso"]);
-            $slug_mappa = sanitize_text_field($_POST["slug_mappa"]);
+            //$slug_mappa = sanitize_text_field($_POST["slug_mappa"]);
+            $url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+            $parsed_url = parse_url($url, PHP_URL_PATH); 
+$slug_mappa = ltrim($parsed_url, '/');
             $lingua = sanitize_text_field($_POST["lingua"]);
             $data_nascita_utente = sanitize_text_field(
                 $_POST["data_di_nascita_utente"]
@@ -2494,7 +2497,10 @@ FULMINE -: educare al cambiamento.",
                         "option"
                     );
                 endif;
-                wp_redirect("/grazie-per-la-mappa/");
+               echo '<pre>';
+print_r($slug_mappa);
+echo '</pre>';
+                //wp_redirect("/grazie-per-la-mappa/");
                 exit();
             }
         }
