@@ -233,7 +233,7 @@ class Mastermap
         $riconoscimentonumber,
         $puntodiforzanumber
     ) {
-        //fatto
+        //fatto completa
         $mappatura_amore_uomo = [
             "KARMA" => [
                 1 => "Fuoco: bisogno compulsivo del sesso/rifiuto del sesso. 
@@ -516,7 +516,7 @@ FULMINE -: educare al cambiamento.",
                 9 => "FULMINE: Hai bisogno di sentire che la tua relazione è qualcosa di grandioso, oppure alla quale aspirare per gli altri, un esempio da seguire. Una relazione che si fonda su principi comuni, su ideali condivisi. Devi solo stare attento di non caricare di troppe aspettative la persona che hai di fronte, che altrimenti potrà solo deluderti.",
             ],
         ];
-        //fatto
+        //fatto completa
         $mappature_amore_donna = [
             "KARMA" => [
                 1 => "Fuoco: bisogno compulsivo del sesso/rifiuto del sesso. \nIl sesso è una delle forme d’espressione con la quale trasformiamo la rabbia. Dovrebbe essere un mezzo con la quale entriamo in comunicazione profonda con l’altro, ma in questo caso la difficoltà è proprio questa. Sia chi cerca compulsivamente il sesso, che chi lo rifiuta ha la difficoltà ad entrare in comunicazione profonda con l’altro in quanto in profondità c’è la rabbia.\nTrasformazione: contattare la rabbia e iniziare a “sentire” veramente l’altro. \nPer aiutarti puoi usare il codice vibrazionale “Papa” o “Mama”. ",
