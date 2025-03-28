@@ -1608,7 +1608,6 @@ Il tuo bambino potrebbe avere bisogno di sentire che la sua famiglia è ben acce
                 8 => "Di essere riconosciuta e prevedere problemi. Il bambino Specchio necessita di sentirsi importante all'interno della famiglia, con le sue opinioni rispettate e il suo ruolo riconosciuto. Va educato all'umiltà mantenendo la sua autostima. Richiede supporto per superare il perfezionismo che può paralizzarlo e incoraggiamento per provare nuove esperienze senza timore del fallimento.",
                 9 => "Di essere accettata e far accettare gli altri. Il bambino Fulmine necessita di sentirsi accettato nella sua peculiarità, sia dalla famiglia che dal contesto sociale. Va aiutato ad accettare prima se stesso e poi le diverse opinioni altrui, trovando i contesti più adatti alla sua natura. Il suo forte idealismo va bilanciato con la cura di sé, guidandolo a mantenere il suo spirito di giustizia sociale senza dimenticare l'importanza del proprio benessere personale.",
             ],
-
             "PUNTODEBOLE" => [
                 1 => "Impazienza o bisogno di sentirsi desiderata. Il bambino Fuoco mostra una forte tendenza all'impulsività, manifestando difficoltà nel gestire l'attesa e la frustrazione. Può reagire con crisi di rabbia quando non ottiene ciò che desidera immediatamente. Questa impulsività richiede una gestione attenta e consapevole per aiutarlo a sviluppare la pazienza e l'autocontrollo.",
                 2 => "Superficialità o paura dell’abbandono. Il bambino Gelo può mostrare resistenza nell'esplorare i propri sentimenti profondi, preferendo rimanere in superficie e occuparsi di aspetti più leggeri della vita. Questa tendenza può essere interpretata come immaturità, ma è in realtà un meccanismo di protezione emotiva. Ha un profondo timore dell'abbandono che può esprimersi in due modi opposti: o attraverso l'evitamento di situazioni che potrebbero esporlo a questo rischio, rinunciando a opportunità di crescita, oppure attraverso un eccessivo attaccamento che può portare a vergogna e senso di inadeguatezza.",
@@ -1641,6 +1640,177 @@ Il tuo bambino potrebbe avere bisogno di sentire che la sua famiglia è ben acce
                 7 => "Farti sentire la passione profonda. Il bambino con l'energia dell'Acqua ha un cuore profondamente sensibile. Ha una forte connessione con le emozioni e la famiglia. Ha bisogno di sentirsi ascoltato e compreso. Il suo cuore desidera fluire e conservare i ricordi preziosi.",
                 8 => "Farti perdere la testa. Il bambino con l'energia dello Specchio ha un cuore lucido e perspicace. Ama la verità e la giustizia. Ha bisogno di sentirsi riconosciuto per la sua saggezza. Il suo cuore desidera riflettere la verità e illuminare gli altri.",
                 9 => "Farti sentire eccezionale. Il bambino con l'energia del Fulmine ha un cuore resiliente e trasformativo. Porta cambiamenti positivi dove va. Ha bisogno di sentirsi accettato nella sua unicità. Il suo cuore desidera rinnovare e migliorare il mondo intorno a sé.",
+            ],
+              "SOCIETA"        => [
+                1 => "Si mostra naturalmente come un leader carismatico, tendendo ad emergere in situazioni che richiedono iniziativa e coraggio. In società si distingue per la sua energia contagiosa e la capacità di ispirare gli altri all'azione. Il suo entusiasmo naturale lo porta spesso al centro dell'attenzione, dove può brillare attraverso la sua capacità di motivare e guidare. Tuttavia, questa tendenza può anche manifestarsi come eccessiva dominanza o impulsività quando non adeguatamente incanalata.",
+
+                2 => "Si presenta con un'apparente freddezza che nasconde una profonda sensibilità. In società tende a mostrarsi competente e affidabile, privilegiando un approccio razionale e metodico. La sua naturale capacità analitica lo fa emergere in situazioni che richiedono precisione e attenzione ai dettagli. Può apparire distaccato ma in realtà osserva attentamente, guadagnandosi rispetto attraverso la sua affidabilità e competenza.",
+
+                3 => "Si manifesta come un abile comunicatore e tessitore di relazioni. In società brilla per la sua capacità di creare connessioni e mediare tra diverse persone o gruppi. La sua naturale diplomazia lo rende prezioso in contesti sociali complessi, dove emerge come facilitatore di dialogo e creatore di armonia. Si distingue per la capacità di adattarsi a diversi ambienti mantenendo autenticità nelle relazioni.",
+
+                4 => "Si presenta come una persona affidabile e competente, emergendo attraverso la sua capacità organizzativa e la sua precisione. In società tende a mostrarsi attraverso le sue capacità concrete e la sua metodicità, guadagnandosi rispetto attraverso risultati tangibili piuttosto che carisma personale. La sua naturale tendenza alla perfezione lo fa notare in ambiti che richiedono attenzione ai dettagli e professionalità, anche se può apparire talvolta rigido o eccessivamente controllato.",
+
+                5 => "Si manifesta attraverso la sua naturale creatività e il suo stile personale distintivo. In società emerge grazie al suo carisma e alla capacità di portare bellezza e armonia. Tende a distinguersi per originalità e capacità espressive, attirando naturalmente l'attenzione attraverso il suo modo unico di presentarsi e comunicare. La sua presenza può illuminare l'ambiente sociale, anche se talvolta rischia di apparire superficiale nella ricerca di approvazione.",
+
+                6 => "Si presenta come una figura di riferimento stabile e affidabile. In società tende a emergere come punto di appoggio per gli altri, mostrandosi attraverso la sua capacità di creare strutture e garantire sicurezza. La sua naturale autorevolezza lo fa notare in situazioni che richiedono leadership responsabile e capacità organizzative. Può apparire come il pilastro del gruppo, anche se talvolta questo ruolo può risultare rigido o eccessivamente controllante.",
+
+                7 => "Si manifesta attraverso la sua profonda sensibilità e capacità empatica. In società emerge come una presenza accogliente e comprensiva, capace di cogliere e rispondere alle necessità emotive degli altri. La sua naturale intuizione lo rende prezioso in situazioni che richiedono comprensione profonda e supporto emotivo. Può diventare un punto di riferimento per il sostegno emotivo, anche se rischia di assorbire eccessivamente le energie altrui.",
+
+                8 => "Si presenta con una naturale profondità e capacità di osservazione. In società tende a emergere attraverso la sua comprensione acuta e la capacità di vedere oltre le apparenze. Il suo sguardo penetrante e la sua abilità nell'analisi lo rendono prezioso in situazioni che richiedono discernimento e visione profonda. Può apparire distaccato, ma la sua presenza porta chiarezza e comprensione nelle dinamiche sociali.",
+
+                9 => "Si manifesta come una forza di cambiamento e innovazione. In società emerge attraverso la sua capacità di portare nuove prospettive e rompere schemi consolidati. La sua natura non convenzionale lo fa notare in situazioni che richiedono pensiero originale e coraggio nel proporre alternative. Può diventare catalizzatore di trasformazione sociale, anche se talvolta il suo approccio può risultare destabilizzante per chi preferisce la stabilità.",
+            ],
+
+            "RICONOSCIMENTO" => [
+                1 => "(+) IPER: Si sente riconosciuto quando può assumere ruoli di leadership e quando il suo coraggio viene celebrato. Ha bisogno di sentirsi il primo, il più forte, il più coraggioso. Cerca conferme attraverso sfide e conquiste, prosperando quando gli vengono affidate responsabilità di guida.",
+
+                2 => "IPER: Trova riconoscimento attraverso la validazione delle sue capacità analitiche e della sua saggezza. Ha bisogno di sentirsi apprezzato per la sua intelligenza e competenza, cercando conferme attraverso risultati concreti e riconoscimenti formali.",
+
+                3 => " IPER: Trova riconoscimento quando le sue capacità sociali e comunicative vengono apprezzate. Ha bisogno di sentirsi al centro dell'attenzione, valorizzato per la sua abilità nel creare connessioni e mediare situazioni.",
+
+                4 => "IPER: Si sente riconosciuto quando vengono apprezzate le sue capacità e competenze pratiche. Ha bisogno di conferme concrete sui suoi risultati e sulla sua affidabilità. Cerca validazione attraverso il completamento perfetto dei compiti assegnati e il riconoscimento delle sue abilità specifiche.",
+
+                5 => "IPER: Si sente riconosciuto quando può brillare e mostrare la sua unicità. Ha bisogno di applausi e ammirazione per le sue performance creative e il suo stile personale. Cerca validazione attraverso l'espressione artistica e il riconoscimento della sua originalità.",
+
+                6 => "IPER: Si sente riconosciuto quando viene apprezzato per la sua affidabilità e capacità di prendersi cura degli altri. Ha bisogno di sentirsi un punto di riferimento importante e cerca conferme attraverso ruoli di responsabilità.",
+
+                7 => " IPER: Si sente riconosciuto quando la sua sensibilità e capacità empatica vengono apprezzate. Ha bisogno di sentire che il suo modo profondo di percepire e comprendere gli altri è un dono prezioso.",
+
+                8 => " IPER: Si sente riconosciuto quando viene apprezzata la sua profondità di pensiero e capacità di analisi. Ha bisogno che le sue osservazioni e intuizioni vengano prese sul serio e considerate preziose.",
+
+                9 => "IPER: Si sente riconosciuto quando viene apprezzato per la sua capacità di portare cambiamento e innovazione. Ha bisogno di sentire che le sue idee non convenzionali sono valorizzate e che il suo coraggio nel rompere gli schemi è rispettato.",
+            ],
+            "MAESTRO"        => [
+                1 => "Nelle relazioni con gli altri, il bambino Fuoco tende naturalmente ad assumere un ruolo di leadership. Cerca di essere al centro dell'attenzione e può sviluppare forti gelosie quando altri bambini ricevono più considerazione. Con i fratelli spesso compete per il primato, mentre con gli amici tende a organizzare giochi e attività, mostrandosi protettivo ma anche dominante. La sua energia carismatica lo rende popolare, ma può anche creare conflitti quando gli altri resistono al suo desiderio di controllo. Può sviluppare particolare insofferenza verso chi cerca di comandarlo o chi riceve più attenzioni di lui.",
+
+                2 => "Sviluppa relazioni selettive e profonde. Con fratelli e amici può mostrarsi inizialmente riservato e osservatore, preferendo piccoli gruppi o relazioni uno a uno. Può provare invidia silenziosa verso chi appare più sicuro di sé nelle situazioni sociali. Tende a creare legami duraturi con pochi amici fidati, mostrandosi molto leale ma anche possessivo. Con i fratelli può sviluppare un forte attaccamento protettivo o, al contrario, una competizione sottile per l'attenzione dei genitori.",
+
+                3 => "È naturalmente sociale e comunicativo, creando facilmente reti di relazioni. Con fratelli e amici si pone spesso come mediatore, cercando di mantenere l'armonia nel gruppo. Può sviluppare gelosie quando sente minacciata la sua posizione di preferito o quando altri sembrano più popolari. La sua capacità di adattarsi alle diverse situazioni sociali lo rende ben voluto, ma può anche portarlo a mascherare i suoi veri sentimenti per piacere agli altri.",
+
+                4 => "Nelle relazioni tende a essere affidabile e metodico, spesso assumendo il ruolo del responsabile nel gruppo. Con i fratelli può sviluppare un forte senso di competizione basato sulle capacità e i risultati, soffrendo particolarmente quando si sente meno competente. Nelle amicizie cerca stabilità e routine, faticando con persone troppo imprevedibili. Può provare invidia verso chi appare più spontaneo e disinvolto socialmente. La sua tendenza al perfezionismo può creare distanza dagli altri, anche se interiormente desidera profondamente approvazione e riconoscimento..",
+
+                5 => "Sviluppa relazioni basate sulla creatività e il carisma personale. Attira naturalmente l'attenzione e può diventare molto popolare, ma tende a sviluppare gelosie intense quando altri ricevono più apprezzamenti. Con i fratelli può alternare momenti di grande complicità a competizione per essere il più speciale. Nelle amicizie cerca ammirazione e può cambiare gruppo se non riceve sufficiente attenzione. È particolarmente sensibile alle critiche sul suo aspetto o le sue capacità espressive.",
+
+                6 => "Cerca relazioni stabili e strutturate. Con fratelli e amici tende ad assumere un ruolo protettivo e responsabile, spesso preoccupandosi del benessere altrui. Può sviluppare gelosie quando sente minacciata la sua posizione di punto di riferimento. Fatica con persone che non rispettano le regole o sono troppo caotiche. Può provare invidia verso chi appare più libero e spontaneo, pur mantenendo esteriormente un atteggiamento controllato. Il suo bisogno di controllo può talvolta allontanare gli altri.",
+
+                7 => "Estremamente sensibile nelle relazioni, tende a sviluppare legami empatici profondi. Con i fratelli può assumere il ruolo di sensore emotivo della famiglia, spesso assorbendo tensioni e conflitti. Nelle amicizie cerca connessioni autentiche e può soffrire intensamente per tradimenti o delusioni. È particolarmente vulnerabile all'esclusione sociale e può sviluppare gelosie intense quando sente minacciata una relazione importante. La sua sensibilità può portarlo sia a essere un amico prezioso che a diventare emotivamente dipendente.",
+
+                8 => "Sviluppa relazioni basate sull'osservazione e l'analisi profonda. Con fratelli e amici può apparire distaccato, ma in realtà osserva e analizza attentamente ogni dinamica. Può provare invidia verso chi riesce a socializzare con maggiore facilità. Nelle amicizie cerca autenticità e può diventare molto critico verso comportamenti che percepisce come superficiali o falsi. La sua tendenza al giudizio può creare distanze, nonostante il desiderio profondo di connessioni significative.",
+
+                9 => "Nelle relazioni cerca autenticità e condivisione di ideali. Con i fratelli può sviluppare forti legami basati sulla complicità o, al contrario, conflitti intensi basati su differenze di valori. Nelle amicizie tende a essere molto leale al gruppo, sviluppando gelosie quando sente minacciata l'appartenenza. Può provare invidia verso chi sembra integrarsi più facilmente nella società. La sua natura non convenzionale può renderlo sia un leader carismatico che un outsider, a seconda del contesto sociale.",
+            ],
+          "PUNTODIFORZA"   => [
+                1 => "FUOCO: con la passione. Se ci sono problemi in coppia cerchi di ritrovare l'entusiasmo per qualcosa che vi accomuna o cerchi di riaccendere la passione.
+Nello specifico il tuo punto di forza si esprime:
+FUOCO +: con la sessualità
+FUOCO -: con progetti comuni che vi appassionano.",
+
+                2 => "GELO: la calma. Se ci sono problemi in amore cerchi di riportare la calma e la pacatezza per poter riparare ciò che è stato lacerato.
+Nello specifico il tuo punto di forza si esprime:
+GELO +: ti allontani, anche solo con il silenzio.
+GELO -: hai bisogno di dormire, di riposare.",
+
+                3 => "ANELLI: la connessione. Se ci sono problemi in amore cerchi di ripristinare il dialogo e la connessione con lei. Per te il dialogo è fondamentale.
+Nello specifico il tuo punto di forza si esprime:
+ANELLI +: con il chiarimento
+ANELLI -: facendo cose insieme che vi riportano al dialogo.",
+
+                4 => "SEME: la tua capacità di amare. Se ci sono problemi in amore cerchi di ritrovare la dolcezza, anche e soprattutto attraverso il contatto fisico. Per te l'abbraccio, anche intimo, è fondamentale.
+Nello specifico il tuo punto di forza si esprime:
+SEME +: abbraccio
+SEME -: fare cose piacevoli insieme.",
+
+                5 => "FIORE: la tua capacità di alleggerire la vita. Se ci sono problemi in amore cerchi di risolverli riportando il gioco nella coppia. Hai bisogno di alleggerire le situazioni.
+Nello specifico il tuo punto di forza si esprime:
+FIORE +: gioco a due
+FIORE -: fare cose divertenti insieme.",
+
+                6 => "ALBERO: la tua capacità di essere stabile. Se ci sono problemi nella coppia cerchi di risolverli riportando la stabilità. Hai bisogno di equilibrio e che le emozioni non sbilancino troppo la vita.
+Nello specifico il tuo punto di forza si esprime:
+ALBERO +: stare solo per non agire in modo impulsivo.
+ALBERO -: allontanarti dal mondo con lei.",
+
+                7 => "ACQUA: la tua capacità di trasformare. Se ci sono problemi nella coppia tu hai bisogno di andare a fondo per trasformarli. Hai bisogno di profondità.
+Nello specifico il tuo punto di forza si esprime:
+ACQUA +: sostieni la situazione e lei se serve.
+ACQUA -: sensibilità.",
+
+                8 => "SPECCHIO: la tua capacità di decidere. Se ci sono problemi nella coppia tendi a raccogliere informazioni per arrivare a prendere le decisioni che meglio aiutano la risoluzione.
+Nello specifico il tuo punto di forza si esprime:
+SPECCHIO +: capacità di analizzare
+SPECCHIO -: visione a lungo termine.",
+
+                9 => "FULMINE: la tua capacità di resistere. Se ci sono problemi nella coppia tendi a sopportare per lungo tempo per permettere a lei di crescere e cambiare atteggiamento. Tu credi nella pazienza.
+Nello specifico il tuo punto di forza si esprime:
+FULMINE +: pazienza
+FULMINE -: educare al cambiamento.",
+            ],
+            "PATERNA"        => [
+                1 => "FUOCO: Conquistare. Conquistare è un talento che deriva dal tuo albero genealogico paterno. La conquista è tipica dei viaggiatori e dei condottieri. Ti rende quindi una persona che tende ad avere continuo desiderio di conquista, ti piace corteggiare e far cadere ai tuoi piedi chi ha attratto la tua attenzione. Dall'albero genealogico paterno potresti aver acquisito una certa aggressività che potresti manifestare o soffocare. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale PAPA) Come padre avrai la tendenza ad essere un genitore dinamico, che ama viaggiare e fare gite fuori porta.",
+
+                2 => "GELO: Prendersi cura. Prendersi cura è un talento che deriva dall'albero genealogico del padre. È tipico di chi ha la tendenza a mettersi a servizio degli altri. Ti rende quindi una persona che tende ad essere attenta ai bisogni di chi ti sta vicino e molto disponibile alle richieste altrui. Dall'albero genealogico paterno potresti aver ereditato la tendenza ad un atteggiamento che diventa servile o all'immaturità. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale INDIPENDENCE PAPA) Come padre avrai la tendenza ad essere molto accudente e ad ascoltare i tuoi figli.",
+
+                3 => "ANELLI: Comunicare. Comunicare è un talento che deriva dall'albero genealogico paterno. La tua capacità di mediare nelle situazioni, ma anche di essere l'anima allegra della casa o della compagnia. Ti rende quindi una persona capace di tenere sempre vivo l'interesse di chi è al tuo fianco. Dall'albero genealogico potresti aver ereditato la tendenza ad essere molto dispersivo nell'attenzione che dai e a dare retta anche a persone poco affidabili. Dovresti imparare a trasformarla. (Ti consigliamo il codice vibrazionale STAY). Come padre potresti avere la tendenza a inserire bene i tuoi figli nella tua rete relazionale e ad aiutarli a districarsi nelle relazioni.",
+
+                4 => "SEME: Importanza della famiglia. Dall'albero genealogico di tuo padre deriva la sensazione che senza una famiglia sulla quale appoggiarti tu faccia fatica a garantirti la sopravvivenza. Darai quindi importanza alla tua famiglia, oppure all'impresa per cui lavori o operi. Ovviamente questo ti rende molto affidabile. Devi stare molto attento a capire fino a che punto questo corrisponda ad un tuo vero bisogno o ad un'imposizione inconscia. Dovresti chiederti fino a che punto corrisponda alla tua verità interiore. (Ti consigliamo il codice vibrazionale INDIPENDENCE PAPA). Come padre potresti avere la tendenza a voler provvedere a tutti i bisogni dei tuoi figli, a non voler far mancare loro nulla.",
+
+                5 => "FIORE: Idee liberali. Dall'albero genealogico di tuo padre potresti aver ereditato una certa mentalità liberale, poco tradizionale, che vede nella relazione un'esperienza importante e da vivere con grande entusiasmo piuttosto che un'istituzione sociale. Potresti però aver acquisito anche una certa tendenza a muoverti nella relazione in modo un po' adolescenziale, senza arrivare mai ad assumertene veramente la responsabilità. Ti farebbe bene andare verso una nuova maturità emotiva. (Ti consigliamo il codice INITIATION). Come padre potresti essere molto giocoso e divertente.",
+
+                6 => "ALBERO: Capo famiglia. Dall'albero genealogico di tuo padre potresti aver ereditato il ruolo di capo famiglia. La capacità di gestire, di guidare. Questo tenderà a farti sentire molto responsabile rispetto a chi ritieni di dover proteggere. Potresti aver ereditato, però, anche una certa propensione all'autoritarismo. In questo caso ti consigliamo di iniziare a valutare di trasformare questa dinamica in autorevolezza. (Ti consigliamo il codice vibrazionale PAPA). Come padre avrai la tendenza a dare il buon esempio ai tuoi figli e a cercare di insegnare loro le regole per stare al mondo.",
+
+                7 => "ACQUA: Onorare la memoria. La storia per te ha un valore importante, soprattutto quella che coinvolge la tua famiglia. Potresti quindi o portare avanti la memoria di storie familiari e avere il desiderio di farle proseguire con la tua vita o con la tua stirpe coinvolgendo le persone che ami. Potresti avere il desiderio di trovare una persona che come te crede nelle tradizioni. Potresti, però, faticare ad accettare la necessità altrui di cambiare direzione. Dovresti imparare ad accettare i cambiamenti. (Ti consigliamo il codice vibrazionale ACCEPT). Come padre avrai la tendenza ad insegnare ciò che per tradizione ritieni giusto.",
+
+                8 => "SPECCHIO: Condividere sapere. La ricerca, la conoscenza hanno per te un valore importante. Lo hai ereditato dal tuo albero genealogico familiare. Hai quindi il desiderio di incontrare persone che come te amino conoscere, scoprire, pensare, discutere. Hai però ereditato anche una certa intolleranza per chi cade nell'errore rischiando di diventare insensibile al dolore altrui, anche a quello di chi ti è più vicino. Dovresti imparare ad essere più compassionevole ed empatico. (Ti consigliamo il codice EMPATHY). Come padre potresti essere molto stimolante, sempre pronto a dare spunto e direzione.",
+
+                9 => "FULMINE: Voglia di essere d'aiuto. Dal tuo albero genealogico paterno hai ereditato la voglia di essere d'aiuto. Potresti quindi cercare persone che hanno bisogno d'aiuto o persone che come te hanno il desiderio di offrire il proprio aiuto e di farlo assieme. Devi stare attento a non attirare persone parassite e a non diventare crocerossino. (Ti consigliamo il codice vibrazionale MAMA). Come padre potresti essere molto attento ai bisogni dei tuoi figli e cercare di aiutarli nelle difficoltà.",
+            ],
+       
+
+            "MATERNA"        => [
+                1 => "Eredità Materna del Fuoco
+La madre del Fuoco trasmette al figlio una visione dello studio come palcoscenico dove brillare e distinguersi. Con la sua energia dinamica e appassionata, ispira un approccio all'apprendimento basato sull'azione e il movimento.
+Questa eredità si esprime al meglio in percorsi legati alle scienze motorie, alle arti performative o alle attività all'aria aperta, dove il figlio può canalizzare il suo naturale bisogno di movimento e la sua capacità di entusiasmare gli altri.
+Se la madre è stata poco attenta nel \"vedere\" il figlio, questo può tradursi in un bisogno di attenzione carico di rabbia.",
+
+                2 => "Eredità Materna del Gelo
+La madre del Gelo trasmette al figlio un approccio allo studio caratterizzato da eleganza e precisione manuale. Dalla famiglia materna eredita un talento naturale per la precisione e la manualità fine, che si esprime nell'attenzione ai dettagli e nella capacità di creare con le mani.
+Questa eredità trova la sua massima espressione in percorsi come la cucina d'alta gamma, il restauro artistico, l'oreficeria o l'estetica professionale, dove può mettere a frutto la sua naturale propensione per la perfezione formale e la manipolazione della materia.
+Se la madre è un po' infantile, potrebbe aver generato nel figlio un bisogno compensatorio di perfezionismo.",
+
+                3 => "Eredità Materna degli Anelli
+La madre degli Anelli trasmette l'arte di connettere diversi saperi, come una tessitrice di relazioni. Dalla famiglia materna eredita un talento naturale per la comunicazione e le relazioni interpersonali, che si manifesta nella capacità di creare connessioni e mediare tra diverse culture e contesti.
+Questa eredità trova terreno fertile in ambiti come il giornalismo, il marketing digitale, la mediazione culturale o le relazioni internazionali, dove può esprimere la sua naturale versatilità comunicativa e creatività relazionale.
+Se la madre è troppo eccentrica, potrebbe aver sviluppato un eccessivo bisogno di popolarità.",
+
+                4 => "Eredità Materna del Seme
+La madre del Seme trasmette il valore del lavoro costante e della crescita graduale. Dalla famiglia materna eredita un talento naturale per la gestione pratica e concreta delle risorse, che si esprime nella capacità di far crescere progetti e nella connessione con la natura.
+Questa eredità trova la sua realizzazione in percorsi come agraria, economia aziendale, naturopatia o ristorazione, dove può esprimere il suo pragmatismo e la sua attitudine alla pianificazione sostenibile.
+Se la madre è insicura, potrebbe aver generato confusione nelle scelte di studio.",
+
+                5 => "Eredità Materna del Fiore
+La madre del Fiore trasmette la capacità di trovare bellezza e gioia nell'apprendimento. Dalla famiglia materna eredita un talento naturale per l'estetica e la creatività, che si manifesta nella capacità di creare armonia e bellezza in ogni contesto.
+Questa eredità si esprime al meglio in ambiti come il fashion design, l'architettura d'interni, l'event planning o l'illustrazione, dove può dar voce alla sua sensibilità artistica e alla sua capacità di innovazione estetica.
+Se la madre è emotivamente immatura, potrebbe invece trasmettere ansia nello studio.",
+
+                6 => "Eredità Materna dell'Albero
+La madre dell'Albero trasmette il valore della struttura e dell'organizzazione. Dalla famiglia materna eredita un talento naturale per la leadership e la gestione strategica, che si manifesta nella capacità di pianificare e coordinare progetti complessi.
+Questa eredità trova la sua massima espressione in percorsi come economia e management, amministrazione aziendale o gestione del turismo, dove può esprimere la sua naturale attitudine alla pianificazione e al problem-solving.
+Se la madre è ipercontrollante, potrebbe aver deresponsabilizzato il figlio nello studio.",
+
+                7 => "Eredità Materna dell'Acqua
+La madre dell'Acqua trasmette una profonda sensibilità verso il processo di apprendimento. Dalla famiglia materna eredita un talento naturale per la comprensione empatica e la guarigione, che si manifesta nella capacità di ascolto profondo e nella memoria storica.
+Questa eredità trova la sua massima espressione in percorsi come medicina, psicologia, arte terapia o counseling, dove può mettere a frutto la sua naturale intuizione e la sua propensione alla cura degli altri.
+Se la madre è poco ottimista, potrebbe aver gravato emotivamente sul figlio.",
+
+                8 => "Eredità Materna dello Specchio
+La madre dello Specchio trasmette l'amore per la comprensione profonda e l'analisi critica. Dalla famiglia materna eredita un talento naturale per l'innovazione e il pensiero analitico, che si esprime nella capacità di trovare soluzioni creative e nell'attitudine all'arte astratta.
+Questa eredità si realizza in ambiti come l'ingegneria, la matematica, l'arte digitale o la fisica applicata, dove può esprimere la sua naturale propensione al pensiero innovativo e alla ricerca.
+Se la madre è ipercritica, potrebbe aver minato l'autostima del figlio.",
+
+                9 => "Eredità Materna del Fulmine
+La madre del Fulmine trasmette il valore dell'innovazione e del servizio agli altri. Dalla famiglia materna eredita un talento naturale per la gestione delle emergenze e il problem-solving rapido, che si manifesta nella capacità di agire prontamente in situazioni critiche.
+Questa eredità trova la sua massima espressione in percorsi come protezione civile, scienze infermieristiche, cooperazione internazionale o sport estremi, dove può esprimere la sua naturale vocazione all'aiuto e la sua resistenza allo stress.
+Se la madre è troppo conservatrice, potrebbe aver scatenato nel figlio una forte spinta alla rivoluzione.",
             ],
         ];
 

@@ -1,1 +1,1 @@
-Mappa dei talenti web 
+Mappa dei talenti web
