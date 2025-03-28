@@ -233,8 +233,7 @@ class Mastermap
         $riconoscimentonumber,
         $puntodiforzanumber
     ) {
-        echo $slug_mappa;
-        //fatto completa
+  
         $mappatura_amore_uomo = [
             "KARMA"          => [
                 1 => "Fuoco: bisogno compulsivo del sesso/rifiuto del sesso.
@@ -1922,7 +1921,7 @@ FULMINE -: educare al cambiamento.",
                 $mappature = $mappature_amore_donna;
             }
         } elseif (strpos($slug_mappa, "mappa-bambini/") !== false || strpos($slug_mappa, "bambini") !== false || strpos($slug_mappa, "bambino") !== false || strpos($slug_mappa, "mappa-bambini") !== false) {
-            echo "mappa bambini";
+       
             $mappature = $mappa_bambino;
         } elseif (strpos($slug_mappa, "lavoro") !== false) {
             $mappature = $mappatura_lavoro;
@@ -2499,7 +2498,7 @@ FULMINE -: educare al cambiamento.",
                     );
                 endif;
 
-                 wp_redirect("/grazie-per-la-mappa/");
+                wp_redirect("/grazie-per-la-mappa/");
                 exit();
             }
         }
