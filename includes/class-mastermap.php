@@ -607,11 +607,37 @@ Trasformazione: ricollegarti al tuo sogno e perseverare fino al raggiungimento d
 però deve corrispondere ad una persona reale e umana.
 Puoi usare il codice vibrazionale “Vision”.”.
 ",
-                9 => "Fulmine:  Colpo di fulmine. La tua prima parte della vita potresti aver vissuto/vivere l’esperienza di grandi colpi di fulmine. Innamorarti istantaneamente di persone che non conosci e che poi potrebbero deluderti quando la relazione comincia a diventare seria, oppure non raggiungere lo stato di relazione. In entrambi i casi potresti pensare di avere un destino avverso, oppure chiuderti alle relazioni in quanto non puoi governare gli innamoramenti e quindi è meglio che non accadano. Trasformazione: imparare a gestire gli impulsi in modo da poter vivere gli innamoramenti senza buttartici dentro in modo troppo impulsivo, imparando il discernimento e a respingere ciò che non va bene per te e ad accogliere ciò che va bene. Puoi usare il codice vibrazionale “Papa” o “Mama”.",
+                9 => "Fulmine: colpo di fulmine.
+La tua prima parte della vita potresti aver vissuto/vivere l’esperienza di grandi colpi di fulmine. Innamorarti
+istantaneamente di persone che non conosci e che poi potrebbero deluderti quando la relazione comincia a
+diventare seria, oppure non raggiungere lo stato di relazione. In entrambi i casi potresti pensare di avere un
+destino avverso, oppure chiuderti alle relazioni in quanto non puoi governare gli innamoramenti e quindi è
+meglio che non accadano.
+Trasformazione: imparare a gestire gli impulsi in modo da poter vivere gli innamoramenti senza buttartici
+dentro in modo troppo impulsivo, imparando il discernimento e a respingere ciò che non va bene per te e
+ad accogliere ciò che va bene.
+Puoi usare il codice vibrazionale “Papa” o “Mama”..",
             ],
             "FAMIGLIA"       => [
-                1 => " Fuoco: Una famiglia in movimento. Una cosa della quale ti devi guardare bene è cadere nell'illusione che la staticità (confondendola con la stabilità) ti renderà felice. Tu hai bisogno di continue nuove avventure e quindi se decidi di creare una famiglia con qualcuno ricordati bene di questo aspetto. Deve essere una famiglia in continuo movimento o che è inserita in un contesto molto attivo. La famiglia tradizionale molto basata sulla routine non fa per te. Rifletti bene anche sul tema figli: se decidi di averne ricordati che tu hai bisogno di avere sempre nuovi stimoli, quindi è meglio che imposti le cose in modo da poterne avere coinvolgendo i tuoi figli. La cosa importante è che tu non metta al mondo figli perché ci si aspetta questo da te.",
-                2 => "Gelo: Una famiglia accudente. Tu hai bisogno di impostare una famiglia che si prenda cura dei bisogni emotivi di tutti. Hai bisogno di una casa e che la famiglia risulti unita e vada d'accordo. Devi solo stare attento di non occuparti tu dei bisogni emotivi degli altri e che gli altri non facciano altrettanto. La casa è un luogo sacro per te: deve avere quel giusto grado di comfort e bellezza che ti rende piacevole la lunga permanenza. I figli dovrebbero essere per te una forma di espressione naturale; se così non fosse c'è un blocco energetico.",
+                1 => " 
+La famiglia è una forma di aggregazione tra persone; la sua costituzione e le sue regole dipendono molto
+dal contesto culturale. In questo schema non ci si basa su un contesto culturale specifico, ognuno lo riporti
+al suo e alle sue credenze. Per qualcuno, Famiglia è un gruppo di persone con affinità animiche, per altri è
+quella tradizionale. L&#39;informazione che da questo punto ricavi è relativa al tuo VERO bisogno, ciò che
+intimamente ti corrisponde. Verrà data anche un&#39;informazione rispetto al tuo VERO bisogno di mettere al
+Mondo figli; non è l&#39;unico punto della mappa che ne determina l&#39;interesse. Verrà riportato anche nella
+madre e nel padre. Le informazioni che ne ricavi hanno il solo scopo di aiutarti a portarti alla tua verità
+interiore e a slegarti dal bisogno di accontentare richieste altrui.",
+                2 => " 
+Fuoco: Una famiglia in movimento.
+Una cosa della quale ti devi guardare bene è cadere nell&#39;illusione che la staticità (confondendola con la
+stabilità) ti renderà felice. Tu hai bisogno di continue nuove avventure e quindi se decidi di creare una
+famiglia con qualcuno ricordati bene di questo aspetto. Deve essere una famiglia in continuo movimento o
+
+che è inserita in un contesto molto attivo. La famiglia tradizionale molto basata sulla routine non fa per te.
+Rifletti bene anche sul tema figli: se decidi di averne ricordati che tu hai bisogno di avere sempre nuovi
+stimoli, quindi è meglio che imposti le cose in modo da poterne avere coinvolgendo i tuoi figli. La cosa
+importante è che tu non metta al mondo figli perché ci si aspetta questo da te.",
                 3 => " Anelli: una famiglia allargata. L'amicizia è un grande valore per te, hai bisogno che sia espresso sia in casa che fuori. È probabile che la tua sia una casa dove ci si trova a parlare. Potresti quindi voler vivere in piccole comunità, oppure aprire la tua casa agli amici. Potresti vivere più situazioni sentimentali che poi si intrecciano diventando famiglie allargate. Devi stare attento solo a capire se tutti i componenti della famiglia amano questa continua invasione degli spazi domestici e cercare di venire incontro anche a chi ha bisogno di intimità senza soffocare il tuo bisogno di apertura. I figli non sono necessariamente una tua forma di espressione, potresti averli ma avere comunque la tendenza ad inserirli nel contesto di amici.",
                 4 => "Seme: una famiglia confortevole.  Hai bisogno che la tua famiglia si fondi su un ambiente confortevole, sia dal punto di vista affettivo oltre che economico, ma anche dell'ambiente e delle relazioni esterne alla famiglia. Tendi a creare corporazione, nel senso che tu pensi che insieme è meglio. Potresti avere quindi la tendenza ad ascoltare troppo le opinioni della famiglia di provenienza o delle persone con le quali ti sei associato. Ti piace trascorrere buon tempo con le persone che ami, apprezzi le piccole cose, i gesti di attenzione e la cura. I figli potrebbero essere una tua forma di espressione, attenzione a non metterli al centro del tuo mondo e a far ricadere su di loro troppe aspettative.",
                 5 => "Fiore: famiglia giocosa. Hai bisogno di un ambiente familiare allegro, dove ci sia spazio per la creatività, per il gioco, per il divertimento. Ti pesa moltissimo l'impegno quotidiano come la gestione della casa e dei bisogni altrui, per cui dovrai stare attento a non inserirti in contesti che ti richiedano troppo questo tipo di impegno. Potresti sentirti più attratto da semiconvivenze o situazioni comunque libere. Se anche hai scelto di formare una famiglia ricordati di alleggerire al massimo il quotidiano con soluzioni creative. I figli possono essere una tua forma espressiva, in quanto ti permettono di esprimere la tua parte di giocosità; in questo caso dovrai radicare bene per affrontare la parte dell'impegno.",
