@@ -1,0 +1,34 @@
+name: WordPress Plugin CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  php-tests:
+    name: Controlli PHP
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clona repository
+        uses: actions/checkout@v3
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          tools: composer, phpstan, phpcs
+
+      - name: Installa dipendenze Composer
+        run: composer install --prefer-dist --no-progress --no-suggest
+
+      - name: Controllo codestyle (WordPress Coding Standards)
+        run: |
+          phpcs --standard=WordPress --extensions=php -s .
+
+      - name: Analisi statica con PHPStan
+        run: phpstan analyse --level=max .
+
+
