@@ -2178,61 +2178,61 @@ Se la madre è troppo conservatrice, potrebbe aver scatenato nel figlio una fort
         ];
 
         $mappatura_lavoro = [
-              "KARMA" => [
-        1 => "Tendenza a bruciare troppo velocemente le energie e le risorse. Impulsività che porta a decisioni affrettate e poco ponderate. Dominanza eccessiva che può intimidire colleghi e collaboratori. Insofferenza verso le regole e la routine. Trasformazione: imparare a gestire le energie con equilibrio.",
-        2 => "Eccessivo distacco emotivo che compromette le relazioni lavorative. Rigidità mentale che ostacola il cambiamento. Tendenza a 'congelare' le situazioni senza risolverle. Difficoltà nel mostrare empatia e comprensione. Trasformazione: sviluppare empatia autentica.",
-        3 => "Dispersione delle energie in troppi progetti simultanei. Difficoltà nel portare a termine gli impegni presi. Tendenza a creare dipendenze e legami malsani. Manipolazione nelle relazioni professionali. Trasformazione: imparare a focalizzarsi su ciò che conta.",
-        4 => "Perfezionismo paralizzante che rallenta i processi. Eccessiva programmazione che limita la spontaneità. Attaccamento ossessivo ai dettagli perdendo la visione d’insieme. Resistenza al nuovo per paura del fallimento. Trasformazione: accettare l’imperfezione come parte della crescita.",
-        5 => "Superficialità nelle relazioni professionali. Tendenza a privilegiare l’apparenza alla sostanza. Difficoltà nel gestire situazioni di stress e conflitto. Eccessiva sensibilità alle critiche. Trasformazione: sviluppare profondità nei legami.",
-        6 => "Rigidità eccessiva nel mantenere le proprie posizioni. Tendenza al controllo ossessivo. Difficoltà nel delegare responsabilità. Resistenza al cambiamento organizzativo. Trasformazione: coltivare flessibilità e apertura.",
-        7 => "Tendenza ad assorbire troppo le emozioni altrui. Mancanza di confini professionali chiari. Difficoltà nel prendere posizioni ferme. Eccessiva adattabilità che porta a perdere la propria identità. Trasformazione: stabilire confini chiari.",
-        8 => "Tendenza a riflettere e analizzare troppo senza agire. Perfezionismo che porta all’isolamento. Difficoltà nel mostrare il vero sé in ambito professionale. Eccessiva sensibilità al giudizio altrui. Trasformazione: trovare equilibrio tra analisi e azione.",
-        9 => "Impazienza che porta a saltare passaggi importanti. Tendenza a destabilizzare l’ambiente lavorativo. Difficoltà nel mantenere impegni a lungo termine. Resistenza alle strutture e all’autorità. Trasformazione: sviluppare costanza e metodo."
+            "KARMA" => [
+        1 => "Nel lavoro, il karma del Fuoco si manifesta come una forza che consuma rapidamente energie e risorse. L'impulsività porta a decisioni affrettate, mentre la tendenza a dominare può creare tensioni con i colleghi. Trasformazione: imparare a dosare l'energia e guidare senza bruciare sé stessi o gli altri.",
+        2 => "Il karma del Gelo si traduce in distacco emotivo e rigidità mentale che ostacolano relazioni e cambiamenti. Le emozioni vengono congelate, bloccando la crescita. Trasformazione: lasciare che l'empatia scaldi le interazioni e apra al cambiamento.",
+        3 => "Il karma degli Anelli genera dispersione di energia, confusione e relazioni basate su dipendenza o manipolazione. Trasformazione: focalizzarsi su un obiettivo alla volta e coltivare relazioni autentiche.",
+        4 => "Il karma del Seme si esprime in un perfezionismo eccessivo che soffoca la crescita e impedisce il flusso naturale del lavoro. Trasformazione: accogliere l’imperfezione come parte del processo evolutivo.",
+        5 => "Il karma del Fiore si manifesta in una tendenza alla superficialità e alla ricerca di approvazione. Fragilità alle critiche e paura dello stress. Trasformazione: radicare l’autostima per sviluppare autenticità e profondità.",
+        6 => "Il karma dell’Albero porta rigidità, controllo eccessivo e difficoltà nel delegare. L’ambiente di lavoro diventa statico. Trasformazione: trovare stabilità nella flessibilità e nella fiducia.",
+        7 => "Il karma dell’Acqua si esprime nell’assorbire troppo le emozioni altrui, perdendo i confini professionali. Trasformazione: imparare a fluire mantenendo una direzione e confini chiari.",
+        8 => "Il karma dello Specchio si manifesta come eccesso di riflessione e perfezionismo, che paralizzano l’azione. Trasformazione: osservare senza giudizio e agire con fiducia.",
+        9 => "Il karma del Fulmine porta instabilità, impazienza e resistenza alle strutture. Si rischia di saltare passaggi importanti. Trasformazione: usare la propria energia per costruire, non solo per cambiare."
     ],
-            "FAMIGLIA"       => [
-                1 => "Una famiglia che valorizza l’azione e la leadership.",
-                2 => "Una famiglia che insegna il controllo emotivo e l’indipendenza.",
-                3 => "Una famiglia che ha trasmesso capacità sociali e di adattamento.",
-                4 => "Una famiglia che ha insegnato disciplina e precisione.",
-                5 => "Una famiglia che ha valorizzato creatività ed espressione personale.",
-                6 => "Una famiglia che ha trasmesso stabilità e responsabilità.",
-                7 => "Una famiglia che ha insegnato sensibilità ed empatia.",
-                8 => "Una famiglia che ha valorizzato la riflessione e l’analisi.",
-                9 => "Una famiglia che ha trasmesso il valore del cambiamento e dell’innovazione.",
-            ],
-            "EGO"            => [
-                1 => "Determinato e impulsivo.",
-                2 => "Razionale e distaccato.",
-                3 => "Versatile e comunicativo.",
-                4 => "Metodico e attento ai dettagli.",
-                5 => "Creativo e affascinante.",
-                6 => "Responsabile e protettivo.",
-                7 => "Empatico e adattabile.",
-                8 => "Intellettuale e perfezionista.",
-                9 => "Ribelle e innovativo.",
-            ],
-            "BISOGNO"        => [
-                1 => "Di agire con passione / Essere motivato.",
-                2 => "Di stabilità emotiva / Sicurezza.",
-                3 => "Di comunicare e connettersi / Sentirsi incluso.",
-                4 => "Di controllo e struttura / Sentirsi utile.",
-                5 => "Di libertà e leggerezza / Espressione autentica.",
-                6 => "Di sicurezza e ordine / Protezione.",
-                7 => "Di comprensione e accettazione / Equilibrio emotivo.",
-                8 => "Di eccellenza e riconoscimento / Autenticità.",
-                9 => "Di indipendenza e cambiamento / Sfide stimolanti.",
-            ],
-            "PUNTODEBOLE"    => [
-                1 => "Impazienza e impulsività.",
-                2 => "Difficoltà nel connettersi emotivamente.",
-                3 => "Tendenza a disperdere energie.",
-                4 => "Rigidità mentale e perfezionismo.",
-                5 => "Superficialità e paura del conflitto.",
-                6 => "Controllo eccessivo e difficoltà a delegare.",
-                7 => "Mancanza di confini e ipersensibilità.",
-                8 => "Analisi eccessiva e paura del giudizio.",
-                9 => "Insofferenza alle regole e instabilità.",
-            ],
+    "FAMIGLIA" => [
+        1 => "Una famiglia che valorizza l’azione e la leadership.",
+        2 => "Una famiglia che insegna il controllo emotivo e l’indipendenza.",
+        3 => "Una famiglia che ha trasmesso capacità sociali e di adattamento.",
+        4 => "Una famiglia che ha insegnato disciplina e precisione.",
+        5 => "Una famiglia che ha valorizzato creatività ed espressione personale.",
+        6 => "Una famiglia che ha trasmesso stabilità e responsabilità.",
+        7 => "Una famiglia che ha insegnato sensibilità ed empatia.",
+        8 => "Una famiglia che ha valorizzato la riflessione e l’analisi.",
+        9 => "Una famiglia che ha trasmesso il valore del cambiamento e dell’innovazione."
+    ],
+    "EGO" => [
+        1 => "Adotta una maschera di invincibilità e dominanza. Si mostra sempre sicuro e in controllo, nascondendo ogni forma di vulnerabilità. Tende a sovrastare gli altri con un atteggiamento da \"so tutto io\", usando l'aggressività come scudo protettivo. Nel lavoro, può diventare eccessivamente competitivo e autoritario, temendo che qualsiasi segno di debolezza possa compromettere la sua posizione di forza.",
+        2 => "Indossa una maschera di distacco professionale e autosufficienza emotiva. Si presenta come totalmente razionale e impermeabile ai sentimenti, mantenendo una facciata di freddezza calcolata. Nel lavoro, può apparire distante e inaccessibile, usando l'intellettualizzazione come difesa per evitare coinvolgimenti emotivi che percepisce come minacciosi.",
+        3 => "Si nasconde dietro una maschera di estrema socievolezza e capacità relazionale. Cerca di piacere a tutti, adattando la propria personalità in base all'interlocutore. Nel lavoro, può diventare un abile manipolatore, creando reti di dipendenza attraverso favori e promesse, temendo di perdere il controllo sulle relazioni se mostra il suo vero sé.",
+        4 => "Assume una maschera di perfezionismo e controllo metodico. Si presenta come l'esperto che ha tutto programmato e previsto, nascondendo l'ansia dell'imperfezione. Nel lavoro, può diventare ossessivo nei dettagli e rigido nelle procedure, usando la pianificazione come scudo contro l'imprevedibilità che teme.",
+        5 => "Indossa una maschera di fascino e leggerezza. Si presenta sempre al meglio, curando ossessivamente la propria immagine e le apparenze. Nel lavoro, può diventare superficiale e evitare il confronto con problemi profondi, usando il proprio carisma come strategia per non affrontare le vere sfide professionali.",
+        6 => "Assume una maschera di affidabilità e controllo assoluto. Si presenta come il pilastro su cui tutti possono contare, nascondendo la propria vulnerabilità dietro un'apparenza di forza incrollabile. Nel lavoro, può diventare eccessivamente rigido e controllante, temendo che qualsiasi cambiamento possa minare la sua posizione di stabilità.",
+        7 => "Adotta una maschera di estrema adattabilità e comprensione. Si presenta come colui che può gestire tutto e tutti, assorbendo e risolvendo ogni problema. Nel lavoro, può perdere i propri confini, diventando un \"salvatore\" compulsivo, usando l'empatia eccessiva come difesa dalla paura di definire la propria identità.",
+        8 => "Indossa una maschera di perfezione e distacco analitico. Si presenta come l'osservatore obiettivo che tutto comprende e analizza, nascondendo le proprie insicurezze dietro un'apparenza di controllo mentale. Nel lavoro, può diventare eccessivamente critico e distaccato, usando l'analisi come barriera protettiva contro il coinvolgimento emotivo.",
+        9 => "Assume una maschera di ribellione e indipendenza assoluta. Si presenta come l'innovatore che non ha bisogno di nessuno, nascondendo la propria vulnerabilità dietro un'apparenza di forza dirompente. Nel lavoro, può diventare destabilizzante e antisistema, usando la rottura degli schemi come difesa dalla paura di conformarsi o di creare legami stabili."
+    ],
+           "BISOGNO" => [
+        1 => "Ha bisogno di dinamismo, sfide stimolanti e libertà d'azione per esprimere la sua forza e passione.",
+        2 => "Ha bisogno di un ambiente ordinato, stabilità e tempo per riflettere con calma e analisi.",
+        3 => "Ha bisogno di connessioni autentiche, interazione sociale e appartenenza al gruppo.",
+        4 => "Ha bisogno di struttura, regole chiare, controllo e possibilità di perfezionare i processi.",
+        5 => "Ha bisogno di spazi creativi, libertà di espressione e valorizzazione estetica.",
+        6 => "Ha bisogno di stabilità organizzativa, responsabilità definite e ruoli chiari.",
+        7 => "Ha bisogno di empatia, comprensione e ambienti flessibili e armoniosi.",
+        8 => "Ha bisogno di profondità analitica, precisione, introspezione e tempo per riflettere.",
+        9 => "Ha bisogno di cambiamento continuo, sfide nuove e opportunità per rompere gli schemi."
+           ],
+              "PUNTODEBOLE" => [
+        1 => "Impazienza e impulsività, difficoltà a gestire la frustrazione quando non riceve riconoscimento o controllo.",
+        2 => "Difficoltà nel connettersi emotivamente e nel gestire situazioni impreviste o conflittuali.",
+        3 => "Tendenza a disperdere energie in troppi rapporti o progetti, timore di esclusione e di perdere controllo relazionale.",
+        4 => "Rigidità mentale e perfezionismo che generano ansia in presenza di caos o imprevisti.",
+        5 => "Superficialità, bisogno costante di approvazione e difficoltà ad affrontare situazioni dure o critiche.",
+        6 => "Controllo eccessivo, difficoltà a delegare e crisi quando viene meno la stabilità esterna.",
+        7 => "Mancanza di confini, ipersensibilità e difficoltà a prendere posizione netta.",
+        8 => "Analisi eccessiva e paura del giudizio che bloccano l'azione o portano all'isolamento.",
+        9 => "Insofferenza alle regole, instabilità e difficoltà nel costruire continuità nei progetti."
+              ],
             "MISSIONE"       => [
                 1 => "Trovare equilibrio tra azione e riflessione.",
                 2 => "Unire empatia e razionalità nel lavoro.",
@@ -2446,24 +2446,41 @@ FULMINE -: educare al cambiamento.",
         ];
         $mappature = [];
         
-        if (strpos($slug_mappa, "studio") !== false || strpos($slug_mappa, "mappa studio") !== false || preg_match('/\bstudio\b|\bmappa studio\b/', $slug_mappa)) {
-            $mappature = $mappature_studio;
-        } elseif (strpos($slug_mappa, "amore") !== false) {
-            if (strpos($sesso, "uomo") !== false) {
-                $mappature = $mappatura_amore_uomo;
-            } else {
-                $mappature = $mappature_amore_donna;
-            }
-        } elseif (strpos($slug_mappa, "mappa-bambini/") !== false || strpos($slug_mappa, "bambini") !== false || strpos($slug_mappa, "bambino") !== false || strpos($slug_mappa, "mappa-bambini") !== false) {
-       
-            $mappature = $mappa_bambino;
-        } elseif (strpos($slug_mappa, "lavoro") !== false || strpos($slug_mappa, "mappa-lavoro/") !== false ) {
-            $mappature = $mappatura_lavoro;
-        } if (strpos($slug_mappa, 'mappa-bambini-2') !== false || strpos($slug_mappa, 'mappa-bambini-2/') !== false) {
-            $mappature = $mappature_bambini;
+        if (
+    strpos($slug_mappa, "studio") !== false || 
+    strpos($slug_mappa, "mappa studio") !== false || 
+    preg_match('/\bstudio\b|\bmappa studio\b/', $slug_mappa)
+) {
+    $mappature = $mappature_studio;
+} elseif (strpos($slug_mappa, "amore") !== false) {
+    if (strpos($sesso, "uomo") !== false) {
+        $mappature = $mappatura_amore_uomo;
     } else {
-            $mappature = $mappature_base;
-        }
+        $mappature = $mappature_amore_donna;
+    }
+} elseif (
+    strpos($slug_mappa, "mappa-bambini/") !== false || 
+    strpos($slug_mappa, "bambini") !== false || 
+    strpos($slug_mappa, "bambino") !== false || 
+    strpos($slug_mappa, "mappa-bambini") !== false || 
+    preg_match('/\bmappa-bambini\b|\bbambini\b|\bbambino\b/', $slug_mappa)
+) {
+    $mappature = $mappa_bambino;
+} elseif (
+    strpos($slug_mappa, "lavoro") !== false || 
+    strpos($slug_mappa, "mappa-lavoro/") !== false ||
+    preg_match('/\bmappa-lavoro\b|\blavoro\b/', $slug_mappa)
+) {
+    $mappature = $mappatura_lavoro;
+} elseif (
+    strpos($slug_mappa, 'mappa-bambini-2') !== false || 
+    strpos($slug_mappa, 'mappa-bambini-2/') !== false || 
+    preg_match('/\bmappa-bambini-2\b/', $slug_mappa)
+) {
+    $mappature = $mappature_bambini;
+} else {
+    $mappature = $mappature_base;
+}
 
         $solution = is_array($solution) ? $solution : [];
 
