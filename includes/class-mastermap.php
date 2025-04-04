@@ -236,7 +236,7 @@ class Mastermap
 
            $mappatura_realizzazione = [
             "KARMA" => [
-                1 => " Fuoco: trasformare la rabbia in passione.
+                1 => "  Fuoco: trasformare la rabbia in passione.
    
    Talento rilasciato: APPASSIONARE
    
@@ -245,53 +245,106 @@ class Mastermap
    La rabbia, l'impulsività, la necessità di vivere continuamente la sessualità, l'impazienza, l'incostanza potrebbero essere il modo in cui esprimi questa energia. Finché l'impulso ha il sopravvento, non riuscirai a portare a compimento ciò che desideri. Hai necessità di imparare a governarlo. Quando ci sarai riuscito, il talento che ti donerà è la capacità di: FAR INNAMORARE GLI ALTRI DI TE O DEI TUOI PROGETTI.
 
 ",
-                2 => " Gelo: Trasformare il blocco in presenza.
+                2 => "Gelo: Trasformare il blocco in presenza.
    
   Talento rilasciato: SAGGEZZA
    
    Hai la capacità di lasciar fare e avere la pazienza di lasciar maturare la situazione. Per qualcuno, talento extrasensoriale: saper viaggiare nei sogni.
 
    Potresti avere una vita rallentata, oppure avere la tendenza a non staccarti dalla famiglia di provenienza, o ancora avere la tendenza a non prendere decisioni. Finché non arriverai al giusto grado di maturità, la vita continuerà a non offrirti quelle occasioni che stai aspettando. Hai necessità di imparare la fermezza e la pazienza. Quando ci riuscirai, il talento che ti donerà è la capacità di: STARE AL TUO POSTO CON TRANQUILLITÀ.
+
 ",
-                3 => "Anelli: attrai relazioni karmiche.
- con anime che hai dovuto/dovrai incontrare per apprendere una lezione importante. Gli incontri non sono evitabili, possono portarti a relazioni alleate o tossiche, ma lo svolgimento della relazione dipende dal tuo libero arbitrio. La cosa importante è che tu sappia che non sono relazioni che DEVONO restare nella tua vita.
-Trasformazione: accettare l’aspetto destinico di questo punto e sentirsi liberi nel proseguire la vita in libera scelta.
-Per aiutarti puoi usare il codice vibrazionale “Vision” o “Acept”.",
-                4 => "SEME: Bisogno di sicurezza. Nella prima parte della vita potresti avere la tendenza a chiedere dimostrazioni d’amore continue non sentendoti mai appagat* pienamente. Questo nasce da un aspetto di profonda insicurezza rispetto la tua autostima. Avrai quindi la tendenza a far scappare le persone o, nel momento in cui riesci a conquistarne una, ad essere terrorizzat* di perderla accettando anche situazioni poco valorizzanti per te o diventando soffocante per l’altro. Trasformazione: contattare il senso del tuo valore e attrarre situazioni appaganti. Puoi aiutarti con il codice vibrazionale “Value” e “Initiation”.",
-                5 => "Fiore: bisogno di attrarre.
- Nella prima parte della vita potresti avere continuamente bisogno di sentire che riesci ad attrarre altre persone. Potresti avere quindi la tendenza a flirtare anche quando il contesto non lo richiederebbe. Potresti attrarre anche chi non ti interessa veramente trovandoti incastrato in situazioni dalla quale poi vuoi fuggire, facendoti nascere sensi di colpa. Oppure potresti voler attrarre persone “irraggiungibili” per te provocandoti la sensazione di essere poco attraente.
-Trasformazione: imparare la responsabilità emotiva che ti permetterà di vivere con gioia e leggerezza  le tue relazioni.
-Puoi aiutarti con il codice vibrazionale “Responsability” e “Initiation”.
+                3 => " Anelli: Trasformare l'ansia in opportunità.
+   
+   Talento rilasciato: CHIAROVEGGENZA
+   
+   Hai la capacità di prevedere le cose, anche solo per la tua capacità logica di immaginare la conseguenza delle scelte o delle azioni. Per qualcuno, un vero e proprio talento extrasensoriale.
+
+   Nella prima parte della vita potresti avere la tendenza all'ansia o alle paure dell'ignoto, oppure avere la tendenza a vivere sincronicità spiacevoli, o ancora la tendenza ad avere fortuna e quindi a rischiare. Dovrai imparare a gestire la tua ipersensibilità nei confronti delle cose che accadono lavorando sullo stato di presenza. Solo allora entrerai nella capacità di pre-vedere veramente le cose e di viverle con il giusto grado di tranquillità.
 ",
-                6 => "Albero: bisogno di stabilità.
- Nella prima parte della vita potresti avere bisogno di stabilità emotiva che ti può portare a cercarla o in una relazione stabile precoce o nella focalizzazione sul lavoro che ti autorizza ad evitare le relazioni. Hai paura del tradimento e quindi potresti attrarlo o metterlo in atto. Hai bisogno di ritrovare la fiducia nella vita per permetterti di vivere maggiormente nel flusso accettando gli eventuali cambiamenti o imparando a metterti veramente in gioco senza temere che poi finisca.
-Trasformazione: trasformare il bisogno di controllo in fiducia e libertà per sé stessi e gli altri.
-Puoi usare il codice vibrazionale “Flow”, oppure “Indipendence Mama” o Indipendence Papa”.
+                4 => "Seme: trasformare la mancanza in abbondanza.
+   
+   Talento rilasciato: CAPACITÀ DI FARE
+   
+   Hai moltissimi talenti, non uno, ma fatichi a riconoscerli e a farti apprezzare per questo. Per qualcuno, talento extrasensoriale: trasformare la realtà (magia).
+
+   Nella prima parte della vita potresti avere la tendenza all'insicurezza fisica, difficoltà a sentire l'amore degli altri e quindi la tendenza a chiederlo, oppure la tendenza a cercare nella sicurezza materiale la tua fonte di stabilità. Dovrai imparare a riconoscere ciò che sei e ciò che vali per non avere bisogno di riceverlo dall'esterno. Quando ci riuscirai, avrai la sensazione di pienezza.
 ",
-                7 => "Acqua: bisogno di empatia.
- Nella prima parte della vita potresti avere bisogno di sentirti compreso profondamente dall’altro. Potresti manifestarlo o richiamando la sua attenzione con il tuo dolore, oppure prendendoti cura dell’altro sperando che la controparte faccia lo stesso con te.
-Spesso questo tipo di situazioni attrae persone poco empatiche che non solo non capiscono il tuo dolore ma te ne procurano.
-Trasformazione: entrare in contatto con il proprio dolore, trasformarlo e permetterti di vivere relazioni eque.
-Puoi usare il codice vibrazionale  “Empathy”.
+                5 => "Fiore: trasformare la superficialità in gioia.
+   
+   Talento rilasciato: FASCINO
+   
+   Affascinare significa ottenere ciò che si vuole senza chiedere. Per qualcuno, il talento extrasensoriale è quello della capacità di produrre incantesimi.
+
+   Nella prima parte della vita potresti avere problemi con le responsabilità, o ad assumertele tu, o che se le assumano le persone che hai attorno. Potresti aver avuto difficoltà in adolescenza e aver mantenuto un aspetto adolescenziale. Dovrai imparare ad avere un giusto rapporto con le responsabilità (non assumertene troppe, né troppo poche), così raggiungerai quella leggerezza di cui hai bisogno.
+”.
 ",
-                8 => "Specchio: bisogno di eccellenza.
- Nella prima parte della vita potresti avere la tendenza ad idealizzare la relazione e a cercarne una idilliaca dove l’altro corrisponde ad un ideale che ti sei fatto tu che nella stragrande maggiorananza dei casi non corrisponde alla realtà facendoti vivere profonde delusioni.
-Questo potrebbe farti pensare che tu non sei destinato a vivere l’amore facendoti diventare o cinico o accettare anche relazioni che non corrispondono a ciò che desideri.
-Trasformazione: ricollegarti al tuo sogno e perseverare fino al raggiungimento del tuo sogno d’amore che però deve corrispondere ad una persona reale e umana.
-Puoi usare il codice vibrazionale “Vision”.
+                6 => " Albero: trasformare il bisogno di controllo in stabilità.
+   
+  Talento rilasciato: POTERE PERSONALE
+   
+   Indica la capacità di guidare senza imporre. Per qualcuno, il talento extrasensoriale è quello di dialogo con gli antenati, la guarigione dell'albero genealogico.
+
+   Nella prima parte della vita potresti avere problemi con il bisogno di controllo. Vivere quindi abbandoni, tradimenti, cambi lavoro, difficoltà nei rapporti di lavoro. Dovrai imparare a vivere maggiormente nel flusso, imparando a fidarti della vita anche quando ti ha dimostrato che non c'è motivo di farlo. Nell'imparare a stare nel flusso rimanendo flessibile raggiungerai la serenità che cerchi.
+”.
 ",
-                9 => "Fulmine:  Colpo di fulmine. La tua prima parte della vita potresti aver vissuto/vivere l’esperienza di grandi colpi di fulmine. Innamorarti istantaneamente di persone che non conosci e che poi potrebbero deluderti quando la relazione comincia a diventare seria, oppure non raggiungere lo stato di relazione. In entrambi i casi potresti pensare di avere un destino avverso, oppure chiuderti alle relazioni in quanto non puoi governare gli innamoramenti e quindi è meglio che non accadano. Trasformazione: imparare a gestire gli impulsi in modo da poter vivere gli innamoramenti senza buttartici dentro in modo troppo impulsivo, imparando il discernimento e a respingere ciò che non va bene per te e ad accogliere ciò che va bene. Puoi usare il codice vibrazionale “Papa” o “Mama”.",
+                7 => " Acqua: trasformare il dolore in saggezza.
+   
+   Talento rilasciato: SENSIBILITÀ E SUPPORTO
+   
+   Hai sensibilità alle situazioni dolorose e capacità di essere di supporto. Per qualcuno, il talento extrasensoriale è la sensitività e medianicità. Cura dell'ombra.
+
+   Nella prima parte della vita potresti avere problemi di salute, o un'infanzia complessa e dolorosa. Oppure aver vissuto la malattia o il lutto in casa. Dovrai imparare a non essere troppo permeabile al dolore, a trasformarlo e a schermarti dalle situazioni negative. Solo così potrai evitare di soffrire continuamente e vivere felicemente.
+”.
+",
+                8 => "Specchio: trasformare il giudizio in compassione.
+   
+   Talento rilasciato: INTELLIGENZA RAZIONALE E DISCERNIMENTO
+   
+   Hai la capacità di razionalizzare le situazioni. Talento extrasensoriale: capacità di andare oltre, di canalizzare, di viaggiare nel mondo astrale.
+
+   Nella prima parte della vita potresti vivere situazioni di ingiustizia o porti nei confronti degli altri in modo un po' rigido e intollerante. Potresti aver avuto genitori che ti hanno chiesto di non sbagliare. Dovrai imparare a diventare tollerante con te stesso e quindi con gli altri per non vivere continui conflitti interiori e di relazione.
+
+”.
+",
+                9 => "Fulmine: trasformare la catastrofe in rinascita.
+   
+  Talento rilasciato: STOICISMO
+   
+   Hai la capacità di affrontare momenti difficili e di aiutare gli altri in questo. Talento extrasensoriale: capacità di presentimento.
+
+   La tua prima parte della vita potrebbe aver subito un cambiamento improvviso, oppure hai cambiato spesso casa, oppure hai una qualche forma di disabilità o hai a che fare con questa situazione. Dovrai imparare a sostenere il peso delle situazioni che vivi con leggerezza e a trovare una forma di trascendenza.
+",
             ],
             "FAMIGLIA" => [
-                1 => " Fuoco: Una famiglia in movimento. Una cosa della quale ti devi guardare bene è cadere nell'illusione che la staticità (confondendola con la stabilità) ti renderà felice. Tu hai bisogno di continue nuove avventure e quindi se decidi di creare una famiglia con qualcuno ricordati bene di questo aspetto. Deve essere una famiglia in continuo movimento o che è inserita in un contesto molto attivo. La famiglia tradizionale molto basata sulla routine non fa per te. Rifletti bene anche sul tema figli: se decidi di averne ricordati che tu hai bisogno di avere sempre nuovi stimoli, quindi è meglio che imposti le cose in modo da poterne avere coinvolgendo i tuoi figli. La cosa importante è che tu non metta al mondo figli perché ci si aspetta questo da te.",
-                2 => "Gelo: Una famiglia accudente. Tu hai bisogno di impostare una famiglia che si prenda cura dei bisogni emotivi di tutti. Hai bisogno di una casa e che la famiglia risulti unita e vada d'accordo. Devi solo stare attento di non occuparti tu dei bisogni emotivi degli altri e che gli altri non facciano altrettanto. La casa è un luogo sacro per te: deve avere quel giusto grado di comfort e bellezza che ti rende piacevole la lunga permanenza. I figli dovrebbero essere per te una forma di espressione naturale; se così non fosse c'è un blocco energetico.",
-                3 => " Anelli: una famiglia allargata. L'amicizia è un grande valore per te, hai bisogno che sia espresso sia in casa che fuori. È probabile che la tua sia una casa dove ci si trova a parlare. Potresti quindi voler vivere in piccole comunità, oppure aprire la tua casa agli amici. Potresti vivere più situazioni sentimentali che poi si intrecciano diventando famiglie allargate. Devi stare attento solo a capire se tutti i componenti della famiglia amano questa continua invasione degli spazi domestici e cercare di venire incontro anche a chi ha bisogno di intimità senza soffocare il tuo bisogno di apertura. I figli non sono necessariamente una tua forma di espressione, potresti averli ma avere comunque la tendenza ad inserirli nel contesto di amici.",
-                4 => "Seme: una famiglia confortevole.  Hai bisogno che la tua famiglia si fondi su un ambiente confortevole, sia dal punto di vista affettivo oltre che economico, ma anche dell'ambiente e delle relazioni esterne alla famiglia. Tendi a creare corporazione, nel senso che tu pensi che insieme è meglio. Potresti avere quindi la tendenza ad ascoltare troppo le opinioni della famiglia di provenienza o delle persone con le quali ti sei associato. Ti piace trascorrere buon tempo con le persone che ami, apprezzi le piccole cose, i gesti di attenzione e la cura. I figli potrebbero essere una tua forma di espressione, attenzione a non metterli al centro del tuo mondo e a far ricadere su di loro troppe aspettative.",
-                5 => "Fiore: famiglia giocosa. Hai bisogno di un ambiente familiare allegro, dove ci sia spazio per la creatività, per il gioco, per il divertimento. Ti pesa moltissimo l'impegno quotidiano come la gestione della casa e dei bisogni altrui, per cui dovrai stare attento a non inserirti in contesti che ti richiedano troppo questo tipo di impegno. Potresti sentirti più attratto da semiconvivenze o situazioni comunque libere. Se anche hai scelto di formare una famiglia ricordati di alleggerire al massimo il quotidiano con soluzioni creative. I figli possono essere una tua forma espressiva, in quanto ti permettono di esprimere la tua parte di giocosità; in questo caso dovrai radicare bene per affrontare la parte dell'impegno.",
-                6 => "Albero: una famiglia stabile. Ti piace l'idea di avere o dare stabilità alla tua famiglia. Hai la tendenza quindi a gestire o a dirigere in quanto hai la visione di come andrebbero fatte le cose. Devi stare attento ad ascoltare anche le opinioni altrui altrimenti rischi di vivere molti contrasti. In alcuni casi potresti essere una persona che fatica a trovare la sua stabilità e quindi a fuggire dalle situazioni che richiedono un tuo impegno (in questo caso ci sono blocchi energetici). In generale hai bisogno di rapporti stabili e duraturi. I figli possono essere una tua forma di espressione, fai attenzione all'ascolto dei loro bisogni emotivi.",
-                7 => "Acqua: una famiglia che trasmette valori. Hai bisogno che la famiglia che costituisci trasmetta i valori in cui credi. Che siano spirituali, culturali, politici o saperi pratici per te è importante che avvenga la trasmissione. È quindi fondamentale per te comprendere se le persone che scegli di avere al tuo fianco sono in linea con essi perché con lo scorrere del tempo potrebbe diventare un problema. Anche nel caso in cui dovessi scegliere persone di altre culture fai attenzione a capire se i principi che per te sono fondamentali vengono condivisi. I figli possono essere una tua naturale forma di espressione, attenzione ad accettare eventuali espressioni di altri valori.",
-                8 => " Specchio: una famiglia equa. Per te è importante che ci sia equità nel dare e nell'avere. È fondamentale la ripartizione dello sforzo e dell'impegno. Hai quindi la tendenza a mettere regole chiare e precise nella gestione dello svolgimento dell'impegno quotidiano, devi solo stare attento che le regole non siano troppo rigide e che non valutino i bisogni degli altri. Hai altresì bisogno dei tuoi spazi di libertà, per cui nell'equità del fare devi tenere presente anche la possibilità di allontanarti per momenti di riossigenazione. I figli possono essere una tua forma di espressione, fai solo attenzione a non sostituire le regole con l'ascolto.",
-                9 => "Fulmine: una famiglia che si aiuta. Hai bisogno di sapere che puoi contare sulla tua famiglia e del resto tu per essa ci sei. Avrai quindi la tendenza a cercare di unirti a persone delle quali ti puoi fidare, che hanno dato prova di esserci non solo nei momenti piacevoli, ma anche nei momenti meno divertenti. Potresti quindi vivere grandi delusioni se ti accorgi che non è così. È importante saper scegliere bene ma ricordarsi anche che questa è una tua attitudine che non è detto venga naturale anche ad altri. I figli possono essere una tua forma di espressione, potranno sicuramente contare su di te.",
+                1 => " Fuoco: portare pace nei conflitti.
+   Il modo in cui vivi i rapporti familiari potrebbe essere caratterizzato da molta rabbia, che sia manifesta o meno. Potresti aver assistito a litigi, oppure vissuto con genitori soffocanti o che non si sono assunti responsabilità o che non ti hanno dato fiducia. Questo ha generato rabbia in te che tende ad emergere soprattutto nelle relazioni più intime, con il partner, i figli e ovviamente i genitori. Dovrai lavorare molto sulla tua parte istintiva per smorzarla e vivere in pace.
+",
+                2 => "Gelo: accudire chi ne ha bisogno.
+   Il modo in cui vivi i rapporti familiari potrebbe essere molto padre/figlio: quindi o tu sei ancora figlio e tendi ad aspettare l'autorizzazione per fare ciò che ritieni giusto, o sei padre e tendi a caricarti sulle spalle i bisogni (soprattutto emotivi) di tutti. Preoccupandoti e vivendo tendenzialmente sempre in ansia o nel dolore per le situazioni altrui. Oppure hai la tendenza a cercare sempre il sostegno emotivo dei genitori. Dovrai lavorare sulla tua indipendenza emotiva per imparare a stare al tuo giusto posto e vivere più sereno.
+.",
+                3 => "  Anelli: mettere in comunicazione chi non dialoga.
+   Il modo in cui vivi i rapporti familiari potrebbe avere una forte componente di dialogo, sia in positivo che in negativo. In positivo potresti essere l'elemento mediatore della famiglia, quello che si trova a dover redimere i conflitti nell'ambito familiare. In senso negativo potresti avere difficoltà ad esprimerti; durante l'infanzia potresti aver percepito la sensazione di non essere stato ascoltato. Dovrai lavorare sulla tua capacità di farti capire in modo equilibrato dalle persone che ami.
+",
+                4 => "Seme: portare nutrimento (amore e benessere).
+   Il legame con il corpo, con il cibo e con i soldi è un elemento fondamentale che ti è stato trasmesso dalla famiglia. Se è stato trasmesso in modo sano dovresti avere un buon rapporto con tutti e tre questi elementi; se invece hai avuto traumi legati a questi temi, sia in difetto che in eccesso, potresti aver sviluppato una forte insicurezza e cercare sempre protezione e approvazione. Dovrai lavorare sulla tua capacità di vivere la pienezza per diventare autonomo.",
+                5 => " Fiore: portare la leggerezza del gioco in situazioni anche pesanti.
+   Chi in famiglia è rimasto adolescente da adulto? Uno dei tuoi genitori, entrambi? Tu? Sei stato troppo protetto? Non hai ricevuto la giusta protezione o, peggio, hai dovuto proteggere tu?
+   Chi ha il fiore nella famiglia potrebbe avere la tendenza a caricarsi i pesi di tutti senza essere adulto dentro oppure non riuscire ad assumersi responsabilità. Il lavoro da fare è il vero radicamento che ti permetterà di assumerti i giusti pesi e non andare oltre.
+.",
+                6 => "Albero: portare la stabilità, gestire le questioni familiari.
+   Potresti avere una famiglia stabile che ha anche un peso sociale, oppure una famiglia instabile che deve farsi aiutare dalla socialità. Il tema è il peso del nome della famiglia, sia in positivo che in negativo. Nel primo caso ti farà sentire il peso della responsabilità di essere all'altezza di quel nome, nel secondo caso ti farà sentire il bisogno di riscatto. In entrambi i casi la sensazione di bisogno di libertà è quella che potresti sentire emergere dal profondo in alcuni momenti. Sarà per te importante staccartene per poterti esprimere.
+.",
+                7 => " Acqua: portare guarigione a chi ne ha bisogno.
+   Potresti aver vissuto in famiglia malattie, lutti, qualcuno con depressione o dipendenze. Oppure un genitore con tante paure che sono state trasmesse. Questo ti ha reso poroso al dolore. Tendi a sentire tantissimo il dolore emotivo, non è detto che tu senta altrettanto quello fisico e potrebbe essere un problema, perché potrebbe manifestarsi di colpo. Potresti avere o la tendenza a fuggire dal dolore, a crogiolarti dentro o a fare il crocerossino. Dovrai imparare a essere meno permeabile al dolore per stare bene.
+",
+                8 => " Specchio: portare giustizia ed equità nelle questioni familiari.
+   Potresti aver vissuto in famiglia situazioni di ingiustizia, o problemi legali o con la legge. Oppure aver avuto dei genitori molto attaccati a delle regole (educazione, religione, partito). Oppure aver sentito disequilibrio di trattamento tra fratelli. Questo potrebbe averti infuso la sensazione di non poterti fidare del prossimo, di doverti guardare anche dalle persone più intime. Oppure potresti avere la tendenza a voler proteggere chi è trattato ingiustamente.
+   Ci vuole un po' più di morbidezza per riuscire a creare rapporti più sani e gratificanti.
+",
+                9 => "Fulmine: portare cambiamento in famiglia.
+   Potresti aver vissuto cambiamenti di casa, piuttosto che di territorio, oppure aver vissuto imprevisti che hanno stravolto la vita della famiglia. Oppure vivere in una famiglia che teme molto gli imprevisti, che cerca di stare attaccata alla tradizione. Tu sei l'elemento di cambiamento, quello che è venuto a portare una nuova strada, a chiudere il vecchio ciclo e ad aprire il nuovo. Potresti non sentirti capito fino a che non avrai imparato a non pretendere che la direzione che stai prendendo sia approvata. Se lo farai potresti vivere in una situazione di maggiore accoglienza.
+",
             ],
             "EGO" => [
                 1 => " Fuoco: Passionale  La tua idea di coppia ideale è passionale. Cerchi una persona con la quale condividere le tue passioni e della quale appassionarti. Soffri molto se la persona con cui stai ostacola le tue passioni, potresti sentirlo come un modo per smorzarti, ti toglie l'entusiasmo e potresti cercare di trovare passione in rapporti paralleli. Potresti anche avere la tendenza a vivere rapporti di breve durata, in modo che siano sempre passionali.",
