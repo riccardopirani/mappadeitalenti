@@ -546,23 +546,23 @@ Per aiutarti puoi usare il codice vibrazionale Flow.
     9 => "FULMINE: Farti sentire eccezionale\nChi vuole conquistarti deve farti sentire eccezionale, come qualcosa di sconvolgente che entra nella tua vita e che destabilizza le tue certezze. Deve quindi dimostrare il coraggio di amarti; a quel punto, supererai qualunque ostacolo per stare con chi ami.",
             ],
             "MATERNA" => [
-    1 => "FUOCO: Coraggio di agire\nConosci la storia di Giovanna d'Arco? La sua è una storia di immenso coraggio e fede. Dall'albero genealogico di tua madre tu hai acquisito questa grande dote: coraggio e fede in ciò in cui credi. Se ti innamori di un progetto o di una persona tu non temi nulla, ti butti nell'impresa con il cuore in mano e vai. Nella tua realtà significa che quando credi in qualcosa hai il coraggio di affrontare le difficoltà, anche se sembrano insormontabili, e di infondere coraggio a chi ti sta vicino.",
+    1 => " Fuoco: coraggio di agire. Conosci la storia di Giovanna d'Arco? La sua è una storia di immenso coraggio e fede. Dall'albero genealogico di tua madre tu hai acquisito questa grande dote. Coraggio e fede in ciò in cui credi. Se ti innamori di un progetto o di una persona tu non temi nulla, ti butti nell'impresa con il cuore in mano e vai. Nella tua realtà significa che quando credi in qualcosa hai il coraggio di affrontare le difficoltà, anche se sembrano insormontabili e di infondere coraggio a chi ti sta vicino.",
 
-    2 => "GELO: Capacità di accudire\nConosci Padre Pio? La sua è una storia di immenso amore e accudimento. Dall'albero genealogico di tua madre tu hai acquisito questa grande dote: la capacità di riconoscere i bisogni altrui e di aiutare senza chiedere nulla. Nella tua vita reale ti rende una persona capace di donarti senza che questo debba essere necessariamente riconosciuto, tu lo fai perché lo senti giusto.",
+    2 => "Gelo: capacità di accudire. Conosci Padre Pio? La sua è una storia di immenso amore e accudimento. Dall'albero genealogico di tua madre tu hai acquisito questa grande dote. La capacità di riconoscere i bisogni altrui e di aiutare senza chiedere nulla. Nella tua vita reale ti rende una persona capace di donarti senza che questo debba essere necessariamente riconosciuto, tu lo fai perché lo senti giusto.",
 
-    3 => "ANELLI: Capacità di intessere buone relazioni\nConosci la storia di Martin Luther King? Egli fu capace di spostare l'opinione pubblica verso situazioni che non erano considerate nemmeno discutibili. Dall'albero genealogico di tua madre hai acquisito la capacità di spostare l'opinione di chi ti ascolta. Nella vita reale significa che hai una buona dote dialettica che ti permette di portare l'opinione di chi ti ascolta a valutare ciò che dici.",
+    3 => " Anelli: capacità di intessere buone relazioni. Conosci la storia di Martin Luther King? Egli fu capace di spostare l'opinione pubblica verso situazioni che non erano considerate nemmeno discutibili. Dall'albero genealogico di tua madre hai acquisito la capacità di spostare l'opinione di chi ti ascolta. Nella vita reale significa che hai una buona dote dialettica che ti permette di portare l'opinione di chi ti ascolta a valutare ciò che dici.",
 
-    4 => "SEME: Capacità di far fiorire e crescere\nConosci la storia di Albert Einstein? La sua è una storia di dedizione a far fiorire i propri talenti con costante progressione. Dall'albero genealogico di tua madre hai acquisito la capacità di saper fare tante cose in molti campi, che tutte assieme diventano capacità. Nella vita reale significa che quando ti approcci a qualcosa, se ti impegni impari a farla e questo ti rende versatile in quello che fai.",
+    4 => " Seme: capacità di far fiorire e crescere. Conosci la storia di Albert Einstein? La sua è una storia di dedizione a far fiorire i propri talenti con costante progressione. Dall'albero genealogico di tua madre hai acquisito la capacità di saper fare tante cose in molti campi, che tutte assieme diventano capacità. Nella vita reale significa che quando ti approcci a qualcosa, se ti impegni impari a farla e questo ti rende versatile in quello che fai.",
 
-    5 => "FIORE: Capacità di divertire\nConosci la storia di Charlie Chaplin? La sua è una storia di grande impegno per essere attraente e diventare il sogno dell'epoca. Dall'albero genealogico di tua madre hai ricevuto una spiccata dote seduttiva, che non deve necessariamente essere relazionata alla sessualità, ma al far sognare attraverso di te. Nella vita reale significa che tu puoi ottenere quello che vuoi se usi il tuo fascino.",
+    5 => "Fiore: capacità di divertire. Conosci la storia di Charlie Chaplin? La sua è una storia di grande impegno per essere attraente e diventare il sogno dell'epoca. Dall'albero genealogico di tua madre hai ricevuto una spiccata dote seduttiva, che non deve necessariamente essere relazionata alla sessualità, ma al far sognare attraverso di te. Nella vita reale significa che tu puoi ottenere quello che vuoi se usi il tuo fascino..",
 
-    6 => "ALBERO: Capacità di gestire\nConosci la storia di Re Salomone? La sua è la storia di un re che nel governare decise di ascoltare la voce dei suoi fidati consiglieri, tanto da voler svolgere le riunioni in modo da non mettere in risalto nessuno, nemmeno sé stesso. Dall'albero genealogico di tua madre hai acquisito la capacità di saper gestire gruppi o la famiglia in modo sano e capace di dare ascolto alla voce di tutti. Nella vita reale ti rende capace di svolgere mansioni direttive.",
+    6 => "Albero: capacità di gestire. Conosci la storia di Re Salomone? La sua è la storia di un re che nel governare decise di ascoltare la voce dei suoi fidati consiglieri, tanto da voler svolgere le riunioni in modo da non mettere in risalto nessuno, nemmeno sé stesso. Dall'albero genealogico di tua madre hai acquisito la capacità di saper gestire gruppi o la famiglia in modo sano e capace di dare ascolto alla voce di tutti. Nella vita reale ti rende capace di svolgere mansioni direttive.",
 
-    7 => "ACQUA: Capacità di guarire\nConosci la storia di San Francesco d'Assisi? La sua è una storia di guarigione dove si fondono anima e corpo. Dall'albero genealogico di tua madre hai acquisito la capacità di connetterti al Cielo, alla terra e alle persone per trovare guarigione. Nella vita reale ti rende ipersensibile, capace di ascolto e di prestare aiuto agli altri.",
+    7 => "Acqua: capacità di guarire. Conosci la storia di San Francesco d'Assisi? La sua è una storia di guarigione dove si fondono anima e corpo. Dall'albero genealogico di tua madre hai acquisito la capacità di connetterti al Cielo, alla terra e alle persone per trovare guarigione. Nella vita reale ti rende ipersensibile, capace di ascolto e di prestare aiuto agli altri.",
 
-    8 => "SPECCHIO: Capacità di visione\nConosci la storia di Leonardo da Vinci? Egli incarnò lo studioso, lo scienziato, l'artista e il letterato, ma lo fece con una visione del futuro. Dall'albero genealogico di tua madre hai acquisito la capacità di avere idee avveniristiche, soprattutto in questi campi. Nella vita reale ti rende capace di doti logico-razionali e creative.",
+    8 => "Specchio: capacità di visione. Conosci la storia di Leonardo da Vinci? Egli incarnò lo studioso, lo scienziato, l'artista e il letterato, ma lo fece con una visione del futuro. Dall'albero genealogico di tua madre hai acquisito la capacità di avere idee avveniristiche, soprattutto in questi campi. Nella vita reale ti rende capace di doti logico-razionali e creative.",
 
-    9 => "FULMINE: Capacità di resistere\nConosci la storia di Ernest Shackleton? È il protagonista di una nota vicenda reale che sopravvisse a numerose sfide nell'esplorazione antartica, mettendo alla prova la sua capacità di sopravvivenza. Dall'albero genealogico di tua madre, hai acquisito la capacità di sopravvivere agli eventi catastrofici. Nella vita reale ti rende capace di affrontare le difficoltà con resilienza.",
+    9 => "Fulmine: capacità di resistere. Conosci la storia di Ernest Shackleton? È il protagonista di una nota vicenda reale che sopravvisse a numerose sfide nell'esplorazione antartica, mettendo alla prova la sua capacità di sopravvivenza. Dall'albero genealogico di tua madre, hai acquisito la capacità di sopravvivere agli eventi catastrofici. Nella vita reale ti rende capace di affrontare le difficoltà con resilienza.",
             ],
             "PUNTODIFORZA" => [1 => "FUOCO: entusiasmo. Per rialzarti ti basta ritrovare l'entusiasmo.\nIn generale il tuo punto di forza è l'entusiasmo. Se si accende nulla ti ferma. È quindi per te vitale metterti nella condizione di vivere con entusiasmo, di riaccendere la passione, di muoverti, di agire, di fare perché il fare ti autoalimenta.\nNello specifico il tuo punto di forza si esprime:\nFUOCO +: devi fare, agire\nFUOCO -: devi difendere, proteggere",
 
@@ -600,23 +600,48 @@ Per aiutarti puoi usare il codice vibrazionale Flow.
 
     9 => "FULMINE: Soccorrere. Il talento di aiutare e intervenire nelle difficoltà viene dal tuo ramo paterno. Sei una figura stabile e pronta nelle emergenze. (Ti consigliamo il codice vibrazionale MAMA). Come padre, sei presente nei momenti difficili e sai infondere forza nei tuoi figli.",
     ],
-            "SOCIETA" => [ 1 => "FUOCO: Stare nel movimento, viaggiare. I lavori che ti risultano più facili sono quelli legati al movimento e al viaggio, allo sport, commercio, politica, organizzazioni e gestione di gruppi. In compagnia potresti essere il 'compagnone', quello che trascina, diverte, entusiasma su un argomento.",
+            "SOCIETA" => [ 1 => "Fuoco - Stare nel movimento, viaggiare.
+I lavori che ti risultano più facili sono quelli che hanno a che fare con il movimento e il viaggio, lo sport, il commercio, la politica e le organizzazioni, i gruppi che tu puoi gestire.
+In compagnia potresti risultare il compagnone, quello che fa ridere, che trascina il gruppo, che appassiona su qualche argomento.
+",
 
-    2 => "GELO: Fare bene ciò che sai fare. I lavori che ti riescono meglio sono quelli in cui la precisione e la cura dei dettagli sono fondamentali, ma anche quelli dove si fa star bene gli altri. In compagnia potresti essere la persona calma, che ascolta, che pondera prima di agire.",
+    2 => "Gelo - Fare bene ciò che sai fare.
+I lavori che ti risultano più facili sono tutti quelli in cui l'accuratezza dei particolari fa la differenza; dove ci vuole calma, pazienza, cura del dettaglio. Ma anche i lavori dove fai stare bene gli altri.
+In compagnia potresti risultare la persona calma che ascolta, che mette a proprio agio le persone, che sa ponderare prima di prendere le decisioni.",
 
-    3 => "ANELLI: Comunicare, mediare. I lavori ideali per te sono quelli che coinvolgono la comunicazione, la mediazione, il pubblico, lo spettacolo, la crescita personale o l'erboristeria. In compagnia sei quello che genera dialoghi, media e collega le persone tra loro.",
+    3 => "Anelli- Comunicare, mediare
+I lavori che ti risultano più facili sono tutti quelli che hanno a che fare con la comunicazione, con la mediazione, con lo stare a contatto con il pubblico. Ma anche lavori che hanno a che fare con lo spettacolo o con la crescita personale e l'erboristeria.
+In compagnia potresti essere la persona che ha sempre argomenti, che genera dibattiti, che aiuta le persone ad andare d'accordo, che mette in comunicazione le persone collegate.
+",
 
-    4 => "SEME: Insegnare, studiare, far crescere. I tuoi lavori facilitati sono nell’insegnamento, nella crescita dei progetti, nel benessere, nell’alimentazione, negli animali, agricoltura e anche nella gestione del denaro. In compagnia sei la persona che cucina, partecipa a eventi culturali e mondani.",
+    4 => "Seme - Insegnare, studiare, fare crescere (anche progetti)
+I lavori che ti risultano più facili sono tutti quelli che hanno a che fare con l'insegnamento, la crescita dei progetti, l'alimentazione, il benessere del corpo e gli animali e l'agricoltura. Ma anche i lavori che hanno a che fare con i soldi.
+In compagnia potresti essere la persona che cucina per gli altri o che ama andare fuori a mangiare, che ama andare a eventi culturali, che ama la community e gli eventi mondani.
+.",
 
-    5 => "FIORE: Divertire, alleggerire. I lavori che ti riescono meglio sono legati al divertimento, all’arte, alla bellezza: eventi, spettacolo, moda, musica. In compagnia sei giocoso, giovane nello spirito, amato dai bambini, e rendi la vita più leggera agli altri.",
+    5 => "Fiore - Divertire, alleggerire
+I lavori che ti risultano facili sono tutti quelli che hanno a che fare con il divertimento, l'arte e la bellezza. Eventi, show, musica, ma anche moda, mondanità, arte e bellezza. Hai buon gusto e puoi farti apprezzare in tutti gli ambiti dove serve, sai decorare e presentare nel modo giusto.
+In compagnia potresti risultare la persona giocosa, quella che ama stare con i bambini. Quella che ha lo spirito giovanile, che alleggerisce la vita di chi gli sta vicino.
+",
 
-    6 => "ALBERO: Gestire, amministrare. I lavori ideali per te sono quelli legati all’amministrazione, archiviazione, gestione, costruzione, sicurezza, qualità o anche alla struttura corporea. In compagnia sei l’organizzatore, quello che mette ordine, che invita a casa e partecipa alle iniziative del territorio.",
+    6 => "Albero - Gestire, amministrare
+I lavori che ti risultano facili sono quelli amministrativi, tutti quelli che necessitano di gestione, archiviazione, controllo, sicurezza, messa a punto o controllo qualità. Ma anche i lavori che hanno a che fare con la costruzione e con la struttura. Inoltre potresti avere una propensione per il sistema strutturale corporeo (ossa ecc.)
+In compagnia potresti risultare la persona che organizza gli spostamenti, la raccolta fondi, che invita a casa propria, che aiuta nelle feste o nelle organizzazioni del territorio.
+",
 
-    7 => "ACQUA: Guarire, archiviare. Ti riescono bene i lavori che coinvolgono emozioni, arte, scrittura, teatro, storia, filosofia, cura, memoria, archivi o anche il mondo acquatico. In compagnia sei il punto di riferimento nei momenti difficili, ti trovi bene in ambiti umanitari o di supporto.",
+    7 => "Acqua - Guarire, archiviare
+I lavori che ti risultano facili sono quelli che hanno a che fare con le emozioni, con l'arte, con la filosofia, con la scrittura, con il teatro, con la cura, con la storia, con l'archiviazione o la ricostruzione storica, con la trasmissione e il ricordo. Hai anche una certa affinità con il mondo acquatico.
+In compagnia potresti risultare la persona alla quale ci si rivolge quando si sta male, che tende ad aiutare gli altri nel momento del bisogno, nelle organizzazioni umanitarie.
+.",
 
-    8 => "SPECCHIO: Regolare, calcolare. Lavori ideali sono quelli legati al calcolo, alla giustizia, scienza, sperimentazione e visione creativa. In compagnia sei la persona giusta, rispettosa delle regole, con idee originali e ideali elevati.",
+    8 => "Specchio - Regolare, calcolare
+I lavori che ti risultano facili sono quelli che hanno a che fare con il calcolo, le regole, la giustizia. Ma anche la scienza e la sperimentazione. Inoltre potresti essere un visionario nelle idee e nell'arte. Inoltre potresti avere capacità che hanno a che fare con la vista.
+In compagnia potresti essere la persona corretta, quella che cerca sempre di fare le cose per bene, che ha idee stravaganti e visionarie, che sostiene le regole del gruppo a cui appartiene o che ha alti ideali.
+",
 
-    9 => "FULMINE: Rimettere a posto. I lavori più adatti sono legati all’emergenza, alle situazioni estreme, alle forze dell’ordine, al controllo, alla riparazione e al cambiamento. In compagnia sei perfetto per lavorare in gruppo, collaborare e far fronte alle difficoltà.",
+    9 => "Fulmine - Rimettere a posto
+I lavori che ti risultano facili sono tutti quelli che hanno a che fare con il rimettere a posto le cose o le situazioni, ma anche con le emergenze e tutto ciò che è estremo, comprese le forze dell'ordine. Puoi essere molto portato anche per verificare i punti deboli delle situazioni o cose, riparare. Infine puoi essere la persona che porta cambiamento o che lavora in squadra.
+In compagnia potresti essere la persona adatta al gruppo, alle squadre, alle situazioni dove si collabora.",
 ],
 
        "MAESTRO" => [
