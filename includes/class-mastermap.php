@@ -2776,26 +2776,73 @@ IPO: Va in difficoltà quando deve agire senza aver analizzato completamente la 
 "
               ],
             "MISSIONE"       => [
-                1 => "1. Realizzazione dell'Anima:
-L'Anima del Fuoco aspira a diventare una guida illuminata, qualcuno che non solo conduce gli altri, ma li ispira a trovare la propria luce interiore. Questa è una missione che va ben oltre il semplice comando: richiede una trasformazione profonda del potere in saggezza. Il Fuoco è chiamato a diventare un faro che illumina il cammino, mostrando agli altri non solo la via, ma anche come trovare il proprio cammino. Questa realizzazione richiede un delicato equilibrio tra la naturale forza di comando e una profonda comprensione della responsabilità spirituale della leadership.
+                1 => "<div style='padding: 20px; font-family: Arial, sans-serif; color: #fff; background-color: #000;'>
+  <h2 style='font-size: 28px; color: #ffcc00; margin-bottom: 20px;'>MISSIONE</h2>
 
-2. Lavori che incarnano questa missione:
-Il percorso professionale ideale non è tanto legato a un ruolo specifico, quanto alla possibilità di creare impatto positivo attraverso la leadership. Che sia come fondatore di un'organizzazione innovativa, leader di un movimento sociale, mentore di nuove generazioni o imprenditore etico, l'importante è che il lavoro permetta di esprimere una leadership illuminata. Il focus non è sul titolo o la posizione, ma sulla capacità di ispirare cambiamento positivo e crescita negli altri.
+  <div id='fuoco' style='margin-bottom: 40px;'>
+    <h3 style='font-size: 22px; color: #ff5733;'>Anima del Fuoco</h3>
+    <ol style='padding-left: 20px;'>
+      <li style='margin-bottom: 15px;'>
+        <strong>Realizzazione dell'Anima:</strong><br>
+        L'Anima del Fuoco aspira a diventare una guida illuminata, qualcuno che non solo conduce gli altri, ma li ispira a trovare la propria luce interiore...
+      </li>
+      <li style='margin-bottom: 15px;'>
+        <strong>Lavori che incarnano questa missione:</strong><br>
+        Il percorso professionale ideale non è tanto legato a un ruolo specifico, quanto alla possibilità di creare impatto positivo attraverso la leadership...
+      </li>
+      <li style='margin-bottom: 15px;'>
+        <strong>Le sfide nel percorso:</strong><br>
+        Il cammino presenta sfide significative che toccano il cuore stesso dell'identità del Fuoco...
+      </li>
+      <li>
+        <strong>La formula per la realizzazione:</strong>
+        <ul style='padding-left: 20px; list-style-type: disc; margin-top: 10px;'>
+          <li style='margin-bottom: 5px;'>Sviluppare una visione chiara del futuro che si vuole creare...</li>
+          <li style='margin-bottom: 5px;'>Coltivare quotidianamente l'umiltà...</li>
+          <li style='margin-bottom: 5px;'>Affinare l'arte dell'ascolto profondo...</li>
+          <li style='margin-bottom: 5px;'>Trasformare il potere personale in strumento di elevazione collettiva</li>
+          <li style='margin-bottom: 5px;'>Mantenere un equilibrio tra forza e compassione...</li>
+          <li style='margin-bottom: 5px;'>Praticare costantemente l'auto-osservazione...</li>
+        </ul>
+        <p style='margin-top: 10px;'>La chiave sta nel ricordare che il vero potere non sta nel controllo degli altri...</p>
+      </li>
+    </ol>
+  </div>
 
-3. Le sfide nel percorso:
-Il cammino presenta sfide significative che toccano il cuore stesso dell'identità del Fuoco. La più grande è la trasformazione dell'ego: imparare a guidare senza dominare, a ispirare senza imporre. Il Fuoco deve affrontare la propria ombra di controllo e aggressività, trasformandola in forza costruttiva. Deve imparare l'arte sottile della delega e della fiducia, superando la tendenza al controllo totale. La sfida include anche il mantenimento dell'umiltà mentre si esercita il potere, e la capacità di rimanere centrati nel servizio piuttosto che nel dominio.
+  <!-- Sezioni per altre anime -->
+  <div id='gelo' style='margin-bottom: 30px;'>
+    <h3 style='font-size: 22px; color: #33c1ff;'>Anima del Gelo</h3>
+  </div>
 
-4. La formula per la realizzazione:
-Il percorso verso la realizzazione richiede una trasformazione consapevole che integra diversi elementi:
-- Sviluppare una visione chiara del futuro che si vuole creare, mantenendola sempre ancorata al bene comune
-- Coltivare quotidianamente l'umiltà, riconoscendo che la vera leadership è servizio
-- Affinare l'arte dell'ascolto profondo, andando oltre le parole per comprendere le reali necessità degli altri
-- Trasformare il potere personale in strumento di elevazione collettiva
-- Mantenere un equilibrio tra forza e compassione, tra decisione e inclusione
-- Praticare costantemente l'auto-osservazione per riconoscere quando l'ego prende il sopravvento
+  <div id='anelli' style='margin-bottom: 30px;'>
+    <h3 style='font-size: 22px; color: #b388ff;'>Anima degli Anelli</h3>
+  </div>
 
-La chiave sta nel ricordare che il vero potere non sta nel controllo degli altri, ma nella capacità di ispirarli a trovare la loro grandezza. Questo richiede un lavoro costante su se stessi e la disponibilità a vedere ogni sfida come un'opportunità di crescita personale e collettiva.
-.
+  <div id='seme' style='margin-bottom: 30px;'>
+    <h3 style='font-size: 22px; color: #a1c935;'>Anima del Seme</h3>
+  </div>
+
+  <div id='fiore' style='margin-bottom: 30px;'>
+    <h3 style='font-size: 22px; color: #ff66cc;'>Anima del Fiore</h3>
+  </div>
+
+  <div id='albero' style='margin-bottom: 30px;'>
+    <h3 style='font-size: 22px; color: #4caf50;'>Anima dell'Albero</h3>
+  </div>
+
+  <div id='acqua' style='margin-bottom: 30px;'>
+    <h3 style='font-size: 22px; color: #00bcd4;'>Anima dell'Acqua</h3>
+  </div>
+
+  <div id='specchio' style='margin-bottom: 30px;'>
+    <h3 style='font-size: 22px; color: #cccccc;'>Anima dello Specchio</h3>
+  </div>
+
+  <div id='fulmine' style='margin-bottom: 30px;'>
+    <h3 style='font-size: 22px; color: #ffea00;'>Anima del Fulmine</h3>
+  </div>
+</div>
+
 ",
                 2 => " 1. Realizzazione dell'Anima:
 L'Anima del Gelo aspira a diventare un ponte tra il mondo della ragione e quello del cuore, una missione che va oltre la semplice analisi intellettuale. È chiamata a trasformare la sua naturale capacità di comprensione logica in una saggezza profonda che integra mente e spirito. La vera realizzazione arriva quando riesce a usare la sua lucidità per illuminare le profondità dell'esperienza umana, mantenendo al contempo il contatto con l'essenza emotiva della vita. Non si tratta solo di capire, ma di comprendere veramente, integrando razionalità e sensibilità in una forma superiore di intelligenza.
@@ -2927,16 +2974,20 @@ Le sfide principali includono il bilanciamento tra distruzione e creazione, tra 
 - Mantenere l'ancoraggio mentre si catalizza il cambiamento
 ",
                 9 => "
-1. Realizzazione dell'Anima:
-L'Anima del Fulmine aspira a catalizzare il risveglio della coscienza attraverso il cambiamento radicale. La sua missione va oltre la semplice innovazione: è chiamata a diventare un agente di trasformazione che risveglia gli altri attraverso il potere della rottura creativa. La vera realizzazione arriva quando riesce a incanalare la sua energia rivoluzionaria per servire l'evoluzione collettiva.
+1 Realizzazione dell'Anima:
+L'Anima del Fulmine aspira a catalizzare il risveglio della coscienza attraverso il cambiamento radicale, la sua missione va oltre la semplice innovazione: è chiamata a diventare un agente di trasformazione che risveglia gli altri attraverso il potere della rottura creativa, la vera realizzazione arriva quando riesce a incanalare la sua energia rivoluzionaria per servire l'evoluzione collettiva
 
-2. Lavori che incarnano questa missione:
-Il percorso professionale ideale coinvolge ruoli che permettono di catalizzare cambiamenti significativi. Che sia come innovatore sociale, pioniere spirituale, rivoluzionario consapevole o artista d'avanguardia, l'importante è che il lavoro permetta di rompere vecchi schemi per far emergere nuove possibilità. Il focus è sulla capacità di portare illuminazione attraverso la rottura creativa.
+2 Lavori che incarnano questa missione:
+Il percorso professionale ideale coinvolge ruoli che permettono di catalizzare cambiamenti significativi. Che sia come innovatore sociale, pioniere spirituale, rivoluzionario consapevole o artista d'avanguardia, l'importante è che il lavoro permetta di rompere vecchi schemi per far emergere nuove possibilità. Il focus è sulla capacità di portare illuminazione attraverso la rottura creativa
 
-3. Le sfide nel percorso:
-Le sfide principali includono il bilanciamento tra distruzione e creazione, tra cambiamento e stabilità. Il Fulmine deve imparare a incanalare la sua energia dirompente in modo costruttivo, sviluppando la saggezza di sapere cosa e quando trasformare. Deve affrontare la paura dell'isolamento che deriva dall'essere diverso e incompreso.
 
-4. La formula per la realizzazione:
+
+3 Le sfide nel percorso:
+Le sfide principali includono il bilanciamento tra distruzione e creazione, tra cambiamento e stabilità, Il Fulmine deve imparare a incanalare la sua energia dirompente in modo costruttivo, sviluppando la saggezza di sapere cosa e quando trasformare, deve affrontare la paura dell'isolamento che deriva dall'essere diverso e incompreso
+
+
+
+4 La formula per la realizzazione:
 - Sviluppare la saggezza nel dirigere l'energia di cambiamento
 - Coltivare la responsabilità nel potere trasformativo
 - Integrare rivoluzione e evoluzione
@@ -2944,15 +2995,46 @@ Le sfide principali includono il bilanciamento tra distruzione e creazione, tra 
 ",
             ],
             "CUORE"          => [
-                1 => "Farti sentire speciale e motivato.",
-                2 => "Offrirti sicurezza emotiva.",
-                3 => "Coinvolgerti con leggerezza e dinamismo.",
-                4 => "Creare una base solida e affidabile.",
-                5 => "Portarti gioia e ispirazione.",
-                6 => "Darti stabilità e protezione.",
-                7 => "Comprendere profondamente i tuoi sentimenti.",
-                8 => "Stimolarti intellettualmente e spiritualmente.",
-                9 => "Accendere il tuo entusiasmo e la tua energia.",
+                1 => "FUOCO (1)
+(-) Il cuore si accende quando può proteggere e prendersi cura del team in modo silenzioso, gioire dei successi altrui
+(+) Il cuore esulta quando può guidare con passione, ispirare gli altri all'azione, vincere sfide apparentemente impossibili
+",
+                2 => "GELO (2)  
+(-) Il cuore si scalda quando può creare ordine dal caos, trovare soluzioni eleganti a problemi complessi
+(+) Il cuore si accende nell'analisi profonda, nella ricerca della perfezione, nel controllo totale dei processi
+",
+                3 => "ANELLI (3)
+(-) Il cuore gioisce nel creare armonia silenziosa, nel facilitare connessioni autentiche senza protagonismo
+(+) Il cuore esulta nel tessere reti di relazioni, nel mediare conflitti, nel creare ponti tra le persone
+
+.",
+                4 => "SEME (4)
+(-) Il cuore trova pace nel perfezionare i dettagli, nel creare strutture che sostengono gli altri
+(+) Il cuore si realizza nel controllo metodico, nell'organizzazione impeccabile, nella precisione assoluta
+",
+                5 => "FIORE (5)
+(-) Il cuore fiorisce nella creazione silenziosa, nell'espressione intima della bellezza
+(+) Il cuore si espande nella performance creativa, nell'espressione pubblica del proprio talento artistico
+",
+        6 => "
+ALBERO (6)
+(-) Il cuore trova gioia nel nutrire la crescita altrui silenziosamente, nel sostenere senza apparire
+(+) Il cuore si realizza nel proteggere e guidare gli altri, nel creare strutture solide che durano nel tempo
+",
+
+                7 => "ACQUA (7)
+(-) Il cuore si nutre nell'ascolto profondo, nel supporto emotivo discreto e non invasivo
+(+) Il cuore fluisce nel dare sostegno emotivo attivo, nel facilitare processi di guarigione
+.",
+                8 => "SPECCHIO (8)
+(-) Il cuore brilla nella comprensione silenziosa, nell'osservazione profonda senza giudizio
+(+) Il cuore si accende nell'analisi illuminante, nella ricerca della verità ultima delle cose
+
+",
+                9 => "FULMINE (9)
+(-) Il cuore si accende nell'innovazione silenziosa, nel cambiamento sottile ma profondo
+(+) Il cuore esulta nella rottura creativa degli schemi, nella rivoluzione che porta evoluzione
+",
             ],
             "SOCIETA"        => [
                 1 => "CONQUISTA: Hai l'istinto predatore. Osservi la preda e la punti quando hai capito quali mosse fare. Lo fai in modo continuativo ma brioso, in modo da incuriosirla. Sai giocare con la preda e non molli finché non giungi alla conquista.",
@@ -3506,11 +3588,7 @@ FULMINE -: educare al cambiamento.",
                 $download_link = do_shortcode(
                     '[e2pdf-download id="1" dataset="' . $post_id . '"]'
                 );
-                $download_url = do_shortcode(
-                    '[e2pdf-download id="1" output="url" dataset="' .
-                    $post_id .
-                    '"]'
-                );
+               
                 $data_di_nascita_madre_txt = $data_di_nascita_madre
                 ? $data_di_nascita_madre
                 : "data non inserita";
